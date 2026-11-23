@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTitleView_h
 #define TFNTitleView_h
@@ -24,11 +22,9 @@
 @property (nonatomic) _Bool adjustsTitleFontSizeToFitWidth;
 @property (nonatomic) _Bool accessoryImageLockedToTitle;
 @property (nonatomic) long long titleLineBreakMode;
-@property (nonatomic) unsigned long long displayType;
 @property (copy, nonatomic) NSString *accessibilityLabelOverride;
 
 /* class methods */
-+ (id)titleViewWithTitle:(id)title subtitle:(id)subtitle displayType:(unsigned long long)type;
 + (id)titleViewWithTitle:(id)title subtitle:(id)subtitle;
 
 /* instance methods */

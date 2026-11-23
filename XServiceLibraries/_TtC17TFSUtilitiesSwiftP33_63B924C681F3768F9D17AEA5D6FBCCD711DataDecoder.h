@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC17TFSUtilitiesSwiftP33_63B924C681F3768F9D17AEA5D6FBCCD711DataDecoder_h
 #define _TtC17TFSUtilitiesSwiftP33_63B924C681F3768F9D17AEA5D6FBCCD711DataDecoder_h

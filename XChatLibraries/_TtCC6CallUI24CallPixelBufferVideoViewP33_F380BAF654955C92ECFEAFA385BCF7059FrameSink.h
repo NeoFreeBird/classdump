@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC6CallUI24CallPixelBufferVideoViewP33_F380BAF654955C92ECFEAFA385BCF7059FrameSink_h
 #define _TtCC6CallUI24CallPixelBufferVideoViewP33_F380BAF654955C92ECFEAFA385BCF7059FrameSink_h

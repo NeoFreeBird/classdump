@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSync34ChatExternalAppIntegrationsService_h
 #define _TtC8ChatSync34ChatExternalAppIntegrationsService_h
 @import Foundation;
 
-@class Builtin.DefaultActorStorage, ChatSyncState.ChatExternalAppIntegrationsStream, ChatTransport.XChatGraphQLClient, _$sScTySb _$ss5NeverOMn ?, _TtCs12_SwiftObject;
+@class Builtin.DefaultActorStorage, ChatSyncState.ChatExternalAppIntegrationsStream, ChatTransport.ChatGraphQLClient, _$sScTySb _$ss5NeverOMn ?, _TtCs12_SwiftObject;
 
 @interface ChatSync.ChatExternalAppIntegrationsService : Swift._SwiftObject { // (Swift)
     /* instance variables */
     Builtin.DefaultActorStorage $defaultActor;
-    ChatTransport.XChatGraphQLClient graphQLClient;
+    ChatTransport.ChatGraphQLClient graphQLClient;
     ChatSyncState.ChatExternalAppIntegrationsStream stream;
     Swift.Task empty-list Swift.Bool nominal type descriptor for Swift.Never ? lastDisconnect;
 }

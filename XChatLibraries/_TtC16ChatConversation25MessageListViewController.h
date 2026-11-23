@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation25MessageListViewController_h
 #define _TtC16ChatConversation25MessageListViewController_h
@@ -8,7 +6,7 @@
 #include "UICollectionViewDelegate-Protocol.h"
 #include "UICollectionViewDelegateFlowLayout-Protocol.h"
 
-@class ChatConversation.ChatFetchMoreItemsInfo ?, ChatConversation.ChatSpanScriber, ChatConversation.ConversationMessageListItemStream, ChatConversation.MessageCellActionHandler, ChatConversation.MessageListActionTriggerStream, ChatConversation.MessageListContent, ChatConversation.MessageListItemSizeCache, ChatConversation.MessageListSequenceNumberStream, ChatConversation.MessageListViewController.InitialRender, ChatConversation.MessageListViewController.SnapshotUpdateState, ChatConversation.MessageListVisibilityStream, ChatConversation.ScreenshotProtectionView ?, ChatConversationServices.ConversationSource, ChatConversationServices.TargetMessage ?, ChatModels.ConversationMetadataStream, ChatModelsCore.ConversationID, ChatUI.ChatImageLoading, ChatUI.MessageListScrollToBottomButtonView ?, Swift.Bool, UIViewController, XVideo.AutoplayDisablingFilter, XVideo.AutoplayManager ?, XVideo.AutoplayUpdatePolicy, _$s10Foundation21NSKeyValueObservationCMn ?, _$s11XFoundation17WorkerPluginPointCMn ChatConversation.MessageListWorkerPluginContext, _$s12CoreGraphics7CGFloatVMn, _$s5UIKit34UICollectionViewDiffableDataSourceCMn _$sySiSSGSg, _$sSDySS ChatConversation.MessageListItem, _$sSa -> ChatConversation.MessageListItem, _$sSa -> ChatConversation.MessageListItem ?, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSi, _$sSo014Subsystem_ios_B39Arm64_mainMediaAttachmentResolveDeciderC, _$sSo13UILayoutGuideCSg, _$sSo16UICollectionViewCSg, _$sSo7NSTimerCSg, __C.UIEdgeInsets;
+@class ChatConversation.ChatFetchMoreItemsInfo ?, ChatConversation.ChatSpanScriber, ChatConversation.ConversationMessageListItemStream, ChatConversation.MessageCellActionHandler, ChatConversation.MessageListActionTriggerStream, ChatConversation.MessageListContent, ChatConversation.MessageListItemSizeCache, ChatConversation.MessageListLayout, ChatConversation.MessageListSequenceNumberStream, ChatConversation.MessageListViewController.InitialRender, ChatConversation.MessageListViewController.SnapshotUpdateState, ChatConversation.MessageListVisibilityStream, ChatConversation.ScreenshotProtectionView ?, ChatConversationServices.ConversationSource, ChatConversationServices.TargetMessage ?, ChatModels.ConversationMetadataStream, ChatModelsCore.ConversationID, ChatUI.ChatImageLoading, ChatUI.MessageListScrollToBottomButtonView ?, Swift.Bool, UIViewController, XVideo.AutoplayDisablingFilter, XVideo.AutoplayManager ?, XVideo.AutoplayUpdatePolicy, _$s10Foundation21NSKeyValueObservationCMn ?, _$s11XFoundation17WorkerPluginPointCMn ChatConversation.MessageListWorkerPluginContext, _$s12CoreGraphics7CGFloatVMn, _$s5UIKit34UICollectionViewDiffableDataSourceCMn _$sySiSSGSg, _$sSDySS ChatConversation.MessageListItem, _$sSS2id_ _$s12CoreGraphics7CGFloatVMn offsettSg, _$sSa -> ChatConversation.MessageListItem, _$sSa -> ChatConversation.MessageListItem ?, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSi, _$sSo014Subsystem_ios_B39Arm64_mainMediaAttachmentResolveDeciderC, _$sSo13UILayoutGuideCSg, _$sSo16UICollectionViewCSg, _$sSo7NSTimerCSg, __C.UIEdgeInsets;
 
 @interface ChatConversation.MessageListViewController : UIViewController <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate> { // (Swift)
     /* instance variables */
@@ -31,6 +29,7 @@
     Swift.Bool isNativeRewrite;
     ChatConversation.ChatSpanScriber chatSpanScriber;
     __C.UICollectionView? collectionView;
+    ChatConversation.MessageListLayout messageListLayout;
     nominal type descriptor for UIKit.UICollectionViewDiffableDataSource _$sySiSSGSg dataSource;
     ChatUI.MessageListScrollToBottomButtonView ? scrollToBottomButtonView;
     __C.UILayoutGuide? scrollToBottomButtonBottomChromeLayoutGuide;
@@ -38,6 +37,7 @@
     Swift.Dictionary empty-list Swift.String ChatConversation.MessageListItem listItemsMap;
     Swift.Array -> ChatConversation.MessageListItem ? previousListItems;
     Swift.Array -> ChatConversation.MessageListItem ? pendingListItems;
+    Swift.Bool hasReportedDuplicateItems;
     ChatConversation.MessageListItemSizeCache itemSizeCache;
     ChatConversation.ChatFetchMoreItemsInfo ? requestedOlderMessagesInfo;
     ChatConversation.MessageListViewController.SnapshotUpdateState snapshotUpdateState;
@@ -53,6 +53,7 @@
     Swift.Bool isInitialTargetScrollPending;
     __C.UIEdgeInsets horizontalSafeAreaInsets;
     nominal type descriptor for CoreGraphics.CGFloat lastBoundsWidth;
+    Swift.Stringid first-element-marker  nominal type descriptor for CoreGraphics.CGFloat offsettSg sizeTransitionScrollAnchor;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable cancellables;
     ChatConversation.ScreenshotProtectionView ? screenshotProtectionView;
     Swift.Bool isScreenCaptureBlockingEnabled;
@@ -76,6 +77,7 @@
 - (void)viewDidLoad;
 - (void)viewDidAppear:(_Bool)appear;
 - (void)viewDidDisappear:(_Bool)disappear;
+- (void)viewWillTransitionToSize:(struct CGSize { double x0; double x1; })size withTransitionCoordinator:(id)coordinator;
 - (void)viewSafeAreaInsetsDidChange;
 - (void)viewDidLayoutSubviews;
 - (void)dockedVideoDidChange;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC33TwitterListsFeatureImplementation26ListTypeaheadUserViewModelP33_06CE9ACD999BF946C8C3D29FE3CA06D313SocialContext_h
 #define _TtCC33TwitterListsFeatureImplementation26ListTypeaheadUserViewModelP33_06CE9ACD999BF946C8C3D29FE3CA06D313SocialContext_h

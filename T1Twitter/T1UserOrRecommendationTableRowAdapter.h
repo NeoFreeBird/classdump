@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UserOrRecommendationTableRowAdapter_h
 #define T1UserOrRecommendationTableRowAdapter_h
@@ -11,7 +9,7 @@
 #include "T1UserViewFollowControlProviderDelegate-Protocol.h"
 #include "_TtP14TFSTwitterCore18URTImpressionCache_-Protocol.h"
 
-@class NSArray, NSMapTable, NSString, TFNDataViewController, TFNItemsTableRowAdapter, TFNTwitterAccount, TFSObjectCache, TFSTwitterScribeContext, UIViewController;
+@class NSMapTable, NSString, TFNDataViewController, TFNItemsTableRowAdapter, TFNTwitterAccount, TFSObjectCache, TFSTwitterScribeContext, UIViewController;
 
 @interface T1UserOrRecommendationTableRowAdapter : TFNItemsTableRowAdapter <T1URTViewControllerAwareAdapter, T1UserViewFollowControlProviderDelegate> {
     /* instance variables */
@@ -24,7 +22,6 @@
 @property (readonly, weak, nonatomic) TFNDataViewController *tableViewController;
 @property (readonly, nonatomic) TFNTwitterAccount *account;
 @property (nonatomic) long long cellStyle;
-@property (retain, nonatomic) NSArray *unmentionedUserIDs;
 @property (weak, nonatomic) id <T1UserOrRecommendationTableRowAdapterDelegate> delegate;
 @property (retain, nonatomic) id <T1UserViewActionControlProvider> actionControlProvider;
 @property (nonatomic) unsigned long long followControlType;
@@ -33,7 +30,6 @@
 @property (copy, nonatomic) id /* block */ didSelectUserInfoBlock;
 @property (copy, nonatomic) id /* block */ didSelectUserBlock;
 @property (copy, nonatomic) id /* block */ didLoadUserViewBlock;
-@property (copy, nonatomic) id /* block */ displaySelectedUserProfileBlock;
 @property (copy, nonatomic) id /* block */ followActionBlock;
 @property (copy, nonatomic) id /* block */ caretTapBlock;
 @property (copy, nonatomic) id /* block */ caretTypeBlock;
@@ -48,6 +44,7 @@
 @property (nonatomic) _Bool confirmBlock;
 @property (nonatomic) _Bool showSocialBadge;
 @property (nonatomic) _Bool showAdminTextLabel;
+@property (nonatomic) _Bool reservesActionControlColumn;
 @property (nonatomic) _Bool showUserBlocked;
 @property (nonatomic) _Bool showUserPreview;
 @property (nonatomic) _Bool showAutoTranslate;
@@ -94,7 +91,6 @@
 - (_Bool)dataViewController:(id)controller shouldHighlightItem:(id)item withOptions:(id)options atIndexPath:(id)path;
 - (void)dataViewController:(id)controller didSelectItem:(id)item withOptions:(id)options atIndexPath:(id)path;
 - (void)selectItem:(id)item inDataViewController:(id)controller atIndexPath:(id)path position:(long long)position;
-- (_Bool)_shouldDisableActionsForItem:(id)item;
 - (id)dataViewController:(id)controller previewConfigurationForItem:(id)item withOptions:(id)options location:(struct CGPoint { double x0; double x1; })location inCell:(id)cell atIndexPath:(id)path;
 - (id)dataViewController:(id)controller calculatedLayoutMetricsForItem:(id)item withOptions:(id)options atIndexPath:(id)path;
 - (id)followControlProvider:(id)provider metadataForAction:(unsigned long long)action withFollowControl:(id)control inUserView:(id)view;

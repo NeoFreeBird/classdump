@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZWebViewBridgeScriptMessageHandler_h
 #define BRZWebViewBridgeScriptMessageHandler_h
@@ -7,17 +5,17 @@
 
 #include "WKScriptMessageHandler-Protocol.h"
 
-@class Chat.DidEndCall, NSObject;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSObject;
 
 @interface BRZWebViewBridgeScriptMessageHandler : NSObject <WKScriptMessageHandler> { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall channel;
-    oneway _Atomic Chat.DidEndCall braze;
-    oneway _Atomic Chat.DidEndCall logClick;
-    oneway _Atomic Chat.DidEndCall logError;
-    oneway _Atomic Chat.DidEndCall closeMessage;
-    oneway _Atomic Chat.DidEndCall setBannerHeight;
-    oneway _Atomic Chat.DidEndCall adHocCompletionHandlers;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift channel;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift braze;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift logClick;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift logError;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift closeMessage;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift setBannerHeight;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift adHocCompletionHandlers;
 }
 
 /* class methods */

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC7XSportsP33_CDA5F1CF7584E9ABB427B69CD6861CB927SportsGameChatCountdownView8UnitView_h
 #define _TtCC7XSportsP33_CDA5F1CF7584E9ABB427B69CD6861CB927SportsGameChatCountdownView8UnitView_h

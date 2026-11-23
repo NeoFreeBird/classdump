@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC22TwitterNotificationsUI23NotificationsStatusViewP33_49562519B453AA2914C0205961AB3A2526NotificationsScribableItem_h
 #define _TtCC22TwitterNotificationsUI23NotificationsStatusViewP33_49562519B453AA2914C0205961AB3A2526NotificationsScribableItem_h

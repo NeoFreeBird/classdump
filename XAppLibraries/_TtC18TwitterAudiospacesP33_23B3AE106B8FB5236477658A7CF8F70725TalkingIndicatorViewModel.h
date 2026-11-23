@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC18TwitterAudiospacesP33_23B3AE106B8FB5236477658A7CF8F70725TalkingIndicatorViewModel_h
 #define _TtC18TwitterAudiospacesP33_23B3AE106B8FB5236477658A7CF8F70725TalkingIndicatorViewModel_h

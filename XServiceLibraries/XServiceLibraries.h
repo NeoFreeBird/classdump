@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef XServiceLibraries_h
 #define XServiceLibraries_h
@@ -898,6 +896,7 @@
 #import "TFNUnanimatedTransitioningDelegate.h"
 #import "TFNUnboundedContainerView.h"
 #import "TFNUndoableTextInputHelper.h"
+#import "TFNUnifiedBarButtonItems.h"
 #import "TFNUpsellCardConfiguration.h"
 #import "TFNVerticalLayout.h"
 #import "TFNVerticalLayoutItem.h"
@@ -2740,6 +2739,7 @@
 #import "_TtC12XPhotoEditor25FramingTransitionDelegate.h"
 #import "_TtC12XPhotoEditor25ImageOverlayPlacementView.h"
 #import "_TtC12XPhotoEditor25PhotoEditorViewController.h"
+#import "_TtC12XPhotoEditor26EditorImageDropInteraction.h"
 #import "_TtC12XPhotoEditor26MediaEditorToolbarItemView.h"
 #import "_TtC12XPhotoEditor26MediaStyleTrayFontListView.h"
 #import "_TtC12XPhotoEditor26PhotoEditorMorphTransition.h"
@@ -3497,6 +3497,7 @@
 #import "_TtC13XDesignSystem9ListItems.h"
 #import "_TtC13XDesignSystem9ListRadio.h"
 #import "_TtC13XDesignSystem9ScrimView.h"
+#import "_TtC13XDesignSystem9Separator.h"
 #import "_TtC13XDesignSystem9TrayMorph.h"
 #import "_TtC13XDesignSystemP33_0F75371C5CCBD76AE43E2B6FE3F497CD17FadeLabelRenderer.h"
 #import "_TtC13XDesignSystemP33_0F75371C5CCBD76AE43E2B6FE3F497CD19NumericTextRenderer.h"
@@ -3519,6 +3520,7 @@
 #import "_TtC13XDesignSystemP33_D78D415F92912D9AA7A8FFDAA16886F816DisplayLinkProxy.h"
 #import "_TtC13XDesignSystemP33_DBE82D1BDC262178C725AD1B6BCA45D716DisplayLinkProxy.h"
 #import "_TtC13XDesignSystemP33_DBE82D1BDC262178C725AD1B6BCA45D719TooltipRevealDriver.h"
+#import "_TtC13XDesignSystemP33_DC708825DC735A6C6773F9EFA895329720InputPassthroughView.h"
 #import "_TtC13XDesignSystemP33_E3647CFDE648E490AA08ABC4434C61AA18TooltipOverlayView.h"
 #import "_TtC13XDesignSystemP33_FCA8851D1541A1AF8DB2AAE2956D29A211OverlayView.h"
 #import "_TtC14GraphQLActions15AdAccountsQuery.h"
@@ -3829,6 +3831,7 @@
 #import "_TtC14TFSTwitterCore23BadgeCountsQueryAdapter.h"
 #import "_TtC14TFSTwitterCore23ConversationHideAdapter.h"
 #import "_TtC14TFSTwitterCore23PCFLabelSettingsWrapper.h"
+#import "_TtC14TFSTwitterCore23URTTimelineUndoSnapshot.h"
 #import "_TtC14TFSTwitterCore23UnhighlightTweetAdapter.h"
 #import "_TtC14TFSTwitterCore23UserProfileAboutAdapter.h"
 #import "_TtC14TFSTwitterCore24BroadcastByRestIdAdapter.h"
@@ -3981,6 +3984,7 @@
 #import "_TtC14TFSTwitterCoreP33_9E26CA215098E8EEF823A37E768E5AD125ViewerUserQueryForAdapter.h"
 #import "_TtC14TFSTwitterCoreP33_9F65DAF3C753947FDF922DC52709187732BroadcastByRestIdQueryWithScribe.h"
 #import "_TtC14TFSTwitterCoreP33_AF432CD73E2E9B455C62C8289FB62C7246CreateRetweetMutationWithRetweetIDAssimilation.h"
+#import "_TtC14TFSTwitterCoreP33_B4E4BF2E8933D43FD19ED754D42B40C121ExecutionCancellation.h"
 #import "_TtC14TFSTwitterCoreP33_B4E4BF2E8933D43FD19ED754D42B40C135UserResultsByRestIdsQueryForAdapter.h"
 #import "_TtC14TFSTwitterCoreP33_DBE804B53D16B5E24890EC432A6E859E33CreateNoteTweetMutationWithScribe.h"
 #import "_TtC15GraphQLRequests22GraphQLFeatureSwitches.h"
@@ -5251,7 +5255,6 @@
 #import "_TtCV10JetfuelSDK13ViewComponent8FlexView.h"
 #import "_TtCV10JetfuelSDKP33_19CE61BD264F49F95E61346E5279AA2020QRPhotoLibraryPicker11Coordinator.h"
 #import "_TtCV10TFNUISwift15ImagePickerView11Coordinator.h"
-#import "_TtCV10TFNUISwift24NavigationViewIntrospect14ViewController.h"
 #import "_TtCV10TFNUISwiftP33_F4FDC86A633E3EE7DDA584B81C07782C20_TapLocationAttacher11Coordinator.h"
 #import "_TtCV10TFSURTCore20URTTimelineSortIndexP33_F6E66D7897098631F20DA0B9336FC98227SortIndexInjectionGenerator.h"
 #import "_TtCV11CodeScanner15CodeScannerView21ScannerViewController.h"
@@ -5539,6 +5542,7 @@
 #import "NSFastEnumeration-Protocol.h"
 #import "NSFastEnumeration-Protocol.h"
 #import "NSFastEnumeration-Protocol.h"
+#import "NSItemProviderReading-Protocol.h"
 #import "NSMutableCopying-Protocol.h"
 #import "NSMutableCopying-Protocol.h"
 #import "NSMutableCopying-Protocol.h"
@@ -5999,6 +6003,7 @@
 #import "UICollectionViewDelegateFlowLayout-Protocol.h"
 #import "UIContextMenuInteractionDelegate-Protocol.h"
 #import "UIDragInteractionDelegate-Protocol.h"
+#import "UIDropInteractionDelegate-Protocol.h"
 #import "UIGestureRecognizerDelegate-Protocol.h"
 #import "UIGestureRecognizerDelegate-Protocol.h"
 #import "UIGestureRecognizerDelegate-Protocol.h"

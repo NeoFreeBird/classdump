@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14CallScheduleUI34ScheduledCallDetailsViewController_h
 #define _TtC14CallScheduleUI34ScheduledCallDetailsViewController_h
 @import Foundation;
 
-@class CallEngine.CallActionTriggerStream, CallEngine.CallRequest ?, CallModels.CallImageLoading, CallSchedule.ScheduleRSVPTriggerStream, CallSchedule.ScheduledCallChangeSubmitter, CallSchedule.ScheduledCallColorStore, CallSchedule.ScheduledCallOccurrence, CallSchedule.ScheduledCallPhase, CallSchedule.ScheduledCallPrimaryAction, CallSchedule.ScheduledCallsStream, CallScheduleUI.ScheduleDisplayFormatter, CallScheduleUI.ScheduleFormBuilder, _$s10Foundation4DateVMn, _$s13XDesignSystem29TrayListContentViewControllerCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem9ListItemsCMn, _$sSh -> _$s7Combine14AnyCancellableCMn;
+@class CallEngine.CallActionTriggerStream, CallEngine.CallRequest ?, CallModels.CallImageLoading, CallModels.CallToastPresenting, CallSchedule.ScheduleRSVPTriggerStream, CallSchedule.ScheduledCallChangeSubmitter, CallSchedule.ScheduledCallColorStore, CallSchedule.ScheduledCallOccurrence, CallSchedule.ScheduledCallPhase, CallSchedule.ScheduledCallPrimaryAction, CallSchedule.ScheduledCallsStream, CallScheduleUI.ScheduleDisplayFormatter, CallScheduleUI.ScheduleFormBuilder, _$s10Foundation4DateVMn, _$s13XDesignSystem29TrayListContentViewControllerCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem9ListItemsCMn, _$sSh -> _$s7Combine14AnyCancellableCMn;
 
 @interface CallScheduleUI.ScheduledCallDetailsViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
@@ -18,6 +16,7 @@
     CallSchedule.ScheduleRSVPTriggerStream scheduleRSVPTriggerStream;
     CallSchedule.ScheduledCallsStream scheduledCallsStream;
     CallModels.CallImageLoading imageLoader;
+    CallModels.CallToastPresenting toastPresenter;
     nominal type descriptor for Foundation.Date now;
     CallSchedule.ScheduledCallPrimaryAction primaryAction;
     CallSchedule.ScheduledCallPhase phase;

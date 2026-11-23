@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift30BluebirdGrokBotXAccountConsentP33_5E39388E58C1D8512CF9BBB25D956D1812Presentation_h
 #define _TtCC14T1TwitterSwift30BluebirdGrokBotXAccountConsentP33_5E39388E58C1D8512CF9BBB25D956D1812Presentation_h

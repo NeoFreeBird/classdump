@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatSession19ChatColdStartWorker_h
 #define _TtC11ChatSession19ChatColdStartWorker_h
 @import Foundation;
 
-@class ChatDatabase.XChatDatabase, ChatSession.ChatStorageStream, ChatSync.XChatProjection, _$s11XFoundation11AsyncWorkerCN;
+@class ChatDatabase.ChatSQLiteDatabase, ChatSession.ChatStorageStream, ChatSync.ChatProjection, _$s11XFoundation11AsyncWorkerCN;
 
 @interface ChatSession.ChatColdStartWorker : type metadata for XFoundation.AsyncWorker { // (Swift)
     /* instance variables */
-    ChatDatabase.XChatDatabase database;
-    ChatSync.XChatProjection projection;
+    ChatDatabase.ChatSQLiteDatabase database;
+    ChatSync.ChatProjection projection;
     ChatSession.ChatStorageStream storageStream;
 }
 

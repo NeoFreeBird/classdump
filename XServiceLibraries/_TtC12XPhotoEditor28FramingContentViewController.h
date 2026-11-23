@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC12XPhotoEditor28FramingContentViewController_h
 #define _TtC12XPhotoEditor28FramingContentViewController_h
 @import Foundation;
 
-@class Swift.Bool, UIViewController, XIcons.XIcon, XPhotoEditor.EditorToolbarButton ?, XPhotoEditor.FramingAspectRatio, XPhotoEditor.FramingAspectRatio ?, XPhotoEditor.FramingContentView ?, XPhotoEditor.FramingParameters ?, XPhotoEditor.FramingParameters _$scSg ->, _$sSSSg, _$sSo11UIStackViewC, _$sSo15UIBarButtonItemCSg, _$sSo7UIImageC, _$syycSg, __C.CGSize;
+@class Swift.Bool, UIViewController, XIcons.XIcon, XPhotoEditor.EditorToolbarButton ?, XPhotoEditor.FramingAspectRatio, XPhotoEditor.FramingAspectRatio ?, XPhotoEditor.FramingContentView ?, XPhotoEditor.FramingParameters ?, XPhotoEditor.FramingParameters _$scSg ->, _$sSS, _$sSSSg, _$sSo11UIStackViewC, _$sSo15UIBarButtonItemCSg, _$sSo7UIImageC, _$syycSg, __C.CGSize;
 
 @interface XPhotoEditor.FramingContentViewController : UIViewController { // (Swift)
     /* instance variables */
@@ -26,6 +24,7 @@
     (() -> ())? onCancel;
     (() -> ())? onRotate;
     XIcons.XIcon cancelIcon;
+    Swift.String cancelAccessibilityLabel;
     Swift.String? screenTitle;
     Swift.String? screenSubtitle;
     Swift.Bool dismissesOnAction;

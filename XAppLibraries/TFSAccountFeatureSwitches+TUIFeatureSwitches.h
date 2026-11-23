@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFSAccountFeatureSwitches_TUIFeatureSwitches_h
 #define TFSAccountFeatureSwitches_TUIFeatureSwitches_h
@@ -20,6 +18,7 @@
 - (_Bool)isNewsCameraXDSChromeEnabled;
 - (_Bool)isNewsCameraLiveMediaGoLiveEnabled;
 - (_Bool)isNewsCameraLiveChatLoadingShimmerDisabled;
+- (id)goLiveMinimumFollowers;
 - (_Bool)isUploadVideoSelectorForAllQualitiesEnabled;
 - (long long)composerMediaEditButtonVariant;
 - (_Bool)isComposerAutoOpenVideoEditorEnabled;
@@ -145,6 +144,8 @@
 - (_Bool)premiumSubscriptionNavigateToPremiumHubAfterPurchaseEnabled;
 - (_Bool)checkStoredStripeRedirectUrlEnabled;
 - (_Bool)premiumSubscriptionJourneyForegroundEventEnabled;
+- (_Bool)announcementTrayEnabled;
+- (id)announcementTrayPayload;
 - (_Bool)premiumPlusDirectUpgradeEnabled;
 - (id)premiumWebviewPaywallSubscriptionsJourneyPaywallVariantGateFSName1;
 - (id)premiumWebviewPaywallSubscriptionsJourneyPaywallVariantGateFSName2;

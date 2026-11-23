@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNPickerViewControllerDelegate_Protocol_h
 #define TFNPickerViewControllerDelegate_Protocol_h
@@ -14,16 +12,11 @@
 @optional
 
 /* optional instance methods */
-- (void)pickerViewControllerDidDismiss:(id)dismiss;
-- (void)pickerViewControllerDidCancel:(id)cancel;
-- (void)pickerViewController:(id)controller didConfirmWithSections:(id)sections;
-- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
-- (void)pickerViewController:(id)controller didDeselectValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
+- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
+- (void)pickerViewController:(id)controller didDeselectValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
 - (void)pickerViewController:(id)controller willAddValueToSectionAtIndex:(unsigned long long)index withAddValueMessage:(id)message index:(unsigned long long)index sender:(id)sender;
 - (_Bool)pickerViewController:(id)controller shouldRemoveValue:(id)value fromSectionAtIndex:(unsigned long long)index;
 - (void)pickerViewController:(id)controller didRemoveValue:(id)value fromSectionAtIndex:(unsigned long long)index;
-- (void)pickerViewController:(id)controller didSelectValueForEditing:(id)editing;
-- (void)pickerViewController:(id)controller didReorderValue:(id)value fromPosition:(unsigned long long)position toPosition:(unsigned long long)position inSectionAtIndex:(unsigned long long)index;
 
 @end
 

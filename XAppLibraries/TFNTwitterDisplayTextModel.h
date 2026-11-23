@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterDisplayTextModel_h
 #define TFNTwitterDisplayTextModel_h
@@ -37,6 +35,7 @@
 - (id)displayTextContentMatchedAnimatedHashflagsForOptions:(unsigned long long)options;
 - (_Bool)displayTextMayHaveUndetectedHashflagsForOptions:(unsigned long long)options;
 - (long long)customMaxLinesForOptions:(id)options;
+- (long long)_tfn_lineBreakFallbackMaxLinesForOptions:(unsigned long long)options;
 - (unsigned long long)_tfn_effectiveMaxLinesForOptions:(id)options;
 - (long long)attributedTextModelHeightForOptions:(id)options;
 - (id)attributedTextModelForOptions:(id)options;
@@ -50,6 +49,7 @@
 - (id)_textRangeSet;
 - (id)_primaryMediaInfo;
 - (id)_geotag;
+- (_Bool)_isExpandableNoteTweet;
 - (id)_tfn_displayTextCacheEntryForOptions:(unsigned long long)options prepopulateDisplayTextCacheIfDoesNotExist:(_Bool)exist;
 - (void)_tfn_prepopulateCacheWithDefaultDisplayTextCacheEntry;
 - (void)_tfn_prepopulateCacheWithQuotedDisplayTextCacheEntryForOptions:(unsigned long long)options;

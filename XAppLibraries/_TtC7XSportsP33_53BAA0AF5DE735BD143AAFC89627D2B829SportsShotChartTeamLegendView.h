@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSportsP33_53BAA0AF5DE735BD143AAFC89627D2B829SportsShotChartTeamLegendView_h
 #define _TtC7XSportsP33_53BAA0AF5DE735BD143AAFC89627D2B829SportsShotChartTeamLegendView_h

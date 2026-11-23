@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC10TwitterURT31URTTimelineMessageItemViewModelP33_62ED239EA798865687F87AAECEE583CF20MessageActionWrapper_h
 #define _TtCC10TwitterURT31URTTimelineMessageItemViewModelP33_62ED239EA798865687F87AAECEE583CF20MessageActionWrapper_h

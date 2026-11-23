@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1URTViewController_h
 #define T1URTViewController_h
@@ -67,6 +65,7 @@
     NSNumber"16@0:8 *contentViewLayoutMetrics;
     NSNumber"16@0:8 *$__lazy_storage_$_clearCachedDisplayTextForMemoryReliefEnabled;
     NSNumber"16@0:8 *sectionsPostProcessors;
+    NSNumber"16@0:8 *sportsPostContextDecisions;
     NSNumber"16@0:8 *$__lazy_storage_$_isShimmerKillswitchEnabled;
     NSNumber"16@0:8 *$__lazy_storage_$_defaultShimmerCrossfadeDuration;
     NSNumber"16@0:8 *visibleContentCrossfade;

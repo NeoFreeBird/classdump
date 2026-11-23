@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC32TwitterHomeFeatureImplementationP33_7C83F7C2A25FC0E174B083351B7E556437TabManagementSheetQueryNoAssimilation_h
 #define _TtC32TwitterHomeFeatureImplementationP33_7C83F7C2A25FC0E174B083351B7E556437TabManagementSheetQueryNoAssimilation_h

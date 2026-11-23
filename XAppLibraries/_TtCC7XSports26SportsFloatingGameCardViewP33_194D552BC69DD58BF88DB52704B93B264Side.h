@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC7XSports26SportsFloatingGameCardViewP33_194D552BC69DD58BF88DB52704B93B264Side_h
 #define _TtCC7XSports26SportsFloatingGameCardViewP33_194D552BC69DD58BF88DB52704B93B264Side_h

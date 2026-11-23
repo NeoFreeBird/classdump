@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14WorkExperience25ProfileWorkExperienceView_h
 #define _TtC14WorkExperience25ProfileWorkExperienceView_h
@@ -7,7 +5,7 @@
 
 #include "UILargeContentViewerInteractionDelegate-Protocol.h"
 
-@class Swift.Bool, UIView, WorkExperience.ProfileWorkExperienceInfoButton, WorkExperience.ProfileWorkExperienceRolesPhase, WorkExperience.ProfileWorkExperienceSampledSprings, WorkExperience.ProfileWorkExperienceSummaryRowView, WorkExperience.ProfileWorkExperienceView.HeaderLayout ?, WorkExperience.ProfileWorkExperienceView.Measurements, WorkExperience.ProfileWorkExperienceView.SummaryLine ?, WorkExperience.WorkExperienceCompanyAccount _$scSg ->, _$s12CoreGraphics7CGFloatVMn, _$sSD -> _$s12CoreGraphics7CGFloatVMn WorkExperience.ProfileWorkExperienceView.RolesMeasurements, _$sSDySS _$s12CoreGraphics7CGFloatVMn, _$sSa -> WorkExperience.ProfileWorkExperienceRoleRowView, _$sSa -> WorkExperience.WorkExperienceLogoView, _$sSa -> WorkExperience.WorkExperienceRole, _$sSi, _$sSo11UIImageViewC, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UIImageCSg, _$sSo7UILabelC, _$sySbcSg, _$syycSg;
+@class Swift.Bool, UIView, WorkExperience.ProfileWorkExperienceInfoButton, WorkExperience.ProfileWorkExperienceRolesPhase, WorkExperience.ProfileWorkExperienceSampledSprings, WorkExperience.ProfileWorkExperienceSummaryRowView, WorkExperience.ProfileWorkExperienceView.HeaderLayout ?, WorkExperience.ProfileWorkExperienceView.Measurements, WorkExperience.ProfileWorkExperienceView.SummaryLine ?, WorkExperience.WorkExperienceCompanyAccount _$scSg ->, _$s12CoreGraphics7CGFloatVMn, _$sSD -> _$s12CoreGraphics7CGFloatVMn WorkExperience.ProfileWorkExperienceView.RolesMeasurements, _$sSDySS _$s12CoreGraphics7CGFloatVMn, _$sSa -> WorkExperience.ProfileWorkExperienceRoleRowView, _$sSa -> WorkExperience.WorkExperienceLogoView, _$sSa -> WorkExperience.WorkExperienceRole, _$sSi, _$sSo11UIImageViewC, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UILabelC, _$sySbcSg, _$syycSg;
 
 @interface WorkExperience.ProfileWorkExperienceView : UIView <UILargeContentViewerInteractionDelegate> { // (Swift)
     /* instance variables */
@@ -24,8 +22,6 @@
     WorkExperience.ProfileWorkExperienceInfoButton infoButton;
     __C.UIView rolesContainer;
     WorkExperience.ProfileWorkExperienceSampledSprings springs;
-    __C.UIImage? chevronDownImage;
-    __C.UIImage? chevronUpImage;
     Swift.Array -> WorkExperience.WorkExperienceRole experiences;
     Swift.Array -> WorkExperience.WorkExperienceLogoView summaryLogos;
     Swift.Array -> WorkExperience.ProfileWorkExperienceRoleRowView rows;

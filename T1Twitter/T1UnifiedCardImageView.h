@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UnifiedCardImageView_h
 #define T1UnifiedCardImageView_h
@@ -18,7 +16,7 @@
 @property (readonly, copy) NSString *description;
 @property (readonly, copy) NSString *debugDescription;
 @property (readonly, nonatomic) UIImage *image;
-@property (retain, nonatomic) id <TUCImageViewLoadDelegate> loadDelegate;
+@property (weak, nonatomic) id <TUCImageViewLoadDelegate> loadDelegate;
 
 /* instance methods */
 - (void)tui_fetchHelper:(id)helper readyToConfigureView:(id)view state:(long long)state;

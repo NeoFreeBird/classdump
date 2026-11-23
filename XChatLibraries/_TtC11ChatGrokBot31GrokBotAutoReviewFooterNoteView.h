@@ -1,19 +1,19 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot31GrokBotAutoReviewFooterNoteView_h
 #define _TtC11ChatGrokBot31GrokBotAutoReviewFooterNoteView_h
 @import Foundation;
 
-@class GrokBotRelay.ArgsResolveAutoReviewApprovalResolution _$scSg ->, Swift.Bool, UIView, _$s13XDesignSystem6ButtonCMn, _$sSo7UILabelC;
+@class ChatGrokBot.GrokBotAutoReviewBatchPagerView, GrokBotRelay.ArgsResolveAutoReviewApprovalResolution _$scSg ->, Swift.Bool, UIView, _$s13XDesignSystem6ButtonCMn, _$sSo7UILabelC, _$sySScSg;
 
 @interface ChatGrokBot.GrokBotAutoReviewFooterNoteView : UIView { // (Swift)
     /* instance variables */
     GrokBotRelay.ArgsResolveAutoReviewApprovalResolution _$scSg -> onAnswer;
+    ((Swift.String) -> ())? onPage;
     Swift.Bool hasContent;
     nominal type descriptor for XDesignSystem.Button allowOnceButton;
     nominal type descriptor for XDesignSystem.Button alwaysButton;
     nominal type descriptor for XDesignSystem.Button denyButton;
+    ChatGrokBot.GrokBotAutoReviewBatchPagerView pagerView;
     __C.UILabel failureLabel;
 }
 

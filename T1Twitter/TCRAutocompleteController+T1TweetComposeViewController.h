@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TCRAutocompleteController_T1TweetComposeViewController_h
 #define TCRAutocompleteController_T1TweetComposeViewController_h
@@ -44,7 +42,7 @@
 #include "_TtP20TwitterCommunitiesUI41UnableToTweetPromptViewControllerDelegate_-Protocol.h"
 #include "_TtP4Grok38GrokImaginePresentationManagerDelegate_-Protocol.h"
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, NSNumber, NSString, TCMCommunityTweetInfoView, TCMCommunityTweetVisibilityPromptInteraction, TCRAudienceTweetInfoView, TCRAutocompleteController, TCRComposeUndoView, TCRComposerAddToThreadView, TCRComposerGlassHeader, TCRComposerGlassHeaderPost, TCRComposerHeaderAccessorySlot, TCRComposerInlineUpsellBannerView, TCRComposerSchedulePickerPresenter, TCRComposerScheduledBannerView, TCRComposerToolbarView, TCRCompositionState, TCRTweetComposeAutocompleteViewController, TCRTweetComposeTimerView, TCRTweetComposeTooltipper, TFNButton, TFNButtonBarView, TFNCircularCountProgressView, TFNDragDropIndicationView, TFNDualPhaseCircularProgressView, TFNInlineCalloutView, TFNTwitterAccount, TFNTwitterComposition, TFNTwitterStatus, TFNViewController, TSAComposerBoostUpsell, TSAQuickPromoteDraftRestrictions, TTDTweetDraftListViewController, TTMAsset, TUITweetAudienceSelectionModel, UIBarButtonItem, UIButton, UIScrollView, UIView, UIViewController, XDSButton, XNAVConfiguration, _TtC4Grok17GrokFeatureAccess, _TtC4Grok30GrokImaginePresentationManager, _TtC4Grok38GrokImagineLightboxPresentationManager;
+@class NSArray, NSLayoutConstraint, NSMutableArray, NSNumber, NSString, TCMCommunityTweetInfoView, TCMCommunityTweetVisibilityPromptInteraction, TCRAudienceTweetInfoView, TCRAutocompleteController, TCRComposeUndoView, TCRComposerAddToThreadView, TCRComposerGlassHeader, TCRComposerGlassHeaderPost, TCRComposerHeaderAccessorySlot, TCRComposerInlineUpsellBannerView, TCRComposerKeyboardLayoutGuideFollower, TCRComposerSchedulePickerPresenter, TCRComposerScheduledBannerView, TCRComposerToolbarView, TCRCompositionState, TCRTweetComposeAutocompleteViewController, TCRTweetComposeTimerView, TCRTweetComposeTooltipper, TFNButton, TFNButtonBarView, TFNCircularCountProgressView, TFNDragDropIndicationView, TFNDualPhaseCircularProgressView, TFNInlineCalloutView, TFNTwitterAccount, TFNTwitterComposition, TFNTwitterStatus, TFNViewController, TSAComposerBoostUpsell, TSAQuickPromoteDraftRestrictions, TTDTweetDraftListViewController, TTMAsset, TUITweetAudienceSelectionModel, UIBarButtonItem, UIButton, UIScrollView, UIView, UIViewController, XDSButton, XNAVConfiguration, _TtC4Grok17GrokFeatureAccess, _TtC4Grok30GrokImaginePresentationManager, _TtC4Grok38GrokImagineLightboxPresentationManager;
 
 @interface TCRAutocompleteController (T1TweetComposeViewController)
 

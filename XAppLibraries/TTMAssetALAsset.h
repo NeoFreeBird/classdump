@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TTMAssetALAsset_h
 #define TTMAssetALAsset_h
@@ -8,11 +6,12 @@
 #include "TTMAsset.h"
 #include "TTMAssetSaveToLibrary-Protocol.h"
 
-@class NSString, PHAsset, TFSReferencedFile, TFSTwitterLocation;
+@class NSString, NSUUID, PHAsset, TFSReferencedFile, TFSTwitterLocation;
 
 @interface TTMAssetALAsset : TTMAsset <TTMAssetSaveToLibrary> {
     /* instance variables */
     struct CGSize { double width; double height; } _assetDimensions;
+    NSUUID *_previewCacheKey;
 }
 
 @property (retain, nonatomic) PHAsset *asset;
@@ -36,6 +35,7 @@
 
 /* instance methods */
 - (id)init;
+- (void)dealloc;
 - (id)initWithPhotoAsset:(id)asset;
 - (void)_updateScribeValueWithPhotoAsset:(id)asset;
 - (struct CGSize { double x0; double x1; })assetDimensions;
@@ -65,6 +65,7 @@
 - (void)_dispatchWithPhotoAsset:(id /* block */)asset withFallBackToLocalBackup:(id /* block */)backup;
 - (void)_dispatchWithPhotoAsset:(id /* block */)asset withFallBackToLocalBackupFileURL:(id /* block */)url;
 - (void)saveAssetToLibraryWithOptions:(id)options completion:(id /* block */)completion;
+- (id)_ttm_previewCacheKey;
 - (id)cachedPreview;
 - (void)setCachedPreview:(id)preview;
 

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14TwitterUISwift30AsymmetricalRoundedCornersViewP33_19F2F1AE4D30873E7B2D4858F1C43CAC9ShapeView_h
 #define _TtCC14TwitterUISwift30AsymmetricalRoundedCornersViewP33_19F2F1AE4D30873E7B2D4858F1C43CAC9ShapeView_h

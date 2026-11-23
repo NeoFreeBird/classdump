@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC24TwitterTweetAnatomySwiftP33_18F5EEF1168FB8E2A5512503AC72987618FeedbackPillButton_h
 #define _TtC24TwitterTweetAnatomySwiftP33_18F5EEF1168FB8E2A5512503AC72987618FeedbackPillButton_h

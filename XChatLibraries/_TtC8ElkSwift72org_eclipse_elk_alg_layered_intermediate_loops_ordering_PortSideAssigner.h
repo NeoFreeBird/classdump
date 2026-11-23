@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift72org_eclipse_elk_alg_layered_intermediate_loops_ordering_PortSideAssigner_h
+#define _TtC8ElkSwift72org_eclipse_elk_alg_layered_intermediate_loops_ordering_PortSideAssigner_h
+@import Foundation;
+
+@class _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_ordering_PortSideAssigner : Swift._SwiftObject // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift72org_eclipse_elk_alg_layered_intermediate_loops_ordering_PortSideAssigner_h */

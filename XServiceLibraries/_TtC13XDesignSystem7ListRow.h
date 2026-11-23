@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC13XDesignSystem7ListRow_h
 #define _TtC13XDesignSystem7ListRow_h
 @import Foundation;
 
-@class NSString, Swift.Bool, UITableViewCell, XDesignSystem.Button ?, XDesignSystem.LinkedText, XDesignSystem.ListAccessoryGlyphView ?, XDesignSystem.ListItem ?, XDesignSystem.ListItems.RowStyle, XDesignSystem.ListMenuControl ?, XDesignSystem.ListRow _$scSg ->, XDesignSystem.ListRowSwipeActionsController ?, XDesignSystem.Pill ?, XDesignSystem.PressEffect ?, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$sSaySSG, _$sSbycSg, _$sSo11UIImageViewC, _$sSo11UIStackViewC, _$sSo13UILayoutGuideC, _$sSo18NSLayoutConstraintCSg, _$sSo18UISegmentedControlC, _$sSo22UITapGestureRecognizerC, _$sSo6UIViewC, _$sSo6UIViewCSg, _$sSo7UILabelC, _$sSo8UISwitchC, _$sySicSg, __C.CGPoint ?;
+@class NSString, Swift.Bool, UITableViewCell, XDesignSystem.Button ?, XDesignSystem.LinkedText, XDesignSystem.ListAccessoryGlyphView ?, XDesignSystem.ListItem ?, XDesignSystem.ListItems.RowStyle, XDesignSystem.ListMenuControl ?, XDesignSystem.ListRow _$scSg ->, XDesignSystem.ListRowSwipeActionsController ?, XDesignSystem.Pill ?, XDesignSystem.PressEffect ?, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$sSaySSG, _$sSbycSg, _$sSo11UIImageViewC, _$sSo11UIStackViewC, _$sSo13UILayoutGuideC, _$sSo18NSLayoutConstraintCSg, _$sSo18UISegmentedControlC, _$sSo22UITapGestureRecognizerC, _$sSo22UIViewPropertyAnimatorCSgXw, _$sSo6UIViewC, _$sSo6UIViewCSg, _$sSo7UILabelC, _$sSo8UISwitchC, _$sySicSg, __C.CGPoint ?;
 
 @interface XDesignSystem.ListRow : UITableViewCell { // (Swift)
     /* instance variables */
@@ -25,6 +23,9 @@
     __C.UIView valueAccessoryContainer;
     __C.UIView trailingButtonContainer;
     XDesignSystem.Button ? hostedTrailingButton;
+    __C.NSLayoutConstraint? hostedTrailingButtonWidthConstraint;
+    weak __C.UIViewPropertyAnimator? trailingButtonAnimator;
+    XDesignSystem.ListMenuControl ? trailingButtonMenuControl;
     __C.UITapGestureRecognizer disabledTrailingButtonTapAbsorber;
     XDesignSystem.LinkedText descriptionView;
     __C.UISegmentedControl segmentedControl;

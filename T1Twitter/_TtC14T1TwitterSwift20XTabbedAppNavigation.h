@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift20XTabbedAppNavigation_h
 #define _TtC14T1TwitterSwift20XTabbedAppNavigation_h
@@ -173,6 +171,8 @@
 - (void)showPremiumPageWithReferringPage:(id)page tier:(id)tier plan:(id)plan source:(long long)source paywallThresholdTier:(id)tier withCompletion:(id /* block */)completion;
 - (void)showTwitterBlueBillingErrorMenuSheetForAccount:(id)account originatingPlatform:(id)platform;
 - (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url completion:(id /* block */)completion;
+- (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url postPurchaseURL:(id)url completion:(id /* block */)completion;
+- (void)presentSubscriptionViewController:(id)controller source:(long long)source completion:(id /* block */)completion;
 - (void)showLeaveConversationPrompt;
 - (void)showSuperFollowsBlockedAccountMessageForCreatorUsername:(id)username;
 - (void)showSuperFollowsBillingErrorMenuSheetForAccount:(id)account originatingPlatform:(id)platform;

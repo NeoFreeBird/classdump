@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot26GrokBotNavigationTitleView_h
 #define _TtC11ChatGrokBot26GrokBotNavigationTitleView_h
@@ -10,7 +8,6 @@
 @interface ChatGrokBot.GrokBotNavigationTitleView : UIView { // (Swift)
     /* instance variables */
     __C.UIUserInterfaceStyle avatarUserInterfaceStyle;
-    Swift.Bool isPillHidden;
     __C.UIView avatarContainerView;
     ChatGrokBot.GrokBotBadgeRowView badgeRowView;
     __C.UIVisualEffectView pillView;

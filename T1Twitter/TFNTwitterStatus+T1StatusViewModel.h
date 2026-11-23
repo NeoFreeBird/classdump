@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterStatus_T1StatusViewModel_h
 #define TFNTwitterStatus_T1StatusViewModel_h
@@ -50,6 +48,7 @@
 - (id)broadcastVideoShareURL;
 - (id)immersiveMediaShareURLForMediaIndex:(long long)index linksCopiedMediaSource:(_Bool)source account:(id)account;
 - (id)postPhotoCompositionForMediaEntity:(id)entity image:(id)image account:(id)account;
+- (id)mediaShareURLForMediaEntity:(id)entity linksCopiedMediaSource:(_Bool)source account:(id)account;
 - (id)_t1_postPhotoEmbedURLForMediaEntity:(id)entity account:(id)account;
 - (id)_t1_mediaPermalinkHandle;
 - (id)emailSubject;

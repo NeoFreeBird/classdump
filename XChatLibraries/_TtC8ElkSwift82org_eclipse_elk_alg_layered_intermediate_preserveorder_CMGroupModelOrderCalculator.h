@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift82org_eclipse_elk_alg_layered_intermediate_preserveorder_CMGroupModelOrderCalculator_h
+#define _TtC8ElkSwift82org_eclipse_elk_alg_layered_intermediate_preserveorder_CMGroupModelOrderCalculator_h
+@import Foundation;
+
+@class _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_preserveorder_CMGroupModelOrderCalculator : Swift._SwiftObject // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift82org_eclipse_elk_alg_layered_intermediate_preserveorder_CMGroupModelOrderCalculator_h */

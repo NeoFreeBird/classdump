@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1EditProfileForm_h
 #define T1EditProfileForm_h
@@ -13,13 +11,14 @@
 #include "T1ProfileBirthdayPickerViewController.h"
 #include "T1ProfileLocationPickerDelegate-Protocol.h"
 #include "TFNLegacyFormDelegate-Protocol.h"
+#include "TNLCommunicationAgentObserver-Protocol.h"
 #include "_TtP23TwitterProfileModulesUI42ProfessionalSettingsViewControllerDelegate_-Protocol.h"
 #include "_TtP23TwitterProfileModulesUI59ProfessionalSettingsViewControllerCategorySelectionDelegate_-Protocol.h"
 #include "_TtP24TwitterOnboardingFeature30TwitterOnboardingFlowAssistant_-Protocol.h"
 
 @class NSNumber, NSString, TFNLegacyForm, TFNLegacyFormCustomItem, TFNLegacyFormField, TFNTwitterAccount, TFSTwitterProfessional, TFSTwitterUserExtendedProfileBirthday;
 
-@interface T1EditProfileForm : TFNLegacyForm <T1ProfileLocationPickerDelegate, TwitterProfileModulesUI.ProfessionalSettingsViewControllerDelegate, TwitterProfileModulesUI.ProfessionalSettingsViewControllerCategorySelectionDelegate>
+@interface T1EditProfileForm : TFNLegacyForm <T1ProfileLocationPickerDelegate, TwitterProfileModulesUI.ProfessionalSettingsViewControllerDelegate, TwitterProfileModulesUI.ProfessionalSettingsViewControllerCategorySelectionDelegate, TNLCommunicationAgentObserver>
 
 @property (retain, nonatomic) TFSTwitterProfessional *cachedProfessional;
 @property (readonly, nonatomic) unsigned long long blueCheckmarkCalloutType;
@@ -70,6 +69,7 @@
 - (void)_birthdayPickerDidTapCancel;
 - (void)_birthdayPickerDidTapDone;
 - (void)_viewerWorkExperiencesDidChange:(id)change;
+- (void)tnl_communicationAgent:(id)agent didUpdateReachabilityFromPreviousFlags:(unsigned int)flags previousStatus:(long long)status toCurrentFlags:(unsigned int)flags currentStatus:(long long)status;
 - (void)_showInWorkFieldWithoutAnimatingRowsUserInput:(id)input hintText:(id)text;
 - (void)launchCategorySelectionFrom:(id)from completion:(id /* block */)completion;
 - (void)reloadProfileModules;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ComplatPaywallContainerViewController_h
 #define T1ComplatPaywallContainerViewController_h
@@ -19,13 +17,16 @@
     NSNumber"16@0:8 *screen;
     NSNumber"16@0:8 *waitsForXGrantClaim;
     NSNumber"16@0:8 *redirectSuccessURL;
+    NSNumber"16@0:8 *postPurchaseURL;
     NSNumber"16@0:8 *externalCheckoutURL;
     NSNumber"16@0:8 *scribingManager;
     NSNumber"16@0:8 *allowsPushPresentation;
-    NSNumber"16@0:8 *requiresAdoptedSession;
+    NSNumber"16@0:8 *prewarmedPageRequirement;
     NSNumber"16@0:8 *hostViewController;
     NSNumber"16@0:8 *embedsHost;
     NSNumber"16@0:8 *onPaywallPresented;
+    NSNumber"16@0:8 *onPurchaseCompleted;
+    NSNumber"16@0:8 *fid;
     NSNumber"16@0:8 *didAppear;
     NSNumber"16@0:8 *isResolvingDisplayType;
     NSNumber"16@0:8 *hasLoggedImpression;

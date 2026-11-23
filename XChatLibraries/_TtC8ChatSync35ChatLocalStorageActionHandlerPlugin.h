@@ -1,19 +1,17 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSync35ChatLocalStorageActionHandlerPlugin_h
 #define _TtC8ChatSync35ChatLocalStorageActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatSync.ChatHistoryDownloadSettingsStore, ChatSync.ChatMediaStorage, ChatSync.XChatLocalReset, ChatSync.XChatProjection, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
+@class ChatSync.ChatHistoryDownloadSettingsStore, ChatSync.ChatLocalReset, ChatSync.ChatMediaStorage, ChatSync.ChatProjection, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
 
 @interface ChatSync.ChatLocalStorageActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatSync.ChatHistoryDownloadSettingsStore historyDownloadSettingsStore;
-    ChatSync.XChatLocalReset localReset;
+    ChatSync.ChatLocalReset localReset;
     ChatSync.ChatMediaStorage mediaStorage;
-    ChatSync.XChatProjection projection;
+    ChatSync.ChatProjection projection;
 }
 
 @end

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNDataViewController_h
 #define TFNDataViewController_h
@@ -259,6 +257,7 @@
 - (void)applicationWillResignActive:(id)active;
 - (void)applicationDidBecomeActive:(id)active;
 - (void)_tfn_dynamic_frameDidDisplay;
+- (void)_tfn_dynamic_coveringViewControllerDidChange:(id)change;
 - (void)_tfn_dynamic_keyboardDidChange:(id)change;
 - (void)keyboardDidChange:(id)change;
 - (void)_tfn_dynamic_textInputDidBeginEditing:(id)editing;

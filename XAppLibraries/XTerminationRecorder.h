@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef XTerminationRecorder_h
 #define XTerminationRecorder_h
@@ -15,12 +13,16 @@
     @40@0:8:16@24@32 store;
     @40@0:8:16@24@32 state;
     @40@0:8:16@24@32 scribeProvider;
+    @40@0:8:16@24@32 recordsLifecycleWithoutWaiting;
+    @40@0:8:16@24@32 scribesDetails;
 }
 
 /* class methods */
 + (id)sharedRecorder;
 + (void)captureOpenSceneSessions;
 + (void)removeStoredData;
++ (void)noteLaunchOptions:(id)options;
++ (void)noteBackgroundEntry:(id)entry;
 
 /* instance methods */
 - (void)didReceiveDiagnosticPayloads:(id)payloads;
@@ -29,7 +31,7 @@
 - (void)applicationWillTerminate;
 - (void)applicationDidReceiveMemoryWarning;
 - (id)init;
-- (void)startWithCrashlyticsCrash:(_Bool)crash;
+- (void)startWithCrashlyticsCrash:(_Bool)crash recordsLifecycleWithoutWaiting:(_Bool)waiting scribesDetails:(_Bool)details;
 - (void)startScribingWithProvider:(id /* block */)provider;
 
 @end

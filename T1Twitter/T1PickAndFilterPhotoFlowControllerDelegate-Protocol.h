@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1PickAndFilterPhotoFlowControllerDelegate_Protocol_h
 #define T1PickAndFilterPhotoFlowControllerDelegate_Protocol_h
@@ -16,8 +14,6 @@
 /* optional instance methods */
 - (void)pickAndFilterPhotoFlowController:(id)controller userDidSelectPhoto:(id)photo type:(long long)type;
 - (void)pickAndFilterPhotoFlowController:(id)controller userDidCancelPhotoType:(long long)type;
-- (void)pickAndFilterPhotoFlowController:(id)controller userDidCancelPhotoType:(long long)type;
-- (void)pickAndFilterPhotoFlowController:(id)controller removePhotoType:(long long)type;
 - (void)pickAndFilterPhotoFlowController:(id)controller removePhotoType:(long long)type;
 
 @end

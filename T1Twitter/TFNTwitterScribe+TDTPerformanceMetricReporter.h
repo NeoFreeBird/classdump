@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterScribe_TDTPerformanceMetricReporter_h
 #define TFNTwitterScribe_TDTPerformanceMetricReporter_h
@@ -19,14 +17,14 @@
 - (void)logCompositionAutocompleteCloseForType:(long long)type page:(id)page section:(id)section withPrefix:(id)prefix;
 - (void)_logCompositionAutocompleteForType:(long long)type action:(id)action page:(id)page section:(id)section withPrefix:(id)prefix;
 - (id)_scribeElementForAutocompleteType:(long long)type;
-- (void)logAccountSwitch;
+- (void)logAccountSwitchWithLiquidGlassState:(id)state;
 - (void)logApplicationDidEnterBackgroundScribeAction:(id)action scribeParameters:(id)parameters;
-- (void)logApplicationDidEnterForegroundFromPush:(_Bool)push withBadgeCount:(unsigned long long)count;
-- (void)logApplicationDidLaunchFromPush:(_Bool)push withBadgeCount:(unsigned long long)count;
+- (void)logApplicationDidEnterForegroundFromPush:(_Bool)push withBadgeCount:(unsigned long long)count liquidGlassState:(id)state;
+- (void)logApplicationDidLaunchFromPush:(_Bool)push withBadgeCount:(unsigned long long)count liquidGlassState:(id)state;
 - (void)_logAccessibilityFeatureUsageWithSection:(id)section;
 - (void)_logColorSettingsWithSection:(id)section;
-- (void)_tfn_logBadgeStateWithSection:(id)section withCount:(unsigned long long)count fromPush:(_Bool)push;
-- (void)_tfn_logAppOpenBadgeStateWithSection:(id)section fromPush:(_Bool)push appBadgeAction:(id)action;
+- (void)_tfn_logBadgeStateWithSection:(id)section withCount:(unsigned long long)count fromPush:(_Bool)push liquidGlassState:(id)state;
+- (void)_tfn_logAppOpenBadgeStateWithSection:(id)section fromPush:(_Bool)push appBadgeAction:(id)action liquidGlassState:(id)state;
 - (void)_tfn_logNoAppIconBadgeStateWithSection:(id)section;
 - (id)_advertisingInformationScribeDictionary;
 - (id)_simCardInformationScribeDictionary;

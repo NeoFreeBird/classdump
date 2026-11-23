@@ -1,19 +1,17 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend34ChatGroupInviteActionHandlerPlugin_h
 #define _TtC8ChatSend34ChatGroupInviteActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatModelsCore.UserID, ChatSend.ChatActionSigner, ChatSend.ChatGroupAvatarUploader, ChatSync.XChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.XChatGraphQLClient, _TtCs12_SwiftObject;
+@class ChatModelsCore.UserID, ChatSend.ChatActionSigner, ChatSend.ChatGroupAvatarUploader, ChatSync.ChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.ChatGraphQLClient, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatGroupInviteActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatSend.ChatActionSigner actionSigner;
-    ChatTransport.XChatGraphQLClient graphQLClient;
+    ChatTransport.ChatGraphQLClient graphQLClient;
     ChatSend.ChatGroupAvatarUploader groupAvatarUploader;
-    ChatSync.XChatProjection projection;
+    ChatSync.ChatProjection projection;
     ChatModelsCore.UserID owner;
 }
 

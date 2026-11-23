@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef XDSInput_h
 #define XDSInput_h
@@ -19,6 +17,7 @@
     B24@0:8@"NSString"16 onEditingEnded;
     B24@0:8@"NSString"16 status;
     B24@0:8@"NSString"16 supportingText;
+    B24@0:8@"NSString"16 isLoading;
     B24@0:8@"NSString"16 onHeightChange;
     B24@0:8@"NSString"16 onHeightChangeForHost;
     B24@0:8@"NSString"16 boxView;
@@ -30,6 +29,8 @@
     B24@0:8@"NSString"16 clearButtonContainer;
     B24@0:8@"NSString"16 leadingPaddingView;
     B24@0:8@"NSString"16 trailingPaddingView;
+    B24@0:8@"NSString"16 loadingTrailingView;
+    B24@0:8@"NSString"16 loadingSpinner;
     B24@0:8@"NSString"16 leadingIconView;
     B24@0:8@"NSString"16 leavesMirroringToTextField;
 }

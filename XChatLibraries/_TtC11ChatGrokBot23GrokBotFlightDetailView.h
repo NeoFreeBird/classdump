@@ -1,30 +1,28 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot23GrokBotFlightDetailView_h
 #define _TtC11ChatGrokBot23GrokBotFlightDetailView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotCardButton, ChatGrokBot.GrokBotFlightCheaperOptionView, ChatGrokBot.GrokBotFlightDetailFieldView ?, ChatGrokBot.GrokBotFlightDetailTotalView, UIView, _$sSa -> ChatGrokBot.GrokBotFlightDetailLegView, _$sSa -> ChatGrokBot.GrokBotFlightFareOptionView, _$sSo6UIViewC, _$sSo7UILabelC, _$syycSg;
+@class ChatGrokBot.GrokBotCardButton, ChatGrokBot.GrokBotFlightCheaperOptionView, ChatGrokBot.GrokBotFlightDetailFieldView ?, ChatGrokBot.GrokBotFlightDetailTotalView, ChatGrokBot.GrokBotFlightOfferDetailsView, UIView, _$sSa -> ChatGrokBot.GrokBotFlightDetailLegView, _$sSo6UIViewC, _$sSo7UILabelC;
 
 @interface ChatGrokBot.GrokBotFlightDetailView : UIView { // (Swift)
     /* instance variables */
     ChatGrokBot.GrokBotCardButton actionButton;
+    __C.UILabel bookNoteLabel;
+    ChatGrokBot.GrokBotCardButton cheaperBookButton;
     ChatGrokBot.GrokBotFlightCheaperOptionView cheaperView;
+    ChatGrokBot.GrokBotCardButton detailsButton;
+    ChatGrokBot.GrokBotFlightOfferDetailsView detailsView;
     __C.UIView dividerView;
     __C.UILabel fareNameLabel;
     __C.UILabel fareRulesLabel;
-    __C.UILabel handoffLabel;
     __C.UILabel metaLabel;
-    __C.UILabel otherFaresLabel;
     __C.UILabel titleLabel;
     ChatGrokBot.GrokBotFlightDetailTotalView totalView;
     ChatGrokBot.GrokBotFlightDetailFieldView ? $__lazy_storage_$_cheaperField;
     ChatGrokBot.GrokBotFlightDetailFieldView ? $__lazy_storage_$_fareField;
     ChatGrokBot.GrokBotFlightDetailFieldView ? $__lazy_storage_$_totalField;
-    Swift.Array -> ChatGrokBot.GrokBotFlightFareOptionView fareOptionViews;
     Swift.Array -> ChatGrokBot.GrokBotFlightDetailLegView legViews;
-    (() -> ())? onOpenHandoff;
 }
 
 /* instance methods */
@@ -32,7 +30,7 @@
 - (id)initWithCoder:(id)coder;
 - (void)layoutSubviews;
 - (struct CGSize { double x0; double x1; })sizeThatFits:(struct CGSize { double x0; double x1; })fits;
-- (void)openHandoff;
+- (void)traitCollectionDidChange:(id)change;
 
 @end
 

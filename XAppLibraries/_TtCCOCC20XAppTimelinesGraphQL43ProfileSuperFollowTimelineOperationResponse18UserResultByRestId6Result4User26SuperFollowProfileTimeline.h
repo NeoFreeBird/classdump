@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCOCC20XAppTimelinesGraphQL43ProfileSuperFollowTimelineOperationResponse18UserResultByRestId6Result4User26SuperFollowProfileTimeline_h
 #define _TtCCOCC20XAppTimelinesGraphQL43ProfileSuperFollowTimelineOperationResponse18UserResultByRestId6Result4User26SuperFollowProfileTimeline_h

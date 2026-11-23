@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC13QuickComposerP33_8DD9CD830DDC76F71BC26A6C02AADA2525QuickComposerChevronModel_h
 #define _TtC13QuickComposerP33_8DD9CD830DDC76F71BC26A6C02AADA2525QuickComposerChevronModel_h

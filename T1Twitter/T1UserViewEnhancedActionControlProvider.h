@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UserViewEnhancedActionControlProvider_h
 #define T1UserViewEnhancedActionControlProvider_h
@@ -41,10 +39,10 @@
 - (_Bool)shouldHideActionControl:(id)control;
 - (struct CGSize { double x0; double x1; })sizeForActionControlWithUser:(id)user;
 - (void)handleNotificationButtonTapForUser:(id)user notificationSettingsProperty:(id)property tweetNotificationsRelationshipState:(long long)state;
-- (void)presentNotificationSettingsRequireChangeAlert:(id)alert user:(id)user notificationSettingsProperty:(id)property;
+- (void)presentNotificationSettingsRequireChangeAlertForUser:(id)user notificationSettingsProperty:(id)property;
 - (void)_t1_logNotificationScribeAction:(id)action element:(id)element forUser:(id)user;
-- (void)openSystemNotificationSettingsAndPresentOptionsOnReturn:(id)_return user:(id)user notificationSettingsProperty:(id)property;
-- (void)presentNotificationOptions:(id)options user:(id)user notificationSettingsProperty:(id)property;
+- (void)openSystemNotificationSettingsAndPresentOptionsOnReturnForUser:(id)user notificationSettingsProperty:(id)property;
+- (void)presentNotificationOptionsForUser:(id)user notificationSettingsProperty:(id)property;
 
 @end
 

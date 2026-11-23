@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift82org_eclipse_elk_alg_layered_p5edges_orthogonal_direction_WestToEastRoutingStrategy_h
+#define _TtC8ElkSwift82org_eclipse_elk_alg_layered_p5edges_orthogonal_direction_WestToEastRoutingStrategy_h
+@import Foundation;
+
+#include "_TtC8ElkSwift85org_eclipse_elk_alg_layered_p5edges_orthogonal_direction_BaseRoutingDirectionStrategy.h"
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_p5edges_orthogonal_direction_WestToEastRoutingStrategy : ElkSwift.org_eclipse_elk_alg_layered_p5edges_orthogonal_direction_BaseRoutingDirectionStrategy // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift82org_eclipse_elk_alg_layered_p5edges_orthogonal_direction_WestToEastRoutingStrategy_h */

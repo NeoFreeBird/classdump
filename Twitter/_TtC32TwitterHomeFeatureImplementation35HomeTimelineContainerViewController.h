@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC32TwitterHomeFeatureImplementation35HomeTimelineContainerViewController_h
 #define _TtC32TwitterHomeFeatureImplementation35HomeTimelineContainerViewController_h
@@ -64,6 +62,7 @@
 - (void)segmentedViewController:(id)controller didLongPressAtIndex:(long long)index;
 - (void)segmentedViewController:(id)controller willSelectViewController:(id)controller atIndex:(long long)index indexChanged:(_Bool)changed;
 - (void)segmentedViewController:(id)controller didSelectViewController:(id)controller atIndex:(long long)index previousIndex:(long long)index trigger:(long long)trigger;
+- (void)segmentedViewController:(id)controller didScrollToFractionalIndex:(double)index;
 - (long long)numberOfTabsIn:(id)in;
 - (id)segmentedViewController:(id)controller pageViewControllerAtIndex:(long long)index;
 - (id)segmentedViewController:(id)controller descriptorAtIndex:(long long)index;

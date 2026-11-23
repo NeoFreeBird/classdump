@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TTACoreAnatomyFeatures_h
 #define TTACoreAnatomyFeatures_h
@@ -21,9 +19,7 @@
 @property (readonly, nonatomic) _Bool isPostAboutTrayEnabled;
 @property (readonly, nonatomic) _Bool postAboutTrayEnabledNoImpression;
 @property (readonly, nonatomic) _Bool isPostAboutGrokFeaturesEnabled;
-@property (readonly, nonatomic) _Bool isPostAboutCollapsibleAuthorActionsEnabled;
 @property (readonly, nonatomic) _Bool isPostAboutHideGrokPillsEnabled;
-@property (readonly, nonatomic) _Bool isPostAboutCommunityNotesInMoreEnabled;
 @property (readonly, nonatomic) _Bool isGrokBackendControlledAnalyzeButtonEnabled;
 @property (readonly, nonatomic) _Bool isGrokEditPhotoPostButtonEnabled;
 @property (readonly, nonatomic) _Bool isGrokAnalyzeContextMenuOtherOptionEnabled;
@@ -106,6 +102,7 @@
 @property (readonly, nonatomic) _Bool isBrandedLikeOnTweetContentEnabled;
 @property (readonly, nonatomic) _Bool isAudioArticlesEnabled;
 @property (readonly, nonatomic) _Bool isArticleViewerReaderCoverSizingDisabled;
+@property (readonly, nonatomic) _Bool isNativeArticlesEnabled;
 @property (readonly, nonatomic) double audioArticlesFloatingBarCollapseSpeed;
 @property (readonly, nonatomic) _Bool isAudioArticleProgressRestorationEnabled;
 @property (readonly, nonatomic) _Bool isDashHistoryFeedBookmarksEnabled;

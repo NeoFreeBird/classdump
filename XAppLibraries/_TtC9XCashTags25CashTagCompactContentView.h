@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9XCashTags25CashTagCompactContentView_h
 #define _TtC9XCashTags25CashTagCompactContentView_h
@@ -8,7 +6,7 @@
 #include "TIPImageViewFetchHelperDataSource-Protocol.h"
 #include "TIPImageViewFetchHelperDelegate-Protocol.h"
 
-@class Swift.Bool, UIView, XCashTags.CashTagAssetData ?, XCashTags.CashTagAttachmentSource, XCashTags.CashTagChartSeries ?, XCashTags.CashTagCompactTradeChin ?, XCashTags.CashTagContentViewDelegate ?, _$s10Foundation3URLVMn ?, _$s10TFNUISwift11ShimmerViewCMn ?, _$sSo11UIImageViewC, _$sSo11UIStackViewCSg, _$sSo12CAShapeLayerC, _$sSo13UILayoutGuideC, _$sSo15CAGradientLayerC, _$sSo16TIPImagePipelineC, _$sSo18NSLayoutConstraintCSg, _$sSo23UIActivityIndicatorViewC, _$sSo6UIViewC, _$sSo7UILabelC;
+@class Swift.Bool, UIView, XCashTags.CashTagAssetData ?, XCashTags.CashTagAttachmentSource, XCashTags.CashTagChartSeries ?, XCashTags.CashTagContentViewDelegate ?, XCashTags.CashTagTradeChin ?, _$s10Foundation3URLVMn ?, _$s10TFNUISwift11ShimmerViewCMn ?, _$sSo11UIImageViewC, _$sSo11UIStackViewCSg, _$sSo12CAShapeLayerC, _$sSo13UILayoutGuideC, _$sSo15CAGradientLayerC, _$sSo16TIPImagePipelineC, _$sSo18NSLayoutConstraintCSg, _$sSo23UIActivityIndicatorViewC, _$sSo6UIViewC, _$sSo7UILabelC;
 
 @interface XCashTags.CashTagCompactContentView : UIView <TIPImageViewFetchHelperDelegate, TIPImageViewFetchHelperDataSource> { // (Swift)
     /* instance variables */
@@ -16,7 +14,7 @@
     __C.TIPImagePipeline imagePipeline;
     XCashTags.CashTagAttachmentSource source;
     Swift.Bool isActive;
-    XCashTags.CashTagCompactTradeChin ? tradeChin;
+    XCashTags.CashTagTradeChin ? tradeChin;
     __C.UILayoutGuide bodyLayoutGuide;
     nominal type descriptor for Foundation.URL ? logoURL;
     nominal type descriptor for Foundation.URL ? chainLogoURL;

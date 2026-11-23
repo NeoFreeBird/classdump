@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV37DMConversationMultiAttachmentComposerP33_F8F5A67AD444AC3D61FACB2EAE53355316QuickLookPreview11Coordinator_h
 #define _TtCV37DMConversationMultiAttachmentComposerP33_F8F5A67AD444AC3D61FACB2EAE53355316QuickLookPreview11Coordinator_h

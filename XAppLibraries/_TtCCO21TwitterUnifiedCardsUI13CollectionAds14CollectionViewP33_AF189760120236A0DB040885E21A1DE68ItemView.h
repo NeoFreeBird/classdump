@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCO21TwitterUnifiedCardsUI13CollectionAds14CollectionViewP33_AF189760120236A0DB040885E21A1DE68ItemView_h
 #define _TtCCO21TwitterUnifiedCardsUI13CollectionAds14CollectionViewP33_AF189760120236A0DB040885E21A1DE68ItemView_h

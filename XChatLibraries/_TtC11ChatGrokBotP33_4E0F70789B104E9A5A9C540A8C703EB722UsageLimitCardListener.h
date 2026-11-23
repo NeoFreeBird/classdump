@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBotP33_4E0F70789B104E9A5A9C540A8C703EB722UsageLimitCardListener_h
 #define _TtC11ChatGrokBotP33_4E0F70789B104E9A5A9C540A8C703EB722UsageLimitCardListener_h

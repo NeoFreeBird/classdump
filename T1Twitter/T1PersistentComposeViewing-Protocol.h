@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1PersistentComposeViewing_Protocol_h
 #define T1PersistentComposeViewing_Protocol_h
@@ -11,7 +9,7 @@
 #include "T1TweetComposeSocialContext.h"
 #include "TTACoreStatusViewModel-Protocol.h"
 
-@class NSArray, NSString, TFNTwitterAccount, UIControl, UIFont, UIView;
+@class NSArray, NSString, TFNTwitterAccount, UIControl, UIDropInteraction, UIFont, UIView;
 
 @protocol T1PersistentComposeViewing <NSObject>
 
@@ -44,6 +42,7 @@
 @property (nonatomic, weak) UIControl *foundMediaButton;
 @property (nonatomic, retain) id <TTACoreStatusViewModel> replyStatusViewModel;
 @property (nonatomic) _Bool hasDraftContent;
+@property (nonatomic, retain) UIDropInteraction *dropInteraction;
 
 /* required instance methods */
 - (_Bool)isRichTextViewScrollDisabled;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNLegacyFormField_h
 #define TFNLegacyFormField_h
@@ -36,7 +34,6 @@
 @property (readonly, nonatomic) NSString *errorMessage;
 @property (copy, nonatomic) NSString *supplementaryText;
 @property (retain, nonatomic) UIView *inputView;
-@property (retain, nonatomic) UIView *inputAccessoryView;
 @property (copy, nonatomic) NSString *hintText;
 @property (readonly, nonatomic) NSSet *userInputSuggestions;
 @property (copy, nonatomic) NSArray *validInputValues;

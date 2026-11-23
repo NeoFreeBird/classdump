@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef ONBListComponentTransformer_h
 #define ONBListComponentTransformer_h
@@ -24,7 +22,7 @@
 /* instance methods */
 - (id)detailText;
 - (id)componentView;
-- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
+- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
 - (void)private_tapAction;
 - (id)valuesForPicker:(id)picker;
 - (id)initiallyPickedValueForPicker:(id)picker;

@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation21MessageAttachmentView_h
 #define _TtC16ChatConversation21MessageAttachmentView_h
 @import Foundation;
 
-@class ChatConversation.MessageAttachmentFileView ?, ChatConversation.MessageAttachmentGifView ?, ChatConversation.MessageAttachmentImageView ?, ChatConversation.MessageAttachmentJetfuelContainerView ?, ChatConversation.MessageAttachmentPaymentReceiptView ?, ChatConversation.MessageAttachmentPostView ?, ChatConversation.MessageAttachmentURLView ?, ChatConversation.MessageAttachmentUnifiedCardContainerView ?, ChatConversation.MessageAttachmentUnknownView ?, ChatConversation.MessageAttachmentVideoView ?, ChatConversation.MessageAttachmentView.Configuration ?, ChatModelsCore.AttachmentID ?, ChatUI.AttachmentBarProgressView, ChatUI.ChatColorProviding ?, ChatUI.MessageAttachmentAudioView ?, UIView, _$sSo014Subsystem_ios_B22Arm64_mainCancellation_pSg, _$sSo6UIViewCSg;
+@class ChatConversation.MessageAttachmentFileView ?, ChatConversation.MessageAttachmentGifView ?, ChatConversation.MessageAttachmentImageView ?, ChatConversation.MessageAttachmentJetfuelContainerView ?, ChatConversation.MessageAttachmentPaymentReceiptView ?, ChatConversation.MessageAttachmentPostView ?, ChatConversation.MessageAttachmentURLView ?, ChatConversation.MessageAttachmentUnifiedCardContainerView ?, ChatConversation.MessageAttachmentUnknownView ?, ChatConversation.MessageAttachmentVideoView ?, ChatConversation.MessageAttachmentView.Configuration ?, ChatModelsCore.AttachmentID ?, ChatUI.AttachmentBarProgressView, ChatUI.ChatColorProviding ?, ChatUI.MessageAttachmentAudioView ?, UIView, _$s7Combine14AnyCancellableCMn ?, _$sSo6UIViewCSg;
 
 @interface ChatConversation.MessageAttachmentView : UIView { // (Swift)
     /* instance variables */
@@ -24,7 +22,7 @@
     ChatUI.ChatColorProviding ? colorProvider;
     ChatConversation.MessageAttachmentView.Configuration ? configuration;
     __C.UIView? visibleAttachmentKindView;
-    __C.Subsystem_ios_iosArm64_mainCancellation? uploadProgressCancellable;
+    nominal type descriptor for Combine.AnyCancellable ? uploadProgressCancellable;
     ChatModelsCore.AttachmentID ? uploadProgressAttachmentId;
 }
 

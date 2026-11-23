@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef PhotoEditorScribeManager_h
 #define PhotoEditorScribeManager_h
@@ -43,6 +41,7 @@
 - (void)photoEditorDidAddRedaction:(id)redaction;
 - (void)photoEditorDidRemoveRedaction;
 - (void)photoEditorDidAddImageOverlay;
+- (void)photoEditorDidDropImageOverlays:(long long)overlays;
 - (void)photoEditorDidDeleteImageOverlay;
 - (void)photoEditorDidChangeImageOverlayShape:(id)shape;
 - (void)photoEditorDidSelectCollageLayout:(id)layout;

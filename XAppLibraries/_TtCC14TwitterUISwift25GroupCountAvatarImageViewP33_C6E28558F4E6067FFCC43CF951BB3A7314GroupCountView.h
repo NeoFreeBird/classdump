@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14TwitterUISwift25GroupCountAvatarImageViewP33_C6E28558F4E6067FFCC43CF951BB3A7314GroupCountView_h
 #define _TtCC14TwitterUISwift25GroupCountAvatarImageViewP33_C6E28558F4E6067FFCC43CF951BB3A7314GroupCountView_h

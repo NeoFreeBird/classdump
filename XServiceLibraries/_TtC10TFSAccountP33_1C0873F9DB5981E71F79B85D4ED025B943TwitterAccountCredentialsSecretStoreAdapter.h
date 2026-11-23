@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10TFSAccountP33_1C0873F9DB5981E71F79B85D4ED025B943TwitterAccountCredentialsSecretStoreAdapter_h
 #define _TtC10TFSAccountP33_1C0873F9DB5981E71F79B85D4ED025B943TwitterAccountCredentialsSecretStoreAdapter_h

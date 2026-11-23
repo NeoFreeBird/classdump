@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9XSettingsP33_3D5B878B837517D6319F08AC525A9F7C35SensitiveContentSettingsLinkOpening_h
 #define _TtC9XSettingsP33_3D5B878B837517D6319F08AC525A9F7C35SensitiveContentSettingsLinkOpening_h

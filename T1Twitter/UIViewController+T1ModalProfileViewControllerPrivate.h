@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef UIViewController_T1ModalProfileViewControllerPrivate_h
 #define UIViewController_T1ModalProfileViewControllerPrivate_h
@@ -11,12 +9,14 @@
 + (id)currentNavigationMetadataViewController;
 + (id)navigationMetadataViewControllerForViewController:(id)controller;
 + (id)_t1_controllerToPresentForConversationContext:(id)context hostViewController:(id)controller sourceView:(id)view sourceRect:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })rect profileHeaderButtonGroup:(long long)group account:(id)account previewing:(_Bool)previewing;
-+ (id)_t1_modalSheetWithUserIDs:(id)ids unmentionedUsers:(id)users account:(id)account hostViewController:(id)controller sourceView:(id)view sourceRect:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })rect previewing:(_Bool)previewing;
++ (id)_t1_peopleTrayWithUserReferences:(id)references unmentionedUserIDs:(id)ids account:(id)account hostViewController:(id)controller;
 + (_Bool)_t1_presentMiniProfileTrayIfEnabledForUserReference:(id)reference hostViewController:(id)controller sourceView:(id)view sourceRect:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })rect trigger:(long long)trigger associatedStatus:(id)status account:(id)account;
 + (id)_t1_profileViewControllerWithUserReference:(id)reference hostViewController:(id)controller account:(id)account;
 + (id)_assertValidUserReferenceWithConversationContext:(id)context;
++ (_Bool)_t1_isSpaceReplyForConversationContext:(id)context;
 + (id)_t1_miniProfileLongPressUserReferenceForConversationContext:(id)context account:(id)account;
 + (_Bool)t1_miniProfileLongPressCanPresentForConversationContext:(id)context account:(id)account;
++ (_Bool)t1_longPressOpensPeopleListForConversationContext:(id)context;
 
 /* instance methods */
 - (id)bottomSegmentController;
@@ -129,6 +129,8 @@
 - (id)t1_menuSheetForElectionLabelWithURL:(id)url account:(id)account indexPath:(id)path source:(id)source doneBlock:(id /* block */)block;
 - (id)t1_scribeSectionForFollowAction;
 - (void)t1_setScribeSectionForFollowAction:(id)action;
+- (_Bool)t1_scribesBlockClickOnSuccess;
+- (void)t1_setScribesBlockClickOnSuccess:(_Bool)success;
 - (id)t1_scribeParametersForUserReference:(id)reference context:(id)context associatedStatus:(id)status account:(id)account;
 - (id)t1_dockedBarContainer;
 - (id)t1_activityViewControllerForActiveRange:(id)range inStatus:(id)status source:(id)source account:(id)account;
@@ -258,8 +260,7 @@
 - (void)_t1_presentPinConfirmationWithTitle:(id)title message:(id)message confirmTitle:(id)title confirmStyle:(long long)style onConfirm:(id /* block */)confirm;
 - (id)_t1_togglePinnedTweetActionItemWithStatus:(id)status account:(id)account scribePage:(id)page scribeSection:(id)section scribeComponent:(id)component;
 - (id)_t1_toggleHighlightTweetActionItemWithStatus:(id)status account:(id)account scribePage:(id)page scribeSection:(id)section scribeComponent:(id)component;
-- (id)_t1_offlineCacheActionItemArrayForStatus:(id)status selectedMediaEntity:(id)entity account:(id)account scribeContext:(id)context optimizeForSubmenu:(_Bool)submenu shortTitles:(_Bool)titles;
-- (id)_t1_offlineCacheCombinedActionItemForStatus:(id)status account:(id)account scribeContext:(id)context;
+- (id)_t1_offlineCacheActionItemArrayForStatus:(id)status selectedMediaEntity:(id)entity account:(id)account scribeContext:(id)context shortTitles:(_Bool)titles;
 - (id)_t1_togglePinnedReplyActionItemForStatus:(id)status account:(id)account scribeContext:(id)context;
 - (id /* block */)_t1_openURLActionForURL:(id)url account:(id)account scribeParameters:(id)parameters;
 - (id /* block */)_t1_openSpeedbumpActionForURL:(id)url account:(id)account completion:(id /* block */)completion;

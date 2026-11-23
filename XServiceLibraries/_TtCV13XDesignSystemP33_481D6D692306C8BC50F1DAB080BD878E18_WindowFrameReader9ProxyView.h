@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV13XDesignSystemP33_481D6D692306C8BC50F1DAB080BD878E18_WindowFrameReader9ProxyView_h
 #define _TtCV13XDesignSystemP33_481D6D692306C8BC50F1DAB080BD878E18_WindowFrameReader9ProxyView_h

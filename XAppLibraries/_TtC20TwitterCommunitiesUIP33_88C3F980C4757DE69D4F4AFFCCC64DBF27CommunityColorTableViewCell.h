@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20TwitterCommunitiesUIP33_88C3F980C4757DE69D4F4AFFCCC64DBF27CommunityColorTableViewCell_h
 #define _TtC20TwitterCommunitiesUIP33_88C3F980C4757DE69D4F4AFFCCC64DBF27CommunityColorTableViewCell_h

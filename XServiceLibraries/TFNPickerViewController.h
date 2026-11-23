@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNPickerViewController_h
 #define TFNPickerViewController_h
@@ -20,30 +18,22 @@
 @property (readonly, nonatomic) unsigned long long options;
 @property (readonly, nonatomic) NSMutableArray *valueSections;
 @property (readonly, nonatomic) NSMutableDictionary *valueSectionIndexes;
-@property (readonly, nonatomic) NSMutableArray *indexTitles;
 @property (readonly, nonatomic) TFSTokenDictionary *tokenizedValues;
 @property (readonly, nonatomic) TFSTokenDictionary *tokenizedInitialValues;
 @property (readonly, nonatomic) _Bool valuePickingOptional;
 @property (readonly, nonatomic) _Bool canAddValues;
 @property (readonly, nonatomic) _Bool canRemoveValues;
 @property (readonly, nonatomic) _Bool canRemoveAllValues;
-@property (readonly, nonatomic) _Bool canEditValues;
-@property (readonly, nonatomic) _Bool canReorderValues;
-@property (readonly, nonatomic) _Bool indexesValues;
 @property (readonly, nonatomic) _Bool shouldDismissAfterValuePicked;
-@property (readonly, nonatomic) _Bool requiresConfirmation;
 @property (readonly, nonatomic) _Bool hasBackButton;
 @property (readonly, nonatomic) _Bool isPresentedInSemiModal;
 @property (retain, nonatomic) NSNumber *viewIsLaidOutAsSemiModal;
 @property (copy, nonatomic) NSString *searchText;
-@property (nonatomic) _Bool viewDidLayoutAsNonFullScreenModal;
 @property (nonatomic) _Bool scrolledToInitialPickedValue;
-@property (readonly, nonatomic) double minContentHeight;
 @property (readonly, nonatomic) double maxContentHeight;
 @property (weak, nonatomic) id <TFNPickerViewControllerDelegate> delegate;
 @property (readonly, weak, nonatomic) id <TFNValuePickerDataSource> dataSource;
 @property (nonatomic) unsigned long long maxAllowedPickedValues;
-@property (readonly, nonatomic) unsigned long long pickerSectionOffset;
 @property (readonly) unsigned long long hash;
 @property (readonly) Class superclass;
 @property (readonly, copy) NSString *description;
@@ -59,7 +49,6 @@
 - (id)init;
 - (id)initWithDataSource:(id)source options:(unsigned long long)options;
 - (id)initWithCollectionViewLayout:(id)layout;
-- (_Bool)hidesValuePickedIndication;
 - (_Bool)shouldScrollToInitialPickedValue;
 - (_Bool)canSearchValues;
 - (void)_setupValues:(id)values inSection:(id)section;
@@ -73,17 +62,10 @@
 - (id)_addItemWithMessage:(id)message atIndex:(unsigned long long)index;
 - (id)_valueSectionAtIndexPath:(id)path;
 - (void)_updateControlsAnimated:(_Bool)animated;
-- (void)_getRequiresConfirmationLeftBarButtonItem:(out id *)item rightBarButtonItem:(out id *)item;
-- (void)_getStandardLeftBarButtonItem:(out id *)item rightBarButtonItem:(out id *)item;
-- (id)_standardRightBarButtonItem;
-- (void)_getFullScreenShouldDismissLeftBarButtonItem:(out id *)item rightBarButtonItem:(out id *)item;
-- (void)_addItem:(id)item;
 - (void)_addItemToSectionAtIndex:(unsigned long long)index withAddValueMessage:(id)message index:(unsigned long long)index sender:(id)sender;
 - (void)_dismiss;
-- (void)_confirm;
 - (void)_cancel;
 - (void)_scrollToInitialPickedValueIfNeeded;
-- (void)dismissWithConfirmation:(_Bool)confirmation;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(_Bool)appear;
 - (void)viewDidDisappear:(_Bool)disappear;
@@ -91,18 +73,13 @@
 - (void)setEditing:(_Bool)editing animated:(_Bool)animated;
 - (void)update:(_Bool)update;
 - (void)didSelectItem:(id)item atIndexPath:(id)path;
-- (void)_pickItem:(id)item atIndexPath:(id)path fromSelection:(_Bool)selection;
+- (void)_pickItem:(id)item atIndexPath:(id)path;
 - (_Bool)shouldHighlightItem:(id)item atIndexPath:(id)path;
 - (_Bool)shouldSelectItem:(id)item atIndexPath:(id)path;
 - (_Bool)canEditItem:(id)item atIndexPath:(id)path;
 - (long long)editingStyleForItem:(id)item atIndexPath:(id)path;
 - (_Bool)shouldIndentWhileEditingItem:(id)item atIndexPath:(id)path;
 - (void)commitEditingStyle:(long long)style forItem:(id)item atIndexPath:(id)path;
-- (_Bool)canMoveItem:(id)item atIndexPath:(id)path;
-- (void)moveItem:(id)item atIndexPath:(id)path toIndexPath:(id)path;
-- (id)targetIndexPathForMoveOfItem:(id)item atIndexPath:(id)path toProposedIndexPath:(id)path;
-- (long long)tableView:(id)view sectionForSectionIndexTitle:(id)title atIndex:(long long)index;
-- (id)sectionIndexTitlesForTableView:(id)view;
 - (void)searchBar:(id)bar textDidChange:(id)change;
 
 @end

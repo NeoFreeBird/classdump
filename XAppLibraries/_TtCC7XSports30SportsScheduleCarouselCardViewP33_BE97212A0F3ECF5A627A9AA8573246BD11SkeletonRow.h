@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC7XSports30SportsScheduleCarouselCardViewP33_BE97212A0F3ECF5A627A9AA8573246BD11SkeletonRow_h
 #define _TtCC7XSports30SportsScheduleCarouselCardViewP33_BE97212A0F3ECF5A627A9AA8573246BD11SkeletonRow_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift37PCFAccountLabelSettingsViewController_h
 #define _TtC14T1TwitterSwift37PCFAccountLabelSettingsViewController_h
@@ -29,7 +27,7 @@
 - (id)scribeComponent;
 - (id)valuesForPicker:(id)picker;
 - (id)initiallyPickedValueForPicker:(id)picker;
-- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
+- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
 - (void)update:(_Bool)update;
 - (void)didTapBack;
 - (id)initWithCollectionViewLayout:(id)layout isDiffableDataSourcesEnabled:(_Bool)enabled;

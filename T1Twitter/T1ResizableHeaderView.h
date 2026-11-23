@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ResizableHeaderView_h
 #define T1ResizableHeaderView_h
@@ -136,7 +134,6 @@
 - (void)setNeedsSystemNavigationBarClearanceUpdate;
 - (void)_t1_restartSystemNavigationBarMeasurement;
 - (void)_t1_scheduleSystemNavigationBarMeasurementSampleAfterDelay:(double)delay;
-- (id)t1_visibleSystemNavigationBar;
 - (double)t1_systemNavigationBarBottom;
 - (double)t1_systemNavigationBarContentHeight;
 - (double)_t1_collapsedNavigationBarRowContentHeight;

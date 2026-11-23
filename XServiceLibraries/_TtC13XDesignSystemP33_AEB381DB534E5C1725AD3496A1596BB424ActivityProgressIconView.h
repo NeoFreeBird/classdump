@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC13XDesignSystemP33_AEB381DB534E5C1725AD3496A1596BB424ActivityProgressIconView_h
 #define _TtC13XDesignSystemP33_AEB381DB534E5C1725AD3496A1596BB424ActivityProgressIconView_h

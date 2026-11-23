@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC13XDesignSystemP33_4FE461526082A665416D0B3E923D0CA817PasscodeInputView_h
 #define _TtC13XDesignSystemP33_4FE461526082A665416D0B3E923D0CA817PasscodeInputView_h

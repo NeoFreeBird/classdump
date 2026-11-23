@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC13XDesignSystem22TrayHeaderBackdropViewP33_0345FFFF5026896B7EF81C0813A29C4E12GradientView_h
 #define _TtCC13XDesignSystem22TrayHeaderBackdropViewP33_0345FFFF5026896B7EF81C0813A29C4E12GradientView_h

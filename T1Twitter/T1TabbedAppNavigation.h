@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1TabbedAppNavigation_h
 #define T1TabbedAppNavigation_h
@@ -281,6 +279,8 @@
 - (id)_grokContainerViewControllerInCurrentNavigationController;
 - (void)showVerificationPolicyViewControllerForAccount:(id)account completion:(id /* block */)completion;
 - (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url completion:(id /* block */)completion;
+- (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url postPurchaseURL:(id)url completion:(id /* block */)completion;
+- (void)presentSubscriptionViewController:(id)controller source:(long long)source completion:(id /* block */)completion;
 - (void)_checkStripeSubscriptionWithCompletion:(id /* block */)completion;
 - (_Bool)_maybeUseUnifiedManagementFlowWithStripeForViewController:(id)controller premiumSignUpURL:(id)url completion:(id /* block */)completion;
 - (void)_showSubscriptionBillingErrorMenuSheetForSheetType:(long long)type;

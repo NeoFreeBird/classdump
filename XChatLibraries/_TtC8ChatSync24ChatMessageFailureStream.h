@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSync24ChatMessageFailureStream_h
 #define _TtC8ChatSync24ChatMessageFailureStream_h
 @import Foundation;
 
-@class _$sScS -> ChatSync.XChatMessageFailure, _$sScS12ContinuationVMn ChatSync.XChatMessageFailure _$s_ ->, _TtCs12_SwiftObject;
+@class _$sScS -> ChatSync.ChatMessageFailure, _$sScS12ContinuationVMn ChatSync.ChatMessageFailure _$s_ ->, _TtCs12_SwiftObject;
 
 @interface ChatSync.ChatMessageFailureStream : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    Swift.AsyncStream -> ChatSync.XChatMessageFailure failures;
-    nominal type descriptor for Swift.AsyncStream.Continuation ChatSync.XChatMessageFailure  first-element-marker  -> continuation;
+    Swift.AsyncStream -> ChatSync.ChatMessageFailure failures;
+    nominal type descriptor for Swift.AsyncStream.Continuation ChatSync.ChatMessageFailure  first-element-marker  -> continuation;
 }
 
 @end

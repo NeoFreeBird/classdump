@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot14GrokBotSession_h
 #define _TtC11ChatGrokBot14GrokBotSession_h
 @import Foundation;
 
-@class ChatFeatureSwitches.ChatFeatures, ChatGrokBot.GrokBotAttachmentImageLoader, ChatGrokBot.GrokBotAttachmentStore, ChatGrokBot.GrokBotAutoReviewStore ?, ChatGrokBot.GrokBotComposerPromptStream, ChatGrokBot.GrokBotCreatedBotHolds, ChatGrokBot.GrokBotDiskCache, ChatGrokBot.GrokBotDraftStorage, ChatGrokBot.GrokBotIdentityProviding, ChatGrokBot.GrokBotOnboardingTimingScriber, ChatGrokBot.GrokBotPendingRosterOverrides, ChatGrokBot.GrokBotPendingSendStore, ChatGrokBot.GrokBotPhoneMachineChannel ?, ChatGrokBot.GrokBotPhoneTools, ChatGrokBot.GrokBotPrimaryBotStore, ChatGrokBot.GrokBotPushAvatarSnapshotStore, ChatGrokBot.GrokBotPushFilterSnapshotStore, ChatGrokBot.GrokBotRosterSnapshotStore, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotTrainingOptInOffers, ChatGrokBot.GrokBotTranscriptSnapshotStore, ChatGrokBot.GrokBotTurnFailureNotices, ChatGrokBot.GrokBotUpgradeOfferProviding, ChatGrokBot.GrokBotUsageLimitCardClosures, ChatGrokBot.GrokBotUsageLimitResends, ChatGrokBot.GrokBotUsageStore, ChatGrokBot.GrokBotUsageWarningDismissalStore ?, ChatGrokBot.GrokBotVaultStream, ChatGrokBot.GrokBotVoiceCallRequestStream, ChatGrokBot.GrokBotWeatherScaleStore, ChatGrokBot.GrokBotsInboxAllBotsStore, ChatGrokBot.GrokBotsInboxPromptShownStore, ChatModels.PremiumSubscriptionTierStream, ChatUtilities.ChatAccountUserDefaulting, GrokBotRelay.BotRelayConnectionManager, GrokBotRelay.GrokBotTranscriptCache ?, Swift.Bool, _$s10Foundation4DateVMn ?, _$s7Combine18PassthroughSubjectCMn _$syyt _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotEntitlement _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotLegacyPrivacyRefusal ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotLinkConflict ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotSessionFailure ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn GrokBotRelay.BotRelayClient ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn GrokBotRelay.GrokBotRepository ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sShySS _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySDySS _$s10Foundation4DateVMn _$sG _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySSSg _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySa -> GrokBotRelay.SandAgentSummary _$sG _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySb _$ss5NeverOMn, _$sSDySS _$s10Foundation4DateVMn, _$sSDySSSi10leaseCount_ GrokBotRelay.GrokBotTranscriptStore storet, _$sSS, _$sSSSg, _$sScTyyt _$ss5NeverOMn ?, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sShySSG, _TtCs12_SwiftObject;
+@class ChatFeatureSwitches.ChatFeatures, ChatGrokBot.GrokBotAttachmentImageLoader, ChatGrokBot.GrokBotAttachmentStore, ChatGrokBot.GrokBotCarts ?, ChatGrokBot.GrokBotComposerPromptStream, ChatGrokBot.GrokBotContactsSyncWorker ?, ChatGrokBot.GrokBotCreatedBotHolds, ChatGrokBot.GrokBotDiskCache, ChatGrokBot.GrokBotDraftStorage, ChatGrokBot.GrokBotIdentityProviding, ChatGrokBot.GrokBotOnboardingTimingScriber, ChatGrokBot.GrokBotPendingRosterOverrides, ChatGrokBot.GrokBotPendingSendStore, ChatGrokBot.GrokBotPhoneMachineChannel ?, ChatGrokBot.GrokBotPhoneTools, ChatGrokBot.GrokBotPrimaryBotStore, ChatGrokBot.GrokBotPurchaseAutoApproveStore ?, ChatGrokBot.GrokBotPushAvatarSnapshotStore, ChatGrokBot.GrokBotPushFilterSnapshotStore, ChatGrokBot.GrokBotRosterSeedLoader, ChatGrokBot.GrokBotRosterSnapshotStore, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotTranscriptSnapshotStore, ChatGrokBot.GrokBotTurnFailureNotices, ChatGrokBot.GrokBotUpgradeOfferProviding, ChatGrokBot.GrokBotUsageLimitCardClosures, ChatGrokBot.GrokBotUsageLimitResends, ChatGrokBot.GrokBotUsageStore, ChatGrokBot.GrokBotUsageWarningDismissalStore ?, ChatGrokBot.GrokBotVaultStream, ChatGrokBot.GrokBotVoiceCallRequestStream, ChatGrokBot.GrokBotWeatherScaleStore, ChatGrokBot.GrokBotsInboxAllBotsStore, ChatGrokBot.GrokBotsInboxPromptShownStore, ChatModels.ChatContactsIntegrating, ChatModels.PremiumSubscriptionTierStream, ChatUtilities.ChatAccountUserDefaulting, GrokBotRelay.BotRelayConnectionManager, GrokBotRelay.GrokBotTranscriptCache ?, Swift.Bool, _$s10Foundation4DateVMn ?, _$s7Combine18PassthroughSubjectCMn _$syyt _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotEntitlement _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotLegacyPrivacyRefusal ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotLinkConflict ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn ChatGrokBot.GrokBotSessionFailure ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn GrokBotRelay.BotRelayClient ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn GrokBotRelay.GrokBotRepository ? _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sShySS _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySDySS _$s10Foundation4DateVMn _$sG _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySSSg _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySa -> GrokBotRelay.SandAgentSummary _$sG _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySb _$ss5NeverOMn, _$sSDySS _$s10Foundation4DateVMn, _$sSDySSSi10leaseCount_ GrokBotRelay.GrokBotTranscriptStore storet, _$sSS, _$sSSSg, _$sScTyyt _$ss5NeverOMn ?, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sShySSG, _TtCs12_SwiftObject;
 
 @interface ChatGrokBot.GrokBotSession : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -39,7 +37,7 @@
     Swift.Bool isPhoneToolsEnabled;
     ChatGrokBot.GrokBotPhoneTools phoneTools;
     ChatGrokBot.GrokBotPrimaryBotStore primaryBot;
-    ChatGrokBot.GrokBotTrainingOptInOffers trainingOptInOffers;
+    ChatGrokBot.GrokBotScribing scriber;
     ChatGrokBot.GrokBotTurnFailureNotices turnFailureNotices;
     ChatGrokBot.GrokBotVoiceCallRequestStream voiceCallRequestStream;
     ChatGrokBot.GrokBotUpgradeOfferProviding upgradeOffers;
@@ -48,23 +46,27 @@
     ChatGrokBot.GrokBotUsageLimitResends usageLimitResends;
     ChatGrokBot.GrokBotVaultStream vaultStream;
     ChatGrokBot.GrokBotWeatherScaleStore weatherScaleStore;
-    ChatGrokBot.GrokBotAutoReviewStore ? $__lazy_storage_$_autoReview;
+    ChatGrokBot.GrokBotCarts ? $__lazy_storage_$_carts;
+    ChatGrokBot.GrokBotPurchaseAutoApproveStore ? $__lazy_storage_$_purchaseAutoApprove;
     GrokBotRelay.GrokBotTranscriptCache ? $__lazy_storage_$_transcriptCache;
     ChatGrokBot.GrokBotUsageWarningDismissalStore ? $__lazy_storage_$_usageWarningDismissals;
+    ChatGrokBot.GrokBotContactsSyncWorker ? $__lazy_storage_$_contactsSyncWorker;
     ChatUtilities.ChatAccountUserDefaulting chatAccountDefaults;
     GrokBotRelay.BotRelayConnectionManager connectionManager;
+    ChatModels.ChatContactsIntegrating contactsIntegration;
     ChatGrokBot.GrokBotDiskCache diskCache;
     ChatGrokBot.GrokBotIdentityProviding identityProvider;
     ChatModels.PremiumSubscriptionTierStream premiumSubscriptionTierStream;
     ChatGrokBot.GrokBotPushAvatarSnapshotStore pushAvatarSnapshotStore;
     ChatGrokBot.GrokBotPushFilterSnapshotStore pushFilterSnapshotStore;
+    ChatGrokBot.GrokBotRosterSeedLoader rosterSeedLoader;
     ChatGrokBot.GrokBotRosterSnapshotStore rosterSnapshotStore;
-    ChatGrokBot.GrokBotScribing scriber;
     ChatGrokBot.GrokBotTranscriptSnapshotStore transcriptSnapshotStore;
     Swift.String? grokUserID;
     nominal type descriptor for Foundation.Date ? failedAt;
     Swift.Bool hasActivated;
     Swift.Bool hasResolvedIdentity;
+    Swift.Bool hasCollectedRosterSeed;
     Swift.Bool hasStarted;
     Swift.Bool isClosed;
     Swift.Dictionary empty-list Swift.String nominal type descriptor for Foundation.Date onboardingStarts;

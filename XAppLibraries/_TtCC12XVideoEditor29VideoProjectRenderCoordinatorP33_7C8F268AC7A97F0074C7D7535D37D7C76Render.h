@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC12XVideoEditor29VideoProjectRenderCoordinatorP33_7C8F268AC7A97F0074C7D7535D37D7C76Render_h
 #define _TtCC12XVideoEditor29VideoProjectRenderCoordinatorP33_7C8F268AC7A97F0074C7D7535D37D7C76Render_h

@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports29SportsGameSegmentSelectorCell_h
 #define _TtC7XSports29SportsGameSegmentSelectorCell_h
 @import Foundation;
 
-@class UICollectionViewCell, XSports.SportsGameSegmentSelectorCell.Content ?, _$sSa -> XSports.SportsGameSegmentSelectorCell.ItemView, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sySicSg;
+@class UICollectionViewCell, XSports.SportsGameSegmentSelectorCell.Content ?, _$sSa -> XSports.SportsGameSegmentSelectorCell.ItemView, _$sSo16TIPImagePipelineCSg, _$sSo25UIImpactFeedbackGeneratorC, _$sSo6UIViewC, _$sySicSg;
 
 @interface XSports.SportsGameSegmentSelectorCell : UICollectionViewCell { // (Swift)
     /* instance variables */
@@ -13,6 +11,7 @@
     ((Swift.Int) -> ())? onSelect;
     Swift.Array -> XSports.SportsGameSegmentSelectorCell.ItemView itemViews;
     __C.UIView highlightBar;
+    __C.UIImpactFeedbackGenerator feedback;
     XSports.SportsGameSegmentSelectorCell.Content ? content;
 }
 
@@ -23,6 +22,7 @@
 - (void)traitCollectionDidChange:(id)change;
 - (void)layoutSubviews;
 - (void)didTapItem:(id)item;
+- (void)didTouchDownItem;
 
 @end
 

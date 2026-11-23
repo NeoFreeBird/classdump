@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift38URTTimelineNotificationTableRowAdapterP33_CFC837EC91416A7BA0C37FCD8768456D12ItemCacheKey_h
 #define _TtCC14T1TwitterSwift38URTTimelineNotificationTableRowAdapterP33_CFC837EC91416A7BA0C37FCD8768456D12ItemCacheKey_h

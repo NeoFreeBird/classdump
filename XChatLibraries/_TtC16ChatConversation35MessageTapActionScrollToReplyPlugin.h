@@ -1,17 +1,15 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation35MessageTapActionScrollToReplyPlugin_h
 #define _TtC16ChatConversation35MessageTapActionScrollToReplyPlugin_h
 @import Foundation;
 
-@class ChatConversation.MessageListActionTriggerStream, ChatConversation.MessageTapActionPluginContext, ChatModels.ConversationChatItemsStream, _TtCs12_SwiftObject;
+@class ChatConversation.MessageListActionTriggerStream, ChatConversation.MessageTapActionPluginContext, ChatSyncState.ChatConversationProviding, _TtCs12_SwiftObject;
 
 @interface ChatConversation.MessageTapActionScrollToReplyPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatConversation.MessageTapActionPluginContext context;
-    ChatModels.ConversationChatItemsStream conversationChatItemsStream;
     ChatConversation.MessageListActionTriggerStream messageListActionTriggerStream;
+    ChatSyncState.ChatConversationProviding conversationProvider;
 }
 
 @end

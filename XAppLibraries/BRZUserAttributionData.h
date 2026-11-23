@@ -1,15 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZUserAttributionData_h
 #define BRZUserAttributionData_h
 @import Foundation;
 
-@class Chat.DidEndCall, NSObject, NSString;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSObject, NSString;
 
 @interface BRZUserAttributionData : NSObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall attributionData;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift attributionData;
 }
 
 @property (nonatomic, readonly) NSString *network;

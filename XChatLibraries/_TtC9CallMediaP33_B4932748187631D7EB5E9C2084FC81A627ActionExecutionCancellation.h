@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9CallMediaP33_B4932748187631D7EB5E9C2084FC81A627ActionExecutionCancellation_h
 #define _TtC9CallMediaP33_B4932748187631D7EB5E9C2084FC81A627ActionExecutionCancellation_h

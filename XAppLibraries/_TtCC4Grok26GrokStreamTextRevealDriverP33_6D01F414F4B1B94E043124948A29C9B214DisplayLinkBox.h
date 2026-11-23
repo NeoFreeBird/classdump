@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC4Grok26GrokStreamTextRevealDriverP33_6D01F414F4B1B94E043124948A29C9B214DisplayLinkBox_h
 #define _TtCC4Grok26GrokStreamTextRevealDriverP33_6D01F414F4B1B94E043124948A29C9B214DisplayLinkBox_h

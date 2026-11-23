@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift36NotificationUserTweetsViewController_h
 #define _TtC14T1TwitterSwift36NotificationUserTweetsViewController_h
 @import Foundation;
 
-@class T1TwitterSwift.NotificationUserTweetsViewController.LoadingState, TFNItemsDataViewController, TFNTwitterAccount, _$s13TFSObservable16ObservableEntityCMn T1TwitterSwift.NotificationUserTweetsViewController.LoadingState, _$s13TFSObservable8ObserverCMn T1TwitterSwift.NotificationUserTweetsViewController.LoadingState ?, _$sSSSg, _$sSo17TFNTwitterAccountC, _$sSo18T1DeviceFollowListC;
+@class T1TwitterSwift.NotificationUserTweetsViewController.LoadingState, TFNItemsDataViewController, TFNTwitterAccount, _$s13TFSObservable16ObservableEntityCMn T1TwitterSwift.NotificationUserTweetsViewController.LoadingState, _$s13TFSObservable8ObserverCMn T1TwitterSwift.NotificationUserTweetsViewController.LoadingState ?, _$sSo17TFNTwitterAccountC, _$sSo18T1DeviceFollowListC;
 
 @interface T1TwitterSwift.NotificationUserTweetsViewController : TFNItemsDataViewController { // (Swift)
     /* instance variables */
@@ -13,7 +11,6 @@
     nominal type descriptor for TFSObservable.Observer T1TwitterSwift.NotificationUserTweetsViewController.LoadingState ? loadingStateObserver;
     T1TwitterSwift.NotificationUserTweetsViewController.LoadingState loadingState;
     __C.T1DeviceFollowList deviceFollowingList;
-    Swift.String? scribeComponent;
 }
 
 @property (nonatomic, readonly) TFNTwitterAccount *account;

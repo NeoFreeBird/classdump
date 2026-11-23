@@ -1,25 +1,19 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports30SportsHeroHighlightsController_h
 #define _TtC7XSports30SportsHeroHighlightsController_h
 @import Foundation;
 
-@class Swift.Bool, XSports.SportsHeroHighlightsContent _$sSgc ->, XSports.SportsHeroHighlightsView ?, XSports.SportsHighlightsCountdownButton ?, XSports.SportsInlineVideoSession _$sSgSS_So6UIViewCSo12UIScrollViewCtc, XSports.SportsScribe, _$sSSSg, _$sSa -> XSports.SportsPlayVideoChapter _$sGyc, _$sSaySSG13statusRestIDs_Si10startIndex XSports.SportsHeroHighlightsView carouseltSg, _$sySa -> XSports.SportsPlayVideoChapter _$sG_AAtc, _TtCs12_SwiftObject;
+@class Swift.Bool, XSports.SportsHeroHighlightsPill ?, XSports.SportsHeroHighlightsPill _$sSgc ->, XSports.SportsScribe, _$sSa -> XSports.SportsPlayVideoChapter _$sGyc, _$sSbSa -> XSports.SportsPlayVideoChapter _$sG_AAtc, _$sySSc, _TtCs12_SwiftObject;
 
 @interface XSports.SportsHeroHighlightsController : Swift._SwiftObject { // (Swift)
     /* instance variables */
     Swift.Array -> XSports.SportsPlayVideoChapter _$sGyc chapters;
-    XSports.SportsInlineVideoSession _$sSgSS_So6UIViewCSo12UIScrollViewCtc installPlayVideo;
-     empty-list Swift.Array -> XSports.SportsPlayVideoChapter _$sG_AAtc openVideo;
-    XSports.SportsHeroHighlightsContent _$sSgc -> show;
+    Swift.BoolSwift.Array -> XSports.SportsPlayVideoChapter _$sG_AAtc openVideo;
+    (Swift.String) -> () prewarm;
+    XSports.SportsHeroHighlightsPill _$sSgc -> show;
     XSports.SportsScribe scribe;
-    XSports.SportsHighlightsCountdownButton ? button;
-    XSports.SportsHeroHighlightsView ? carousel;
-    Swift.String? currentStatusRestID;
-    [Swift.String]statusRestIDs first-element-marker Swift.IntstartIndex XSports.SportsHeroHighlightsView carouseltSg prepared;
+    XSports.SportsHeroHighlightsPill ? pill;
     Swift.Bool isBreak;
-    Swift.Bool isCountdownDeclined;
 }
 
 @end

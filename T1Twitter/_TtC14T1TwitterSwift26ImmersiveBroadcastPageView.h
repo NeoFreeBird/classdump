@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift26ImmersiveBroadcastPageView_h
 #define _TtC14T1TwitterSwift26ImmersiveBroadcastPageView_h
@@ -8,7 +6,7 @@
 #include "TAVPlaybackObserver-Protocol.h"
 #include "TAVPlayerViewZoomDelegate-Protocol.h"
 
-@class Swift.Bool, T1TwitterSwift.ExternalPlaybackOverlayView, T1TwitterSwift.ImmersiveBroadcastPageView.Input, UIView, _$s12CoreGraphics7CGFloatVMn, _$sSo13TAVPlayerViewCSg, _$sSo9TAVPlayerCSg, _$sySbcSg, _$sySo11TAVPlayback_p_So0A5StateCtcSg;
+@class Swift.Bool, T1TwitterSwift.ExternalPlaybackOverlayView, T1TwitterSwift.ImmersiveBroadcastPageView.Input, T1TwitterSwift.ImmersiveInitialSeek ?, UIView, _$s12CoreGraphics7CGFloatVMn, _$sSo13TAVPlayerViewCSg, _$sSo9TAVPlayerCSg, _$sySbcSg, _$sySo11TAVPlayback_p_So0A5StateCtcSg;
 
 @interface T1TwitterSwift.ImmersiveBroadcastPageView : UIView <TAVPlayerViewZoomDelegate, TAVPlaybackObserver> { // (Swift)
     /* instance variables */
@@ -18,6 +16,7 @@
     T1TwitterSwift.ImmersiveBroadcastPageView.Input input;
     __C.TAVPlayerView? playerView;
     __C.TAVPlayer? player;
+    T1TwitterSwift.ImmersiveInitialSeek ? initialSeek;
     Swift.Bool isSharedPlayerOutputClaimDeferred;
     T1TwitterSwift.ExternalPlaybackOverlayView externalPlaybackOverlayView;
     nominal type descriptor for CoreGraphics.CGFloat bottomBarInset;

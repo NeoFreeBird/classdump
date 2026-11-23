@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4GrokP33_23996FB8AE9F0768E71EB2E513A8472B41GrokImagineImagePageControl_V2_ScrollView_h
 #define _TtC4GrokP33_23996FB8AE9F0768E71EB2E513A8472B41GrokImagineImagePageControl_V2_ScrollView_h

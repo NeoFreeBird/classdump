@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UsersViewController_h
 #define T1UsersViewController_h
@@ -7,11 +5,10 @@
 
 #include "T1UserOrRecommendationTableRowAdapter.h"
 #include "T1UserOrRecommendationTableRowAdapterDelegate-Protocol.h"
-#include "TFNModalSheetViewControllerLayoutDelegate-Protocol.h"
 
 @class NSArray, NSString, TFNActivityIndicatorItem, TFNActivityIndicatorItemDataViewAdapter, TFNEmptyStateConfiguration, TFNItemsDataViewController, TFNTwitterAccount, TFSTwitterScribeContext;
 
-@interface T1UsersViewController : TFNItemsDataViewController <T1UserOrRecommendationTableRowAdapterDelegate, TFNModalSheetViewControllerLayoutDelegate>
+@interface T1UsersViewController : TFNItemsDataViewController <T1UserOrRecommendationTableRowAdapterDelegate>
 
 @property (retain, nonatomic) T1UserOrRecommendationTableRowAdapter *userRowAdapter;
 @property (retain, nonatomic) TFNActivityIndicatorItem *activityIndicatorItem;
@@ -21,10 +18,8 @@
 @property (nonatomic) long long loadingState;
 @property (readonly, nonatomic) TFNTwitterAccount *account;
 @property (retain, nonatomic) NSArray *userIDs;
-@property (retain, nonatomic) NSArray *unmentionedUserIDs;
 @property (nonatomic) long long userCellStyle;
 @property (nonatomic) unsigned long long userFollowControlType;
-@property (copy, nonatomic) id /* block */ displaySelectedUserProfileBlock;
 @property (copy, nonatomic) NSString *scribePage;
 @property (copy, nonatomic) TFSTwitterScribeContext *sourceScribeContext;
 @property (readonly, nonatomic) NSArray *users;
@@ -35,7 +30,6 @@
 
 /* instance methods */
 - (id)initWithAccount:(id)account;
-- (id)initWithAccount:(id)account unmentionedUsers:(id)users;
 - (id)init;
 - (id)initWithCollectionViewLayout:(id)layout;
 - (void)viewDidLoad;
@@ -46,7 +40,6 @@
 - (void)_t1_receiveUsers:(id)users;
 - (void)_t1_updateRelationshipsForUsers:(id)users;
 - (_Bool)userRowAdapter:(id)adapter shouldShowBioForUserReference:(id)reference;
-- (double)preferredHeightForModalSheetViewController:(id)controller modalContentViewVisibleEdgeInsets:(struct UIEdgeInsets { double x0; double x1; double x2; double x3; })insets;
 - (id)scribe;
 - (id)scribeContextForIndexPath:(id)path;
 - (void)_t1_logImpression;

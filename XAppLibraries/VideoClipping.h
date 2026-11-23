@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef VideoClipping_h
 #define VideoClipping_h
@@ -10,6 +8,8 @@
 @interface VideoClipping : NSObject // (Swift)
 
 /* class methods */
++ (id)liveReplayBroadcastForStatus:(id)status account:(id)account;
++ (id)scribeParameters:(id)parameters forClipCreationFromStatus:(id)status account:(id)account;
 + (id)repostMenuScribeEntryPoint;
 + (id)composerButtonScribeEntryPoint;
 + (id)linkScribeEntryPoint;
@@ -18,11 +18,10 @@
 + (double)repostMenuMinDurationForFeatureSwitches:(id)switches;
 + (_Bool)isAttributionEnabledForFeatureSwitches:(id)switches;
 + (_Bool)isClipCreationEligibleForStatus:(id)status account:(id)account;
-+ (_Bool)textContainsClipURL:(id)url;
 + (id)clipPermalinkURLStringForStatus:(id)status;
 + (id)clipTimestampForURLString:(id)urlstring featureSwitches:(id)switches;
-+ (id)allowedClipTimestampForURLString:(id)urlstring status:(id)status featureSwitches:(id)switches;
-+ (id)scribeParametersForClipInText:(id)text entryPoint:(id)point;
++ (id)allowedClipTimestampForURLString:(id)urlstring status:(id)status account:(id)account;
++ (id)scribeParametersForClipInText:(id)text entryPoint:(id)point featureSwitches:(id)switches;
 + (id)scribeParametersForClipStatusID:(long long)id startSeconds:(long long)seconds endSeconds:(long long)seconds source:(id)source;
 
 /* instance methods */

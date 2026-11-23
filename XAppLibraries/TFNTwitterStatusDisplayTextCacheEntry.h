@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterStatusDisplayTextCacheEntry_h
 #define TFNTwitterStatusDisplayTextCacheEntry_h
@@ -13,9 +11,13 @@
     /* instance variables */
     NSArray *_conjunctionRanges;
     NSArray *_urlRanges;
+    _Bool _hasLineBreakCount;
+    _Bool _hasComposedCharacterCount;
 }
 
 @property (copy, nonatomic) NSString *text;
+@property (readonly, nonatomic) unsigned long long lineBreakCount;
+@property (readonly, nonatomic) unsigned long long composedCharacterCount;
 @property (copy, nonatomic) NSArray *ranges;
 @property (copy, nonatomic) NSArray *hitHighlightRanges;
 @property (copy, nonatomic) NSArray *richTextRanges;

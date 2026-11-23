@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCCCCCC14XSportsGraphQL35F1SeasonQualifyingOperationResponse18F1SeasonQualifying6Events8Sessions8Sessions14Classification6Driver_h
 #define _TtCCCCCCC14XSportsGraphQL35F1SeasonQualifyingOperationResponse18F1SeasonQualifying6Events8Sessions8Sessions14Classification6Driver_h

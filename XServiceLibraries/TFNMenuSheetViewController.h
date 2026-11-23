@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNMenuSheetViewController_h
 #define TFNMenuSheetViewController_h
@@ -7,7 +5,6 @@
 
 #include "TFNActionItem-Protocol.h"
 #include "TFNActiveTextItem.h"
-#include "TFNBarButtonItem.h"
 #include "TFNItemsDataViewController.h"
 #include "TFNMenuSheetActionAdapterDelegate-Protocol.h"
 #include "TFNMenuSheetConfiguration.h"
@@ -26,12 +23,11 @@
 @property (weak, nonatomic) TFNModalSheetViewController *modalSheet;
 @property (retain, nonatomic) TFNActiveTextItem *messageTextItem;
 @property (readonly, nonatomic) NSMutableArray *items;
-@property (readonly, nonatomic) TFNBarButtonItem *closeButton;
+@property (readonly, nonatomic) UIBarButtonItem *closeButton;
 @property (retain, nonatomic) id <TFNActionItem> cancelItem;
 @property (retain, nonatomic) NSNumber *userShouldPresentAsMenuSetting;
 @property (nonatomic) _Bool userDidSelectAction;
 @property (retain, nonatomic) TFNMenuSheetConfiguration *configuration;
-@property (nonatomic) _Bool didPresent;
 @property (weak, nonatomic) id <TFNMenuSheetViewControllerDelegate> delegate;
 @property (readonly, nonatomic) NSArray *actions;
 @property (readonly, nonatomic) NSString *message;
@@ -45,7 +41,6 @@
 @property (copy, nonatomic) id /* block */ dismissBlock;
 @property (weak, nonatomic) id <TFNMenuSupport> menuSource;
 @property (nonatomic) _Bool shouldPresentAsMenu;
-@property (nonatomic) _Bool shouldPresentAsPopover;
 @property (nonatomic) _Bool useAlternateBackgroundColor;
 @property (readonly) unsigned long long hash;
 @property (readonly) Class superclass;
@@ -59,14 +54,8 @@
 /* class methods */
 + (id)infoSheetWithTitle:(id)title message:(id)message dismissAction:(id /* block */)action;
 + (id)infoSheetWithTitle:(id)title messageItem:(id)item dismissAction:(id /* block */)action;
-+ (id)tryAgainSheetWithTitle:(id)title message:(id)message retryAction:(id /* block */)action cancelAction:(id /* block */)action;
 + (id)subtitleWithMessage:(id)message;
 + (id)subtitleWithFormat:(id)format insertions:(id)insertions;
-+ (id)centeredBoldTitle:(id)title;
-+ (id)centeredBoldTitle:(id)title font:(id)font textColor:(id)color;
-+ (id)centeredSubtitle:(id)subtitle;
-+ (id)centeredSubtitle:(id)subtitle font:(id)font textColor:(id)color selectionColor:(id)color;
-+ (id)centeredSubtitle:(id)subtitle font:(id)font textColor:(id)color selectionColor:(id)color separatorType:(long long)type;
 + (id)trayRenderer;
 + (void)setTrayRenderer:(id)renderer;
 
@@ -80,11 +69,9 @@
 - (id)initWithTitle:(id)title titleStyle:(long long)style message:(id)message messageIconName:(id)name actionItemSections:(id)sections;
 - (id)initWithConfiguration:(id)configuration;
 - (id)_tfn_lastItem;
-- (void)replaceActionItemSections:(id)sections;
 - (void)_tfn_addItem:(id)item ofType:(unsigned long long)type;
 - (void)_tfn_addTitle;
 - (void)viewDidLoad;
-- (void)viewDidAppear:(_Bool)appear;
 - (void)setSections:(id)sections restoreScrollPosition:(_Bool)position;
 - (void)update:(_Bool)update;
 - (id)calculatedLayoutMetricsForItem:(id)item atIndexPath:(id)path;

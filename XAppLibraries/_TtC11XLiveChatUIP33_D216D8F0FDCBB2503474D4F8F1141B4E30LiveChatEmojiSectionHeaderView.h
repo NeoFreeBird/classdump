@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11XLiveChatUIP33_D216D8F0FDCBB2503474D4F8F1141B4E30LiveChatEmojiSectionHeaderView_h
 #define _TtC11XLiveChatUIP33_D216D8F0FDCBB2503474D4F8F1141B4E30LiveChatEmojiSectionHeaderView_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ImmersiveFullScreenViewController_h
 #define T1ImmersiveFullScreenViewController_h
@@ -158,6 +156,7 @@
 - (id)setupTAVPlayer;
 - (void)tfnPresentedCustomPresentFromViewController:(id)controller animated:(_Bool)animated completion:(id /* block */)completion;
 - (void)tfnPresentedCustomDismissAnimated:(_Bool)animated completion:(id /* block */)completion;
+- (_Bool)tfn_coversPresentingViewController;
 - (id)_tavPlayerViewConfigurationWithScribeContext:(id)context videoGravity:(long long)gravity;
 - (_Bool)_isInitialStatusCurrentlyDocked;
 - (void)undockInitialStatus;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1PersistentComposeView_h
 #define T1PersistentComposeView_h
@@ -15,7 +13,7 @@
 #include "TTACoreStatusViewModel-Protocol.h"
 #include "UIGestureRecognizerDelegate-Protocol.h"
 
-@class NSArray, NSString, TFNButton, TFNButtonBarView, TFNInlineCalloutView, TFNPlaceholderTextView, TFNTwitterAccount, TUIAvatarImageView, UIControl, UIFont, UITapGestureRecognizer, UIView;
+@class NSArray, NSString, TFNButton, TFNButtonBarView, TFNInlineCalloutView, TFNPlaceholderTextView, TFNTwitterAccount, TUIAvatarImageView, UIControl, UIDropInteraction, UIFont, UITapGestureRecognizer, UIView;
 
 @interface T1PersistentComposeView : UIView <T1TweetComposeSocialContextTextViewDelegate, UIGestureRecognizerDelegate, T1PersistentComposeViewing>
 
@@ -59,6 +57,7 @@
 @property (weak, nonatomic) UIControl *foundMediaButton;
 @property (retain, nonatomic) id <TTACoreStatusViewModel> replyStatusViewModel;
 @property (nonatomic) _Bool hasDraftContent;
+@property (retain, nonatomic) UIDropInteraction *dropInteraction;
 
 /* instance methods */
 - (id)initWithCoder:(id)coder;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4GrokP33_F61DEEE4809F47E446CBAC7AA23A918435GrokSharedMarkdownInlineImageLoader_h
 #define _TtC4GrokP33_F61DEEE4809F47E446CBAC7AA23A918435GrokSharedMarkdownInlineImageLoader_h

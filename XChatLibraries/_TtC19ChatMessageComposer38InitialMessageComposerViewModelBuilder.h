@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19ChatMessageComposer38InitialMessageComposerViewModelBuilder_h
 #define _TtC19ChatMessageComposer38InitialMessageComposerViewModelBuilder_h
 @import Foundation;
 
-@class ChatMessageComposer.MessageComposerActionPluginPoint, ChatMessageComposer.MessageComposerConversationContextStream, ChatMessageComposer.MessageComposerKeyboardStream, ChatMessageComposer.MessageComposerViewModelBuilder, ChatMessageComposer.MessageCompositionStream, ChatModels.AttachmentProcessingStream, ChatModels.ConversationQuickReplyStream, _TtCs12_SwiftObject;
+@class ChatMessageComposer.MessageComposerActionPluginPoint, ChatMessageComposer.MessageComposerConversationContextStream, ChatMessageComposer.MessageComposerKeyboardStream, ChatMessageComposer.MessageComposerRecipientInviteStateStream, ChatMessageComposer.MessageComposerViewModelBuilder, ChatMessageComposer.MessageCompositionStream, ChatModels.AttachmentProcessingStream, ChatModels.ConversationQuickReplyStream, _TtCs12_SwiftObject;
 
 @interface ChatMessageComposer.InitialMessageComposerViewModelBuilder : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -14,6 +12,7 @@
     ChatMessageComposer.MessageComposerActionPluginPoint messageComposerActionPluginPoint;
     ChatMessageComposer.MessageComposerConversationContextStream messageComposerConversationContextStream;
     ChatMessageComposer.MessageComposerKeyboardStream messageComposerKeyboardStream;
+    ChatMessageComposer.MessageComposerRecipientInviteStateStream messageComposerRecipientInviteStateStream;
     ChatMessageComposer.MessageComposerViewModelBuilder messageComposerViewModelBuilder;
     ChatMessageComposer.MessageCompositionStream messageCompositionStream;
 }

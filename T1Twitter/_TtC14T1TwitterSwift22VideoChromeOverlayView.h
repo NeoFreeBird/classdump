@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift22VideoChromeOverlayView_h
 #define _TtC14T1TwitterSwift22VideoChromeOverlayView_h
 @import Foundation;
 
-@class Swift.Bool, T1TwitterSwift.ControlsPassthroughView, T1TwitterSwift.InlineVideoView.ViewModel, T1TwitterSwift.InlineVideoViewGestureResponder, UIView, _$s5TAVUI17AdHeaderComponentCMn, _$s5TAVUI18PlaybackAttachmentMp _$s_So21TAVPlaybackObservablep, _$s5TAVUI19VideoImageComponentCMn, _$s5TAVUI19VideoLabelComponentCMn, _$s5TAVUI19VideoLabelComponentCMn ?, _$s5TAVUI20VideoButtonComponentCMn, _$s5TAVUI20VideoButtonComponentCMn ?, _$s5TAVUI20VideoChromeComponentCMn T1TwitterSwift.MediaAttributionPillView ?, _$s5TAVUI20VideoChromeComponentCMn T1TwitterSwift.VideoCacheToggleView ?, _$s5TAVUI20VideoChromeComponentCMn _$sySo19T1BroadcastPillViewCGSg, _$s5TAVUI20VideoChromeComponentCMn _$sySo29T1StatusPhotoVideoDetailsViewCGSg, _$s5TAVUI22MediaViewStyleProviderMp, _$s5TAVUI24VideoPlayerViewComponentCMn, _$s5TAVUI25LoadingIndicatorComponentCMn, _$s5TAVUI26WatchAgainOverlayComponentCMn ?, _$sSaySo18NSLayoutConstraintCG, _$sSo11UIStackViewC, _$sSo13TAVPlayerViewCSgXw, _$sSo18NSLayoutConstraintCSg, _$sSo21T1VideoBitRateManagerC, _$sSo6UIViewC, _$sSo6UIViewCSgXw;
+@class Swift.Bool, T1TwitterSwift.ControlsPassthroughView, T1TwitterSwift.InlineVideoView.ViewModel, T1TwitterSwift.InlineVideoViewGestureResponder, UIView, _$s5TAVUI17AdHeaderComponentCMn, _$s5TAVUI18PlaybackAttachmentMp _$s_So21TAVPlaybackObservablep, _$s5TAVUI19PlaybackObservationCMn ?, _$s5TAVUI19VideoImageComponentCMn, _$s5TAVUI19VideoLabelComponentCMn, _$s5TAVUI19VideoLabelComponentCMn ?, _$s5TAVUI20VideoButtonComponentCMn, _$s5TAVUI20VideoButtonComponentCMn ?, _$s5TAVUI20VideoChromeComponentCMn T1TwitterSwift.MediaAttributionPillView ?, _$s5TAVUI20VideoChromeComponentCMn T1TwitterSwift.VideoCacheToggleView ?, _$s5TAVUI20VideoChromeComponentCMn _$sySo19T1BroadcastPillViewCGSg, _$s5TAVUI20VideoChromeComponentCMn _$sySo29T1StatusPhotoVideoDetailsViewCGSg, _$s5TAVUI22MediaViewStyleProviderMp, _$s5TAVUI24VideoPlayerViewComponentCMn, _$s5TAVUI25LoadingIndicatorComponentCMn, _$s5TAVUI26WatchAgainOverlayComponentCMn ?, _$sSaySo18NSLayoutConstraintCG, _$sSo11UIStackViewC, _$sSo13TAVPlayerViewCSgXw, _$sSo18NSLayoutConstraintCSg, _$sSo21T1VideoBitRateManagerC, _$sSo6UIViewC, _$sSo6UIViewCSgXw;
 
 @interface T1TwitterSwift.VideoChromeOverlayView : UIView { // (Swift)
     /* instance variables */
@@ -20,20 +18,23 @@
     T1TwitterSwift.ControlsPassthroughView detailsContainer;
     protocol descriptor for TAVUI.PlaybackAttachment _$s_So21TAVPlaybackObservablep playbackObservableAttachment;
     protocol descriptor for TAVUI.MediaViewStyleProvider styleProvider;
+    Swift.Bool isLazyChromeEnabled;
+    Swift.Bool skipsVideoCacheComponent;
+    nominal type descriptor for TAVUI.PlaybackObservation ? lazyChromePlaybackObservation;
+    Swift.Bool didLastLazyChromeStatePlayToEndTime;
     nominal type descriptor for TAVUI.VideoImageComponent previewImageComponent;
     nominal type descriptor for TAVUI.VideoButtonComponent ? playButtonComponent;
     nominal type descriptor for TAVUI.WatchAgainOverlayComponent ? watchAgainOverlayComponent;
     nominal type descriptor for TAVUI.AdHeaderComponent adHeaderComponent;
     nominal type descriptor for TAVUI.VideoButtonComponent skipAdButtonComponent;
     nominal type descriptor for TAVUI.VideoLabelComponent skipAdCountdownLabelComponent;
-    nominal type descriptor for TAVUI.VideoLabelComponent adCountdownLabelComponent;
+    nominal type descriptor for TAVUI.VideoLabelComponent ? adCountdownLabelComponent;
     nominal type descriptor for TAVUI.VideoImageComponent adPIPPreviewImageComponent;
     nominal type descriptor for TAVUI.VideoPlayerViewComponent adPIPPlayerViewComponent;
     nominal type descriptor for TAVUI.VideoLabelComponent adIntroLabelComponent;
     nominal type descriptor for TAVUI.VideoChromeComponent _$sySo29T1StatusPhotoVideoDetailsViewCGSg videoDetailsChromeComponent;
     nominal type descriptor for TAVUI.LoadingIndicatorComponent loadingIndicatorComponent;
     nominal type descriptor for TAVUI.VideoButtonComponent ? audioToggleComponent;
-    nominal type descriptor for TAVUI.VideoButtonComponent ? playPauseToggleComponent;
     nominal type descriptor for TAVUI.VideoButtonComponent ? dismissButton;
     nominal type descriptor for TAVUI.VideoChromeComponent T1TwitterSwift.VideoCacheToggleView ? videoCacheComponent;
     nominal type descriptor for TAVUI.VideoButtonComponent ? debugReportComponent;

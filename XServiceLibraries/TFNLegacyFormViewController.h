@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNLegacyFormViewController_h
 #define TFNLegacyFormViewController_h
@@ -9,7 +7,6 @@
 #include "TFNLegacyForm.h"
 #include "TFNLegacyFormAppearance.h"
 #include "TFNLegacyFormDelegate-Protocol.h"
-#include "TFNLegacyFormField.h"
 #include "TFNLegacyFormFieldCell.h"
 #include "TFNLegacyFormFieldCellDelegate-Protocol.h"
 #include "TFNLegacyFormView.h"
@@ -32,13 +29,10 @@
 @property (retain, nonatomic) TFNLegacyFormFieldCell *currentFormFieldCell;
 @property (nonatomic) struct _NSRange { unsigned long long x0; unsigned long long x1; } selectedAutocompleteRange;
 @property (readonly, nonatomic) UIButton *submitButton;
-@property (readonly, nonatomic) _Bool includesSubmitButtonAsItem;
 @property (readonly, nonatomic) UIBarButtonItem *doneBarButtonItem;
 @property (readonly, nonatomic) _Bool addsDoneBarButtonButtonItemToNavigationBar;
 @property (nonatomic) _Bool disableContentOffsetAdjustment;
-@property (readonly, nonatomic) TFNLegacyFormField *focusedFormField;
 @property (readonly, nonatomic) unsigned long long inputRequiredBehavior;
-@property (readonly, nonatomic) unsigned long long keyboardDismissTriggers;
 @property (readonly, nonatomic) TFNLegacyForm *form;
 @property (retain, nonatomic) TFNLegacyFormAppearance *appearance;
 @property (readonly, nonatomic) UICollectionViewFlowLayout *layout;
@@ -59,9 +53,7 @@
 - (id)init;
 - (id)initWithCollectionViewLayout:(id)layout;
 - (void)submitForm;
-- (void)focusOnFirstFormFieldRequiringInput;
 - (void)focusOnFirstFormFieldPassingTest:(id /* block */)test completion:(id /* block */)completion;
-- (void)removeFocusFromAllFormFields;
 - (id)cellForFormItem:(id)item;
 - (void)_adjustFormViewIfNecessaryForFormFieldCell:(id)cell;
 - (void)_animateFormViewForFormFieldCell:(id)cell;
@@ -75,7 +67,6 @@
 - (void)_addDoneBarButtonItem;
 - (void)_updateFormViewDisableContentOffsetAdjustment;
 - (void)viewDidLoad;
-- (void)viewDidAppear:(_Bool)appear;
 - (void)viewWillDisappear:(_Bool)disappear;
 - (void)viewDidLayoutSubviews;
 - (void)presentViewController:(id)controller animated:(_Bool)animated completion:(id /* block */)completion;

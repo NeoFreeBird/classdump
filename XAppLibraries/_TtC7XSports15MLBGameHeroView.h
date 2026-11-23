@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports15MLBGameHeroView_h
 #define _TtC7XSports15MLBGameHeroView_h
@@ -7,15 +5,13 @@
 
 #include "_TtC7XSports14MeasurableView.h"
 
-@class XSports.BaseballDiamondView, XSports.BaseballHitFieldView, XSports.MLBGameHeroLiveView, XSports.MLBGameHeroView.LayoutMetrics ?, XSports.MLBGameHeroView.Rendering, XSports.MLBGameHeroView.ResolvedCenter ?, XSports.MLBHeroDirector, XSports.MLBHeroScene, XSports.SportsGameHeroTeamColumn, XSports.SportsHeroHighlightsView ?, _$s10TFNUISwift11ShimmerViewCMn ?, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem6ButtonCMn, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UILabelC, _$syycSg, __C.CGSize, __C.UIEdgeInsets;
+@class XSports.BaseballDiamondView, XSports.BaseballHitFieldView, XSports.MLBGameHeroLiveView, XSports.MLBGameHeroView.LayoutMetrics ?, XSports.MLBGameHeroView.Rendering, XSports.MLBGameHeroView.ResolvedCenter ?, XSports.MLBHeroDirector, XSports.MLBHeroScene, XSports.SportsGameHeroTeamColumn, XSports.SportsHeroHighlightsPill ?, _$s10TFNUISwift11ShimmerViewCMn ?, _$s12CoreGraphics7CGFloatVMn, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UILabelC, __C.CGSize, __C.UIEdgeInsets;
 
 @interface XSports.MLBGameHeroView : XSports.MeasurableView { // (Swift)
     /* instance variables */
     __C.TIPImagePipeline? imagePipeline;
-    (() -> ())? onAccessoryTap;
     XSports.SportsGameHeroTeamColumn awayColumn;
     XSports.SportsGameHeroTeamColumn homeColumn;
-    nominal type descriptor for XDesignSystem.Button highlightsButton;
     __C.UILabel clockLabel;
     __C.UILabel detailLabel;
     __C.UILabel seriesLabel;
@@ -36,7 +32,7 @@
     nominal type descriptor for CoreGraphics.CGFloat minimizeProgress;
     nominal type descriptor for CoreGraphics.CGFloat coverProgress;
     __C.UIEdgeInsets navigationBandInsets;
-    XSports.SportsHeroHighlightsView ? highlightsCarousel;
+    XSports.SportsHeroHighlightsPill ? highlights;
     XSports.MLBHeroDirector director;
     XSports.MLBHeroScene scene;
     XSports.MLBGameHeroView.LayoutMetrics ? layoutMetrics;
@@ -46,7 +42,6 @@
 - (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;
 - (id)initWithCoder:(id)coder;
 - (void)traitCollectionDidChange:(id)change;
-- (void)didTapHighlights;
 
 @end
 

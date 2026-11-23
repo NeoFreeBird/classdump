@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot28GrokBotConversationViewModel_h
 #define _TtC11ChatGrokBot28GrokBotConversationViewModel_h
 @import Foundation;
 
-@class ChatFeatureSwitches.ChatFeatures, ChatGrokBot.GrokBotAppSecretsStore ?, ChatGrokBot.GrokBotAttachmentImageLoader, ChatGrokBot.GrokBotAttachmentResolver, ChatGrokBot.GrokBotCarRentalsMessageCache, ChatGrokBot.GrokBotCloudAgentStore ?, ChatGrokBot.GrokBotComputerStatusStore ?, ChatGrokBot.GrokBotConnectorStores ?, ChatGrokBot.GrokBotConnectorSupport, ChatGrokBot.GrokBotCredentialStore ?, ChatGrokBot.GrokBotFirstReplyScriber, ChatGrokBot.GrokBotFlightsMessageCache, ChatGrokBot.GrokBotHotelsMessageCache, ChatGrokBot.GrokBotMentionChoiceStream, ChatGrokBot.GrokBotMessageListSpec, ChatGrokBot.GrokBotNotificationsAccess ?, ChatGrokBot.GrokBotNotificationsEnabling, ChatGrokBot.GrokBotOnePasswordStore ?, ChatGrokBot.GrokBotPendingSendPersistence ?, ChatGrokBot.GrokBotPhoneCallControlStates, ChatGrokBot.GrokBotPostLinkLoader, ChatGrokBot.GrokBotPublishStore ?, ChatGrokBot.GrokBotPurchaseWalletStore ?, ChatGrokBot.GrokBotReceiptFolds, ChatGrokBot.GrokBotRoutineListStore ?, ChatGrokBot.GrokBotRuleChangeStore ?, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotSession, ChatGrokBot.GrokBotSteppedWidgetStates, ChatGrokBot.GrokBotTemplateShareStore ?, ChatGrokBot.GrokBotUnreadBoundary ?, ChatGrokBot.GrokBotUsageLimitRefusal ?, ChatGrokBot.GrokBotVoiceCallRecordStore ?, ChatGrokBot.GrokBotWeatherMessageCache, ChatGrokUpsell.PremiumUpsellNavigation, ChatModels.ChatToastActionTriggerStream, GrokBotRelay.GrokBotTranscriptStore ?, GrokBotRelay.SandAgentSummary, GrokBotRelay.SandAgentSummary ?, Swift.Bool, _$s10Foundation4DateVMn ?, _$s7Combine18PassthroughSubjectCMn _$syyt _$ss5NeverOMn, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotConnectorConnectStore.BrowserRequest ?, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotConnectorConnectStore.DataCenterRequest ?, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotListenerConnectStore.BrowserRequest ?, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotWorkingLine ?, _$s7Combine9PublishedVMn GrokBotRelay.GrokBotTurnFailure ?, _$s7Combine9PublishedVMn Swift.Bool, _$s7Combine9PublishedVMn _$sShySSG, _$s7Combine9PublishedVMn _$sySDySS ChatGrokBot.GrokBotCall, _$s7Combine9PublishedVMn _$sySa -> ChatGrokBot.GrokBotMentionTarget, _$s7Combine9PublishedVMn _$sySa -> ChatGrokBot.GrokBotMessageListRow, _$s7Combine9PublishedVMn _$sySa -> GrokBotRelay.SandAgentSummary, _$sSDyS2S9requestID_ GrokBotRelay.ArgsResolveConnectorGrantResolution resolutiont, _$sSDyS2SG, _$sSDySS ChatGrokBot.GrokBotAppearance, _$sSDySS ChatGrokBot.GrokBotCarRentalRequests.ShownName, _$sSDySS ChatGrokBot.GrokBotCard.Resolution, _$sSDySS ChatGrokBot.GrokBotDraft.Stamp, _$sSDySS ChatGrokBot.GrokBotOrder.ShipTo, _$sSDySS ChatGrokBot.GrokBotOrderPayWithOptions, _$sSDySS ChatGrokBot.GrokBotOrderPaymentPick, _$sSDySS ChatGrokBot.GrokBotOrderShipToOptions, _$sSDySS ChatGrokBot.GrokBotWeather.Selection, _$sSDySS ChatGrokBot.GrokBotXDraftAnswer, _$sSDySS ChatSyncState.ChatPostState, _$sSDySS GrokBotRelay.ArgsResolveLocalToolPermissionResolution, _$sSDySS GrokBotRelay.SandConnectorGrantAsk, _$sSDySS _$s10Foundation3URLVMn, _$sSDySSSD -> ChatGrokBot.GrokBotDraft.EditField String, _$sSDySSSDyS2SGG, _$sSDySSSbG, _$sSDySSShySSGG, _$sSDySSSiG, _$sSS, _$sSSSg, _$sSa -> ChatGrokBot.GrokBotConversationViewModel.PendingSend, _$sSa -> GrokBotMark.GrokBotMark.Shape, _$sSa -> GrokBotRelay.GrokBotRoomPerson ?, _$sSa -> GrokBotRelay.GrokBotTurnFailure, _$sSa -> GrokBotRelay.SandTranscriptEntry, _$sSa -> GrokBotRelay.VaultItem ?, _$sScTyyt _$ss5NeverOMn ?, _$sSd, _$sSdSg, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sShySSG, _$sSi, _$sSo014Subsystem_ios_B16Arm64_mainXClock_p, _TtCs12_SwiftObject;
+@class ChatFeatureSwitches.ChatFeatures, ChatGrokBot.GrokBotAppSecretsStore ?, ChatGrokBot.GrokBotAttachmentImageLoader, ChatGrokBot.GrokBotAttachmentResolver, ChatGrokBot.GrokBotAutoReviewBatchMemory, ChatGrokBot.GrokBotAutoReviewStore, ChatGrokBot.GrokBotCarRentalsMessageCache, ChatGrokBot.GrokBotCloudAgentStore ?, ChatGrokBot.GrokBotComputerStatusStore ?, ChatGrokBot.GrokBotConnectorStores ?, ChatGrokBot.GrokBotConnectorSupport, ChatGrokBot.GrokBotCredentialStore ?, ChatGrokBot.GrokBotFirstReplyScriber, ChatGrokBot.GrokBotFlightsMessageCache, ChatGrokBot.GrokBotHotelsMessageCache, ChatGrokBot.GrokBotMentionChoiceStream, ChatGrokBot.GrokBotMessageListSpec, ChatGrokBot.GrokBotNotificationsAccess ?, ChatGrokBot.GrokBotNotificationsEnabling, ChatGrokBot.GrokBotOnePasswordStore ?, ChatGrokBot.GrokBotPendingSendPersistence ?, ChatGrokBot.GrokBotPhoneCallControlStates, ChatGrokBot.GrokBotPostLinkLoader, ChatGrokBot.GrokBotPublishStore ?, ChatGrokBot.GrokBotPurchaseAutoApproveState, ChatGrokBot.GrokBotPurchaseWalletStore ?, ChatGrokBot.GrokBotReceiptFolds, ChatGrokBot.GrokBotResourcesStore ?, ChatGrokBot.GrokBotRoutineListStore ?, ChatGrokBot.GrokBotRuleChangeStore ?, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotSession, ChatGrokBot.GrokBotSteppedWidgetStates, ChatGrokBot.GrokBotTemplateShareStore ?, ChatGrokBot.GrokBotUnreadBoundary ?, ChatGrokBot.GrokBotUsageLimitRefusal ?, ChatGrokBot.GrokBotVoiceCallRecordStore ?, ChatGrokBot.GrokBotWeatherMessageCache, ChatGrokUpsell.PremiumUpsellNavigation, ChatModels.ChatToastActionTriggerStream, GrokBotRelay.GrokBotTranscriptStore ?, GrokBotRelay.SandAgentSummary, GrokBotRelay.SandAgentSummary ?, Swift.Bool, _$s10Foundation4DateVMn ?, _$s7Combine18PassthroughSubjectCMn _$syyt _$ss5NeverOMn, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotConnectorConnectStore.BrowserRequest ?, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotConnectorConnectStore.DataCenterRequest ?, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotListenerConnectStore.BrowserRequest ?, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotTurnBlockBanner ?, _$s7Combine9PublishedVMn ChatGrokBot.GrokBotWorkingLine ?, _$s7Combine9PublishedVMn GrokBotRelay.GrokBotTurnFailure ?, _$s7Combine9PublishedVMn Swift.Bool, _$s7Combine9PublishedVMn _$sShySSG, _$s7Combine9PublishedVMn _$sySDySS ChatGrokBot.GrokBotCall, _$s7Combine9PublishedVMn _$sySa -> ChatGrokBot.GrokBotMentionTarget, _$s7Combine9PublishedVMn _$sySa -> ChatGrokBot.GrokBotMessageListRow, _$s7Combine9PublishedVMn _$sySa -> GrokBotRelay.SandAgentSummary, _$sSDyS2S9requestID_ GrokBotRelay.ArgsResolveConnectorGrantResolution resolutiont, _$sSDyS2SG, _$sSDySS ChatGrokBot.GrokBotAppearance, _$sSDySS ChatGrokBot.GrokBotCarRentalRequests.ShownName, _$sSDySS ChatGrokBot.GrokBotCard.Resolution, _$sSDySS ChatGrokBot.GrokBotDraft.Stamp, _$sSDySS ChatGrokBot.GrokBotFlightResultsState, _$sSDySS ChatGrokBot.GrokBotOrder.ShipTo, _$sSDySS ChatGrokBot.GrokBotOrderPayWithOptions, _$sSDySS ChatGrokBot.GrokBotOrderPaymentPick, _$sSDySS ChatGrokBot.GrokBotOrderShipToOptions, _$sSDySS ChatGrokBot.GrokBotTeamSetupRoutinesAnswer, _$sSDySS ChatGrokBot.GrokBotWeather.Selection, _$sSDySS ChatGrokBot.GrokBotXDraftAnswer, _$sSDySS ChatSyncState.ChatPostState, _$sSDySS GrokBotRelay.ArgsResolveLocalToolPermissionResolution, _$sSDySS GrokBotRelay.SandConnectorGrantAsk, _$sSDySS _$s10Foundation3URLVMn, _$sSDySSSD -> ChatGrokBot.GrokBotDraft.EditField String, _$sSDySSSDyS2SGG, _$sSDySSSbG, _$sSDySSShySSGG, _$sSDySSSiG, _$sSS, _$sSSSg, _$sSa -> ChatGrokBot.GrokBotConversationViewModel.PendingSend, _$sSa -> GrokBotMark.GrokBotMark.Shape, _$sSa -> GrokBotRelay.GrokBotRoomPerson ?, _$sSa -> GrokBotRelay.GrokBotTurnFailure, _$sSa -> GrokBotRelay.SandTranscriptEntry, _$sSa -> GrokBotRelay.VaultItem ?, _$sScTyyt _$ss5NeverOMn ?, _$sSd, _$sSdSg, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sShySSG, _$sSi, _$sSo014Subsystem_ios_B16Arm64_mainXClock_p, _TtCs12_SwiftObject;
 
 @interface ChatGrokBot.GrokBotConversationViewModel : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -16,6 +14,7 @@
     nominal type descriptor for Combine.Published Swift.Bool _isLoadingOlder;
     nominal type descriptor for Combine.Published Swift.Bool _isRunning;
     nominal type descriptor for Combine.Published GrokBotRelay.GrokBotTurnFailure ? _limitCardFailure;
+    nominal type descriptor for Combine.Published ChatGrokBot.GrokBotTurnBlockBanner ? _turnBlockBanner;
     nominal type descriptor for Combine.Published  empty-list Swift.Array -> GrokBotRelay.SandAgentSummary _composingMembers;
     nominal type descriptor for Combine.Published ChatGrokBot.GrokBotWorkingLine ? _workingLine;
     nominal type descriptor for Combine.Published  empty-list Swift.Array -> GrokBotRelay.SandAgentSummary _members;
@@ -28,7 +27,9 @@
     nominal type descriptor for Combine.Published ChatGrokBot.GrokBotListenerConnectStore.BrowserRequest ? _listenerBrowserRequest;
     Swift.Dictionary empty-list Swift.String ChatGrokBot.GrokBotCard.Resolution optimisticApprovalAnswers;
     Swift.Dictionary empty-list Swift.StringSwift.StringrequestID first-element-marker  GrokBotRelay.ArgsResolveConnectorGrantResolution resolutiont optimisticConnectorGrantAnswers;
+    Swift.Dictionary empty-list Swift.String ChatGrokBot.GrokBotTeamSetupRoutinesAnswer teamSetupRoutinesAnswers;
     [Swift.String : Swift.Bool] acceptedEmailOfferAnswers;
+    ChatGrokBot.GrokBotAutoReviewBatchMemory autoReviewBatchMemory;
     Swift.Dictionary empty-list Swift.String GrokBotRelay.ArgsResolveLocalToolPermissionResolution phoneToolAnswers;
     Swift.Set<Swift.String> optimisticSkippedConnectCardIDs;
     Swift.Set<Swift.String> optimisticSkippedNotificationsCardIDs;
@@ -49,12 +50,15 @@
     GrokBotRelay.GrokBotTranscriptStore ? store;
     ChatGrokBot.GrokBotAttachmentImageLoader attachmentLoader;
     ChatGrokBot.GrokBotAttachmentResolver attachmentResolver;
+    ChatGrokBot.GrokBotAutoReviewStore autoReviewStore;
     ChatFeatureSwitches.ChatFeatures chatFeatures;
     __C.Subsystem_ios_iosArm64_mainXClock clock;
     ChatGrokBot.GrokBotConnectorSupport connectorSupport;
     ChatGrokBot.GrokBotFirstReplyScriber firstReplyScriber;
+    Swift.Bool isBotResourcesCardEnabled;
     Swift.Bool isCarRentalCardsEnabled;
     Swift.Bool isDiningCardsEnabled;
+    Swift.Bool isEmailSignatureDisabled;
     Swift.Bool isFlightCardsEnabled;
     Swift.Bool isHotelCardsEnabled;
     Swift.Bool isMcpAppsEnabled;
@@ -64,6 +68,7 @@
     Swift.Bool isPostLinkCardAvailable;
     Swift.Bool isPurchasePayOptionsEnabled;
     Swift.Bool isTemplateSharingEnabled;
+    Swift.Bool isTurnBlockRecoveryEnabled;
     Swift.Bool isUsageLimitCardAvailable;
     Swift.Bool isUsageLimitResendEnabled;
     Swift.Bool isXMoneyChallengeSupported;
@@ -90,6 +95,7 @@
     ChatGrokBot.GrokBotAppSecretsStore ? appSecretsStore;
     GrokBotRelay.SandAgentSummary ? appearanceAgent;
     Swift.Dictionary empty-list Swift.String ChatGrokBot.GrokBotAppearance appearanceDrafts;
+    ChatGrokBot.GrokBotResourcesStore ? botResourcesStore;
     ChatGrokBot.GrokBotCloudAgentStore ? cloudAgentStore;
     ChatGrokBot.GrokBotComputerStatusStore ? computerStatusStore;
     ChatGrokBot.GrokBotCredentialStore ? credentialStore;
@@ -98,17 +104,23 @@
     Swift.Dictionary empty-list Swift.String nominal type descriptor for Foundation.URL echoedLocalURLs;
     Swift.Set<Swift.String> expandedAppearanceCardIDs;
     Swift.Set<Swift.String> expandedCalendarScheduleCardIDs;
+    Swift.Set<Swift.String> expandedFlightDetailCardIDs;
     Swift.Set<Swift.String> expandedLinkListIDs;
     Swift.Set<Swift.String> expandedMcpElicitationCardIDs;
+    Swift.Set<Swift.String> expandedOrderAutoApproveCardIDs;
     Swift.Set<Swift.String> expandedOrderItemCardIDs;
+    Swift.Set<Swift.String> expandedPhoneCallContextCardIDs;
+    [Swift.String : Swift.String] phoneCallContextDrafts;
     Swift.Set<Swift.String> expandedPhoneCallQuestionCardIDs;
     Swift.Set<Swift.String> expandedShipmentCardIDs;
+    Swift.Dictionary empty-list Swift.String ChatGrokBot.GrokBotFlightResultsState flightResultsStates;
     [Swift.String : Swift.String] carRentalLocationNames;
     Swift.Dictionary empty-list Swift.String ChatGrokBot.GrokBotCarRentalRequests.ShownName carRentalNames;
     [Swift.String : Swift.Int] carRentalsShownCounts;
     Swift.Set<Swift.String> failedAppearanceCardIDs;
     Swift.Set<Swift.String> failedCalendarSendCardIDs;
     Swift.Double? failedReadActivityAt;
+    nominal type descriptor for Foundation.Date ? freeTierBusyUntil;
     Swift.Set<Swift.String> groupIDs;
     Swift.Bool hasAcquiredStore;
     Swift.Bool hasRequestedRead;
@@ -119,6 +131,7 @@
     [Swift.String : [Swift.String : Swift.String]] mcpElicitationValues;
     ChatGrokBot.GrokBotOnePasswordStore ? onePasswordStore;
     ChatGrokBot.GrokBotPublishStore ? publishStore;
+    ChatGrokBot.GrokBotPurchaseAutoApproveState purchaseAutoApproveState;
     Swift.Dictionary empty-list Swift.String ChatGrokBot.GrokBotXDraftAnswer xDraftAnswers;
     ChatGrokBot.GrokBotTemplateShareStore ? templateShareStore;
     Swift.Array -> GrokBotRelay.VaultItem ? vaultItems;
@@ -129,10 +142,15 @@
     Swift.Bool hasLoadedTurnFailures;
     Swift.Bool hasStarted;
     ChatGrokBot.GrokBotUsageLimitRefusal ? heldUsageLimitRefusal;
+    Swift.Bool hidesPaidFeatures;
+    Swift.Bool canAnswerTeamSetupSteps;
     Swift.Bool isAgentWorking;
     Swift.Bool isAwaitingPublish;
     Swift.Bool isObservingConnectorStores;
+    Swift.Bool isObservingPurchaseAutoApprove;
+    Swift.Bool isOrderAutoApproveWriteFromCard;
     Swift.Bool isObservingVault;
+    Swift.Bool isOnScreen;
     Swift.Bool isUnreadBoundaryPending;
     Swift.Bool isViewing;
     Swift.String? lastResentText;
@@ -147,6 +165,7 @@
     Swift.Set<Swift.String> refusedDraftCardIDs;
     Swift.Set<Swift.String> refusedOrderPayCardIDs;
     Swift.Array -> GrokBotRelay.GrokBotTurnFailure refusedSendFailures;
+    Swift.Set<Swift.String> retiredTurnFailureIDs;
     Swift.Array -> GrokBotRelay.GrokBotRoomPerson ? roomPeople;
     ChatGrokBot.GrokBotRoutineListStore ? routineListStore;
     ChatGrokBot.GrokBotRuleChangeStore ? ruleChangeStore;

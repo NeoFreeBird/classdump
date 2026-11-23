@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift61org_eclipse_elk_alg_layered_p3order_LayerTotalPortDistributor_h
+#define _TtC8ElkSwift61org_eclipse_elk_alg_layered_p3order_LayerTotalPortDistributor_h
+@import Foundation;
+
+#include "_TtC8ElkSwift69org_eclipse_elk_alg_layered_p3order_AbstractBarycenterPortDistributor.h"
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_p3order_LayerTotalPortDistributor : ElkSwift.org_eclipse_elk_alg_layered_p3order_AbstractBarycenterPortDistributor // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift61org_eclipse_elk_alg_layered_p3order_LayerTotalPortDistributor_h */

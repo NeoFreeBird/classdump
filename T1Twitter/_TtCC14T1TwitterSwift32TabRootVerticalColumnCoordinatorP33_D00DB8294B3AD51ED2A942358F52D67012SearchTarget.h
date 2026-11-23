@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift32TabRootVerticalColumnCoordinatorP33_D00DB8294B3AD51ED2A942358F52D67012SearchTarget_h
 #define _TtCC14T1TwitterSwift32TabRootVerticalColumnCoordinatorP33_D00DB8294B3AD51ED2A942358F52D67012SearchTarget_h

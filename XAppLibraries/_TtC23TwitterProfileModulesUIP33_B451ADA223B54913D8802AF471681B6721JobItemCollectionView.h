@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC23TwitterProfileModulesUIP33_B451ADA223B54913D8802AF471681B6721JobItemCollectionView_h
 #define _TtC23TwitterProfileModulesUIP33_B451ADA223B54913D8802AF471681B6721JobItemCollectionView_h

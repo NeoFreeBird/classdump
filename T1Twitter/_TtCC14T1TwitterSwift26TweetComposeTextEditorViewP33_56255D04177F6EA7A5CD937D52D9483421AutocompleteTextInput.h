@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift26TweetComposeTextEditorViewP33_56255D04177F6EA7A5CD937D52D9483421AutocompleteTextInput_h
 #define _TtCC14T1TwitterSwift26TweetComposeTextEditorViewP33_56255D04177F6EA7A5CD937D52D9483421AutocompleteTextInput_h

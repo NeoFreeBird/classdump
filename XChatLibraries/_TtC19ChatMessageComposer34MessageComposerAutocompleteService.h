@@ -1,17 +1,18 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19ChatMessageComposer34MessageComposerAutocompleteService_h
 #define _TtC19ChatMessageComposer34MessageComposerAutocompleteService_h
 @import Foundation;
 
-@class _$sSo014Subsystem_ios_B37Arm64_mainChatCashtagAutocompleteRepo_p, _$sSo014Subsystem_ios_B37Arm64_mainChatHashtagAutocompleteRepo_p, _$sSo014Subsystem_ios_B37Arm64_mainChatMentionAutocompleteRepo_p, _TtCs12_SwiftObject;
+@class ChatModelsCore.ConversationID, ChatSyncState.ChatComposerProviding, ChatSyncState.ChatInboxProviding, _$s7Combine19CurrentValueSubjectCMn _$sySSSg _$ss5NeverOMn, _TtCs12_SwiftObject;
 
 @interface ChatMessageComposer.MessageComposerAutocompleteService : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    __C.Subsystem_ios_iosArm64_mainChatCashtagAutocompleteRepo chatCashtagAutocompleteRepo;
-    __C.Subsystem_ios_iosArm64_mainChatHashtagAutocompleteRepo chatHashtagAutocompleteRepo;
-    __C.Subsystem_ios_iosArm64_mainChatMentionAutocompleteRepo chatMentionAutocompleteRepo;
+    nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.String? nominal type descriptor for Swift.Never cashtagQuery;
+    ChatSyncState.ChatComposerProviding composerProvider;
+    ChatModelsCore.ConversationID conversationID;
+    nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.String? nominal type descriptor for Swift.Never hashtagQuery;
+    ChatSyncState.ChatInboxProviding inboxProvider;
+    nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.String? nominal type descriptor for Swift.Never userQuery;
 }
 
 @end

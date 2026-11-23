@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCCCC17XElectionsGraphQL36ElectionLiveResultsOperationResponse19ElectionLiveResults7Results4Race5Pulse_h
 #define _TtCCCCC17XElectionsGraphQL36ElectionLiveResultsOperationResponse19ElectionLiveResults7Results4Race5Pulse_h

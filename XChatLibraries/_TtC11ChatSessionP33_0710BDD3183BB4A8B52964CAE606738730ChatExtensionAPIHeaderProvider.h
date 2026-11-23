@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatSessionP33_0710BDD3183BB4A8B52964CAE606738730ChatExtensionAPIHeaderProvider_h
 #define _TtC11ChatSessionP33_0710BDD3183BB4A8B52964CAE606738730ChatExtensionAPIHeaderProvider_h

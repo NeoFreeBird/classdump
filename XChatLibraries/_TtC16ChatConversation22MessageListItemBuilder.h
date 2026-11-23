@@ -1,20 +1,19 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation22MessageListItemBuilder_h
 #define _TtC16ChatConversation22MessageListItemBuilder_h
 @import Foundation;
 
-@class ChatConversation.ConversationHeaderViewModelBuilder, ChatConversation.InfoListItemBuilder, ChatKotlin.ConversationObjectGraphProvider, ChatKotlin.ObjectGraphProvider, ChatModels.ConversationChatItemsStream, ChatModelsCore.ConversationID, ChatModelsCore.UserID, _TtCs12_SwiftObject;
+@class ChatConversation.InfoListItemBuilder, ChatConversation.MessageBookingLinkBuilder, ChatModelsCore.ConversationID, ChatModelsCore.UserID, ChatSyncState.ChatContentProviding ?, _$sSdSg, _$sSi, _$ss5Int64VMn, _TtCs12_SwiftObject;
 
 @interface ChatConversation.MessageListItemBuilder : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    ChatModels.ConversationChatItemsStream conversationChatItemsStream;
-    ChatConversation.ConversationHeaderViewModelBuilder conversationHeaderViewModelBuilder;
+    ChatConversation.MessageBookingLinkBuilder bookingLinkBuilder;
+    ChatSyncState.ChatContentProviding ? contentProvider;
     ChatModelsCore.ConversationID conversationID;
-    ChatKotlin.ConversationObjectGraphProvider conversationObjectGraphProvider;
     ChatConversation.InfoListItemBuilder infoListItemBuilder;
-    ChatKotlin.ObjectGraphProvider objectGraphProvider;
+    nominal type descriptor for Swift.Int64 maxMessagePreviewSize;
+    Swift.Int maximumGroupSizeForLiveReadReceipts;
+    Swift.Double? messageGroupingWindow;
     ChatModelsCore.UserID owner;
 }
 

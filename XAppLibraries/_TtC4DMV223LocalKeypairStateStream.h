@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4DMV223LocalKeypairStateStream_h
 #define _TtC4DMV223LocalKeypairStateStream_h
@@ -9,6 +7,7 @@
 
 @interface DMV2.LocalKeypairStateStream : Swift._SwiftObject { // (Swift)
     /* instance variables */
+    nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool? nominal type descriptor for Swift.Never hasHealthyLocalKeypairSubject;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool? nominal type descriptor for Swift.Never hasLocalKeypairSubject;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool nominal type descriptor for Swift.Never isPermanentlySuspendedSubject;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool nominal type descriptor for Swift.Never pinChangedSubject;

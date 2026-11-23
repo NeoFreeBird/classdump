@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNModalSheetLayoutModeController_Protocol_h
 #define TFNModalSheetLayoutModeController_Protocol_h
@@ -39,7 +37,6 @@
 - (void)viewWillAppear:(_Bool)appear;
 - (void)viewWillDisappear:(_Bool)disappear;
 - (void)viewControllerDidDismissAnimated:(_Bool)animated;
-- (void)viewWillTransitionToSize:(struct CGSize { double x0; double x1; })size;
 - (void)updateKeyboardHeight:(double)height;
 - (void)didStartEditingAnimated:(_Bool)animated completion:(id /* block */)completion;
 - (void)didEndEditingAnimated:(_Bool)animated completion:(id /* block */)completion;

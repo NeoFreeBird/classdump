@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCFC14T1TwitterSwift21LaunchMetricsReportergP33_60EEC5B29296A136A1F4AB2E10EF435F23launchedMetricsReporterPS_32LaunchDestinationMetricsReporter_L_26UnsupportedMetricsReporter_h
 #define _TtCFC14T1TwitterSwift21LaunchMetricsReportergP33_60EEC5B29296A136A1F4AB2E10EF435F23launchedMetricsReporterPS_32LaunchDestinationMetricsReporter_L_26UnsupportedMetricsReporter_h

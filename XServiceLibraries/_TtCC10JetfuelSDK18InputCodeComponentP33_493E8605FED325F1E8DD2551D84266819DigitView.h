@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC10JetfuelSDK18InputCodeComponentP33_493E8605FED325F1E8DD2551D84266819DigitView_h
 #define _TtCC10JetfuelSDK18InputCodeComponentP33_493E8605FED325F1E8DD2551D84266819DigitView_h

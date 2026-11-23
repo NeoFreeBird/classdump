@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNFullPromptView_h
 #define TFNFullPromptView_h
@@ -39,7 +37,6 @@
 @property (retain, nonatomic) TFNPromptTextSpec *detailTextSpec;
 @property (retain, nonatomic) NSArray *buttonSpecs;
 @property (nonatomic) _Bool excludedFromVDLLeftAlign;
-@property (nonatomic) unsigned long long dismissOptionType;
 @property (nonatomic) _Bool shouldDisableButtons;
 @property (copy, nonatomic) id /* block */ contentInsetsCalculator;
 @property (readonly, nonatomic) UIColor *promptChromeColor;

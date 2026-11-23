@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation26MessageBookingLinkCardView_h
 #define _TtC16ChatConversation26MessageBookingLinkCardView_h
 @import Foundation;
 
-@class ChatConversation.MessageBookingLinkAction ?, ChatConversation.MessageBookingLinkAction _$scSg ->, ChatConversation.MessageBookingLinkOwnerView, ChatConversation.MessageBookingLinkScheduleView, ChatGrokBot.GrokBotCardButton, ChatGrokBot.GrokBotCardTitleBarView, ChatModels.MessageBookingLinkSelection ?, ChatModels.MessageBookingLinkSelection _$sSgcSg ->, Swift.Bool, UIView, _$s13XDesignSystem5InputCMn, _$sSS, _$sSSSg, _$sSo22UITapGestureRecognizerCSg, _$sSo7UILabelC;
+@class ChatConversation.MessageBookingLinkAction ?, ChatConversation.MessageBookingLinkAction _$scSg ->, ChatConversation.MessageBookingLinkOwnerView, ChatConversation.MessageBookingLinkScheduleView, ChatGrokBot.GrokBotCardButton, ChatGrokBot.GrokBotCardTitleBarView, ChatModels.ChatMessageBookingLink.PIN, ChatModels.MessageBookingLinkSelection ?, ChatModels.MessageBookingLinkSelection _$sSgcSg ->, Swift.Bool, UIView, _$s13XDesignSystem5InputCMn, _$sSS, _$sSSSg, _$sSo22UITapGestureRecognizerCSg, _$sSo7UILabelC;
 
 @interface ChatConversation.MessageBookingLinkCardView : UIView { // (Swift)
     /* instance variables */
@@ -17,6 +15,7 @@
     __C.UILabel bookedWithLabel;
     ChatGrokBot.GrokBotCardButton continueButton;
     ChatGrokBot.GrokBotCardButton joinButton;
+    ChatGrokBot.GrokBotCardButton manageButton;
     ChatGrokBot.GrokBotCardButton moreTimesButton;
     __C.UILabel noteLabel;
     ChatConversation.MessageBookingLinkOwnerView ownerView;
@@ -32,12 +31,14 @@
     Swift.String? bookingLinkID;
     Swift.Bool isAskingForPIN;
     Swift.Bool isCheckingPIN;
+    Swift.Bool isEditingBooking;
     Swift.Bool isPINEntryEnabled;
     Swift.Bool isShowingBookedCall;
     Swift.Bool isShowingOwnerCard;
     ChatConversation.MessageBookingLinkAction ? moreTimesAction;
     ChatConversation.MessageBookingLinkAction ? ownerCardAction;
     Swift.String pinDraft;
+    ChatModels.ChatMessageBookingLink.PIN previousPIN;
     ChatModels.MessageBookingLinkSelection ? selection;
 }
 

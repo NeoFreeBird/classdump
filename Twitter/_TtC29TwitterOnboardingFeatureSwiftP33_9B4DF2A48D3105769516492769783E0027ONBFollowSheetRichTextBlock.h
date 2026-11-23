@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC29TwitterOnboardingFeatureSwiftP33_9B4DF2A48D3105769516492769783E0027ONBFollowSheetRichTextBlock_h
 #define _TtC29TwitterOnboardingFeatureSwiftP33_9B4DF2A48D3105769516492769783E0027ONBFollowSheetRichTextBlock_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4GrokP33_A387BF063395CA2AD80D76FBFCCB47D130ThinkingInlineContentViewModel_h
 #define _TtC4GrokP33_A387BF063395CA2AD80D76FBFCCB47D130ThinkingInlineContentViewModel_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV10JetfuelSDKP33_19CE61BD264F49F95E61346E5279AA2020QRPhotoLibraryPicker11Coordinator_h
 #define _TtCV10JetfuelSDKP33_19CE61BD264F49F95E61346E5279AA2020QRPhotoLibraryPicker11Coordinator_h

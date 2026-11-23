@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10XElectionsP33_840E7FFFBB209210C3F9C85FDA0CC20923ElectionsSegmentControl_h
 #define _TtC10XElectionsP33_840E7FFFBB209210C3F9C85FDA0CC20923ElectionsSegmentControl_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC32TwitterHomeFeatureImplementation28TimelineEngineViewController_h
 #define _TtC32TwitterHomeFeatureImplementation28TimelineEngineViewController_h
@@ -14,7 +12,7 @@
 #include "TUIUpdateIndicatorDelegate-Protocol.h"
 #include "URTDisplayActionsManagerDelegate-Protocol.h"
 
-@class GrokImagineTimelineImagePeek, NSString, Swift.Bool, TFNItemsDataViewController, TFNTwitterAccount, TFNTwitterHomeTimeline, TUIUpdateIndicator, TwitterHomeFeatureImplementation.TimelineEngineEmptyStateScribe, TwitterHomeFeatureImplementation.TimelineEnginePostContextChips, TwitterHomeFeatureImplementation.TimelineEngineRows, TwitterHomeFeatureImplementation.TimelineEngineShimmerScribe, TwitterHomeFeatureImplementation.TimelineEngineStream, TwitterHomeFeatureImplementation.TimelineEngineViewController.Layout, TwitterHomeFeatureImplementation.TimelineEngineViewController.OwnPostPin, TwitterHomeFeatureImplementation.TimelineEngineViewController.Rendering, TwitterHomeFeatureImplementation.TimelineEngineViewController.ScrollRestore, TwitterHomeFeatureImplementation.TimelineEngineViewController.StreamAPIUpdate, UIView, _$s11TwitterHome24URTHoistingDetectionTaskCMn ?, _$s11TwitterHome28GrokImagineTimelineImagePeekCMn ?, _$s14T1TwitterSwift17URTCoverPresenterCMn ?, _$s14T1TwitterSwift20ScrollDistanceLoggerCMn ?, _$s15XTimelineEngine08TimelineB0O7DisplayV10TopSpinnerOMn, _$s15XTimelineEngine08TimelineB0O7RuntimeO11ObservationCMn ?, _$s22TwitterHomePerformance0b10ControllerC7MonitorCMn, _$sSaySSG, _$sSo17TFNTwitterAccountC, _$sSo18TUIUpdateIndicatorCSg, _$sSo21TFNMarkAsViewedHelperCSg, _$sSo22T1FleetLineControlling_pSg, _$sSo22TFNTwitterHomeTimelineC, _$sSo26TFNItemsSectionTransformerC, _$syycSg;
+@class GrokImagineTimelineImagePeek, NSString, Swift.Bool, TFNItemsDataViewController, TFNTwitterAccount, TFNTwitterHomeTimeline, TUIUpdateIndicator, TwitterHomeFeatureImplementation.HomeShimmerCrossfade, TwitterHomeFeatureImplementation.HomeTimelineUndoOffer ?, TwitterHomeFeatureImplementation.TimelineEngineEmptyStateScribe, TwitterHomeFeatureImplementation.TimelineEnginePostContextChips, TwitterHomeFeatureImplementation.TimelineEngineRows, TwitterHomeFeatureImplementation.TimelineEngineShimmerScribe, TwitterHomeFeatureImplementation.TimelineEngineStream, TwitterHomeFeatureImplementation.TimelineEngineViewController.Layout, TwitterHomeFeatureImplementation.TimelineEngineViewController.OwnPostPin, TwitterHomeFeatureImplementation.TimelineEngineViewController.Rendering, TwitterHomeFeatureImplementation.TimelineEngineViewController.ScrollRestore, TwitterHomeFeatureImplementation.TimelineEngineViewController.StreamAPIUpdate, UIView, _$s10TwitterURT26SportsPostContextDecisionsCMn, _$s11TwitterHome24URTHoistingDetectionTaskCMn ?, _$s11TwitterHome28GrokImagineTimelineImagePeekCMn ?, _$s14T1TwitterSwift17URTCoverPresenterCMn ?, _$s14T1TwitterSwift20ScrollDistanceLoggerCMn ?, _$s15XTimelineEngine08TimelineB0O7DisplayV10TopSpinnerOMn, _$s15XTimelineEngine08TimelineB0O7RuntimeO11ObservationCMn ?, _$s22TwitterHomePerformance0b10ControllerC7MonitorCMn, _$sSaySSG, _$sSiSg, _$sSo17TFNTwitterAccountC, _$sSo18TUIUpdateIndicatorCSg, _$sSo21TFNMarkAsViewedHelperCSg, _$sSo22T1FleetLineControlling_pSg, _$sSo22TFNTwitterHomeTimelineC, _$sSo26TFNItemsSectionTransformerC, _$syycSg;
 
 @interface TwitterHomeFeatureImplementation.TimelineEngineViewController : TFNItemsDataViewController <HUIGraduatedAccessUserPromptDelegate, TUIErrorDataViewAdapterDelegate, T1TimelineDismissedItemDelegate, T1FeedbackActionProvider, URTDisplayActionsManagerDelegate, TUIUpdateIndicatorDelegate, TFNMarkAsViewedDelegate, THMHomeTimelineItemsViewControllerProtocol> { // (Swift)
     /* instance variables */
@@ -25,11 +23,14 @@
     __C.TFNItemsSectionTransformer sectionTransformer;
     nominal type descriptor for TwitterHomePerformance.HomeControllerPerformanceMonitor performanceMonitor;
     TwitterHomeFeatureImplementation.TimelineEngineShimmerScribe shimmerScribe;
+    TwitterHomeFeatureImplementation.HomeShimmerCrossfade shimmerCrossfade;
     TwitterHomeFeatureImplementation.TimelineEnginePostContextChips postContextChips;
+    nominal type descriptor for TwitterURT.SportsPostContextDecisions sportsPostContextDecisions;
     __C.TUIUpdateIndicator? installedUpdateIndicator;
     nominal type descriptor for T1TwitterSwift.URTCoverPresenter ? coverPresenter;
     __C.TFNMarkAsViewedHelper? markAsViewedHelper;
     nominal type descriptor for T1TwitterSwift.ScrollDistanceLogger ? scrollDistanceLogger;
+    TwitterHomeFeatureImplementation.HomeTimelineUndoOffer ? undoOffer;
     __C.T1FleetLineControlling? fleetsController;
     nominal type descriptor for XTimelineEngine.TimelineEngine.Runtime.Observation ? observation;
     TwitterHomeFeatureImplementation.TimelineEngineViewController.Rendering rendering;
@@ -41,6 +42,7 @@
     nominal type descriptor for TwitterHome.URTHoistingDetectionTask ? hoistDetectionTask;
     Swift.Bool isTopRowVisible;
     [Swift.String] grokPeekStatusIdentifiers;
+    Swift.Int? $__lazy_storage_$_olderPostsDistance;
 }
 
 @property (nonatomic, readonly) NSString *adDisplayLocation;
@@ -85,6 +87,7 @@
 - (void)tfn_addDirectlyOwnedViewControllersToMutableArray:(id)array;
 - (_Bool)tui_showsActionButton;
 - (void)update:(_Bool)update;
+- (void)reloadDataIfNeeded;
 - (void)updateSections:(id)sections withRowAnimation:(long long)animation completion:(id /* block */)completion;
 - (_Bool)isLoadingTop;
 - (void)loadTop:(id)top;

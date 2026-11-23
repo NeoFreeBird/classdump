@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UserViewOptions_Protocol_h
 #define T1UserViewOptions_Protocol_h
@@ -25,6 +23,7 @@
 @property (nonatomic) _Bool showBio;
 @property (nonatomic) _Bool showAutoTranslate;
 @property (nonatomic) _Bool isTranslationAnnotationOnly;
+@property (nonatomic) _Bool reservesActionControlColumn;
 @property (nonatomic) _Bool showBlockedYou;
 @property (nonatomic) _Bool showDesignatorBadge;
 @property (nonatomic) _Bool showParodyBadge;

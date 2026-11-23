@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ConversationContainerViewController_h
 #define T1ConversationContainerViewController_h
@@ -31,7 +29,6 @@
     NSNumber"16@0:8 *conversationTimelineViewController;
     NSNumber"16@0:8 *conversationTimelineUpdater;
     NSNumber"16@0:8 *inlineComposer;
-    NSNumber"16@0:8 *inlineReplyBarDockView;
     NSNumber"16@0:8 *statusNavigationContext;
     NSNumber"16@0:8 *sourceScribeContext;
     NSNumber"16@0:8 *controllerScribeContext;

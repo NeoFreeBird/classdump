@@ -1,18 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZNotifications_h
 #define BRZNotifications_h
 @import Foundation;
 
-@class Chat.DidEndCall, NSData, NSObject;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSData, NSObject;
 
 @interface BRZNotifications : NSObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall __deviceToken;
-    oneway _Atomic Chat.DidEndCall viewStore;
-    oneway _Atomic Chat.DidEndCall date;
-    oneway _Atomic Chat.DidEndCall _subscribers;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift __deviceToken;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift viewStore;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift date;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _subscribers;
 }
 
 @property (nonatomic, readonly) NSData *deviceToken;

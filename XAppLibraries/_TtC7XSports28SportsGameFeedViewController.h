@@ -1,36 +1,34 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports28SportsGameFeedViewController_h
 #define _TtC7XSports28SportsGameFeedViewController_h
 @import Foundation;
 
-@class UIViewController, XSports.SegmentedControlView, XSports.SportsGameFeedContent XSports.SportsGameFeedContext _$s_ XSports.SportsGameFeedKind _$stScMYccSg, XSports.SportsGameFeedContext ?, XSports.SportsGameFeedKind, XSports.SportsGameFeedKind _$scSg ->, XSports.SportsGameFeedKind _$syScMYcc, _$sSD -> XSports.SportsGameFeedKind XSports.SportsGameFeedContent, _$sSa -> _$s10TFNUISwift11ShimmerViewCMn, _$sSo12UIScrollViewC, _$sSo6UIViewCSg;
+@class UIViewController, XSports.SegmentedControlView, XSports.SportsGameFeedContent XSports.SportsGameFeedSource _$s_ XSports.SportsGameFeedKind _$stScMYccSg, XSports.SportsGameFeedKind, XSports.SportsGameFeedKind _$scSg ->, XSports.SportsGameFeedKind _$syScMYcc, XSports.SportsGameFeedSource, _$sSD -> XSports.SportsGameFeedKind XSports.SportsGameFeedContent, _$sSo12UIScrollViewC;
 
 @interface XSports.SportsGameFeedViewController : UIViewController { // (Swift)
     /* instance variables */
     XSports.SportsGameFeedKind _$scSg -> onActiveFeedChange;
     XSports.SportsGameFeedKind activeKind;
-    XSports.SportsGameFeedContent XSports.SportsGameFeedContext  first-element-marker  XSports.SportsGameFeedKind _$stScMYccSg provider;
+    XSports.SportsGameFeedContent XSports.SportsGameFeedSource  first-element-marker  XSports.SportsGameFeedKind _$stScMYccSg provider;
     XSports.SportsGameFeedKind _$syScMYcc resolveKind;
-    XSports.SportsGameFeedContext ? context;
+    XSports.SportsGameFeedSource source;
     Swift.Dictionary -> XSports.SportsGameFeedKind XSports.SportsGameFeedContent contents;
     XSports.SegmentedControlView kindControl;
     __C.UIScrollView placeholderScrollView;
-    Swift.Array -> nominal type descriptor for TFNUISwift.ShimmerView loadingRows;
-    __C.UIView? $__lazy_storage_$_loadingView;
 }
 
 @property (nonatomic, readonly) _Bool shouldAutomaticallyForwardAppearanceMethods;
 
 /* instance methods */
 - (id)initWithCoder:(id)coder;
+- (void)dealloc;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(_Bool)appear;
 - (void)viewDidAppear:(_Bool)appear;
 - (void)viewWillDisappear:(_Bool)disappear;
 - (void)viewDidDisappear:(_Bool)disappear;
 - (void)viewDidLayoutSubviews;
+- (void)tfn_addDirectlyOwnedViewControllersToMutableArray:(id)array;
 - (id)initWithNibName:(id)name bundle:(id)bundle;
 
 @end

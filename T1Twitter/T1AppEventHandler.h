@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1AppEventHandler_h
 #define T1AppEventHandler_h
@@ -18,6 +16,7 @@
 #include "TFSAuthCredentialStateTransitionDelegate-Protocol.h"
 #include "TFSTwitterRecurringTaskServiceObserver-Protocol.h"
 #include "_TtC14T1TwitterSwift21T1NotificationHandler.h"
+#include "_TtC14T1TwitterSwift27T1DeviceStatusAudioReporter.h"
 
 @class NSMutableArray, NSMutableDictionary, NSOperation, NSString, T1AppBadging, TFNTwitterLaunchWatchdog, UIResponder;
 
@@ -41,6 +40,7 @@
     NSOperation *_scribeDeepLinkOperation;
     T1UserReviewPrompt *_userReviewPrompt;
     NSMutableArray *_nonFatalErrorsDuringStartup;
+    T1TwitterSwift.T1DeviceStatusAudioReporter *_deviceStatusAudioReporter;
     struct { unsigned int handledURLOnForeground:1; unsigned int continuedUserActivity:1; unsigned int handledAutomaticHomeNavigationOnWillEnterForeground:1; unsigned int shouldTryToRegisterDeviceToken:1; unsigned int disableWatchdog:1; unsigned int streamDidUpdate:1; unsigned int isUserReady:1; unsigned int didDisplayLaunchContent:1; } _flags;
 }
 

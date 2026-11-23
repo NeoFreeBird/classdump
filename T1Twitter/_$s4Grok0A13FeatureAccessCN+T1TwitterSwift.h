@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _$s4Grok0A13FeatureAccessCN_T1TwitterSwift_h
 #define _$s4Grok0A13FeatureAccessCN_T1TwitterSwift_h
@@ -12,6 +10,7 @@
 + (_Bool)routesComplatPaywallForAccount:(id)account;
 + (_Bool)holdsTeamOrClaimedPlanForAccount:(id)account;
 + (_Bool)opensGrokWebSignedInForAccount:(id)account;
++ (_Bool)isFreeExperienceForAccount:(id)account;
 + (_Bool)isCurrentAccount:(id)account;
 + (void)grokBotUsageForAccount:(id)account completion:(id /* block */)completion;
 + (void)grokSignedInWebURLForURL:(id)url account:(id)account completion:(id /* block */)completion;

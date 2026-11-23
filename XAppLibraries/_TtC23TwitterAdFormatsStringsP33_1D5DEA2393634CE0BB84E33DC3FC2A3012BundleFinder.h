@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC23TwitterAdFormatsStringsP33_1D5DEA2393634CE0BB84E33DC3FC2A3012BundleFinder_h
 #define _TtC23TwitterAdFormatsStringsP33_1D5DEA2393634CE0BB84E33DC3FC2A3012BundleFinder_h

@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift66org_eclipse_elk_alg_layered_intermediate_loops_routing_LabelPlacer_h
+#define _TtC8ElkSwift66org_eclipse_elk_alg_layered_intermediate_loops_routing_LabelPlacer_h
+@import Foundation;
+
+@class _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_LabelPlacer : Swift._SwiftObject // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift66org_eclipse_elk_alg_layered_intermediate_loops_routing_LabelPlacer_h */

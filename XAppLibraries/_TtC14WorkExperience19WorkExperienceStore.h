@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14WorkExperience19WorkExperienceStore_h
 #define _TtC14WorkExperience19WorkExperienceStore_h
 @import Foundation;
 
-@class Swift.Bool, WorkExperience.WorkExperienceRepository, _$sSDySS WorkExperience.WorkExperienceStore.LoadedList, _$sSDySSScT -> WorkExperience.WorkExperienceStore.ReadOutcome _$ss5NeverOMn, _$sSDySSScTyyt _$ss5NeverOMn, _$sSDySSSdG, _$sSS, _$sSd, _$sSdyc, _$sShySSG, _$sSi, _$ss6UInt64VMn, _$sySdYaYbKc, _TtCs12_SwiftObject;
+@class Swift.Bool, WorkExperience.WorkExperiencePickedLogo _$s_ -> WorkExperience.WorkExperienceCompanyLogo _$stScMYcc, WorkExperience.WorkExperienceRepository, WorkExperience.WorkExperienceViewerListPersistence, _$sSDySS WorkExperience.WorkExperienceStore.LoadedList, _$sSDySSScT -> WorkExperience.WorkExperienceStore.ReadOutcome _$ss5NeverOMn, _$sSDySSScTyyt _$ss5NeverOMn, _$sSDySSSdG, _$sSS, _$sSS WorkExperience.WorkExperiencePickedLogo _$sYaYbKcSg, _$sSd, _$sSdyc, _$sShySSG, _$sSi, _$ss6UInt64VMn, _$sySdYaYbKc, _TtCs12_SwiftObject;
 
 @interface WorkExperience.WorkExperienceStore : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -13,6 +11,9 @@
     Swift.Bool isEditingUnavailable;
     Swift.Int acceptedViewerWriteCount;
     WorkExperience.WorkExperienceRepository repository;
+    Swift.String WorkExperience.WorkExperiencePickedLogo _$sYaYbKcSg uploadLogo;
+    WorkExperience.WorkExperiencePickedLogo  first-element-marker  -> WorkExperience.WorkExperienceCompanyLogo _$stScMYcc didSaveLogo;
+    WorkExperience.WorkExperienceViewerListPersistence persistence;
     Swift.Double timeToLive;
     Swift.Double failureBackoff;
     Swift.Double retryDelay;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1VideoMonetizationSettingsViewController_h
 #define T1VideoMonetizationSettingsViewController_h
@@ -38,8 +36,8 @@
 - (void)didTapDoneButton;
 - (id)valuesForPicker:(id)picker;
 - (id)initiallyPickedValuesForPicker:(id)picker;
-- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
-- (void)pickerViewController:(id)controller didDeselectValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
+- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
+- (void)pickerViewController:(id)controller didDeselectValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
 - (void)userSelectionViewControllerDidChangeUserSelection:(id)selection;
 - (_Bool)userSelectionViewController:(id)controller canSelectUser:(id)user;
 - (id)userSelectionViewController:(id)controller nonSelectableReasonForUser:(id)user;

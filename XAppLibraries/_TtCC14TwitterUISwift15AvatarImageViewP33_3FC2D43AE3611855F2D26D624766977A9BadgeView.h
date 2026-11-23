@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14TwitterUISwift15AvatarImageViewP33_3FC2D43AE3611855F2D26D624766977A9BadgeView_h
 #define _TtCC14TwitterUISwift15AvatarImageViewP33_3FC2D43AE3611855F2D26D624766977A9BadgeView_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterStatus_h
 #define TFNTwitterStatus_h
@@ -477,7 +475,6 @@
 @property (readonly, nonatomic) id <TFSTwitterPromotedLoggable> logInput;
 @property (readonly, copy, nonatomic) TAVAnalyticsMediaIdentifier *contentMediaIdentifier;
 @property (readonly, nonatomic) NSString *grokPostID;
-@property (readonly, copy, nonatomic) NSString *scribeItemDebugDisplayName;
 @property (readonly, nonatomic) NSString *statusItemViewModelDidUpdateNotificationName;
 @property (readonly, nonatomic) unsigned long long displayTextOffset;
 @property (readonly, nonatomic) _Bool isSelfReply;

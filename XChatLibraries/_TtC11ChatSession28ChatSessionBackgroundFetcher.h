@@ -1,20 +1,18 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatSession28ChatSessionBackgroundFetcher_h
 #define _TtC11ChatSession28ChatSessionBackgroundFetcher_h
 @import Foundation;
 
-@class ChatDatabase.XChatDatabase, ChatKeys.XChatIdentityKeyService, ChatSync.XChatInboxFetcher, ChatSync.XChatSQLiteProjectionStore, ChatSync.XChatWatermark, _$s10Foundation3URLVMn, _TtCs12_SwiftObject;
+@class ChatDatabase.ChatSQLiteDatabase, ChatKeys.ChatIdentityKeyService, ChatSync.ChatInboxFetcher, ChatSync.ChatSQLiteProjectionStore, ChatSync.ChatWatermark, _$s10Foundation3URLVMn, _TtCs12_SwiftObject;
 
 @interface ChatSession.ChatSessionBackgroundFetcher : Swift._SwiftObject { // (Swift)
     /* instance variables */
     nominal type descriptor for Foundation.URL databaseDirectoryURL;
-    ChatDatabase.XChatDatabase database;
-    ChatKeys.XChatIdentityKeyService identityKeyService;
-    ChatSync.XChatInboxFetcher inboxFetcher;
-    ChatSync.XChatWatermark watermark;
-    ChatSync.XChatSQLiteProjectionStore projectionStore;
+    ChatDatabase.ChatSQLiteDatabase database;
+    ChatKeys.ChatIdentityKeyService identityKeyService;
+    ChatSync.ChatInboxFetcher inboxFetcher;
+    ChatSync.ChatWatermark watermark;
+    ChatSync.ChatSQLiteProjectionStore projectionStore;
 }
 
 @end

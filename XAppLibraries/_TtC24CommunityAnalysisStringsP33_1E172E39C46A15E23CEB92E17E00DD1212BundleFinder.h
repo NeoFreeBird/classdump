@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC24CommunityAnalysisStringsP33_1E172E39C46A15E23CEB92E17E00DD1212BundleFinder_h
 #define _TtC24CommunityAnalysisStringsP33_1E172E39C46A15E23CEB92E17E00DD1212BundleFinder_h

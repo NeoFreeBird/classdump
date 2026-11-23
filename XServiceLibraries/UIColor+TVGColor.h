@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef UIColor_TVGColor_h
 #define UIColor_TVGColor_h
@@ -210,32 +208,14 @@
 - (id)_tfn_dynamicColor_withAlphaComponent;
 - (void)_tfn_dynamicColor_enableColorWithAlphaComponentIfNeededForClass:(Class)_class isRecursiveCall:(_Bool)call;
 - (void)_tfn_dynamicColor_enableColorWithAlphaComponentForClass:(Class)_class;
-- (id)tfn_ARGBString;
 - (id)tfn_RGBString;
 - (id)tfn_colorByInterpolatingWithColor:(id)color byPercent:(double)percent;
-- (id)tfn_colorByMultiplyingWithSaturation:(double)saturation;
 - (id)tfn_colorByMultiplyingWithBrightness:(double)brightness;
 - (id)tfn_colorByMultiplyingAlpha:(double)alpha;
 - (unsigned int)tfn_ARGBRepresentation;
-- (unsigned int)tfn_RGBRepresentation;
-- (unsigned int)tfn_HSVRepresentation;
-- (id)tfn_colorAdjustedViaMode:(unsigned long long)mode constant:(double)constant;
-- (id)_colorAdjustLightenWithAlphaMultiplier:(double)multiplier;
-- (id)_colorAdjustDarkenWithAlphaMultiplier:(double)multiplier;
+- (id)tfn_darkenedColor;
 - (id)tfn_colorWithHighlightAlpha;
 - (double)tfn_alphaComponent;
-- (_Bool)tfn_isBlack;
-- (_Bool)tfn_isWhite;
-- (_Bool)tfn_isGray;
-- (_Bool)tfn_isRed;
-- (_Bool)tfn_isPink;
-- (_Bool)tfn_isOrange;
-- (_Bool)tfn_isBrown;
-- (_Bool)tfn_isYellow;
-- (_Bool)tfn_isGreen;
-- (_Bool)tfn_isCyan;
-- (_Bool)tfn_isBlue;
-- (_Bool)tfn_isPurple;
 - (_Bool)tfn_isColorful;
 - (struct Color { double x0; double x1; double x2; double x3; })tvg_color;
 

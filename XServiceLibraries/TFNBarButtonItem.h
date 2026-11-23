@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNBarButtonItem_h
 #define TFNBarButtonItem_h
@@ -24,18 +22,14 @@
 /* class methods */
 + (void)initialize;
 + (void)setupAppearance:(id)appearance withTintColor:(id)color;
-+ (void)overrideSystemItem:(long long)item withConfiguration:(id)configuration;
 + (id)_overridingConfigurationsBySystemItem;
 + (id)fixedSpaceWithWidth:(double)width;
 + (id)backButtonItemWithTarget:(id)target action:(SEL)action;
 + (id)forwardButtonItemWithTarget:(id)target action:(SEL)action;
 + (id)_directionalButtonItemWithChevronImageName:(id)name arrowImageName:(id)name accessibilityLabel:(id)label target:(id)target action:(SEL)action;
 + (id)closeButtonItemWithTarget:(id)target action:(SEL)action;
-+ (id)filterButtonItemWithTarget:(id)target action:(SEL)action;
-+ (id)filterFillButtonItemWithTarget:(id)target action:(SEL)action;
 + (id)shareButtonItemWithTarget:(id)target action:(SEL)action;
 + (id)settingsButtonItemWithTarget:(id)target action:(SEL)action;
-+ (id)editButtonItemWithTarget:(id)target action:(SEL)action;
 + (id)moreButtonItemWithTarget:(id)target action:(SEL)action;
 
 /* instance methods */

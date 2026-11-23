@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCVCCCCC13GraphQLModels33PremiumHubConfigOperationResponse16PremiumHubConfig7Content7Primary7Heading6Button21TimelineTextCtaButton_h
 #define _TtCVCCCCC13GraphQLModels33PremiumHubConfigOperationResponse16PremiumHubConfig7Content7Primary7Heading6Button21TimelineTextCtaButton_h

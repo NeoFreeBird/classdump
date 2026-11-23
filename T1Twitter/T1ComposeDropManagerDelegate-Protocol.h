@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ComposeDropManagerDelegate_Protocol_h
 #define T1ComposeDropManagerDelegate_Protocol_h
@@ -15,6 +13,7 @@
 
 /* optional instance methods */
 - (_Bool)composeDropManager:(id)manager canHandleLocalDragSession:(id)session;
+- (_Bool)composeDropManagerCanAcceptDrop:(id)drop;
 - (void)composeDropManager:(id)manager didDropAnimatedImage:(id)image;
 - (void)composeDropManager:(id)manager didDropImages:(id)images;
 - (void)composeDropManager:(id)manager didDropStatus:(id)status;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UserFacepileViewProvider_Protocol_h
 #define T1UserFacepileViewProvider_Protocol_h
@@ -14,6 +12,7 @@
 /* required instance methods */
 - (id)compactFacepileWithViewModel:(id)model imagePipeline:(id)pipeline;
 - (id)expandedFacepileWithViewModel:(id)model profileNavigationEnabled:(_Bool)enabled;
+- (void)expandedFacepile:(id)facepile didUpdateUsersWithViewModel:(id)model;
 - (id)profileViewControllerForUser:(id)user viewModel:(id)model;
 
 @optional

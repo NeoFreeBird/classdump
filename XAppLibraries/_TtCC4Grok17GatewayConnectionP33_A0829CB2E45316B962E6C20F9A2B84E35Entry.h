@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC4Grok17GatewayConnectionP33_A0829CB2E45316B962E6C20F9A2B84E35Entry_h
 #define _TtCC4Grok17GatewayConnectionP33_A0829CB2E45316B962E6C20F9A2B84E35Entry_h

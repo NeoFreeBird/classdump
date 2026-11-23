@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10TFNUISwift29LegacySegmentedViewController_h
 #define _TtC10TFNUISwift29LegacySegmentedViewController_h
@@ -39,6 +37,7 @@
 @property (nonatomic, weak) id <TFNUISwift.LegacySegmentedViewControllerDelegate> delegate;
 @property (nonatomic, readonly) TFNUISwift.LegacySegmentedTabBarView *tabBarView;
 @property (nonatomic) long long selectedIndex;
+@property (nonatomic, readonly) double fractionalSelectedIndex;
 @property (nonatomic, readonly) UIViewController *selectedViewController;
 @property (nonatomic) _Bool isHorizontalPagingEnabled;
 @property (nonatomic) long long tabBarHideMode;

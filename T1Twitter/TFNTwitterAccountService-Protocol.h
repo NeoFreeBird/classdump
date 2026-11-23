@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterAccountService_Protocol_h
 #define TFNTwitterAccountService_Protocol_h
@@ -25,7 +23,6 @@
 - (void)removeAccount:(id)account;
 - (void)removeAccount:(id)account;
 - (void)removeAllAccounts;
-- (void)reorderAccounts:(id)accounts;
 - (id)addObserver:(id)observer;
 
 @optional

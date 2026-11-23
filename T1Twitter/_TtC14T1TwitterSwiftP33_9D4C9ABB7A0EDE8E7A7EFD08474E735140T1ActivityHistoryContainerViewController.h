@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_9D4C9ABB7A0EDE8E7A7EFD08474E735140T1ActivityHistoryContainerViewController_h
 #define _TtC14T1TwitterSwiftP33_9D4C9ABB7A0EDE8E7A7EFD08474E735140T1ActivityHistoryContainerViewController_h

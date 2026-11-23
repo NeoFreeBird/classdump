@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports20SegmentedControlView_h
 #define _TtC7XSports20SegmentedControlView_h
@@ -7,12 +5,13 @@
 
 #include "_TtC7XSports14MeasurableView.h"
 
-@class Swift.Bool, _$sSa -> XSports.SegmentControl, _$sSaySSG, _$sSaySo7UILabelCG, _$sSi, _$sSo12CAShapeLayerC, _$sSo6UIViewC, _$sySicSg;
+@class Swift.Bool, _$s12CoreGraphics7CGFloatVMn, _$sSa -> XSports.SegmentControl, _$sSaySSG, _$sSaySo7UILabelCG, _$sSi, _$sSo12CAShapeLayerC, _$sSo6UIViewC, _$sySicSg;
 
 @interface XSports.SegmentedControlView : XSports.MeasurableView { // (Swift)
     /* instance variables */
     ((Swift.Int) -> ())? onSelect;
     [Swift.String] titles;
+    nominal type descriptor for CoreGraphics.CGFloat horizontalMargin;
     Swift.Int activeIndex;
     Swift.Bool isSelectionAnimating;
     __C.UIView containerView;

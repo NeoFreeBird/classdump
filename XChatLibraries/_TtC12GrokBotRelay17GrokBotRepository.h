@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC12GrokBotRelay17GrokBotRepository_h
 #define _TtC12GrokBotRelay17GrokBotRepository_h
@@ -19,6 +17,7 @@
     Swift.Array -> GrokBotRelay.SandMcpCatalogEntryView ? mcpCatalog;
     Swift.Task empty-list Swift.Array -> GrokBotRelay.SandMcpCatalogEntryView _$sG protocol descriptor for Swift.Error ? mcpCatalogFetch;
     Swift.Task empty-list () nominal type descriptor for Swift.Never autoReviewWriteTail;
+    Swift.String? senderLanguage;
     Swift.String? senderMachineId;
 }
 

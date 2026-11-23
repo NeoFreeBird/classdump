@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC10JetfuelSDK20PaginationControllerP33_D52EE22DCF2D74B01572B8DA92D7B20E11RateLimiter_h
 #define _TtCC10JetfuelSDK20PaginationControllerP33_D52EE22DCF2D74B01572B8DA92D7B20E11RateLimiter_h

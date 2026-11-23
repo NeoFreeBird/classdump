@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV7XDraftsP33_3311E454968831452C7D94BAD9A245CF25DraftMediaCarouselPanView11Coordinator_h
 #define _TtCV7XDraftsP33_3311E454968831452C7D94BAD9A245CF25DraftMediaCarouselPanView11Coordinator_h

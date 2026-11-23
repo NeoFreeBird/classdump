@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1OnboardingFlowMonitor_h
 #define T1OnboardingFlowMonitor_h
@@ -7,13 +5,12 @@
 
 #include "OCFFlow-Protocol.h"
 
-@class NSMutableArray, NSMutableSet, NSObject, NSPointerArray, NSString, TFNTwitterAccount;
+@class NSMutableArray, NSObject, NSPointerArray, NSString, TFNTwitterAccount;
 
 @interface T1OnboardingFlowMonitor : NSObject <OCFFlow> {
     /* instance variables */
     NSMutableArray *_completionHandlers;
     NSPointerArray *_monitoredFlows;
-    NSMutableSet *_ownedFlows;
     id <OCFFlow> _finishingFlow;
 }
 
@@ -27,9 +24,7 @@
 
 /* instance methods */
 - (id)init;
-- (void)registerFlow:(id)flow keepAlive:(_Bool)alive;
-- (void)unregisterFlow:(id)flow;
-- (void)reset;
+- (void)registerFlow:(id)flow;
 - (_Bool)isFlowInProgress;
 - (void)completeFlowAnimated:(_Bool)animated completion:(id /* block */)completion;
 - (void)addFlowCompletionObserver:(id)observer selector:(SEL)selector;
@@ -38,8 +33,6 @@
 - (id)private_inProgressFlows;
 - (void)private_monitorFlow:(id)flow;
 - (void)private_unmonitorFlow:(id)flow;
-- (void)private_ownFlow:(id)flow;
-- (void)private_disownFlow:(id)flow;
 - (void)private_flowDidComplete:(id)complete;
 - (void)private_recursivelyCompleteFlows:(id)flows animated:(_Bool)animated completion:(id /* block */)completion;
 

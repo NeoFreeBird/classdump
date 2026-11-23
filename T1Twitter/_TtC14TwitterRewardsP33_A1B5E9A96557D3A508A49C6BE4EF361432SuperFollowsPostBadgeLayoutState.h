@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14TwitterRewardsP33_A1B5E9A96557D3A508A49C6BE4EF361432SuperFollowsPostBadgeLayoutState_h
 #define _TtC14TwitterRewardsP33_A1B5E9A96557D3A508A49C6BE4EF361432SuperFollowsPostBadgeLayoutState_h

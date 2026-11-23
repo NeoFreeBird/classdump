@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift35ImmersiveSensitiveOverlayControllerP33_927D26CC5B12B6CBA9F3A9FD587581527Overlay_h
 #define _TtCC14T1TwitterSwift35ImmersiveSensitiveOverlayControllerP33_927D26CC5B12B6CBA9F3A9FD587581527Overlay_h

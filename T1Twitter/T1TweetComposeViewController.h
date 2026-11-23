@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1TweetComposeViewController_h
 #define T1TweetComposeViewController_h
@@ -44,7 +42,7 @@
 #include "_TtP20TwitterCommunitiesUI41UnableToTweetPromptViewControllerDelegate_-Protocol.h"
 #include "_TtP4Grok38GrokImaginePresentationManagerDelegate_-Protocol.h"
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, NSNumber, NSString, TCMCommunityTweetInfoView, TCMCommunityTweetVisibilityPromptInteraction, TCRAudienceTweetInfoView, TCRAutocompleteController, TCRComposeUndoView, TCRComposerAddToThreadView, TCRComposerGlassHeader, TCRComposerGlassHeaderPost, TCRComposerHeaderAccessorySlot, TCRComposerInlineUpsellBannerView, TCRComposerSchedulePickerPresenter, TCRComposerScheduledBannerView, TCRComposerToolbarView, TCRCompositionState, TCRTweetComposeAutocompleteViewController, TCRTweetComposeTimerView, TCRTweetComposeTooltipper, TFNButton, TFNButtonBarView, TFNCircularCountProgressView, TFNDragDropIndicationView, TFNDualPhaseCircularProgressView, TFNInlineCalloutView, TFNTwitterAccount, TFNTwitterComposition, TFNTwitterStatus, TFNViewController, TSAComposerBoostUpsell, TSAQuickPromoteDraftRestrictions, TTDTweetDraftListViewController, TTMAsset, TUITweetAudienceSelectionModel, UIBarButtonItem, UIButton, UIScrollView, UIView, UIViewController, XDSButton, XNAVConfiguration, _TtC4Grok17GrokFeatureAccess, _TtC4Grok30GrokImaginePresentationManager, _TtC4Grok38GrokImagineLightboxPresentationManager;
+@class NSArray, NSLayoutConstraint, NSMutableArray, NSNumber, NSString, TCMCommunityTweetInfoView, TCMCommunityTweetVisibilityPromptInteraction, TCRAudienceTweetInfoView, TCRAutocompleteController, TCRComposeUndoView, TCRComposerAddToThreadView, TCRComposerGlassHeader, TCRComposerGlassHeaderPost, TCRComposerHeaderAccessorySlot, TCRComposerInlineUpsellBannerView, TCRComposerKeyboardLayoutGuideFollower, TCRComposerSchedulePickerPresenter, TCRComposerScheduledBannerView, TCRComposerToolbarView, TCRCompositionState, TCRTweetComposeAutocompleteViewController, TCRTweetComposeTimerView, TCRTweetComposeTooltipper, TFNButton, TFNButtonBarView, TFNCircularCountProgressView, TFNDragDropIndicationView, TFNDualPhaseCircularProgressView, TFNInlineCalloutView, TFNTwitterAccount, TFNTwitterComposition, TFNTwitterStatus, TFNViewController, TSAComposerBoostUpsell, TSAQuickPromoteDraftRestrictions, TTDTweetDraftListViewController, TTMAsset, TUITweetAudienceSelectionModel, UIBarButtonItem, UIButton, UIScrollView, UIView, UIViewController, XDSButton, XNAVConfiguration, _TtC4Grok17GrokFeatureAccess, _TtC4Grok30GrokImaginePresentationManager, _TtC4Grok38GrokImagineLightboxPresentationManager;
 
 @interface T1TweetComposeViewController : TFNViewController <XNAVConfigurationProviding, T1AltTextViewControllerDelegate, TCRAutocompleteControllerDelegate, TCMCommunityTweetInfoViewDelegate, TUITweetAudienceSelectionModelObserver, T1CameraCaptureViewControllerDelegate, T1ComposeDropManagerDelegate, T1ComposerAttachmentDelegate, XPhotoEditorPhotoEditorViewControllerDelegate, TCRComposerGlassHeaderDelegate, MASMediaAttachmentSettingsViewControllerDelegate, T1SimpleQuickPromoteFlowPresenterDelegate, TSAComposerBoostUpsellHost, TCRTweetComposeAutocompleteViewControllerDelegate, T1TweetComposeScriberDelegate, TwitterComposer.TweetComposeTableViewControllerDelegate, TCRTweetComposerTimerViewDelegate, XVEVideoEditorHostDelegate, TCRComposeUndoViewDelegate, TCRComposerToolbarViewDelegate, TCRComposerAddToThreadViewDelegate, TUINativePhotoPickerDelegate, TwitterCommunitiesUI.UnableToTweetPromptViewControllerDelegate, TFNTwitterCompositionAttachmentsDelegate, TFNTooltipDelegate, TTDTweetDraftListViewControllerDelegate, Grok.GrokImaginePresentationManagerDelegate, T1AISignatureDetectionScribeSink, T1ComposeMorphDestination> {
     /* instance variables */
@@ -85,6 +83,7 @@
 @property (retain, nonatomic) NSMutableArray *temporaryLeadingViews;
 @property (retain, nonatomic) UIView *accessoryWrapperView;
 @property (retain, nonatomic) UIView *accessorySafeAreaMaskView;
+@property (retain, nonatomic) TCRComposerKeyboardLayoutGuideFollower *keyboardLayoutGuideFollower;
 @property (nonatomic) unsigned long long accessoryViewState;
 @property (retain, nonatomic) TFNButton *draftsButton;
 @property (retain, nonatomic) UIButton *titleMenuButton;
@@ -178,6 +177,7 @@
 @property (readonly, nonatomic) _Bool composerSpaceCreationEnabled;
 @property (nonatomic) _Bool isNoteTweetCreationEnabled;
 @property (readonly, nonatomic) _Bool conversationControlUsesSubscriptionsNaming;
+@property (readonly, nonatomic) _Bool conversationControlUsesCheckmarkLabeling;
 @property (copy, nonatomic) NSMutableArray *replyUsers;
 @property (copy, nonatomic) NSArray *unfollowingUsers;
 @property (retain, nonatomic) NSNumber *spacesCreationEnabledValue;
@@ -327,10 +327,13 @@
 - (void)autocompleteControllerDidEnd:(id)end;
 - (void)autocompleteController:(id)controller didReceiveResult:(id)result;
 - (void)_t1_keyboardDidChange:(id)change;
+- (void)_t1_dockedKeyboardFrameDidChangeInLayoutPass:(_Bool)pass;
 - (void)_t1_keyboardDidShow:(id)show;
 - (double)_t1_anticipatedKeyboardOverlap;
 - (struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })_t1_visibleRectWithoutKeyboard;
 - (struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })_t1_dockedKeyboardFrameInView;
+- (_Bool)_t1_isKeyboardDocked;
+- (struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })_t1_dockedKeyboardOverlapInView;
 - (_Bool)_t1_isDockedKeyboardOverlappingView;
 - (id)_t1_buttonWithImageName:(id)name selectedImageName:(id)name;
 - (id)_t1_buttonWithImageName:(id)name selectedImageName:(id)name isRenderedAsTemplate:(_Bool)_template;

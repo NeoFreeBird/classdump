@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZContentCardRaw_h
 #define BRZContentCardRaw_h
@@ -7,13 +5,13 @@
 
 #include "BRZContentCardContext.h"
 
-@class Chat.DidEndCall, NSDictionary, NSObject, NSString, NSURL;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSDictionary, NSObject, NSString, NSURL;
 
 @interface BRZContentCardRaw : NSObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall lock;
-    oneway _Atomic Chat.DidEndCall _id;
-    oneway _Atomic Chat.DidEndCall _codableExtras;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift lock;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _id;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _codableExtras;
 }
 
 @property (nonatomic) long long type;

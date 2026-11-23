@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10CallScreenP33_C02E684ACB628E0F8EDBEEB31C445FC528CallReactionPickerItemButton_h
 #define _TtC10CallScreenP33_C02E684ACB628E0F8EDBEEB31C445FC528CallReactionPickerItemButton_h

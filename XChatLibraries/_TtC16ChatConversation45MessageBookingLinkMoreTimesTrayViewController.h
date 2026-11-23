@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation45MessageBookingLinkMoreTimesTrayViewController_h
 #define _TtC16ChatConversation45MessageBookingLinkMoreTimesTrayViewController_h
 @import Foundation;
 
-@class ChatConversation.ConversationMessageListItemStream, ChatConversation.MessageBookingLinkMoreTimesTrayActions, ChatConversation.MessageBookingLinkScheduleView, ChatModels.ChatMessageBookingLink, ChatModels.ConversationMetadataStream, ChatModels.MessageBookingLinkSelection ?, ChatUI.ChatImageLoading ?, Swift.Bool, _$s13XDesignSystem16TrayFootnoteViewCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$sSS, _$sSSSg, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo7UILabelC;
+@class ChatConversation.ConversationMessageListItemStream, ChatConversation.MessageBookingLinkMoreTimesTrayActions, ChatConversation.MessageBookingLinkScheduleView, ChatModels.ChatMessageBookingLink, ChatModels.ConversationMetadataStream, ChatModels.MessageBookingLinkSelection ?, ChatUI.ChatImageLoading ?, Swift.Bool, _$s10Foundation4DateVMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$sSS, _$sSSSg, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo7UILabelC, _$sSo7UILabelCSg;
 
 @interface ChatConversation.MessageBookingLinkMoreTimesTrayViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
@@ -15,13 +13,13 @@
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable cancellables;
     ChatModels.ConversationMetadataStream conversationMetadataStream;
     ChatUI.ChatImageLoading ? imageLoader;
+    nominal type descriptor for Foundation.Date ? initialBookedStart;
     Swift.Bool isBookingEnabled;
     __C.UILabel loadingLabel;
     Swift.String messageID;
     ChatConversation.ConversationMessageListItemStream messageListItemStream;
     __C.UILabel noteLabel;
-    nominal type descriptor for XDesignSystem.TrayFootnoteView ? $__lazy_storage_$_openOnWebFootnoteView;
-    __C.UILabel refusalLabel;
+    __C.UILabel? refusalLabel;
     ChatConversation.MessageBookingLinkScheduleView scheduleView;
     ChatModels.MessageBookingLinkSelection ? selection;
 }

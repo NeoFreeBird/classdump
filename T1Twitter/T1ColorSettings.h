@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ColorSettings_h
 #define T1ColorSettings_h
@@ -15,7 +13,9 @@
 + (void)setDarkModeStatus:(long long)status;
 + (_Bool)isDarkModeOn;
 + (void)toggleDarkMode;
++ (void)followSystemUserInterfaceStyleOfWindow:(id)window;
 + (void)traitCollectionDidChange;
++ (void)_t1_systemUserInterfaceStyleDidChange:(long long)change;
 + (void)_t1_applySystemUserInterfaceStyle:(long long)style animated:(_Bool)animated;
 + (void)transitionToDarkMode:(_Bool)mode animated:(_Bool)animated;
 + (void)applyDefaultDarkColorPalette;
@@ -23,6 +23,7 @@
 + (long long)primaryColorOption;
 + (void)_t1_applyPrimaryColorOption;
 + (void)_t1_updateOverrideUserInterfaceStyle;
++ (void)_t1_setHoldsUserInterfaceStyle:(_Bool)style;
 
 @end
 

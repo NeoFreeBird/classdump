@@ -1,17 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14WorkExperience43WorkExperienceListTrayContentViewController_h
 #define _TtC14WorkExperience43WorkExperienceListTrayContentViewController_h
 @import Foundation;
 
-@class Swift.Bool, WorkExperience.WorkExperienceEditorSession, WorkExperience.WorkExperienceLoadingView ?, WorkExperience.WorkExperienceLogoTiles, _$s13XDesignSystem16TrayFootnoteViewCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem9ListItemsCMn, _$sSS;
+@class Swift.Bool, WorkExperience.WorkExperienceEditorSession, WorkExperience.WorkExperienceLoadingView ?, WorkExperience.WorkExperienceLogoTiles, WorkExperience.WorkExperienceRolesListView, _$s13XDesignSystem16TrayFootnoteViewCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem8ListItemV7LeadingOMn ?, _$sSS;
 
 @interface WorkExperience.WorkExperienceListTrayContentViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
     WorkExperience.WorkExperienceEditorSession session;
     WorkExperience.WorkExperienceLogoTiles logos;
-    nominal type descriptor for XDesignSystem.ListItems list;
+    nominal type descriptor for XDesignSystem.ListItem.Leading ? $__lazy_storage_$_addLeading;
+    WorkExperience.WorkExperienceRolesListView rolesView;
     Swift.String headerTitle;
     WorkExperience.WorkExperienceLoadingView ? $__lazy_storage_$_loadingView;
     nominal type descriptor for XDesignSystem.TrayFootnoteView ? $__lazy_storage_$_limitNoteView;

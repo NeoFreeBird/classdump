@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UserView_h
 #define T1UserView_h
@@ -86,6 +84,7 @@
 @property (nonatomic) _Bool showBio;
 @property (nonatomic) _Bool showAutoTranslate;
 @property (nonatomic) _Bool isTranslationAnnotationOnly;
+@property (nonatomic) _Bool reservesActionControlColumn;
 @property (nonatomic) _Bool showBlockedYou;
 @property (nonatomic) _Bool showDesignatorBadge;
 @property (nonatomic) _Bool showParodyBadge;
@@ -172,6 +171,7 @@
 - (id)_userBadgeWithViewModel:(id)model;
 - (void)_t1_updateAutoTranslateToggleAnimated:(_Bool)animated;
 - (void)_t1_updateBioAttributedTextView;
+- (id)_t1_bioTextModelWithString:(id)string;
 - (void)_t1_updateDesignatorBadge;
 - (void)_t1_updateParodyBadge;
 - (void)layoutSubviews;

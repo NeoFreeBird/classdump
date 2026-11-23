@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversationP33_0C3CBFB3F4EDA4406BA2ACD02B5D56D018ChevronBadgeButton_h
 #define _TtC16ChatConversationP33_0C3CBFB3F4EDA4406BA2ACD02B5D56D018ChevronBadgeButton_h

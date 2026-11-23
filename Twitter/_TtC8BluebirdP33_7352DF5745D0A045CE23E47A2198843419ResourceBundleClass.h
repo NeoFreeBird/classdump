@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8BluebirdP33_7352DF5745D0A045CE23E47A2198843419ResourceBundleClass_h
 #define _TtC8BluebirdP33_7352DF5745D0A045CE23E47A2198843419ResourceBundleClass_h

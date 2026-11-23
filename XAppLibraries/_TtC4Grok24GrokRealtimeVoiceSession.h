@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4Grok24GrokRealtimeVoiceSession_h
 #define _TtC4Grok24GrokRealtimeVoiceSession_h
 @import Foundation;
 
-@class Grok.GrokEventScriber, Grok.GrokRealtimeVoiceReadinessState, Grok.GrokRealtimeVoiceSession.ConnectionStartDetails ?, Grok.GrokRealtimeVoiceSettings ?, GrokVoiceRealtime.GrokRealtimeVoiceManager, _$s7Combine14AnyCancellableCMn ?, _$s7Combine18PassthroughSubjectCMn Grok.GrokVoiceSessionEvent _$ss5NeverOMn, _$s7Combine18PassthroughSubjectCMn _$sySS _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySb _$ss5NeverOMn, _$sSDyS2SG, _$sScTyyt _$ss5NeverOMn ?, _$sSd, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSi, _TtCs12_SwiftObject;
+@class Grok.GrokEventScriber, Grok.GrokRealtimeVoiceReadinessState, Grok.GrokRealtimeVoiceSession.ConnectionStartDetails ?, Grok.GrokRealtimeVoiceSettings, GrokVoiceRealtime.GrokRealtimeVoiceManager, _$s7Combine14AnyCancellableCMn ?, _$s7Combine18PassthroughSubjectCMn Grok.GrokVoiceSessionEvent _$ss5NeverOMn, _$s7Combine18PassthroughSubjectCMn _$sySS _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySb _$ss5NeverOMn, _$sSDyS2SG, _$sScTyyt _$ss5NeverOMn ?, _$sSd, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSi, _TtCs12_SwiftObject;
 
 @interface Grok.GrokRealtimeVoiceSession : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -22,7 +20,7 @@
     Grok.GrokRealtimeVoiceReadinessState readiness;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable sessionCancellables;
     nominal type descriptor for Combine.AnyCancellable ? transcriptForwardCancellable;
-    Grok.GrokRealtimeVoiceSettings ? realtimeVoiceSettings;
+    Grok.GrokRealtimeVoiceSettings realtimeVoiceSettings;
 }
 
 @end

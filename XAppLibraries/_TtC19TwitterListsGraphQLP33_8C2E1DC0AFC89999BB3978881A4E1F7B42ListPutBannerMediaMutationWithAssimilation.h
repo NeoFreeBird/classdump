@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19TwitterListsGraphQLP33_8C2E1DC0AFC89999BB3978881A4E1F7B42ListPutBannerMediaMutationWithAssimilation_h
 #define _TtC19TwitterListsGraphQLP33_8C2E1DC0AFC89999BB3978881A4E1F7B42ListPutBannerMediaMutationWithAssimilation_h

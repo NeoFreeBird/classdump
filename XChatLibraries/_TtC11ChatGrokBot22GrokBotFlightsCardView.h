@@ -1,15 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot22GrokBotFlightsCardView_h
 #define _TtC11ChatGrokBot22GrokBotFlightsCardView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotCardSurfaceView ?, ChatGrokBot.GrokBotFlightResultsView, ChatGrokBot.GrokBotShoppingFollowUpsView, UIView;
+@class ChatGrokBot.GrokBotCardSurfaceView ?, ChatGrokBot.GrokBotFlightFollowUpsView, ChatGrokBot.GrokBotFlightResultsView, UIView;
 
 @interface ChatGrokBot.GrokBotFlightsCardView : UIView { // (Swift)
     /* instance variables */
-    ChatGrokBot.GrokBotShoppingFollowUpsView followUpsView;
+    ChatGrokBot.GrokBotFlightFollowUpsView followUpsView;
     ChatGrokBot.GrokBotFlightResultsView resultsView;
     ChatGrokBot.GrokBotCardSurfaceView ? $__lazy_storage_$_surfaceView;
 }

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_91DCD8D674B80AC6CDB66E895B44209B26StatusPostCtaContainerView_h
 #define _TtC14T1TwitterSwiftP33_91DCD8D674B80AC6CDB66E895B44209B26StatusPostCtaContainerView_h

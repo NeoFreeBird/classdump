@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGraphQL27BookBookingLinkTimeMutation_h
 #define _TtC11ChatGraphQL27BookBookingLinkTimeMutation_h
 @import Foundation;
 
-@class Swift.Bool, _$s14GraphQLScalars13NumericStringVMn, _$s8TFSModel16PendingStateNodeMp ?, _$sSDyS2SGSg, _$sSS, _TtCs12_SwiftObject, __C.TNLHTTPMethod;
+@class Swift.Bool, _$s14GraphQLScalars13NumericStringVMn, _$s14GraphQLScalars13NumericStringVMn ?, _$s8TFSModel16PendingStateNodeMp ?, _$sSDyS2SGSg, _$sSS, _$sSSSg, _TtCs12_SwiftObject, __C.TNLHTTPMethod;
 
 @interface ChatGraphQL.BookBookingLinkTimeMutation : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -14,7 +12,9 @@
     Swift.Bool attestRequestPayload;
     __C.TNLHTTPMethod graphQLHTTPMethod;
     Swift.String id;
+    Swift.String? pin;
     nominal type descriptor for GraphQLScalars.NumericString startMin;
+    nominal type descriptor for GraphQLScalars.NumericString ? replaceStartMin;
 }
 
 @end

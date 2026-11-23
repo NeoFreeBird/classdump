@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef VideoClipTrimmerViewController_h
 #define VideoClipTrimmerViewController_h
@@ -19,14 +17,19 @@
     @40@0:8:16@24@32 sourcePlaybackSeconds;
     @40@0:8:16@24@32 resultTiming;
     @40@0:8:16@24@32 seamProviders;
+    @40@0:8:16@24@32 liveReplayLoader;
+    @40@0:8:16@24@32 liveReplayLoadingIndicator;
     @40@0:8:16@24@32 onBack;
     @40@0:8:16@24@32 onNextWillDismiss;
     @40@0:8:16@24@32 onNext;
     @40@0:8:16@24@32 topBar;
+    @40@0:8:16@24@32 nextTitle;
+    @40@0:8:16@24@32 showsNavigationBar;
     @40@0:8:16@24@32 slider;
     @40@0:8:16@24@32 durationLabel;
     @40@0:8:16@24@32 maximumDurationLabel;
     @40@0:8:16@24@32 minimumClipDurationSeconds;
+    @40@0:8:16@24@32 isTrimmerFixesEnabled;
     @40@0:8:16@24@32 maximumClipDurationSeconds;
     @40@0:8:16@24@32 hasAppliedInitialBounds;
     @40@0:8:16@24@32 $__lazy_storage_$_playheadScrubGesture;
@@ -47,9 +50,11 @@
     @40@0:8:16@24@32 oldLowerBound;
     @40@0:8:16@24@32 oldUpperBound;
     @40@0:8:16@24@32 touchDownBounds;
+    @40@0:8:16@24@32 hasSelectionMovedSinceTouchDown;
     @40@0:8:16@24@32 playheadScrubStartLocationX;
     @40@0:8:16@24@32 playheadScrubStartValue;
     @40@0:8:16@24@32 isUserPaused;
+    @40@0:8:16@24@32 playPauseButtonFollowsPlayer;
     @40@0:8:16@24@32 maximumDurationMessageHideTask;
 }
 
@@ -60,6 +65,7 @@
 - (void)player:(id)player didUpdatePlaybackState:(id)state;
 - (id)initWithCoder:(id)coder;
 - (void)viewDidLoad;
+- (void)viewIsAppearing:(_Bool)appearing;
 - (void)viewWillAppear:(_Bool)appear;
 - (void)viewDidLayoutSubviews;
 - (void)viewDidDisappear:(_Bool)disappear;

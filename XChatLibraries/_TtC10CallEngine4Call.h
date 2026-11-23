@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10CallEngine4Call_h
 #define _TtC10CallEngine4Call_h
 @import Foundation;
 
-@class CallEngine.CallBitrateGraphStream, CallEngine.CallConnectionQualityStream, CallEngine.CallDebugLogStream, CallEngine.CallMediaPermissionRequestStream, CallEngine.CallMediaPermissionStream, CallEngine.CallReconnectingToneStream, CallEngine.CallSimulcastGraphStream, CallEngine.CallWorkerPluginPoint, CallMedia.CallCaptureSessionStream, CallMedia.CallDiagnosticsStream, CallMedia.CallVideoTrackStream, CallModels.CallActiveSpeakerStream, CallModels.CallAudioRouteStream, CallModels.CallCapabilityStream, CallModels.CallCaptureNoticeStream, CallModels.CallConfiguration, CallModels.CallConnectionStateStream, CallModels.CallIDStream, CallModels.CallOutgoingProgressStream, CallModels.CallParticipantsStream, CallModels.CallPhaseStream, CallModels.CallPinnedParticipantsStream, CallModels.CallRaisedHandStream, CallModels.CallReactionStream, CallModels.CallSessionActionTriggerStream, CallModels.LocalHandRaiseStream, CallModels.LocalMediaStateStream, _$s10Foundation4UUIDVMn, _$s11XFoundation11TimerStreamCMn, _$sSS, _TtCs12_SwiftObject;
+@class CallEngine.CallBitrateGraphStream, CallEngine.CallConnectionQualityStream, CallEngine.CallDebugLogStream, CallEngine.CallDisplayStatusStream, CallEngine.CallMediaPermissionRequestStream, CallEngine.CallMediaPermissionStream, CallEngine.CallReconnectingToneStream, CallEngine.CallSimulcastGraphStream, CallEngine.CallWorkerPluginPoint, CallMedia.CallCaptureSessionStream, CallMedia.CallDiagnosticsStream, CallMedia.CallVideoTrackStream, CallModels.CallActiveSpeakerStream, CallModels.CallAudioRouteStream, CallModels.CallCapabilityStream, CallModels.CallCaptureConsentStream, CallModels.CallCaptureNoticeStream, CallModels.CallConfiguration, CallModels.CallConnectionStateStream, CallModels.CallIDStream, CallModels.CallOutgoingProgressStream, CallModels.CallParticipantsStream, CallModels.CallPhaseStream, CallModels.CallPinnedParticipantsStream, CallModels.CallRaisedHandStream, CallModels.CallReactionStream, CallModels.CallSessionActionTriggerStream, CallModels.LocalHandRaiseStream, CallModels.LocalMediaStateStream, _$s10Foundation4UUIDVMn, _$s11XFoundation11TimerStreamCMn, _$sSS, _TtCs12_SwiftObject;
 
 @interface CallEngine.Call : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -15,6 +13,7 @@
     CallModels.CallConnectionStateStream connectionState;
     CallEngine.CallReconnectingToneStream reconnectingTone;
     CallEngine.CallConnectionQualityStream connectionQuality;
+    CallEngine.CallDisplayStatusStream displayStatus;
     CallModels.CallIDStream callID;
     CallModels.CallParticipantsStream participants;
     CallModels.CallActiveSpeakerStream activeSpeakers;
@@ -23,6 +22,7 @@
     CallModels.CallPhaseStream phase;
     CallModels.CallOutgoingProgressStream outgoingProgress;
     CallModels.CallCaptureNoticeStream captureNotice;
+    CallModels.CallCaptureConsentStream captureConsent;
     CallModels.LocalMediaStateStream localMedia;
     CallModels.LocalHandRaiseStream localHand;
     CallModels.CallCapabilityStream capabilities;

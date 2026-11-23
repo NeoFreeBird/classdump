@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports28AmericanFootballGameHeroView_h
 #define _TtC7XSports28AmericanFootballGameHeroView_h
@@ -7,7 +5,7 @@
 
 #include "_TtC7XSports14MeasurableView.h"
 
-@class Swift.Bool, XSports.AmericanFootballCompactFieldView, XSports.AmericanFootballFieldView, XSports.AmericanFootballGameHeroView.AccessoryButton, XSports.AmericanFootballGameHeroView.MorphMetrics ?, XSports.AmericanFootballGameHeroView.ScoreData ?, XSports.AmericanFootballImpactPlayAnimationView, XSports.AmericanFootballLastPlayBarView, XSports.NFLGameHeroReminderBarView, XSports.SportsAnimatedScoreLabel, XSports.SportsHeroHighlightsView ?, XSports.SportsHighlightsCountdownButton ?, XSports.SportsTeam _$scSg ->, XSports.TeamSideViews, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$s12CoreGraphics7CGFloatVMn _$s8logoSize_So6UIFontC4fonttSg, _$s13XDesignSystem6ButtonCMn, _$sSi, _$sSo11UIImageViewC, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UILabelC, _$sySbcSg, _$syycSg, __C.UIEdgeInsets;
+@class Swift.Bool, XSports.AmericanFootballCompactFieldView, XSports.AmericanFootballFieldView, XSports.AmericanFootballGameHeroView.MorphMetrics ?, XSports.AmericanFootballGameHeroView.ScoreData ?, XSports.AmericanFootballImpactPlayAnimationView, XSports.AmericanFootballLastPlayBarView, XSports.NFLGameHeroReminderBarView, XSports.SportsAnimatedScoreLabel, XSports.SportsHeroHighlightsPill ?, XSports.SportsTeam _$scSg ->, XSports.TeamSideViews, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$s12CoreGraphics7CGFloatVMn _$s8logoSize_So6UIFontC4fonttSg, _$sSi, _$sSo11UIImageViewC, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UILabelC, _$sySbcSg, __C.UIEdgeInsets;
 
 @interface XSports.AmericanFootballGameHeroView : XSports.MeasurableView { // (Swift)
     /* instance variables */
@@ -19,7 +17,6 @@
     Swift.Bool showsField;
     Swift.Bool showsCompactField;
     XSports.SportsTeam _$scSg -> onSelectTeam;
-    (() -> ())? onAccessoryButtonTap;
     __C.TIPImagePipeline? imagePipeline;
     __C.UIView scoreboardContainer;
     XSports.TeamSideViews awaySide;
@@ -28,10 +25,7 @@
     __C.UILabel situationLabel;
     __C.UIImageView possessionImageView;
     __C.UIView possessionBarView;
-    XSports.AmericanFootballGameHeroView.AccessoryButton accessory;
-    nominal type descriptor for XDesignSystem.Button accessoryButton;
-    XSports.SportsHighlightsCountdownButton ? highlightsButton;
-    XSports.SportsHeroHighlightsView ? highlightsCarousel;
+    XSports.SportsHeroHighlightsPill ? highlights;
     ((Swift.Bool) -> ())? onFieldVisibilityChange;
     nominal type descriptor for CoreGraphics.CGFloat progress;
     nominal type descriptor for CoreGraphics.CGFloat coverProgress;
@@ -54,7 +48,6 @@
 - (id)initWithCoder:(id)coder;
 - (void)didTapAwayLogo;
 - (void)didTapHomeLogo;
-- (void)didTapAccessoryButton;
 - (void)traitCollectionDidChange:(id)change;
 - (void)didMoveToWindow;
 - (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;

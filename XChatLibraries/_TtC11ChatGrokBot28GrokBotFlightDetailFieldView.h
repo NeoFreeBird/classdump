@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot28GrokBotFlightDetailFieldView_h
 #define _TtC11ChatGrokBot28GrokBotFlightDetailFieldView_h
 @import Foundation;
 
-@class UIView, _$s12CoreGraphics7CGFloatVMn, _$sSaySo6UIViewCG, _$sSo7UILabelC;
+@class NSString, UIView, _$s12CoreGraphics7CGFloatVMn, _$sSaySo6UIViewCG, _$sSo7UILabelC;
 
 @interface ChatGrokBot.GrokBotFlightDetailFieldView : UIView { // (Swift)
     /* instance variables */
@@ -13,6 +11,8 @@
     __C.UILabel titleLabel;
     [__C.UIView] valueViews;
 }
+
+@property (nonatomic, copy) NSString *accessibilityLabel;
 
 /* instance methods */
 - (id)initWithCoder:(id)coder;

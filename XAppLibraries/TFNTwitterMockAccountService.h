@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterMockAccountService_h
 #define TFNTwitterMockAccountService_h
@@ -30,7 +28,6 @@
 - (void)addAccount:(id)account;
 - (void)removeAccount:(id)account;
 - (void)removeAllAccounts;
-- (void)reorderAccounts:(id)accounts;
 - (void)saveAccounts;
 - (void)reloadFromStore;
 - (id)addObserver:(id)observer;

@@ -1,21 +1,19 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend36ChatReportMessageActionHandlerPlugin_h
 #define _TtC8ChatSend36ChatReportMessageActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatKeys.XChatMessageCrypto, ChatSend.ChatMediaUploader, ChatSync.ChatMediaDownloader, ChatSync.XChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.XChatGraphQLClient, ChatTransport.XChatThriftCodec, _TtCs12_SwiftObject;
+@class ChatKeys.ChatMessageCrypto, ChatSend.ChatMediaUploader, ChatSync.ChatMediaDownloader, ChatSync.ChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.ChatGraphQLClient, ChatTransport.ChatThriftCodec, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatReportMessageActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
-    ChatTransport.XChatGraphQLClient graphQLClient;
-    ChatSync.XChatProjection projection;
-    ChatKeys.XChatMessageCrypto messageCrypto;
+    ChatTransport.ChatGraphQLClient graphQLClient;
+    ChatSync.ChatProjection projection;
+    ChatKeys.ChatMessageCrypto messageCrypto;
     ChatSync.ChatMediaDownloader mediaDownloader;
     ChatSend.ChatMediaUploader mediaUploader;
-    ChatTransport.XChatThriftCodec codec;
+    ChatTransport.ChatThriftCodec codec;
 }
 
 @end

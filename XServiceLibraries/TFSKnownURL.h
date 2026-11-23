@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFSKnownURL_h
 #define TFSKnownURL_h
@@ -74,7 +72,6 @@
 + (id)premiumSignUpWithReferringPage:(id)page paywallThresholdTier:(id)tier;
 + (id)timelineWithVariant:(id)variant reload:(_Bool)reload;
 + (id)conferencesWithKey:(id)key;
-+ (id)xchatConferencesWithKey:(id)key conversationID:(id)id;
 + (id)spacesWithSpaceID:(id)id;
 + (id)premiumHelpCenter;
 + (id)premiumPurchaserTerms;
@@ -94,6 +91,7 @@
 + (id)paymentsAccountInvitationWithInvitationID:(id)id;
 + (id)passkeyHelp;
 + (id)broadcastsWithBroadcastID:(id)id;
++ (id)broadcastClipWithBroadcastID:(id)id clipStartSeconds:(long long)seconds clipEndSeconds:(long long)seconds;
 + (id)xchatHelp;
 + (id)notifications;
 + (id)messages;

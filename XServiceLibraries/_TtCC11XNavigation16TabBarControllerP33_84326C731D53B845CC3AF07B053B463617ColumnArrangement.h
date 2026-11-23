@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC11XNavigation16TabBarControllerP33_84326C731D53B845CC3AF07B053B463617ColumnArrangement_h
 #define _TtCC11XNavigation16TabBarControllerP33_84326C731D53B845CC3AF07B053B463617ColumnArrangement_h

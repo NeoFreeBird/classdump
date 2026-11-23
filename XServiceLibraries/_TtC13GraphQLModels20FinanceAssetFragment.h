@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC13GraphQLModels20FinanceAssetFragment_h
 #define _TtC13GraphQLModels20FinanceAssetFragment_h
@@ -19,6 +17,7 @@
     GraphQLModels.FinanceStockAssetFragment ? stock;
     Swift.String ticker;
     Swift.String? tradeDisclaimer;
+    Swift.String? tradeSponsoredLabel;
     Swift.Bool verified;
 }
 

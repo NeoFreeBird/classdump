@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot23GrokBotConversationView_h
 #define _TtC11ChatGrokBot23GrokBotConversationView_h
@@ -11,7 +9,6 @@
     /* instance variables */
     __C.UIView? contentView;
     [__C.UIView] footerViews;
-    __C.UIView? overlayView;
     __C.UILayoutGuide contentViewLayoutGuide;
     __C.UILayoutGuide footerViewLayoutGuide;
     [__C.NSLayoutConstraint] footerViewConstraints;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBotP33_38B32168A6049AF8AF1F358D2670F18C44GrokBotDraftDetailsTrayContentViewController_h
 #define _TtC11ChatGrokBotP33_38B32168A6049AF8AF1F358D2670F18C44GrokBotDraftDetailsTrayContentViewController_h
@@ -13,6 +11,8 @@
     @40@0:8:16@24@32 draft;
     @40@0:8:16@24@32 fieldListView;
     @40@0:8:16@24@32 markView;
+    @40@0:8:16@24@32 signatureView;
+    @40@0:8:16@24@32 signatureImageSubscription;
 }
 
 /* instance methods */

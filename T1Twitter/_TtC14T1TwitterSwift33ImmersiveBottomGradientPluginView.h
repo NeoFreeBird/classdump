@@ -1,17 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift33ImmersiveBottomGradientPluginView_h
 #define _TtC14T1TwitterSwift33ImmersiveBottomGradientPluginView_h
 @import Foundation;
 
-@class T1TwitterSwift.ImmersiveCardState ?, T1TwitterSwift.ImmersiveCardViewModelProtocol ?, T1TwitterSwift.ImmersivePluginViewDelegate ?, UIView, _$s13XDesignSystem4BlurCMn, _$sSo15CAGradientLayerCSg, _$sSo6UIViewCSg;
+@class T1TwitterSwift.ImmersiveCardState ?, T1TwitterSwift.ImmersiveCardViewModelProtocol ?, T1TwitterSwift.ImmersivePluginViewDelegate ?, UIView, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem4BlurCMn, _$sSo15CAGradientLayerCSg, _$sSo6UIViewCSg;
 
 @interface T1TwitterSwift.ImmersiveBottomGradientPluginView : UIView { // (Swift)
     /* instance variables */
     T1TwitterSwift.ImmersiveCardViewModelProtocol ? viewModel;
     T1TwitterSwift.ImmersivePluginViewDelegate ? delegate;
     T1TwitterSwift.ImmersiveCardState ? state;
+    nominal type descriptor for CoreGraphics.CGFloat blurBandHeight;
     __C.CAGradientLayer? $__lazy_storage_$_gradientLayer;
     nominal type descriptor for XDesignSystem.Blur blurView;
     __C.UIView? $__lazy_storage_$_gradientView;

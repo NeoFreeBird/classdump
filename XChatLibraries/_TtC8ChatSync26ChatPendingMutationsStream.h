@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSync26ChatPendingMutationsStream_h
 #define _TtC8ChatSync26ChatPendingMutationsStream_h
 @import Foundation;
 
-@class _$s7Combine14AnyCancellableCMn ?, _$s7Combine18PassthroughSubjectCMn ChatSync.ChatPendingMutationsStream.Change _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySDySSSa -> ChatSync.XChatPendingMutation _$sGG _$ss5NeverOMn, _TtCs12_SwiftObject;
+@class _$s7Combine14AnyCancellableCMn ?, _$s7Combine18PassthroughSubjectCMn ChatSync.ChatPendingMutationsStream.Change _$ss5NeverOMn, _$s7Combine19CurrentValueSubjectCMn _$sySDySSSa -> ChatSync.ChatPendingMutation _$sGG _$ss5NeverOMn, _TtCs12_SwiftObject;
 
 @interface ChatSync.ChatPendingMutationsStream : Swift._SwiftObject { // (Swift)
     /* instance variables */
     nominal type descriptor for Combine.PassthroughSubject ChatSync.ChatPendingMutationsStream.Change nominal type descriptor for Swift.Never changeSubject;
-    nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Dictionary empty-list Swift.StringSwift.Array -> ChatSync.XChatPendingMutation _$sGG nominal type descriptor for Swift.Never subject;
+    nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Dictionary empty-list Swift.StringSwift.Array -> ChatSync.ChatPendingMutation _$sGG nominal type descriptor for Swift.Never subject;
     nominal type descriptor for Combine.AnyCancellable ? changeSubscription;
 }
 

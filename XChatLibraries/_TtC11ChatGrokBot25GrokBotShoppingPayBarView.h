@@ -1,20 +1,19 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot25GrokBotShoppingPayBarView_h
 #define _TtC11ChatGrokBot25GrokBotShoppingPayBarView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotCardButton, UIView, _$sSo6UIViewC, _$sSo7UILabelC, _$syycSg;
+@class ChatGrokBot.GrokBotCardButton, ChatGrokBot.GrokBotCartAddControlView, ChatGrokBot.GrokBotShoppingPayBarView.Cart ?, UIView, _$sSo6UIViewC, _$sSo7UILabelC, _$syycSg;
 
 @interface ChatGrokBot.GrokBotShoppingPayBarView : UIView { // (Swift)
     /* instance variables */
     (() -> ())? onPay;
     __C.UIView backgroundView;
-    __C.UILabel deliveryLabel;
+    ChatGrokBot.GrokBotCartAddControlView cartControlView;
     ChatGrokBot.GrokBotCardButton payButton;
     __C.UILabel priceLabel;
     __C.UILabel sellerLabel;
+    ChatGrokBot.GrokBotShoppingPayBarView.Cart ? cart;
 }
 
 /* instance methods */

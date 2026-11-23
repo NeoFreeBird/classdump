@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNModalSheetLayoutModePopoverController_h
 #define TFNModalSheetLayoutModePopoverController_h
@@ -16,7 +14,6 @@
     /* instance variables */
     TFNModalSheetViewController *_modalViewController;
     double _currentPresentingAreaWidth;
-    _Bool _needsRedisplay;
 }
 
 @property (retain, nonatomic) UIColor *cachedContainerBackgroundColor;
@@ -57,7 +54,6 @@
 - (void)_tfn_changePopoverBackgroundColorForIsPresenting:(_Bool)presenting animated:(_Bool)animated duration:(double)duration;
 - (void)updateKeyboardHeight:(double)height;
 - (void)viewWillDisappear:(_Bool)disappear;
-- (void)viewWillTransitionToSize:(struct CGSize { double x0; double x1; })size;
 - (void)willRedisplay;
 - (void)updateCurrentHeight:(double)height animated:(_Bool)animated completion:(id /* block */)completion;
 

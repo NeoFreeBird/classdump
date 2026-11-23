@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports30SportsScheduleCarouselCardView_h
 #define _TtC7XSports30SportsScheduleCarouselCardView_h
@@ -7,7 +5,7 @@
 
 #include "_TtC7XSports14MeasurableView.h"
 
-@class XSports.SportsDashedSeparator, XSports.SportsScheduleCarouselCardView.FooterAction, XSports.SportsScheduleCarouselCardView.PillPlan, XSports.SportsScheduleCarouselCardView.TeamRow, XSports.SportsScorecard ?, _$s10TFNUISwift11ShimmerViewCMn ?, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem6ButtonCMn, _$sSa -> XSports.SportsScheduleCarouselCardView.SkeletonRow, _$sSo11UIImageViewC, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UILabelC, _$syycSg;
+@class XSports.SportsDashedSeparator, XSports.SportsScheduleCarouselCardView.FooterAction, XSports.SportsScheduleCarouselCardView.PillPlan, XSports.SportsScheduleCarouselCardView.TeamRow, XSports.SportsScorecard ?, _$s10TFNUISwift11ShimmerViewCMn ?, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem6ButtonCMn, _$sSa -> XSports.SportsScheduleCarouselCardView.SkeletonRow, _$sSo16TIPImagePipelineCSg, _$sSo6UIViewC, _$sSo7UILabelC, _$syycSg;
 
 @interface XSports.SportsScheduleCarouselCardView : XSports.MeasurableView { // (Swift)
     /* instance variables */
@@ -22,8 +20,6 @@
     XSports.SportsScheduleCarouselCardView.TeamRow awayRow;
     XSports.SportsScheduleCarouselCardView.TeamRow homeRow;
     XSports.SportsDashedSeparator footerDivider;
-    __C.UIImageView chatWave;
-    __C.UILabel chattingNowLabel;
     nominal type descriptor for XDesignSystem.Button footerButton;
     __C.UILabel pillDashLabel;
     __C.UILabel pillWeekdayLabel;

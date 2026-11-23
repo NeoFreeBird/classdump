@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC12XPhotoEditor26PhotoEditorMorphTransitionP33_9D0F9A004429E21E3B3FB0D2069F6A3E10RevealGate_h
 #define _TtCC12XPhotoEditor26PhotoEditorMorphTransitionP33_9D0F9A004429E21E3B3FB0D2069F6A3E10RevealGate_h

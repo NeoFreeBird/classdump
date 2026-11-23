@@ -1,14 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot25GrokBotFileAttachmentView_h
 #define _TtC11ChatGrokBot25GrokBotFileAttachmentView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotPagePreviewView, Swift.Bool, UIControl, _$sSo11UIImageViewC, _$sSo6UIViewC, _$sSo7UILabelC, _$sySo6UIViewCcSg;
+@class ChatGrokBot.GrokBotPagePreviewView, Swift.Bool, UIControl, _$sSo11UIImageViewC, _$sSo6UIViewC, _$sSo7UIColorC, _$sSo7UILabelC, _$sySo6UIViewCcSg;
 
 @interface ChatGrokBot.GrokBotFileAttachmentView : UIControl { // (Swift)
     /* instance variables */
+    __C.UIColor fillColor;
     ((__C.UIView) -> ())? onTap;
     Swift.Bool ownsHorizontalPans;
     __C.UIView containerView;

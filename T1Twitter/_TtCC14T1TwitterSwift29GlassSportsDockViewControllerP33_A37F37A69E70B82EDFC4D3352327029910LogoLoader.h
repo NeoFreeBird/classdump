@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift29GlassSportsDockViewControllerP33_A37F37A69E70B82EDFC4D3352327029910LogoLoader_h
 #define _TtCC14T1TwitterSwift29GlassSportsDockViewControllerP33_A37F37A69E70B82EDFC4D3352327029910LogoLoader_h

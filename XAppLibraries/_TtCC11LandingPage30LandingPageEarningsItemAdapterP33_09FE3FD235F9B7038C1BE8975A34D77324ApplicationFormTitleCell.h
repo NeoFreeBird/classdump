@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC11LandingPage30LandingPageEarningsItemAdapterP33_09FE3FD235F9B7038C1BE8975A34D77324ApplicationFormTitleCell_h
 #define _TtCC11LandingPage30LandingPageEarningsItemAdapterP33_09FE3FD235F9B7038C1BE8975A34D77324ApplicationFormTitleCell_h

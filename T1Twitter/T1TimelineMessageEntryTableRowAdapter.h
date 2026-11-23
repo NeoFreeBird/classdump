@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1TimelineMessageEntryTableRowAdapter_h
 #define T1TimelineMessageEntryTableRowAdapter_h
@@ -7,7 +5,6 @@
 
 #include "T1PromptNavigationHelper.h"
 #include "T1TimelineMessageEntryTableRowAdapterDelegate-Protocol.h"
-#include "T1URTDataViewAdapterProvider-Protocol.h"
 #include "T1URTViewControllerAwareAdapter-Protocol.h"
 #include "T1UserFacepileWithActionFollowStateProvider-Protocol.h"
 #include "T1UserFacepileWithActionViewModelDelegate-Protocol.h"
@@ -37,8 +34,7 @@
 @property (retain, nonatomic) T1PromptNavigationHelper *navigationHelper;
 @property (weak, nonatomic) id <T1TimelineMessageEntryTableRowAdapterDelegate> delegate;
 @property (retain, nonatomic) id <T1UserFacepileWithActionFollowStateProvider> facepileFollowStateProvider;
-@property (weak, nonatomic) id <T1URTDataViewAdapterProvider> dataViewAdapterProvider;
-@property (nonatomic) _Bool disableExperimentalBonusFollowsFeatures;
+@property (nonatomic) _Bool facepileProfileNavigationDisabled;
 @property (readonly) unsigned long long hash;
 @property (readonly) Class superclass;
 @property (readonly, copy) NSString *description;
@@ -74,6 +70,7 @@
 - (double)_t1_heightForItem:(id)item controller:(id)controller atIndexPath:(id)path;
 - (id /* block */)_t1_activeRangeHandlerForRichText:(id)text timelineMessage:(id)message controller:(id)controller;
 - (id)_t1_URLForProtocolRouterFromRange:(id)range;
+- (void)_t1_presentViewController:(id)controller afterDismissingPresentedViewControllerForEntryID:(id)id;
 - (void)userFacepileViewModel:(id)model didRequestModalPresentationOfViewController:(id)controller;
 - (void)userFacepileViewModel:(id)model didRequestPushOfViewController:(id)controller;
 - (void)userFacepileViewModelDidDismissAllUsers:(id)users;

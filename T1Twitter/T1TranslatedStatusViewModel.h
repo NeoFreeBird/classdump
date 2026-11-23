@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1TranslatedStatusViewModel_h
 #define T1TranslatedStatusViewModel_h
@@ -226,7 +224,6 @@
 @property (nonatomic) unsigned long long isCurrentlyFirstImpression;
 @property (readonly, copy, nonatomic) NSString *scribeItemFirstImpressionID;
 @property (readonly, copy, nonatomic) NSString *scribeItemContentID;
-@property (readonly, copy, nonatomic) NSString *scribeItemDebugDisplayName;
 @property (readonly, nonatomic) _Bool dismissible;
 @property (readonly, nonatomic) unsigned long long dismissibleContentType;
 @property (readonly, nonatomic) _Bool dismissing;

@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14CallScheduleUI29BookingLinkFormViewController_h
 #define _TtC14CallScheduleUI29BookingLinkFormViewController_h
 @import Foundation;
 
-@class CallEngine.CallScribing, CallScheduleUI.BookingLinkChipsView, CallScheduleUI.BookingLinkDisplayFormatter, CallScheduleUI.BookingLinkFormState, CallScheduleUI.BookingLinkFormStream, CallScheduleUI.BookingLinkFormWorkerPluginPoint, CallScheduleUI.BookingLinkHoursBuilder, CallScheduleUI.ScheduleFieldRowView ?, _$s13XDesignSystem16TrayFootnoteViewCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem5InputCMn, _$s13XDesignSystem9ListItemsCMn, _$sSS, _$sSSSg, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sySo014Subsystem_ios_B21Arm64_mainBookingLinkCc;
+@class CallEngine.CallScribing, CallModels.CallToastPresenting, CallScheduleUI.BookingLinkChipsView, CallScheduleUI.BookingLinkDisplayFormatter, CallScheduleUI.BookingLinkFormState, CallScheduleUI.BookingLinkFormStream, CallScheduleUI.BookingLinkFormWorkerPluginPoint, CallScheduleUI.BookingLinkHoursBuilder, CallScheduleUI.ScheduleFieldRowView ?, _$s13XDesignSystem16TrayFootnoteViewCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem5InputCMn, _$s13XDesignSystem9ListItemsCMn, _$sSS, _$sSSSg, _$sSh -> _$s7Combine14AnyCancellableCMn;
 
 @interface CallScheduleUI.BookingLinkFormViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
@@ -20,10 +18,11 @@
     CallScheduleUI.BookingLinkHoursBuilder hoursBuilder;
     nominal type descriptor for XDesignSystem.ListItems hoursList;
     nominal type descriptor for XDesignSystem.Input nameInput;
-    (__C.Subsystem_ios_iosArm64_mainBookingLink) -> () onSaved;
+    CallModels.CallBookingLink function type (escaping) onSaved;
     CallScheduleUI.BookingLinkFormState state;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable subscriptions;
     nominal type descriptor for XDesignSystem.ListItems togglesList;
+    CallModels.CallToastPresenting toastPresenter;
     CallScheduleUI.BookingLinkFormWorkerPluginPoint workerPluginPoint;
 }
 

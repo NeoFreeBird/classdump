@@ -1,11 +1,11 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1PersistentComposeViewController_h
 #define T1PersistentComposeViewController_h
 @import Foundation;
 
 #include "HUIGraduatedAccessUserPromptDelegate-Protocol.h"
+#include "T1ComposeDropManager.h"
+#include "T1ComposeDropManagerDelegate-Protocol.h"
 #include "T1ComposeViewController.h"
 #include "T1PersistentComposeInlineActionsViewController.h"
 #include "T1PersistentComposeInlineActionsViewControllerDelegate-Protocol.h"
@@ -18,12 +18,13 @@
 
 @class NSArray, NSMutableArray, NSMutableDictionary, NSString, TCRAutocompleteViewController, TFNButton, TFSMainThreadRunLoopDeferredTask, UITextView, UIView, UIViewController;
 
-@interface T1PersistentComposeViewController : T1ComposeViewController <T1PersistentComposeViewDelegate, TFNJumpBackToHomeTimelineBehavior, TFNTwitterCompositionAttachmentsDelegate, HUIGraduatedAccessUserPromptDelegate, T1PersistentComposeInlineActionsViewControllerDelegate> {
+@interface T1PersistentComposeViewController : T1ComposeViewController <T1PersistentComposeViewDelegate, TFNJumpBackToHomeTimelineBehavior, TFNTwitterCompositionAttachmentsDelegate, HUIGraduatedAccessUserPromptDelegate, T1PersistentComposeInlineActionsViewControllerDelegate, T1ComposeDropManagerDelegate> {
     /* instance variables */
     TCRAutocompleteViewController *_autocompleteViewController;
 }
 
 @property (retain, nonatomic) UIView<T1PersistentComposeViewing> *composeView;
+@property (retain, nonatomic) T1ComposeDropManager *mediaDropManager;
 @property (readonly, nonatomic) TFNButton *sendReplyButton;
 @property (nonatomic) _Bool showsOnlyPlaceholder;
 @property (nonatomic) long long appearanceState;
@@ -45,7 +46,7 @@
 @property (weak, nonatomic) UIViewController *ownPresentedViewController;
 @property (weak, nonatomic) id <T1PersistentComposeViewControllerDelegate> delegate;
 @property (retain, nonatomic) id <TTACoreStatusViewModel> statusViewModel;
-@property (nonatomic) _Bool usesFlatQuickComposerBar;
+@property (nonatomic) _Bool usesDockedQuickComposerBar;
 @property (nonatomic) _Bool autosaveDraftsEnabled;
 @property (readonly, nonatomic) _Bool displayed;
 @property (readonly, nonatomic) _Bool editingText;
@@ -185,6 +186,12 @@
 - (void)_prepareAutocompleteViewController;
 - (void)autocompleteViewController:(id)controller scrollViewDidScroll:(id)scroll;
 - (void)dropInteraction:(id)interaction sessionDidEnter:(id)enter;
+- (void)_t1_setupMediaDropManager;
+- (_Bool)composeDropManagerCanAcceptDrop:(id)drop;
+- (void)composeDropManager:(id)manager didDropImages:(id)images;
+- (void)composeDropManager:(id)manager didDropAnimatedImage:(id)image;
+- (void)composeDropManager:(id)manager didDropVideoFile:(id)file;
+- (void)_t1_addDroppedAttachment:(id)attachment;
 - (_Bool)_t1_shouldShowAltTextPrompt;
 - (id)_t1_altTextEligibleImageAssetsForComposition:(id)composition;
 - (_Bool)_t1_hasAltTextWithImage:(id)image;

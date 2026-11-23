@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGraphQL17InboxPageFragment_h
 #define _TtC11ChatGraphQL17InboxPageFragment_h
@@ -19,6 +17,9 @@
     nominal type descriptor for Swift.Int32 ? messageRequestsCount;
     ChatGraphQL.MessageRequestsInfoFragment ? messageRequestsInfo;
     ChatGraphQL.InboxPageFragment.UserMetadataSnapshot ? userMetadataSnapshot;
+    Swift.String? usernameChangeWarningBody;
+    Swift.String? usernameChangeWarningHeader;
+    Swift.String? usernameChangeWarningText;
 }
 
 @end

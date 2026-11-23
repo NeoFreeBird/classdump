@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC13QuickComposer27QuickComposerBottomFadeMaskP33_426F39CDB2B90FE17C102A3A4D77A8B612GradientView_h
 #define _TtCC13QuickComposer27QuickComposerBottomFadeMaskP33_426F39CDB2B90FE17C102A3A4D77A8B612GradientView_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot21GrokBotDraftFieldView_h
 #define _TtC11ChatGrokBot21GrokBotDraftFieldView_h
@@ -7,7 +5,7 @@
 
 #include "UITextViewDelegate-Protocol.h"
 
-@class ChatGrokBot.GrokBotDraft.Field ?, UIView, _$s12CoreGraphics7CGFloatVMn, _$sSo10UITextViewC, _$sSo7UILabelC, _$sySScSg, _$syycSg;
+@class ChatGrokBot.GrokBotDraft.Field ?, UIView, _$s12CoreGraphics7CGFloatVMn, _$sSo10UITextViewC, _$sSo11UIImageViewC, _$sSo7UILabelC, _$sySScSg, _$syycSg;
 
 @interface ChatGrokBot.GrokBotDraftFieldView : UIView <UITextViewDelegate> { // (Swift)
     /* instance variables */
@@ -17,6 +15,7 @@
     ChatGrokBot.GrokBotDraft.Field ? field;
     __C.UILabel labelView;
     __C.UILabel placeholderLabel;
+    __C.UIImageView unverifiedMarkView;
     __C.UITextView textView;
 }
 

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC13XDesignSystem6ButtonP33_3CC6989867C92D831BAC247A4E3B4FC66Holder_h
 #define _TtCC13XDesignSystem6ButtonP33_3CC6989867C92D831BAC247A4E3B4FC66Holder_h

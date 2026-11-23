@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCCOC13GraphQLModels37ExclusiveTweetFollowOperationResponse20ExclusiveTweetFollow33ExclusiveTweetFollowInvalidResult22ParameterErrorResponse15ParameterErrors_h
 #define _TtCCCOC13GraphQLModels37ExclusiveTweetFollowOperationResponse20ExclusiveTweetFollow33ExclusiveTweetFollowInvalidResult22ParameterErrorResponse15ParameterErrors_h

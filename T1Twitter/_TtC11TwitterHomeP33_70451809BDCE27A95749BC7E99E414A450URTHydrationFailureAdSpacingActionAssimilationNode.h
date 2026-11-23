@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11TwitterHomeP33_70451809BDCE27A95749BC7E99E414A450URTHydrationFailureAdSpacingActionAssimilationNode_h
 #define _TtC11TwitterHomeP33_70451809BDCE27A95749BC7E99E414A450URTHydrationFailureAdSpacingActionAssimilationNode_h

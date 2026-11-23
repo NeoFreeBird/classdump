@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot41GrokBotShoppingProductPagerViewController_h
 #define _TtC11ChatGrokBot41GrokBotShoppingProductPagerViewController_h
@@ -8,15 +6,17 @@
 #include "UIPageViewControllerDataSource-Protocol.h"
 #include "UIPageViewControllerDelegate-Protocol.h"
 
-@class ChatGrokBot.GrokBotShoppingProductListener ?, UIPageViewController, _$sSDySi ChatGrokBot.GrokBotShoppingProductViewController, _$sSa -> ChatGrokBot.GrokBotShoppingProduct, _$sSi;
+@class ChatGrokBot.GrokBotCartStore ?, ChatGrokBot.GrokBotShoppingProductListener ?, ChatGrokBot.GrokBotShoppingSubscription ?, UIPageViewController, _$sSDySi ChatGrokBot.GrokBotShoppingProductViewController, _$sSa -> ChatGrokBot.GrokBotShoppingProduct, _$sSi;
 
 @interface ChatGrokBot.GrokBotShoppingProductPagerViewController : UIPageViewController <UIPageViewControllerDelegate, UIPageViewControllerDataSource> { // (Swift)
     /* instance variables */
     ChatGrokBot.GrokBotShoppingProductListener ? listener;
     Swift.Int currentIndex;
+    ChatGrokBot.GrokBotCartStore ? cart;
     Swift.Int initialIndex;
     Swift.Int initialPhotoIndex;
     Swift.Array -> ChatGrokBot.GrokBotShoppingProduct products;
+    ChatGrokBot.GrokBotShoppingSubscription ? subscription;
     Swift.Dictionary empty-list Swift.Int ChatGrokBot.GrokBotShoppingProductViewController productViewControllers;
 }
 

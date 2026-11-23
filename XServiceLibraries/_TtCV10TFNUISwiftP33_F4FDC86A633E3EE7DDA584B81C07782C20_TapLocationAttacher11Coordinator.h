@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV10TFNUISwiftP33_F4FDC86A633E3EE7DDA584B81C07782C20_TapLocationAttacher11Coordinator_h
 #define _TtCV10TFNUISwiftP33_F4FDC86A633E3EE7DDA584B81C07782C20_TapLocationAttacher11Coordinator_h

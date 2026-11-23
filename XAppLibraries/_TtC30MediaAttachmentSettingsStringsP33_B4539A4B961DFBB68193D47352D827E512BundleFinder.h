@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC30MediaAttachmentSettingsStringsP33_B4539A4B961DFBB68193D47352D827E512BundleFinder_h
 #define _TtC30MediaAttachmentSettingsStringsP33_B4539A4B961DFBB68193D47352D827E512BundleFinder_h

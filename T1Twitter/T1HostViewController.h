@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1HostViewController_h
 #define T1HostViewController_h
@@ -78,7 +76,7 @@
 - (void)viewUpdatePrompt;
 - (void)setupWithAccount:(id)account;
 - (void)traitCollectionDidChange:(id)change;
-- (void)registerOnboardingFlow:(id)flow keepAlive:(_Bool)alive signedIn:(_Bool)in;
+- (void)registerOnboardingFlow:(id)flow signedIn:(_Bool)in;
 - (void)saveViewControllerState;
 - (void)restoreUserActivityState:(id)state;
 - (void)handleRootViewControllerSetupWithAccount:(id)account;

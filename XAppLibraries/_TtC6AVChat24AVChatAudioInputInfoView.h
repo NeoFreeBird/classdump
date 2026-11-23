@@ -1,15 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC6AVChat24AVChatAudioInputInfoView_h
 #define _TtC6AVChat24AVChatAudioInputInfoView_h
 @import Foundation;
 
-@class Chat.AVChatAudioInputInfoView.Info, Swift.Bool, UIView, _$sSo11UIImageViewC, __C.CGSize;
+@class Chat.AVChatInfoItemsState.AudioInput, Swift.Bool, UIView, _$sSo11UIImageViewC, __C.CGSize;
 
 @interface AVChat.AVChatAudioInputInfoView : UIView { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.AVChatAudioInputInfoView.Info info;
+    oneway _Atomic Chat.AVChatInfoItemsState.AudioInput info;
     __C.CGSize preferredContentSize;
     Swift.Bool _isAnimatingTalking;
     __C.UIImageView _imageView;

@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot20GrokBotDraftCardView_h
 #define _TtC11ChatGrokBot20GrokBotDraftCardView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotCardButton, ChatGrokBot.GrokBotCardReceiptLineView, ChatGrokBot.GrokBotConnectHeaderView, ChatGrokBot.GrokBotDraftAttachmentListView, ChatGrokBot.GrokBotDraftFieldListView, Swift.Bool, UIView, _$s8Dispatch0A8WorkItemCMn ?, _$sSo7UILabelC, _$sySbcSg, _$syycSg;
+@class ChatGrokBot.GrokBotCardButton, ChatGrokBot.GrokBotCardReceiptLineView, ChatGrokBot.GrokBotConnectHeaderView, ChatGrokBot.GrokBotDraftAttachmentListView, ChatGrokBot.GrokBotDraftFieldListView, ChatGrokBot.GrokBotDraftSignatureView, Swift.Bool, UIView, _$s8Dispatch0A8WorkItemCMn ?, _$sSo7UILabelC, _$sySbcSg, _$syycSg;
 
 @interface ChatGrokBot.GrokBotDraftCardView : UIView { // (Swift)
     /* instance variables */
@@ -17,6 +15,7 @@
     ChatGrokBot.GrokBotConnectHeaderView headerView;
     ChatGrokBot.GrokBotCardReceiptLineView receiptLineView;
     ChatGrokBot.GrokBotCardButton sendButton;
+    ChatGrokBot.GrokBotDraftSignatureView signatureView;
     nominal type descriptor for Dispatch.DispatchWorkItem ? copiedResetWorkItem;
     Swift.Bool isSendInFlight;
     (() -> ())? onCopy;

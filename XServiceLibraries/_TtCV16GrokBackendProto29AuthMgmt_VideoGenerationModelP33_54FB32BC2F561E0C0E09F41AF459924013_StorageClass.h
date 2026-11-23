@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV16GrokBackendProto29AuthMgmt_VideoGenerationModelP33_54FB32BC2F561E0C0E09F41AF459924013_StorageClass_h
 #define _TtCV16GrokBackendProto29AuthMgmt_VideoGenerationModelP33_54FB32BC2F561E0C0E09F41AF459924013_StorageClass_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1TweetNotificationsHelper_h
 #define T1TweetNotificationsHelper_h
@@ -10,7 +8,6 @@
 @interface T1TweetNotificationsHelper : NSObject
 
 /* class methods */
-+ (long long)tweetNotificationsRelationshipStateForAccount:(id)account relationship:(id)relationship;
 + (void)logDeviceNotificationConfigurationForAccount:(id)account scribeContext:(id)context notificationSettingsProperty:(id)property;
 
 @end

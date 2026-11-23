@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCO14T1TwitterSwift21MiniProfileTransitionP33_A88B8CF4DF5EC2737372672B8A32CC598Animator_h
 #define _TtCO14T1TwitterSwift21MiniProfileTransitionP33_A88B8CF4DF5EC2737372672B8A32CC598Animator_h

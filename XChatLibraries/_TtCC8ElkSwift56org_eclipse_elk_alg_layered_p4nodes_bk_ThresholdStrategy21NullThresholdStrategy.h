@@ -1,0 +1,12 @@
+//
+#ifndef _TtCC8ElkSwift56org_eclipse_elk_alg_layered_p4nodes_bk_ThresholdStrategy21NullThresholdStrategy_h
+#define _TtCC8ElkSwift56org_eclipse_elk_alg_layered_p4nodes_bk_ThresholdStrategy21NullThresholdStrategy_h
+@import Foundation;
+
+#include "_TtC8ElkSwift56org_eclipse_elk_alg_layered_p4nodes_bk_ThresholdStrategy.h"
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_p4nodes_bk_ThresholdStrategy.NullThresholdStrategy : ElkSwift.org_eclipse_elk_alg_layered_p4nodes_bk_ThresholdStrategy // (Swift)
+
+@end
+
+#endif /* _TtCC8ElkSwift56org_eclipse_elk_alg_layered_p4nodes_bk_ThresholdStrategy21NullThresholdStrategy_h */

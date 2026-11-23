@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TUCVideoView_Protocol_h
 #define TUCVideoView_Protocol_h
@@ -13,7 +11,7 @@
 
 @required
 
-@property (nonatomic, retain) id <TUCVideoViewDelegate> delegate;
+@property (nonatomic, weak) id <TUCVideoViewDelegate> delegate;
 @property (nonatomic, readonly) TAVPlaybackState *playbackState;
 @property (nonatomic) _Bool shouldLoopVideo;
 @property (nonatomic) _Bool hideVanity;

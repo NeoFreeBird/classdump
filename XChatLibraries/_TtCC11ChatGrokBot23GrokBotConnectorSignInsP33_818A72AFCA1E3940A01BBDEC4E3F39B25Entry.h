@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC11ChatGrokBot23GrokBotConnectorSignInsP33_818A72AFCA1E3940A01BBDEC4E3F39B25Entry_h
 #define _TtCC11ChatGrokBot23GrokBotConnectorSignInsP33_818A72AFCA1E3940A01BBDEC4E3F39B25Entry_h

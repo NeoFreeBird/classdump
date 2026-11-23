@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19ChatMessageComposerP33_0A78E7A579C172EAC7AD362B2BC9819235ComposerAttachmentCardAccessoryView_h
 #define _TtC19ChatMessageComposerP33_0A78E7A579C172EAC7AD362B2BC9819235ComposerAttachmentCardAccessoryView_h

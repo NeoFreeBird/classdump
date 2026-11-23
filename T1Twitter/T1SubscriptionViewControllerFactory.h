@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1SubscriptionViewControllerFactory_h
 #define T1SubscriptionViewControllerFactory_h
@@ -12,8 +10,10 @@
 /* class methods */
 + (id)complatManageViewControllerIfRoutedWithAccount:(id)account referringPage:(id)page;
 + (id)complatPaywallViewControllerIfRoutedWithAccount:(id)account referringPage:(id)page;
++ (id)complatPaywallViewControllerForAnyPlanIfRoutedWithAccount:(id)account entrypoint:(id)entrypoint redirectSuccessURL:(id)url postPurchaseURL:(id)url;
 + (Class)viewControllerClassWithAccount:(id)account referringPage:(id)page upgradeIfPossible:(_Bool)possible tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier;
 + (id)viewControllerWithAccount:(id)account referringPage:(id)page upgradeIfPossible:(_Bool)possible tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier redirectSuccessURL:(id)url;
++ (id)viewControllerWithAccount:(id)account referringPage:(id)page upgradeIfPossible:(_Bool)possible tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier redirectSuccessURL:(id)url postPurchaseURL:(id)url;
 + (id)viewControllerAfterPurchaseWithAccount:(id)account referringPage:(id)page;
 + (_Bool)isAdUpsellEnabledWithAccount:(id)account;
 + (id)featureUpsellActionTextWithFeature:(long long)feature account:(id)account;

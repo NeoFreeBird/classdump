@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFSTwitterAPICommandScribe_h
 #define TFSTwitterAPICommandScribe_h
@@ -33,10 +31,12 @@
 - (void)logTFSTwitterAPIAuthDependencyError:(id)error request:(id)request;
 - (void)logTFSTwitterAPIGuestAuthError:(id)error request:(id)request willRetry:(_Bool)retry retryCount:(unsigned long long)count;
 - (void)logTransactionMetrics:(id)metrics forResponse:(id)response;
+- (void)logClientNetworkOperationWithType:(long long)type status:(long long)status duration:(double)duration retryCount:(unsigned long long)count attempts:(id)attempts;
 - (void)logTFSTwitterAPIDisallowedEndpointURL:(id)url;
 - (id)internal_accountScribe;
 - (id)internal_guestScribe;
 - (id)legacyScribeForResponse:(id)response;
+- (id)internal_scribeForStatusCode:(long long)code;
 
 @end
 

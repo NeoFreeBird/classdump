@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCC19TwitterListsGraphQL36ListMembersTimelineOperationResponse12ListByRestId15MembersTimeline_h
 #define _TtCCC19TwitterListsGraphQL36ListMembersTimelineOperationResponse12ListByRestId15MembersTimeline_h

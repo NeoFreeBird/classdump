@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ComplatPaywallViewController_h
 #define T1ComplatPaywallViewController_h
@@ -40,6 +38,7 @@
     NSNumber"16@0:8 *hasRevealedContent;
     NSNumber"16@0:8 *hasTornDown;
     NSNumber"16@0:8 *isShowingFailure;
+    NSNumber"16@0:8 *isClosingAfterLoadFailure;
     NSNumber"16@0:8 *activeStoreSubscriptionsRequestId;
     NSNumber"16@0:8 *lastStoreSnapshot;
     NSNumber"16@0:8 *storeSnapshotTask;
@@ -62,6 +61,8 @@
     NSNumber"16@0:8 *hasAutoRetried;
     NSNumber"16@0:8 *nativeNavigation;
     NSNumber"16@0:8 *presentation;
+    NSNumber"16@0:8 *postPurchaseURL;
+    NSNumber"16@0:8 *postPurchaseDestination;
     NSNumber"16@0:8 *onContentReady;
     NSNumber"16@0:8 *onLoadFailed;
     NSNumber"16@0:8 *onPurchaseStarted;

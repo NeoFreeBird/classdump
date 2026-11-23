@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9XCashTags22PassthroughOverlayView_h
 #define _TtC9XCashTags22PassthroughOverlayView_h
@@ -7,11 +5,11 @@
 
 #include "TFNPreviewSuppressing-Protocol.h"
 
-@class Swift.Bool __C.CGPoint _$scSg, UIView;
+@class UIView, _$sSbycSg;
 
 @interface XCashTags.PassthroughOverlayView : UIView <TFNPreviewSuppressing> { // (Swift)
     /* instance variables */
-    Swift.Bool __C.CGPoint _$scSg shouldPassThrough;
+    (() -> Swift.Bool)? shouldPassThrough;
 }
 
 /* instance methods */

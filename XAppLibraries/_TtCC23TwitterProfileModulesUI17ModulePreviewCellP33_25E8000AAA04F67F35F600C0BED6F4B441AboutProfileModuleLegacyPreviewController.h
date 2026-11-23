@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC23TwitterProfileModulesUI17ModulePreviewCellP33_25E8000AAA04F67F35F600C0BED6F4B441AboutProfileModuleLegacyPreviewController_h
 #define _TtCC23TwitterProfileModulesUI17ModulePreviewCellP33_25E8000AAA04F67F35F600C0BED6F4B441AboutProfileModuleLegacyPreviewController_h

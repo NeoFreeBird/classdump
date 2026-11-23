@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC15ObservableValueP33_49C3D6AA4C1639BD67AC31C0D0435E095Queue_h
 #define _TtC15ObservableValueP33_49C3D6AA4C1639BD67AC31C0D0435E095Queue_h

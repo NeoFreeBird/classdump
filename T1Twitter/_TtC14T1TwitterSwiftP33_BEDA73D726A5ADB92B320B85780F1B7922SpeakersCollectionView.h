@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_BEDA73D726A5ADB92B320B85780F1B7922SpeakersCollectionView_h
 #define _TtC14T1TwitterSwiftP33_BEDA73D726A5ADB92B320B85780F1B7922SpeakersCollectionView_h

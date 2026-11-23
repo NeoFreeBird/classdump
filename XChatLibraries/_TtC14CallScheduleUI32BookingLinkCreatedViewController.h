@@ -1,17 +1,15 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14CallScheduleUI32BookingLinkCreatedViewController_h
 #define _TtC14CallScheduleUI32BookingLinkCreatedViewController_h
 @import Foundation;
 
-@class CallScheduleUI.BookingLinkDisplayFormatter, CallScheduleUI.BookingLinkSharing, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem9ListItemsCMn, _$sSo014Subsystem_ios_B21Arm64_mainBookingLinkC, _$syyc;
+@class CallModels.CallBookingLink, CallScheduleUI.BookingLinkDisplayFormatter, CallScheduleUI.BookingLinkSharing, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem9ListItemsCMn, _$syyc;
 
 @interface CallScheduleUI.BookingLinkCreatedViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
     nominal type descriptor for XDesignSystem.ListItems actionsList;
     CallScheduleUI.BookingLinkDisplayFormatter formatter;
-    __C.Subsystem_ios_iosArm64_mainBookingLink link;
+    CallModels.CallBookingLink link;
     () -> () onBack;
     CallScheduleUI.BookingLinkSharing sharing;
 }

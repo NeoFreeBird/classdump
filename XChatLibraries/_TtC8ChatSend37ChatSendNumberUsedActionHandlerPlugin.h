@@ -1,18 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend37ChatSendNumberUsedActionHandlerPlugin_h
 #define _TtC8ChatSend37ChatSendNumberUsedActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatModelsCore.UserID, ChatSend.XChatMessageEnvelopeSender, ChatSend.XChatSendKeyResolver, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
+@class ChatModelsCore.UserID, ChatSend.ChatMessageEnvelopeSender, ChatSend.ChatSendKeyResolver, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatSendNumberUsedActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatModelsCore.UserID owner;
-    ChatSend.XChatSendKeyResolver keyResolver;
-    ChatSend.XChatMessageEnvelopeSender envelopeSender;
+    ChatSend.ChatSendKeyResolver keyResolver;
+    ChatSend.ChatMessageEnvelopeSender envelopeSender;
 }
 
 @end

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14TwitterUISwiftP33_734B742347080759AB1F5C00E55C5BFF28SliceItemsDataViewController_h
 #define _TtC14TwitterUISwiftP33_734B742347080759AB1F5C00E55C5BFF28SliceItemsDataViewController_h

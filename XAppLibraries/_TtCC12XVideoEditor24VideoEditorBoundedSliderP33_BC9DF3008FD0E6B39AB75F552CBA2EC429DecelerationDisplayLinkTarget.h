@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC12XVideoEditor24VideoEditorBoundedSliderP33_BC9DF3008FD0E6B39AB75F552CBA2EC429DecelerationDisplayLinkTarget_h
 #define _TtCC12XVideoEditor24VideoEditorBoundedSliderP33_BC9DF3008FD0E6B39AB75F552CBA2EC429DecelerationDisplayLinkTarget_h

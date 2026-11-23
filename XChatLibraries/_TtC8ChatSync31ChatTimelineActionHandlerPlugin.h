@@ -1,17 +1,15 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSync31ChatTimelineActionHandlerPlugin_h
 #define _TtC8ChatSync31ChatTimelineActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatSync.XChatHistoryFetcher, ChatSync.XChatProjection, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
+@class ChatSync.ChatHistoryFetcher, ChatSync.ChatProjection, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
 
 @interface ChatSync.ChatTimelineActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
-    ChatSync.XChatHistoryFetcher historyFetcher;
-    ChatSync.XChatProjection projection;
+    ChatSync.ChatHistoryFetcher historyFetcher;
+    ChatSync.ChatProjection projection;
 }
 
 @end

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot29GrokBotsInboxPromptShownStore_h
 #define _TtC11ChatGrokBot29GrokBotsInboxPromptShownStore_h
@@ -10,6 +8,7 @@
 @interface ChatGrokBot.GrokBotsInboxPromptShownStore : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatUtilities.ChatAccountUserDefaulting chatAccountDefaults;
+    nominal type descriptor for Combine.PassthroughSubject  empty-list () nominal type descriptor for Swift.Never dismissalsSubject;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool? nominal type descriptor for Swift.Never isEnabledInXChatSubject;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool nominal type descriptor for Swift.Never isInboxRowTappedSubject;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool nominal type descriptor for Swift.Never isTryGrokBotTappedSubject;

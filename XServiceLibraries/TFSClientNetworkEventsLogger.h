@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFSClientNetworkEventsLogger_h
 #define TFSClientNetworkEventsLogger_h
@@ -29,6 +27,9 @@
 - (void)logNetworkTransactionMetrics:(id)metrics hostToContextDic:(id)dic;
 - (void)logNetworkTransactionMetrics:(id)metrics mediaUploadDetails:(id)details;
 - (void)_logNetworkTransactionMetrics:(id)metrics mediaUploadDetails:(id)details hostToContextDic:(id)dic;
+- (void)_logDroppedClientNetworkOperationEvent;
+- (void)_logClientNetworkOperationEvent:(id)event;
+- (void)logNetworkOperationWithType:(long long)type status:(long long)status duration:(double)duration retryCount:(unsigned long long)count attempts:(id)attempts;
 - (void)_logClientNetworkRequestMetricsForTNLResponse:(id)tnlresponse eventType:(id)type eventSource:(id)source;
 - (void)logAPIRequestForTNLResponse:(id)tnlresponse eventSource:(id)source;
 - (void)logAPIAttemptForTNLResponse:(id)tnlresponse eventSource:(id)source;

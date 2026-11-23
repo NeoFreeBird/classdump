@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8XAppCallP33_6946E056E37F78E56623EE645E41777424CallGlassDockPreviewView_h
 #define _TtC8XAppCallP33_6946E056E37F78E56623EE645E41777424CallGlassDockPreviewView_h

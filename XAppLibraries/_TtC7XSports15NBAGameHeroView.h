@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports15NBAGameHeroView_h
 #define _TtC7XSports15NBAGameHeroView_h
@@ -7,21 +5,18 @@
 
 #include "_TtC7XSports14MeasurableView.h"
 
-@class Swift.Bool, XSports.BasketballCourtView, XSports.BasketballRunView, XSports.BasketballShotClockView, XSports.SportsGameScoreboardView XSports.NBAGameState, XSports.SportsHeroHighlightsView ?, XSports.SportsHighlightsCountdownButton ?, XSports.SportsLastPlayBarView, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem6ButtonCMn, _$sSSSg, _$sSo13CADisplayLinkCSg, _$sSo16TIPImagePipelineCSg, _$sySScSg, _$syycSg;
+@class Swift.Bool, XSports.BasketballCourtView, XSports.BasketballRunView, XSports.BasketballShotClockView, XSports.SportsGameScoreboardView XSports.NBAGameState, XSports.SportsHeroHighlightsPill ?, XSports.SportsLastPlayBarView, _$s12CoreGraphics7CGFloatVMn, _$sSSSg, _$sSo13CADisplayLinkCSg, _$sSo16TIPImagePipelineCSg, _$sySScSg;
 
 @interface XSports.NBAGameHeroView : XSports.MeasurableView { // (Swift)
     /* instance variables */
     __C.TIPImagePipeline? imagePipeline;
     ((Swift.String) -> ())? onOpenPlay;
-    (() -> ())? onAccessoryTap;
     XSports.BasketballShotClockView shotClockView;
     XSports.BasketballRunView runView;
     XSports.SportsGameScoreboardView XSports.NBAGameState scoreboard;
     XSports.BasketballCourtView courtView;
     XSports.SportsLastPlayBarView lastPlayBarView;
-    nominal type descriptor for XDesignSystem.Button accessoryButton;
-    XSports.SportsHighlightsCountdownButton ? countdownButton;
-    XSports.SportsHeroHighlightsView ? highlightsCarousel;
+    XSports.SportsHeroHighlightsPill ? highlights;
     nominal type descriptor for CoreGraphics.CGFloat minimizeProgress;
     Swift.String? lastPlayID;
     Swift.Bool isGameClockRunning;
@@ -32,7 +27,6 @@
 - (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;
 - (id)initWithCoder:(id)coder;
 - (void)didMoveToWindow;
-- (void)didTapAccessory;
 - (void)didTapLastPlay;
 
 @end

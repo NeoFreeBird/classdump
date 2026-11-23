@@ -1,17 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20ChatAttachmentViewer36AttachmentImageContentViewController_h
 #define _TtC20ChatAttachmentViewer36AttachmentImageContentViewController_h
 @import Foundation;
 
-@class ChatAttachmentViewer.ZoomableMediaScrollView ?, UIViewController, _$s10Foundation3URLVMn, _$s12CoreGraphics7CGFloatVMn, _$sScTyyt _$ss5NeverOMn ?, _$sSi, _$sSo11UIImageViewC, _$sySbcSg;
+@class ChatAttachmentViewer.AttachmentViewerItem.Shape, ChatAttachmentViewer.ZoomableMediaScrollView ?, UIViewController, _$s10Foundation3URLVMn, _$s12CoreGraphics7CGFloatVMn, _$sScTyyt _$ss5NeverOMn ?, _$sSi, _$sSo11UIImageViewC, _$sySbcSg;
 
 @interface ChatAttachmentViewer.AttachmentImageContentViewController : UIViewController { // (Swift)
     /* instance variables */
     Swift.Int index;
     ((Swift.Bool) -> ())? mediaZoomActiveChanged;
     nominal type descriptor for Foundation.URL fileURL;
+    ChatAttachmentViewer.AttachmentViewerItem.Shape shape;
     nominal type descriptor for CoreGraphics.CGFloat mediaCornerRadius;
     __C.UIImageView imageView;
     ChatAttachmentViewer.ZoomableMediaScrollView ? $__lazy_storage_$_scrollView;

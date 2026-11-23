@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCO4Grok24GrokComposerPillRendererP33_E70CE374F75E779C940B5626A4463F0B11PillBitmaps_h
 #define _TtCO4Grok24GrokComposerPillRendererP33_E70CE374F75E779C940B5626A4463F0B11PillBitmaps_h

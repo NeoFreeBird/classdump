@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10ShareSheetP33_8DD861FA357634DBDEB2D0B082F3555617CircleIconControl_h
 #define _TtC10ShareSheetP33_8DD861FA357634DBDEB2D0B082F3555617CircleIconControl_h

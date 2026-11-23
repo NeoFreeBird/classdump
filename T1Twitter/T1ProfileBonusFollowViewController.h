@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ProfileBonusFollowViewController_h
 #define T1ProfileBonusFollowViewController_h
@@ -16,7 +14,6 @@
 @interface T1ProfileBonusFollowViewController : TFNViewController <T1UserFacepileWithActionViewModelDelegate, OCFNavigationLinkHandler, T1ResizableHeaderSubheader> {
     /* instance variables */
     id <T1ProfileViewModel> _profileViewModel;
-    _Bool _canDismissUsers;
     UIView *_facepileView;
     TFNTwitterAccount *_account;
     NSObject<T1UserFacepileViewProvider> *_viewProvider;
@@ -32,7 +29,7 @@
 @property (copy, nonatomic) id /* block */ preferredHeightCheckBlock;
 
 /* instance methods */
-- (id)initWithAccount:(id)account profileViewModel:(id)model viewProvider:(id)provider canDismissUsers:(_Bool)users;
+- (id)initWithAccount:(id)account profileViewModel:(id)model;
 - (void)loadView;
 - (void)viewDidLayoutSubviews;
 - (id /* block */)private_dismissBlock;
@@ -41,6 +38,7 @@
 - (id)private_dividerItem;
 - (id)private_users;
 - (id)private_featuredUsers;
+- (void)private_presentAfterDismissingPresentedViewController:(id)controller;
 - (id)scribePage;
 - (double)preferredHeight;
 - (void)didActivateNavigationLink:(id)link;

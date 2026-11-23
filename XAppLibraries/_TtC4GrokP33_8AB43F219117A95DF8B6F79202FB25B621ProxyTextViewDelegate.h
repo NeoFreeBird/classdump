@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4GrokP33_8AB43F219117A95DF8B6F79202FB25B621ProxyTextViewDelegate_h
 #define _TtC4GrokP33_8AB43F219117A95DF8B6F79202FB25B621ProxyTextViewDelegate_h

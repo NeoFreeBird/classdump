@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11XLiveChatUIP33_270938F7BE5CD9A217854B14FE8985BE28LiveChatScrollToBottomButton_h
 #define _TtC11XLiveChatUIP33_270938F7BE5CD9A217854B14FE8985BE28LiveChatScrollToBottomButton_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4Grok17GrokFeatureAccess_h
 #define _TtC4Grok17GrokFeatureAccess_h
@@ -35,11 +33,9 @@
     Swift.Bool? $__lazy_storage_$_isGrokUnifyGatewayComposeEnhanceEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUnifyGatewayCaptionsEditEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUnifyGatewayTemporaryChatEnabled;
-    Swift.Bool? $__lazy_storage_$_isGrokUnifyVoiceCatalogV2Enabled;
     Swift.Bool? $__lazy_storage_$_isGrokVoiceInterimTranscriptEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUnifyGatewayAssetJwtEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUnifyGatewayAssetCredentialsOnlyEnabled;
-    Swift.Bool? $__lazy_storage_$_isGrokUnifyFileUploadTypesEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUnifySiblingSwitcherEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUnifyHistoryLazyPagingEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUnifyGatewayShareContinueEnabled;
@@ -87,6 +83,7 @@
     Swift.Bool? $__lazy_storage_$_isGrokUpsellGatingViewsEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUpsellFreeHintEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUpsellGrokSubscriptionLookupEnabled;
+    Swift.Bool? $__lazy_storage_$_isGrokUpsellFreeOffersExcludeSuperGrokEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokUpsellGrokAppDeeplinkEnabled;
     Swift.Bool? $__lazy_storage_$_isUnifiedPaywallEnabled;
     Swift.Bool? $__lazy_storage_$_isGrokMarkdownChirpFontEnabled;

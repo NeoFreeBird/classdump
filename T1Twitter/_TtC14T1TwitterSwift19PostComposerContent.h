@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift19PostComposerContent_h
 #define _TtC14T1TwitterSwift19PostComposerContent_h
@@ -11,7 +9,7 @@
 #include "T1TweetComposeSocialContext.h"
 #include "TTACoreStatusViewModel-Protocol.h"
 
-@class NSArray, NSString, Swift.Bool, T1TwitterSwift.PostComposerAttachmentsView, T1TwitterSwift.PostComposerContent.ReplyQuote ?, T1TwitterSwift.PostComposerFullComposerTransition ?, T1TwitterSwift.PostComposerRichTextView, TFNTwitterAccount, UIControl, UIFont, UIPanGestureRecognizer, UIView, _$s10Foundation21NSKeyValueObservationCMn ?, _$s12CoreGraphics7CGFloatVMn _$sSgycSg, _$s13QuickComposer0aB6SystemCMn ?, _$s13QuickComposer0aB7ContextCMn ?, _$s13QuickComposer0aB7MetricsVMn, _$s13QuickComposer0aB9ContentIDVMn, _$s14TwitterUISwift13TUIUserBadgerCMn ?, _$s15TwitterComposer04PostB6TuningO6ValuesVMn, _$s15TwitterComposer14ComposeBarKindOMn, _$s23QuickComposerComponents0aB10AvatarViewCMn, _$s23QuickComposerComponents0aB15SuggestionsCardCMn, _$s23QuickComposerComponents0aB16AvatarHeaderViewCMn, _$s23QuickComposerComponents0aB18ThumbnailStackViewCMn, _$s23QuickComposerComponents0abC7MetricsVMn, _$s7Combine14AnyCancellableCMn ?, _$sSDySSSo25TTSAutocompleteResultItem_pG, _$sSSSg, _$sSa -> T1TwitterSwift.PostComposerContent.RestingThumbnail, _$sSaySo14TFNTwitterUserCGSg, _$sSaySo17TCRReplyRecipientCGSg, _$sSaySo18NSLayoutConstraintCG, _$sSaySo6UIViewCG, _$sSh -> _$ss5Int64VMn, _$sSo10NSMapTableCySo8NSStringCSo18TUIAvatarImageViewCG, _$sSo17TFNTwitterAccountCSg, _$sSo18NSLayoutConstraintCSg, _$sSo18TUIAvatarImageViewC, _$sSo22TTACoreStatusViewModel_pSg, _$sSo25UIImpactFeedbackGeneratorC, _$sSo27T1TweetComposeSocialContextCSg, _$sSo31T1PersistentComposeViewDelegate_pSgXw, _$sSo35T1TweetComposeSocialContextTextViewC, _$sSo6UIFontCSg, _$sSo6UIViewC, _$sSo8UIButtonC, _$sSo9TFNButtonC, _$sSo9UIControlCSgXw, _$syycSg;
+@class NSArray, NSString, Swift.Bool, T1TwitterSwift.PostComposerAttachmentsView, T1TwitterSwift.PostComposerContent.ReplyQuote ?, T1TwitterSwift.PostComposerFullComposerTransition ?, T1TwitterSwift.PostComposerRichTextView, TFNTwitterAccount, UIControl, UIDropInteraction, UIFont, UIPanGestureRecognizer, UIView, _$s10Foundation21NSKeyValueObservationCMn ?, _$s12CoreGraphics7CGFloatVMn _$sSgycSg, _$s13QuickComposer0aB6SystemCMn ?, _$s13QuickComposer0aB7ContextCMn ?, _$s13QuickComposer0aB7MetricsVMn, _$s13QuickComposer0aB9ContentIDVMn, _$s14TwitterUISwift13TUIUserBadgerCMn ?, _$s15TwitterComposer04PostB6TuningO6ValuesVMn, _$s15TwitterComposer14ComposeBarKindOMn, _$s23QuickComposerComponents0aB10AvatarViewCMn, _$s23QuickComposerComponents0aB15SuggestionsCardCMn, _$s23QuickComposerComponents0aB16AvatarHeaderViewCMn, _$s23QuickComposerComponents0aB18ThumbnailStackViewCMn, _$s23QuickComposerComponents0abC7MetricsVMn, _$s7Combine14AnyCancellableCMn ?, _$sSDySSSo25TTSAutocompleteResultItem_pG, _$sSSSg, _$sSa -> T1TwitterSwift.PostComposerContent.RestingThumbnail, _$sSaySo14TFNTwitterUserCGSg, _$sSaySo17TCRReplyRecipientCGSg, _$sSaySo18NSLayoutConstraintCG, _$sSaySo6UIViewCG, _$sSh -> _$ss5Int64VMn, _$sSo10NSMapTableCySo8NSStringCSo18TUIAvatarImageViewCG, _$sSo17TFNTwitterAccountCSg, _$sSo17UIDropInteractionCSg, _$sSo18NSLayoutConstraintCSg, _$sSo18TUIAvatarImageViewC, _$sSo22TTACoreStatusViewModel_pSg, _$sSo25UIImpactFeedbackGeneratorC, _$sSo27T1TweetComposeSocialContextCSg, _$sSo31T1PersistentComposeViewDelegate_pSgXw, _$sSo35T1TweetComposeSocialContextTextViewC, _$sSo6UIFontCSg, _$sSo6UIViewC, _$sSo8UIButtonC, _$sSo9TFNButtonC, _$sSo9UIControlCSgXw, _$syycSg;
 
 @interface T1TwitterSwift.PostComposerContent : UIView <T1PersistentComposeViewing> { // (Swift)
     /* instance variables */
@@ -25,7 +23,7 @@
     Swift.Bool declaresTabBarAccessory;
     (() -> ())? onTabBarAccessoryChange;
     Swift.Bool isEditorFocused;
-    Swift.Bool usesFlatBar;
+    Swift.Bool usesDockedBar;
     Swift.Bool isBound;
     (() -> ())? onBind;
     (() -> ())? onUnbind;
@@ -92,6 +90,7 @@
 @property (nonatomic, copy) NSArray *unfollowingUsers;
 @property (nonatomic, copy) NSArray *replyRecipients;
 @property (nonatomic) _Bool hasDraftContent;
+@property (nonatomic, retain) UIDropInteraction *dropInteraction;
 @property (nonatomic) double restingGapAboveAnchor;
 @property (nonatomic, readonly) UIPanGestureRecognizer *barVerticalPanGestureRecognizer;
 @property (nonatomic) _Bool isExpandMorphEnabled;
@@ -110,7 +109,7 @@
 - (struct CGSize { double x0; double x1; })preferredSizeThatFits:(struct CGSize { double x0; double x1; })fits;
 - (void)willSendReply;
 - (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;
-- (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame usesFlatBar:(_Bool)bar;
+- (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame usesDockedBar:(_Bool)bar;
 - (id)initWithCoder:(id)coder;
 - (struct CGSize { double x0; double x1; })sizeThatFits:(struct CGSize { double x0; double x1; })fits;
 - (id)hitTest:(struct CGPoint { double x0; double x1; })test withEvent:(id)event;

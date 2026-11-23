@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20XAppTimelinesGraphQL40ImmersiveViewerExploreMixerTimelineQuery_h
 #define _TtC20XAppTimelinesGraphQL40ImmersiveViewerExploreMixerTimelineQuery_h
 @import Foundation;
 
-@class Swift.Bool, _$s13GraphQLModels17DeviceStatusInputVMn ?, _$s13GraphQLModels21DspClientContextInputVMn ?, _$s13GraphQLModels28ImmersiveClientMetadataInputVMn ?, _$s14GraphQLScalars13NumericStringVMn ?, _$s14GraphQLScalars23CtaDisplayLocationInputOMn ?, _$s14GraphQLScalars31ImmersiveDeviceOrientationInputOMn ?, _$s8TFSModel16PendingStateNodeMp ?, _$sSDyS2SGSg, _$sSS, _$sSSSg, _$sSbSg, _TtCs12_SwiftObject, __C.TNLHTTPMethod;
+@class Swift.Bool, _$s13GraphQLModels17DeviceStatusInputVMn ?, _$s13GraphQLModels21DspClientContextInputVMn ?, _$s13GraphQLModels28ImmersiveClientMetadataInputVMn ?, _$s14GraphQLScalars13NumericStringVMn ?, _$s14GraphQLScalars23CtaDisplayLocationInputOMn ?, _$s14GraphQLScalars31ImmersiveDeviceOrientationInputOMn ?, _$s8TFSModel16PendingStateNodeMp ?, _$sSDyS2SGSg, _$sSS, _$sSSSg, _$sSbSg, _$ss5Int64VMn ?, _TtCs12_SwiftObject, __C.TNLHTTPMethod;
 
 @interface XAppTimelinesGraphQL.ImmersiveViewerExploreMixerTimelineQuery : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -32,6 +30,7 @@
     nominal type descriptor for GraphQLScalars.ImmersiveDeviceOrientationInput ? deviceOrientation;
     nominal type descriptor for GraphQLModels.DeviceStatusInput ? deviceStatus;
     Swift.String? rawQuery;
+    nominal type descriptor for Swift.Int64 ? sessionPageID;
     Swift.Bool includeCanPay;
     Swift.Bool includeCommunityAnalysis;
     Swift.Bool includeCta;

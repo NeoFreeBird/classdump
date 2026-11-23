@@ -1,23 +1,19 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1AccountsViewController_h
 #define T1AccountsViewController_h
 @import Foundation;
 
-#include "T1AccountAdder-Protocol.h"
 #include "T1AccountChooser-Protocol.h"
 #include "T1AccountListEntry.h"
 #include "T1AccountListEntryBadgingDataSource-Protocol.h"
 #include "T1AccountsDelegationGroupsViewModel.h"
-#include "T1AccountsViewControllerKeepAliveCallbacks.h"
 #include "TFNLayoutMetricsEnvironment-Protocol.h"
 #include "TFNPickerViewControllerDelegate-Protocol.h"
 #include "TFNValuePickerDataSource-Protocol.h"
 
 @class NSArray, NSDictionary, NSString, TFNPickerViewController, TFNTwitterAccount;
 
-@interface T1AccountsViewController : TFNPickerViewController <TFNPickerViewControllerDelegate, TFNValuePickerDataSource, TFNLayoutMetricsEnvironment, T1AccountListEntryBadgingDataSource, T1AccountAdder, T1AccountChooser>
+@interface T1AccountsViewController : TFNPickerViewController <TFNPickerViewControllerDelegate, TFNValuePickerDataSource, TFNLayoutMetricsEnvironment, T1AccountListEntryBadgingDataSource, T1AccountChooser>
 
 @property (retain, nonatomic) TFNTwitterAccount *account;
 @property (retain, nonatomic) NSArray *accountEntries;
@@ -25,7 +21,6 @@
 @property (nonatomic) _Bool editing;
 @property (nonatomic) _Bool compactStyle;
 @property (nonatomic) _Bool includeTeamsAccount;
-@property (retain, nonatomic) T1AccountsViewControllerKeepAliveCallbacks *keepAliveCallbacks;
 @property (retain, nonatomic) NSDictionary *badgeCountsForUserID;
 @property (nonatomic) _Bool needsDelayedUpdate;
 @property (nonatomic) _Bool accountModelAssimilatedInProgress;
@@ -33,12 +28,10 @@
 @property (copy, nonatomic) NSString *referringScribeComponent;
 @property (readonly, nonatomic) _Bool editable;
 @property (nonatomic) _Bool hostProvidesCellBackground;
-@property (nonatomic) _Bool suppressesAddAccountRow;
 @property (readonly) unsigned long long hash;
 @property (readonly) Class superclass;
 @property (readonly, copy) NSString *description;
 @property (readonly, copy) NSString *debugDescription;
-@property (copy, nonatomic) id /* block */ didAddAccountBlock;
 @property (retain, nonatomic) TFNTwitterAccount *currentAccount;
 @property (copy, nonatomic) id /* block */ didChooseAccountBlock;
 
@@ -54,8 +47,6 @@
 - (void)_modelAssimilationDidEnd:(id)end;
 - (void)viewWillAppear:(_Bool)appear;
 - (void)viewDidDisappear:(_Bool)disappear;
-- (void)_update;
-- (void)_updateButtons;
 - (id)_recencyDateForAccount:(id)account;
 - (id)_accountsSortedByLastActiveDate:(id)date;
 - (id)_leadingEntryInEntries:(id)entries;
@@ -65,12 +56,9 @@
 - (void)_pickAccountEntry:(id)entry;
 - (void)_chooseAccount:(id)account;
 - (void)addExistingAccount;
-- (void)_addAccount:(_Bool)account sender:(id)sender;
-- (void)_viewDelegateAccounts:(id)accounts;
 - (void)t1_accountBadgingDidChange:(id)change;
 - (id)badgeCountForEntry:(id)entry;
-- (void)private_startSignUpFlow;
-- (void)private_startLoginFlowWithSender:(id)sender;
+- (void)private_startLoginFlow;
 - (id)_populateAccounts:(id)accounts;
 - (id)_delegateGroupHeaderViewItem;
 - (id)_otherPersonalAccountsHeaderViewItem;
@@ -79,21 +67,15 @@
 - (unsigned long long)tfn_supportedInterfaceOrientations;
 - (void)tableView:(id)view willDisplayCell:(id)cell forRowAtIndexPath:(id)path;
 - (_Bool)tableView:(id)view canEditRowAtIndexPath:(id)path;
-- (_Bool)tableView:(id)view canMoveRowAtIndexPath:(id)path;
 - (id)titleForDeleteConfirmationButtonForItem:(id)item atIndexPath:(id)path;
-- (void)moveItem:(id)item atIndexPath:(id)path toIndexPath:(id)path;
 - (void)update:(_Bool)update;
 - (id)init;
 - (double)maxContentHeight;
 - (id)populateItemsWithMessages:(id)messages items:(id)items sectionIndex:(unsigned long long)index;
-- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
-- (void)pickerViewControllerDidCancel:(id)cancel;
-- (void)pickerViewController:(id)controller didConfirmWithSections:(id)sections;
-- (void)pickerViewController:(id)controller willAddValueToSectionAtIndex:(unsigned long long)index withAddValueMessage:(id)message index:(unsigned long long)index sender:(id)sender;
+- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
 - (_Bool)pickerViewController:(id)controller shouldRemoveValue:(id)value fromSectionAtIndex:(unsigned long long)index;
 - (id)valuesForPicker:(id)picker;
 - (id)initiallyPickedValueForPicker:(id)picker;
-- (id)addValueMessagesForPicker:(id)picker;
 - (id)scribe;
 - (id)scribePage;
 - (id)scribeSection;

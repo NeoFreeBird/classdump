@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1LingerScriber_h
 #define T1LingerScriber_h
@@ -21,6 +19,7 @@
     TFSStopwatch *_stopwatch;
     _Bool _didLinger;
     _Bool _forceFirstImpression;
+    _Bool _endsLingerWhenCovered;
     TFSTimer *_lingerTimer;
     double _lastKnownCellHeight;
     _Bool _isApplicationActive;
@@ -43,6 +42,7 @@
 - (void)cellDidEndDisplaying:(id)displaying inDataViewController:(id)controller reason:(unsigned long long)reason;
 - (void)startLinger;
 - (void)stopLinger;
+- (void)_t1_endLingerForCell:(id)cell;
 - (double)_t1_scribedHeightForCell:(id)cell;
 - (void)_startLingerIfNeeded;
 - (_Bool)_visibilityCriteriaMetForCell:(id)cell withVisibilityPercentage:(double)percentage;

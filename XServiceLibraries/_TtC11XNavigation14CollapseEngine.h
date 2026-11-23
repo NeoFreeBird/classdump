@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11XNavigation14CollapseEngine_h
 #define _TtC11XNavigation14CollapseEngine_h
 @import Foundation;
 
-@class XNavigation.BottomChromeBand ?, XNavigation.CollapseEngine.Binding ?, XNavigation.CollapseEngine.Policies, XNavigation.CollapseEngine.ScrollObserver, XNavigation.CollapseProgress, XNavigation.CollapseProgress ?, XNavigation.CollapseProgress _$s_ -> XNavigation.CollapseRenderMode _$stcSg, _$s12CoreGraphics7CGFloatVMn, _$sSDySO XNavigation.CollapseProgress, _$sSa -> XNavigation.CollapseEngine.AncestorObservation, _$sSa -> XNavigation.CollapseEngine.RendererReference, _$sSa -> _$s10Foundation21NSKeyValueObservationCMn, _$sSo12UIScrollViewCSgXw, _$sySo12UIScrollViewCcSg, _TtCs12_SwiftObject;
+@class XNavigation.BottomChromeBand ?, XNavigation.CollapseEngine.Binding ?, XNavigation.CollapseEngine.Policies, XNavigation.CollapseEngine.ScrollObserver, XNavigation.CollapseProgress, XNavigation.CollapseProgress ?, XNavigation.CollapseProgress _$s_ -> XNavigation.CollapseRenderMode _$stcSg, XNavigation.FrameDriver, _$s12CoreGraphics7CGFloatVMn, _$sSDySO XNavigation.CollapseProgress, _$sSa -> XNavigation.CollapseEngine.AncestorObservation, _$sSa -> XNavigation.CollapseEngine.RendererReference, _$sSa -> _$s10Foundation21NSKeyValueObservationCMn, _$sSo12UIScrollViewCSgXw, _$sySo12UIScrollViewCcSg, _TtCs12_SwiftObject;
 
 @interface XNavigation.CollapseEngine : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -23,6 +21,8 @@
     weak __C.UIScrollView? observedScrollView;
     Swift.Array -> nominal type descriptor for Foundation.NSKeyValueObservation contentObservations;
     Swift.Array -> XNavigation.CollapseEngine.AncestorObservation ancestorObservations;
+    XNavigation.FrameDriver topEdgeGlide;
+    nominal type descriptor for CoreGraphics.CGFloat topEdgeGlideOffset;
 }
 
 @end

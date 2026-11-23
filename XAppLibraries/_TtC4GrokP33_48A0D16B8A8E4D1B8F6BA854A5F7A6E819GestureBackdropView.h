@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC4GrokP33_48A0D16B8A8E4D1B8F6BA854A5F7A6E819GestureBackdropView_h
 #define _TtC4GrokP33_48A0D16B8A8E4D1B8F6BA854A5F7A6E819GestureBackdropView_h

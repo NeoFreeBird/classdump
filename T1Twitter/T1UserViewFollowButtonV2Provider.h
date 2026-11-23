@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UserViewFollowButtonV2Provider_h
 #define T1UserViewFollowButtonV2Provider_h
@@ -24,6 +22,7 @@
 - (id)initWithAccount:(id)account;
 - (id)actionControlForUserView:(id)view withUpdateBlock:(id /* block */)block;
 - (struct CGSize { double x0; double x1; })sizeForActionControlWithUser:(id)user;
+- (double)widestActionControlWidthWithUser:(id)user;
 - (_Bool)shouldHideActionControl:(id)control;
 - (void)updateActionControl:(id)control viewModel:(id)model;
 - (void)cleanupActionControl:(id)control;

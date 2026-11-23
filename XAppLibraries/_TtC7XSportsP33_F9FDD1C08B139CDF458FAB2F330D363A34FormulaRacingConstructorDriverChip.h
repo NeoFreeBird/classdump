@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSportsP33_F9FDD1C08B139CDF458FAB2F330D363A34FormulaRacingConstructorDriverChip_h
 #define _TtC7XSportsP33_F9FDD1C08B139CDF458FAB2F330D363A34FormulaRacingConstructorDriverChip_h

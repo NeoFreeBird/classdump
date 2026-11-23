@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFSScribeDeviceStatusProvider_h
 #define TFSScribeDeviceStatusProvider_h
@@ -7,16 +5,16 @@
 
 #include "TFSTimer.h"
 
-@class CTTelephonyNetworkInfo, NSDictionary, NSObject, NSString;
+@class CTTelephonyNetworkInfo, NSDictionary, NSMutableDictionary, NSObject;
 @protocol OS_nw_path_monitor;
 
 @interface TFSScribeDeviceStatusProvider : NSObject {
     /* instance variables */
     struct os_unfair_lock_s { unsigned int _os_unfair_lock_opaque; } _lock;
     NSDictionary *_cachedStatus;
+    NSMutableDictionary *_eventDrivenStatus;
     TFSTimer *_timer;
     NSObject<OS_nw_path_monitor> *_networkMonitor;
-    NSString *_currentNetworkType;
     _Bool _storageInfoEnabled;
     CTTelephonyNetworkInfo *_telephonyInfo;
 }
@@ -29,6 +27,7 @@
 - (void)startWithUpdateInterval:(double)interval storageInfoEnabled:(_Bool)enabled;
 - (void)stop;
 - (id)deviceStatus;
+- (void)setStatusValue:(id)value forKey:(id)key;
 - (void)_invalidateTimer;
 - (void)_startNetworkMonitoring;
 - (id)_cellularTechnologyString;

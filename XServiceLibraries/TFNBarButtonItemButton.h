@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNBarButtonItemButton_h
 #define TFNBarButtonItemButton_h
@@ -10,10 +8,6 @@
 @interface TFNBarButtonItemButton : UIButton
 
 @property (retain, nonatomic) UIImage *image;
-
-/* class methods */
-+ (void)setupAppearance:(id)appearance;
-+ (void)setupAppearance:(id)appearance withTintColor:(id)color;
 
 /* instance methods */
 - (id)initWithImage:(id)image;

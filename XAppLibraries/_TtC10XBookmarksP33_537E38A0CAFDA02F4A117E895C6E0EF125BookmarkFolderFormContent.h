@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10XBookmarksP33_537E38A0CAFDA02F4A117E895C6E0EF125BookmarkFolderFormContent_h
 #define _TtC10XBookmarksP33_537E38A0CAFDA02F4A117E895C6E0EF125BookmarkFolderFormContent_h

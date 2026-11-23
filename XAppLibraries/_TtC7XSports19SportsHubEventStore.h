@@ -1,17 +1,15 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports19SportsHubEventStore_h
 #define _TtC7XSports19SportsHubEventStore_h
 @import Foundation;
 
-@class XSports.SportsHubEventRepository, XSports.SportsHubEventSwitches, _$s20TwitterActionService0bC0CMn ?, _$sSD -> XSports.SportsLeague XSports.SportsHubEventStore.Entry, _$sSD -> XSports.SportsLeague _$sScTyyt _$ss5NeverOMn, _TtCs12_SwiftObject;
+@class XSports.SportsHubEventRepository, XSports.SportsHubEventSwitches, _$s20TwitterActionService0bC0CMn ?, _$sSD -> XSports.SportsLeague XSports.SportsHubEventStore.Entry, _$sSD -> XSports.SportsLeague _$sSgScTyyt _$ss5NeverOMn, _TtCs12_SwiftObject;
 
 @interface XSports.SportsHubEventStore : Swift._SwiftObject { // (Swift)
     /* instance variables */
     XSports.SportsHubEventRepository repository;
     Swift.Dictionary -> XSports.SportsLeague XSports.SportsHubEventStore.Entry entriesByLeague;
-    Swift.Dictionary -> XSports.SportsLeague Swift.Task empty-list () nominal type descriptor for Swift.Never fetchTasks;
+    Swift.Dictionary -> XSports.SportsLeague _$sSgScTyyt nominal type descriptor for Swift.Never fetchTasks;
     nominal type descriptor for TwitterActionService.ActionService ? owner;
     XSports.SportsHubEventSwitches ownerSwitches;
 }

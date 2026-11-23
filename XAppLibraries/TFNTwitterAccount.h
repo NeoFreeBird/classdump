@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterAccount_h
 #define TFNTwitterAccount_h
@@ -636,6 +634,8 @@
 - (_Bool)isRecurringTaskServiceActiveAccountFlushPromotedEventsTriggerOnRegistrationEnabled;
 - (_Bool)isRecurringTaskServiceActiveAccountReloadTypeaheadUserCacheTriggerOnRegistrationEnabled;
 - (_Bool)isRecurringTaskServiceActiveAccountForPushBadgingTriggerOnRegistrationEnabled;
+- (_Bool)isFeatureSwitchRefreshLimitEnabled;
+- (double)accountUserRefreshInterval;
 - (_Bool)isOnboardingEnterUsernameHiddenPrefillEnabled;
 - (_Bool)isOnboardingEnterUsernameHiddenSkipEnabled;
 - (_Bool)isOnboardingEnterUsernameSubmitCurrentEnabled;
@@ -790,7 +790,6 @@
 - (_Bool)isTweetPromoteButtonQuoteTweetsCheckDisabled;
 - (_Bool)isTweetPromoteButtonSuperfollowsCheckDisabled;
 - (_Bool)isTweetPromoteButtonLimitedActionsCheckDisabled;
-- (_Bool)isDeviceFollowNotificationsMultiSelectEnabled;
 - (_Bool)isRepliesAndMentionsNotificationsEnabled;
 - (_Bool)isCreatorSubscriptionsEmailShareEnabled;
 - (_Bool)isCreatorSubscriptionsConnectTabEnabled;
@@ -823,6 +822,7 @@
 - (_Bool)isStampRallyFeatureEnabled;
 - (_Bool)shouldShowStampGalleryInDashMenu;
 - (_Bool)isDummyTest1FeatureEnabled;
+- (_Bool)isDummyTest1FeatureEnabledNoImpression;
 - (void)muteConversation:(id)conversation responseBlock:(id /* block */)block;
 - (void)unmuteConversation:(id)conversation responseBlock:(id /* block */)block;
 - (void)private_updateConversationMutingForStatus:(id)status mute:(_Bool)mute responseBlock:(id /* block */)block;

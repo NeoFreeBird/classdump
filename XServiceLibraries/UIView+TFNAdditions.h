@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef UIView_TFNAdditions_h
 #define UIView_TFNAdditions_h
@@ -18,6 +16,7 @@
 + (_Bool)tfn_isStatusBarHidden:(id)hidden;
 + (struct UIEdgeInsets { double x0; double x1; double x2; double x3; })tfn_systemSafeAreaInsets:(id)insets;
 + (struct UIEdgeInsets { double x0; double x1; double x2; double x3; })tfn_standardSystemSafeAreaInsets:(id)insets forInterfaceOrientation:(long long)orientation statusBarHidden:(_Bool)hidden;
++ (struct UIEdgeInsets { double x0; double x1; double x2; double x3; })tfn_standardSystemSafeAreaInsetsForWindow:(id)window safeAreaInsets:(struct UIEdgeInsets { double x0; double x1; double x2; double x3; })insets interfaceOrientation:(long long)orientation statusBarHidden:(_Bool)hidden;
 
 /* instance methods */
 - (id)_tfn_dynamic_swizzledSnapshotViewAfterScreenUpdates:(_Bool)updates;

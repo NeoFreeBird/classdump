@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TTACoreStatusLiveEngagementManager_h
 #define TTACoreStatusLiveEngagementManager_h
@@ -25,6 +23,7 @@
 @property (nonatomic) _Bool fetchUp;
 @property (nonatomic) _Bool scrolling;
 @property (nonatomic) _Bool trackingSuspended;
+@property (readonly, nonatomic) _Bool offOnCellular;
 @property (readonly, nonatomic) _Bool shouldAnimateLiveEngagementUpdates;
 @property (readonly, weak, nonatomic) TFNDataViewController *dataViewController;
 @property (readonly) unsigned long long hash;

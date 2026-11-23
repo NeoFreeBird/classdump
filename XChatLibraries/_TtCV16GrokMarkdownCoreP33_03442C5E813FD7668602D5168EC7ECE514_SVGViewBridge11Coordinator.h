@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV16GrokMarkdownCoreP33_03442C5E813FD7668602D5168EC7ECE514_SVGViewBridge11Coordinator_h
 #define _TtCV16GrokMarkdownCoreP33_03442C5E813FD7668602D5168EC7ECE514_SVGViewBridge11Coordinator_h

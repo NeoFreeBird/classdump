@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11XNavigationP33_9E3ABE9D3774BD86576B744A36F67AB926ModalTransitioningDelegate_h
 #define _TtC11XNavigationP33_9E3ABE9D3774BD86576B744A36F67AB926ModalTransitioningDelegate_h

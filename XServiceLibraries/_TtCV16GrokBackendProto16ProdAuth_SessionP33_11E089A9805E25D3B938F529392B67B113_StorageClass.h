@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV16GrokBackendProto16ProdAuth_SessionP33_11E089A9805E25D3B938F529392B67B113_StorageClass_h
 #define _TtCV16GrokBackendProto16ProdAuth_SessionP33_11E089A9805E25D3B938F529392B67B113_StorageClass_h

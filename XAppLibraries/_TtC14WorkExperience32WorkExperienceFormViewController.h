@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14WorkExperience32WorkExperienceFormViewController_h
 #define _TtC14WorkExperience32WorkExperienceFormViewController_h
 @import Foundation;
 
-@class Swift.Bool, WorkExperience.WorkExperienceCompany, WorkExperience.WorkExperienceEditorSession, WorkExperience.WorkExperienceFormViewController.FooterNote ?, WorkExperience.WorkExperienceFormViewController.MissingInput ?, WorkExperience.WorkExperienceFormViewController.Phase, WorkExperience.WorkExperienceLogoTiles, WorkExperience.WorkExperienceMonth ?, WorkExperience.WorkExperienceRole.EmploymentType ?, WorkExperience.WorkExperienceSaveSequence, _$s13XDesignSystem16TrayFootnoteViewCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem5InputCMn, _$s13XDesignSystem9ListItemsCMn, _$sSS;
+@class Swift.Bool, WorkExperience.WorkExperienceChosenLogo ?, WorkExperience.WorkExperienceCompany, WorkExperience.WorkExperienceEditorSession, WorkExperience.WorkExperienceFormViewController.FooterNote ?, WorkExperience.WorkExperienceFormViewController.MissingInput ?, WorkExperience.WorkExperienceFormViewController.Phase, WorkExperience.WorkExperienceLogoButton ?, WorkExperience.WorkExperienceLogoPicker, WorkExperience.WorkExperienceLogoTiles, WorkExperience.WorkExperienceMonth ?, WorkExperience.WorkExperienceRole.EmploymentType ?, WorkExperience.WorkExperienceSaveSequence, _$s13XDesignSystem16TrayFootnoteViewCMn ?, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem5InputCMn, _$s13XDesignSystem9ListItemsCMn, _$sSS;
 
 @interface WorkExperience.WorkExperienceFormViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
@@ -14,9 +12,12 @@
     Swift.Bool refusesEditsPastLimit;
     WorkExperience.WorkExperienceCompany initialCompany;
     WorkExperience.WorkExperienceLogoTiles logos;
+    WorkExperience.WorkExperienceLogoPicker logoPicker;
+    WorkExperience.WorkExperienceLogoButton ? $__lazy_storage_$_logoButton;
     Swift.String headerTitle;
     Swift.String saveTitle;
     WorkExperience.WorkExperienceCompany company;
+    WorkExperience.WorkExperienceChosenLogo ? chosenLogo;
     WorkExperience.WorkExperienceRole.EmploymentType ? employmentType;
     WorkExperience.WorkExperienceMonth ? start;
     WorkExperience.WorkExperienceMonth ? end;

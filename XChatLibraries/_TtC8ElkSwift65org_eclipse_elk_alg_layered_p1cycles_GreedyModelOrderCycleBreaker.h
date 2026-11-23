@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift65org_eclipse_elk_alg_layered_p1cycles_GreedyModelOrderCycleBreaker_h
+#define _TtC8ElkSwift65org_eclipse_elk_alg_layered_p1cycles_GreedyModelOrderCycleBreaker_h
+@import Foundation;
+
+#include "_TtC8ElkSwift55org_eclipse_elk_alg_layered_p1cycles_GreedyCycleBreaker.h"
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_p1cycles_GreedyModelOrderCycleBreaker : ElkSwift.org_eclipse_elk_alg_layered_p1cycles_GreedyCycleBreaker // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift65org_eclipse_elk_alg_layered_p1cycles_GreedyModelOrderCycleBreaker_h */

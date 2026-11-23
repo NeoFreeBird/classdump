@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot22GrokBotMessageListView_h
 #define _TtC11ChatGrokBot22GrokBotMessageListView_h
@@ -7,13 +5,14 @@
 
 #include "UICollectionViewDelegateFlowLayout-Protocol.h"
 
-@class ChatGrokBot.GrokBotAttention, ChatGrokBot.GrokBotAttentionPillView, ChatGrokBot.GrokBotMcpAppInstanceCache ?, ChatGrokBot.GrokBotMessageListContent, ChatGrokBot.GrokBotMessageListContent ?, ChatGrokBot.GrokBotMessageListPlaceholderView, ChatGrokBot.GrokBotMessageListSizer, ChatGrokBot.GrokBotMessageListView.ScrollToTopPhase, ChatGrokBot.GrokBotMessageListViewListener ?, ChatUI.MessageListScrollToBottomButtonView, Swift.Bool, UIView, _$s10Foundation21NSKeyValueObservationCMn ?, _$s12CoreGraphics7CGFloatVMn, _$s5UIKit34UICollectionViewDiffableDataSourceCMn ChatGrokBot.GrokBotMessageListView.Section String?, _$sSDySS ChatGrokBot.GrokBotMessageListRow, _$sSDySS _$s12CoreGraphics7CGFloatVMn, _$sSSSg, _$sScTyyt _$ss5NeverOMn ?, _$sShySSG, _$sSo16UICollectionViewC, _$sSo18NSLayoutConstraintCSg;
+@class ChatGrokBot.GrokBotAttention, ChatGrokBot.GrokBotAttentionPillView, ChatGrokBot.GrokBotMcpAppInstanceCache ?, ChatGrokBot.GrokBotMessageListContent, ChatGrokBot.GrokBotMessageListContent ?, ChatGrokBot.GrokBotMessageListPlaceholderView, ChatGrokBot.GrokBotMessageListSizer, ChatGrokBot.GrokBotMessageListView.ScrollToTopPhase, ChatGrokBot.GrokBotMessageListViewListener ?, ChatUI.MessageListScrollToBottomButtonView, Swift.Bool, UIView, _$s10Foundation21NSKeyValueObservationCMn ?, _$s12CoreGraphics7CGFloatVMn, _$s5UIKit34UICollectionViewDiffableDataSourceCMn ChatGrokBot.GrokBotMessageListView.Section String?, _$s7Combine14AnyCancellableCMn ?, _$sSDySS ChatGrokBot.GrokBotMessageListRow, _$sSDySS _$s12CoreGraphics7CGFloatVMn, _$sSSSg, _$sScTyyt _$ss5NeverOMn ?, _$sShySSG, _$sSo16UICollectionViewC, _$sSo18NSLayoutConstraintCSg, _$sSo6UIViewCSg;
 
 @interface ChatGrokBot.GrokBotMessageListView : UIView <UICollectionViewDelegateFlowLayout> { // (Swift)
     /* instance variables */
     ChatGrokBot.GrokBotMessageListViewListener ? listener;
     ChatGrokBot.GrokBotMessageListContent content;
     Swift.Bool offersAttentionPill;
+    __C.UIView? trailingAccessoryView;
     Swift.Bool startsPinnedToBottom;
     __C.UICollectionView collectionView;
     ChatGrokBot.GrokBotAttentionPillView attentionPillView;
@@ -24,6 +23,9 @@
     ChatGrokBot.GrokBotAttention attention;
     __C.NSLayoutConstraint? attentionPillAboveScrollToBottomConstraint;
     __C.NSLayoutConstraint? attentionPillBesideScrollToBottomConstraint;
+    __C.NSLayoutConstraint? accessoryBesideScrollToBottomConstraint;
+    __C.NSLayoutConstraint? accessoryTrailingConstraint;
+    __C.NSLayoutConstraint? attentionPillAvoidsAccessoryConstraint;
     nominal type descriptor for Foundation.NSKeyValueObservation ? contentSizeObservation;
     nominal type descriptor for UIKit.UICollectionViewDiffableDataSource ChatGrokBot.GrokBotMessageListView.Section String? dataSource;
     Swift.Bool hasAppliedContent;
@@ -40,6 +42,7 @@
     Swift.Dictionary empty-list Swift.String ChatGrokBot.GrokBotMessageListRow rowsByID;
     ChatGrokBot.GrokBotMessageListView.ScrollToTopPhase scrollToTopPhase;
     Swift.Task empty-list () nominal type descriptor for Swift.Never ? scrollToTopReleaseTask;
+    nominal type descriptor for Combine.AnyCancellable ? signatureImageSubscription;
 }
 
 /* instance methods */

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNViewController_h
 #define TFNViewController_h
@@ -46,6 +44,7 @@
 - (void)viewDidAppear:(_Bool)appear;
 - (void)viewWillDisappear:(_Bool)disappear;
 - (void)viewDidDisappear:(_Bool)disappear;
+- (void)_tfn_postCoveringViewControllerDidChangeIfNeeded;
 - (void)viewControllerWillPresentAnimated:(_Bool)animated;
 - (void)viewControllerDidPresentAnimated:(_Bool)animated;
 - (void)viewControllerWillDismissAnimated:(_Bool)animated;

@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift69org_eclipse_elk_alg_layered_p5edges_orthogonal_HyperEdgeCycleDetector_h
+#define _TtC8ElkSwift69org_eclipse_elk_alg_layered_p5edges_orthogonal_HyperEdgeCycleDetector_h
+@import Foundation;
+
+@class _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_p5edges_orthogonal_HyperEdgeCycleDetector : Swift._SwiftObject // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift69org_eclipse_elk_alg_layered_p5edges_orthogonal_HyperEdgeCycleDetector_h */

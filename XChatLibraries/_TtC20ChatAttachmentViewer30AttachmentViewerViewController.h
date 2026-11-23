@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20ChatAttachmentViewer30AttachmentViewerViewController_h
 #define _TtC20ChatAttachmentViewer30AttachmentViewerViewController_h
@@ -41,6 +39,9 @@
     __C.UITapGestureRecognizer? $__lazy_storage_$_immersiveTapRecognizer;
 }
 
+@property (nonatomic, readonly) unsigned long long supportedInterfaceOrientations;
+@property (nonatomic, readonly) unsigned long long tfn_supportedInterfaceOrientations;
+
 /* instance methods */
 - (_Bool)gestureRecognizerShouldBegin:(id)begin;
 - (_Bool)gestureRecognizer:(id)recognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(id)recognizer;
@@ -51,6 +52,7 @@
 - (id)initWithCoder:(id)coder;
 - (void)loadView;
 - (void)viewDidLoad;
+- (void)traitCollectionDidChange:(id)change;
 - (void)viewDidLayoutSubviews;
 - (void)viewDidAppear:(_Bool)appear;
 - (void)viewDidDisappear:(_Bool)disappear;

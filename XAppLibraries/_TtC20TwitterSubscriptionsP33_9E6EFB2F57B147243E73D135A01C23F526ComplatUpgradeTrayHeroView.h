@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20TwitterSubscriptionsP33_9E6EFB2F57B147243E73D135A01C23F526ComplatUpgradeTrayHeroView_h
 #define _TtC20TwitterSubscriptionsP33_9E6EFB2F57B147243E73D135A01C23F526ComplatUpgradeTrayHeroView_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZInAppMessageRaw_h
 #define BRZInAppMessageRaw_h
@@ -8,14 +6,14 @@
 #include "BRZInAppMessageContext.h"
 #include "BRZInAppMessageRawColor.h"
 
-@class Chat.DidEndCall, NSArray, NSDictionary, NSObject, NSString, NSURL;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSArray, NSDictionary, NSObject, NSString, NSURL;
 
 @interface BRZInAppMessageRaw : NSObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall lock;
-    oneway _Atomic Chat.DidEndCall _id;
-    oneway _Atomic Chat.DidEndCall _codableExtras;
-    oneway _Atomic Chat.DidEndCall _codableMessageFields;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift lock;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _id;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _codableExtras;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _codableMessageFields;
 }
 
 @property (nonatomic) _Bool _compat_hideChevron;

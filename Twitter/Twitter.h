@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef Twitter_h
 #define Twitter_h
@@ -176,6 +174,7 @@
 #import "THFHomeShimmerCrossfade.h"
 #import "THFHomeShimmerItem.h"
 #import "THFHomeTimelineItemsViewController.h"
+#import "THFHomeTimelineUndoOffer.h"
 #import "THFPinnedTimelineUndoToastPresenter.h"
 #import "THFURTHomeTimelineFeedbackCoordinator.h"
 #import "THFURTHomeTimelineStream.h"
@@ -217,6 +216,7 @@
 #import "_TtC32TwitterHomeFeatureImplementation25HomeFiltersSheetViewModel.h"
 #import "_TtC32TwitterHomeFeatureImplementation25HomeLogoRefreshController.h"
 #import "_TtC32TwitterHomeFeatureImplementation26SuspendableStreamUpdateAPI.h"
+#import "_TtC32TwitterHomeFeatureImplementation26TimelineEngineRowsOnScreen.h"
 #import "_TtC32TwitterHomeFeatureImplementation26TimelineEngineSeenTweetIDs.h"
 #import "_TtC32TwitterHomeFeatureImplementation27HomeTimelineUIReloadMonitor.h"
 #import "_TtC32TwitterHomeFeatureImplementation27TimelineEngineShimmerScribe.h"
@@ -224,10 +224,12 @@
 #import "_TtC32TwitterHomeFeatureImplementation28PinnedTimelineViewController.h"
 #import "_TtC32TwitterHomeFeatureImplementation28TabManagementSheetDataLoader.h"
 #import "_TtC32TwitterHomeFeatureImplementation28TimelineEngineViewController.h"
+#import "_TtC32TwitterHomeFeatureImplementation29HomeTimelineUndoSnapshotStore.h"
 #import "_TtC32TwitterHomeFeatureImplementation29PreviewTimelineViewController.h"
 #import "_TtC32TwitterHomeFeatureImplementation29TimelineScrollAnchorCorrector.h"
 #import "_TtC32TwitterHomeFeatureImplementation29UnpinTimelineExtendedMutation.h"
 #import "_TtC32TwitterHomeFeatureImplementation30CustomTimelinesTagTopicCatalog.h"
+#import "_TtC32TwitterHomeFeatureImplementation30HomeTimelineUndoCapsuleDisplay.h"
 #import "_TtC32TwitterHomeFeatureImplementation30PinnedTimelinesSaveCoordinator.h"
 #import "_TtC32TwitterHomeFeatureImplementation30TimelineEngineEmptyStateScribe.h"
 #import "_TtC32TwitterHomeFeatureImplementation30TopicsEducationVideoPrefetcher.h"
@@ -241,8 +243,10 @@
 #import "_TtC32TwitterHomeFeatureImplementation33URTHomeTimelineCacheStateRecorder.h"
 #import "_TtC32TwitterHomeFeatureImplementation33URTStandardStreamObjectTranslator.h"
 #import "_TtC32TwitterHomeFeatureImplementation35HomeTimelineContainerViewController.h"
+#import "_TtC32TwitterHomeFeatureImplementation35TimelineEngineSavedPostsArrangement.h"
 #import "_TtC32TwitterHomeFeatureImplementation36TimelineEngineSelectingStreamFactory.h"
 #import "_TtC32TwitterHomeFeatureImplementation39CustomTimelineTrayContentViewController.h"
+#import "_TtC32TwitterHomeFeatureImplementation39TimelineEngineViewportAwareLaunchScribe.h"
 #import "_TtC32TwitterHomeFeatureImplementation39URTHomeTimelineUpdaterActionTransformer.h"
 #import "_TtC32TwitterHomeFeatureImplementation40TopicsEducationTrayContentViewController.h"
 #import "_TtC32TwitterHomeFeatureImplementation41SubscriptionsPinnedTimelineViewController.h"
@@ -444,6 +448,7 @@
 #import "TFNTwitterSuggestedItem-Protocol.h"
 #import "TFNUIColorPalette-Protocol.h"
 #import "TFNValuePickerDataSource-Protocol.h"
+#import "TFNViewControllerEventObserver-Protocol.h"
 #import "TFSFeatureSwitchProvider-Protocol.h"
 #import "TFSProgressCenterObserver-Protocol.h"
 #import "TFSTwitterAuthenticatedScribeDelegate-Protocol.h"

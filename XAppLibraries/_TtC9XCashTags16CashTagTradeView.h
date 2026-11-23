@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9XCashTags16CashTagTradeView_h
 #define _TtC9XCashTags16CashTagTradeView_h
@@ -15,6 +13,7 @@
     __C.UILabel? $__lazy_storage_$_titleLabel;
     __C.UIActivityIndicatorView? $__lazy_storage_$_activityIndicator;
     __C.UIStackView? $__lazy_storage_$_contentStack;
+    __C.UILabel? $__lazy_storage_$_sponsoredLabel;
 }
 
 /* instance methods */

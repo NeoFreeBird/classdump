@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift51org_eclipse_elk_alg_layered_p1cycles_SCConnectivity_h
+#define _TtC8ElkSwift51org_eclipse_elk_alg_layered_p1cycles_SCConnectivity_h
+@import Foundation;
+
+#include "_TtC8ElkSwift62org_eclipse_elk_alg_layered_p1cycles_SCCModelOrderCycleBreaker.h"
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_p1cycles_SCConnectivity : ElkSwift.org_eclipse_elk_alg_layered_p1cycles_SCCModelOrderCycleBreaker // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift51org_eclipse_elk_alg_layered_p1cycles_SCConnectivity_h */

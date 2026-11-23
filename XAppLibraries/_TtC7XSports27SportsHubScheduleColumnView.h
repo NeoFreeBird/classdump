@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports27SportsHubScheduleColumnView_h
 #define _TtC7XSports27SportsHubScheduleColumnView_h
@@ -7,7 +5,7 @@
 
 #include "_TtC7XSports14MeasurableView.h"
 
-@class XSports.MeasurableView ?, _$sSo11UIImageViewC, _$sSo6UIViewC, _$sSo7UILabelC;
+@class _$sSo11UIImageViewC, _$sSo6UIViewC, _$sSo7UILabelC;
 
 @interface XSports.SportsHubScheduleColumnView : XSports.MeasurableView { // (Swift)
     /* instance variables */
@@ -16,7 +14,6 @@
     __C.UIView dividerView;
     __C.UIView columnDividerView;
     __C.UIView contentContainer;
-    XSports.MeasurableView ? favoritesView;
 }
 
 /* instance methods */

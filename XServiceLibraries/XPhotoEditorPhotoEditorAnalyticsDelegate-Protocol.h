@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef XPhotoEditorPhotoEditorAnalyticsDelegate_Protocol_h
 #define XPhotoEditorPhotoEditorAnalyticsDelegate_Protocol_h
@@ -32,6 +30,7 @@
 - (void)photoEditorDidAddRedaction:(id)redaction;
 - (void)photoEditorDidRemoveRedaction;
 - (void)photoEditorDidAddImageOverlay;
+- (void)photoEditorDidDropImageOverlays:(long long)overlays;
 - (void)photoEditorDidDeleteImageOverlay;
 - (void)photoEditorDidChangeImageOverlayShape:(id)shape;
 - (void)photoEditorDidSelectCollageLayout:(id)layout;

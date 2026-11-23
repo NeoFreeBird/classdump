@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20ChatConversationList30ConversationListViewController_h
 #define _TtC20ChatConversationList30ConversationListViewController_h
@@ -30,6 +28,7 @@
     ChatConversationServices.ConversationConfiguration ? currentSelectedConversation;
     ChatConversationList.ConversationListShimmerView ? loadingShimmerView;
     ChatUI.ChatEmptyStateView ? emptyStateView;
+    ChatUI.ChatEmptyStateView ? emptyStateFooterView;
     ChatConversationList.ConversationListDataSource ? $__lazy_storage_$_listDataSource;
     ChatConversationList.ConversationListTableDelegate ? $__lazy_storage_$_tableDelegate;
 }
@@ -42,6 +41,7 @@
 - (void)viewIsAppearing:(_Bool)appearing;
 - (void)viewDidAppear:(_Bool)appear;
 - (void)viewDidDisappear:(_Bool)disappear;
+- (void)viewDidLayoutSubviews;
 - (void)viewWillTransitionToSize:(struct CGSize { double x0; double x1; })size withTransitionCoordinator:(id)coordinator;
 - (void)viewDidLoad;
 - (id)initWithStyle:(long long)style;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift17ImmersiveCardView_h
 #define _TtC14T1TwitterSwift17ImmersiveCardView_h
@@ -12,7 +10,7 @@
 #include "TAVUIAutoplayable-Protocol.h"
 #include "UIGestureRecognizerDelegate-Protocol.h"
 
-@class Swift.Bool, T1TwitterSwift.BottomBarControlsStateForwardProtocol ?, T1TwitterSwift.ImmersiveCardLayoutState ?, T1TwitterSwift.ImmersiveCardState, T1TwitterSwift.ImmersiveCardState ?, T1TwitterSwift.ImmersiveCardViewDelegate ?, T1TwitterSwift.ImmersiveCardViewModelProtocol ?, T1TwitterSwift.ImmersiveFeatureFlags, T1TwitterSwift.ImmersiveWatchVisitScriber, T1TwitterSwift.PlaybackDwellLingerScriber ?, T1TwitterSwift.VideoSettingsCoordinator, TAVPlayerSessionProducer, TFNTwitterStatus, UIView, _$s12CoreGraphics7CGFloatVMn, _$s12XVideoEditor13VideoClippingC21ImmersiveClipPlaybackOMn ?, _$s13XDesignSystem25TrayManagerViewControllerCMn ?, _$sSa -> T1TwitterSwift.ImmersivePluginView, _$sSfSg, _$sSo17TFNTwitterAccountC, _$sSo22UITapGestureRecognizerCSg, _$sSo22UIViewPropertyAnimatorCSg, _$sSo25T1ExploreRelaunchFeaturesC, _$sSo25UIImpactFeedbackGeneratorC, __C.TFNPreviewingState;
+@class Swift.Bool, T1TwitterSwift.BottomBarControlsStateForwardProtocol ?, T1TwitterSwift.ImmersiveCardLayoutState ?, T1TwitterSwift.ImmersiveCardState, T1TwitterSwift.ImmersiveCardState ?, T1TwitterSwift.ImmersiveCardViewDelegate ?, T1TwitterSwift.ImmersiveCardViewModelProtocol ?, T1TwitterSwift.ImmersiveFeatureFlags, T1TwitterSwift.ImmersiveWatchVisitScriber, T1TwitterSwift.PlaybackDwellLingerScriber ?, T1TwitterSwift.VideoSettingsCoordinator, TAVPlayerSessionProducer, TFNTwitterStatus, UIView, _$s12CoreGraphics7CGFloatVMn, _$s12XVideoEditor13VideoClippingC21ImmersiveClipPlaybackOMn ?, _$s13XDesignSystem25TrayManagerViewControllerCMn ?, _$s5TAVUI09PictureInB13DeferredStartCMn ??, _$sSa -> T1TwitterSwift.ImmersivePluginView, _$sSfSg, _$sSo17TFNTwitterAccountC, _$sSo22UITapGestureRecognizerCSg, _$sSo22UIViewPropertyAnimatorCSg, _$sSo25T1ExploreRelaunchFeaturesC, _$sSo25UIImpactFeedbackGeneratorC, __C.TFNPreviewingState;
 
 @interface T1TwitterSwift.ImmersiveCardView : UIView <T1MediaTaggedUserListViewControllerDelegate, UIGestureRecognizerDelegate, T1ImmersiveCardViewProtocol, TAVUIAutoplayable, T1LockScreenPlaybackCommandDelegate, T1ImmersiveCardViewProtocol, TAVUIAutoplayable> { // (Swift)
     /* instance variables */
@@ -25,6 +23,7 @@
     T1TwitterSwift.PlaybackDwellLingerScriber ? dwellLingerScriber;
     __C.TFNTwitterAccount account;
     T1TwitterSwift.ImmersiveFeatureFlags featureFlags;
+    Swift.Bool isDockReadinessFixEnabled;
     T1TwitterSwift.VideoSettingsCoordinator videoSettingsCoordinator;
     __C.UITapGestureRecognizer? singleTapRecognizer;
     T1TwitterSwift.BottomBarControlsStateForwardProtocol ? bottomBarStateForwarder;
@@ -44,6 +43,7 @@
     T1TwitterSwift.ImmersiveCardViewDelegate ? delegate;
     T1TwitterSwift.ImmersiveCardLayoutState ? appliedLayout;
     __C.UIViewPropertyAnimator? panningStyleAnimator;
+    nominal type descriptor for TAVUI.PictureInPictureDeferredStart ?? $__lazy_storage_$_dockStart;
     Swift.Bool isTransitioningDisplayMode;
     Swift.Bool isMediaRoundedForReplies;
     Swift.Bool isRepliesCloseInFlight;
@@ -72,6 +72,7 @@
 - (id)initWithCoder:(id)coder;
 - (void)dealloc;
 - (void)audioRouteChanged;
+- (void)keyboardDidChange;
 - (void)didMoveToSuperview;
 - (void)layoutSubviews;
 - (void)releasePlayerAfterHandoff;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC22SuperAwesomeVideoCacheP33_38DBBC3D5AD9B6C5CD183F56F61D35F522SAVSaveSuccessfulToast_h
 #define _TtC22SuperAwesomeVideoCacheP33_38DBBC3D5AD9B6C5CD183F56F61D35F522SAVSaveSuccessfulToast_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCE14T1TwitterSwiftCSo17TFNTwitterAccountP33_6C88303F5C186AA47EAE06F1AFB16C6629PlaceholderAddressBookService57PeopleAddressBookAccessControllerNeverPromptRequestPolicy_h
 #define _TtCCE14T1TwitterSwiftCSo17TFNTwitterAccountP33_6C88303F5C186AA47EAE06F1AFB16C6629PlaceholderAddressBookService57PeopleAddressBookAccessControllerNeverPromptRequestPolicy_h

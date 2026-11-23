@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFSAccountFeatureSwitches_h
 #define TFSAccountFeatureSwitches_h
@@ -48,6 +46,7 @@
 + (_Bool)isTextEditorMentionsColorBugfixEnabled;
 + (_Bool)isGesturesByDefaultEnabled;
 + (long long)tweetCustomMaxTextLines;
++ (long long)tweetLineBreakFallbackMaxTextLines;
 + (long long)quotedTweetCustomMaxTextLines;
 + (long long)promotedTweetCustomMaxTextLines;
 + (_Bool)expandTruncatedPostOnTextBodyEnabled;

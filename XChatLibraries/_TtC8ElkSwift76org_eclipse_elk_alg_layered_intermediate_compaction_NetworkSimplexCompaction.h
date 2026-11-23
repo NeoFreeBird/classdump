@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift76org_eclipse_elk_alg_layered_intermediate_compaction_NetworkSimplexCompaction_h
+#define _TtC8ElkSwift76org_eclipse_elk_alg_layered_intermediate_compaction_NetworkSimplexCompaction_h
+@import Foundation;
+
+@class _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_compaction_NetworkSimplexCompaction : Swift._SwiftObject // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift76org_eclipse_elk_alg_layered_intermediate_compaction_NetworkSimplexCompaction_h */

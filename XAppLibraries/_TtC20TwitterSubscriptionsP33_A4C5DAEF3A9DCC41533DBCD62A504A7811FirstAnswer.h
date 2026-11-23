@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20TwitterSubscriptionsP33_A4C5DAEF3A9DCC41533DBCD62A504A7811FirstAnswer_h
 #define _TtC20TwitterSubscriptionsP33_A4C5DAEF3A9DCC41533DBCD62A504A7811FirstAnswer_h

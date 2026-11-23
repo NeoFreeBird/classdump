@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation24ForwardSheetSearchWorker_h
 #define _TtC16ChatConversation24ForwardSheetSearchWorker_h
 @import Foundation;
 
-@class ChatConversation.MessageForwardSheetEligibilityStream, ChatConversationList.ConversationListStateStream, ChatModelsCore.ConversationID, ChatSearch.SearchQueryStream, ChatSyncState.ChatInboxProviding, ChatUtilities.NativeShareSuggestionProvider, _$s11XFoundation11AsyncWorkerCN;
+@class ChatConversation.MessageForwardSheetEligibilityStream, ChatConversationList.ConversationListStateStream, ChatModelsCore.ConversationID, ChatSearch.SearchQueryStream, ChatSyncState.ChatInboxProviding, ChatUtilities.ChatTypeaheadScriber, ChatUtilities.ShareSuggestionProvider, _$s11XFoundation11AsyncWorkerCN;
 
 @interface ChatConversation.ForwardSheetSearchWorker : type metadata for XFoundation.AsyncWorker { // (Swift)
     /* instance variables */
@@ -13,8 +11,9 @@
     ChatConversationList.ConversationListStateStream listStateStream;
     ChatSearch.SearchQueryStream searchQueryStream;
     ChatModelsCore.ConversationID sourceConversationID;
-    ChatUtilities.NativeShareSuggestionProvider suggestionProvider;
+    ChatUtilities.ShareSuggestionProvider suggestionProvider;
     ChatSyncState.ChatInboxProviding inboxProvider;
+    ChatUtilities.ChatTypeaheadScriber typeaheadScriber;
 }
 
 @end

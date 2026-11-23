@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1BaseUserViewLayoutDelegate_h
 #define T1BaseUserViewLayoutDelegate_h
@@ -26,6 +24,7 @@
 + (id)socialTextFontForCellStyle:(long long)style expanded:(_Bool)expanded;
 + (struct CGSize { double x0; double x1; })defaultAvatarSizeForStyle:(long long)style showBio:(_Bool)bio layoutMetrics:(id)metrics;
 + (id)actionControlItemForParameters:(id)parameters layoutState:(id)state;
++ (double)actionControlColumnInsetForParameters:(id)parameters;
 + (id)adminTextItemForParameters:(id)parameters layoutState:(id)state;
 + (id)authorBadgeItemForParameters:(id)parameters layoutState:(id)state;
 + (id)avatarItemForParameters:(id)parameters layoutState:(id)state;

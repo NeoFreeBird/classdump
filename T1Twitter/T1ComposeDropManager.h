@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ComposeDropManager_h
 #define T1ComposeDropManager_h
@@ -9,16 +7,17 @@
 #include "UIDropInteractionDelegate-Protocol.h"
 #include "UITextDropDelegate-Protocol.h"
 
-@class NSObject, NSString, TFNTwitterAccount, TFSTwitterScribeContext, UIDropInteraction, UIView;
+@class NSArray, NSObject, NSString, TFNTwitterAccount, TFSTwitterScribeContext, UIDropInteraction, UIView;
 @protocol TFNDropDataSource;
 
 @interface T1ComposeDropManager : NSObject <UIDropInteractionDelegate, UITextDropDelegate>
 
-@property (readonly, nonatomic) UIDropInteraction *dropInteraction;
 @property (readonly, nonatomic) TFNTwitterAccount *account;
 @property (readonly, copy, nonatomic) TFSTwitterScribeContext *scribeContext;
 @property (nonatomic) unsigned long long dropSessionState;
 @property (retain, nonatomic) UIView *targetView;
+@property (readonly, nonatomic) UIDropInteraction *dropInteraction;
+@property (copy, nonatomic) NSArray *supportedTypeIdentifiers;
 @property (nonatomic) _Bool dropIndicationForTextDropEnabled;
 @property (weak, nonatomic) id <TFNDropDataSource> dataSource;
 @property (weak, nonatomic) id <T1ComposeDropManagerDelegate> delegate;
@@ -35,6 +34,7 @@
 - (void)dropInteraction:(id)interaction sessionDidExit:(id)exit;
 - (void)dropInteraction:(id)interaction sessionDidEnd:(id)end;
 - (_Bool)dropInteraction:(id)interaction canHandleSession:(id)session;
+- (_Bool)_t1_delegateCanAcceptDrop;
 - (void)_t1_logScribeAction:(id)action element:(id)element;
 - (void)_t1_dropAnimatedGIFForSession:(id)session dropDataSource:(id)source;
 - (void)_t1_dropImagesForSession:(id)session dropDataSource:(id)source;

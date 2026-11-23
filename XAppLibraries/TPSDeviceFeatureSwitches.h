@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TPSDeviceFeatureSwitches_h
 #define TPSDeviceFeatureSwitches_h
@@ -49,6 +47,7 @@
 + (id)scribeDataLossSampleRateOnRetry;
 + (id)scribeDataLossSampleRateOnOutOfSpace;
 + (_Bool)isFlushLingerOnBackgroundEnabled;
++ (_Bool)isScribeCoveredTimelineLingerFixDisabled;
 + (_Bool)isScribeLingerFairViewTimeEnabled;
 + (double)scribeLingerFairViewTimeUpperBound;
 + (double)scribeLingerFairViewTimeLowerBound;
@@ -71,6 +70,7 @@
 + (_Bool)isMetricKitDurationSecondsDisabled;
 + (_Bool)isMetricKitLastUsedAccountScribeEnabled;
 + (_Bool)isBatteryDrainScribeEnabled;
++ (_Bool)isMetricKitBatteryDriversScribeEnabled;
 + (_Bool)isViewControllerScribeFallbackEnabled;
 + (long long)webKitCacheTTLSeconds;
 + (long long)tpmIdSyncFetchIntervalInSeconds;
@@ -89,7 +89,6 @@
 + (id)excludedPeriscopeURLDestinations;
 + (_Bool)isTwitterSingleSignOnEnabled;
 + (_Bool)isPhoneNumberCountryPickerEnabled;
-+ (_Bool)isOnboardingFunnelDeeplinkEnabled;
 + (_Bool)isBouncerOCFFlowEnabled;
 + (_Bool)isNewStorageScreenEnabled;
 + (_Bool)refreshFeatureSwitchesWhenAccountChangesEnabled;

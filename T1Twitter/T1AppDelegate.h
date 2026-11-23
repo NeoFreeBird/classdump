@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1AppDelegate_h
 #define T1AppDelegate_h
@@ -22,6 +20,8 @@
     struct { float level; long long state; } _batteryAtDidBecomeActive;
     _Bool _hasBatteryAtWillResignActive;
     struct { float level; long long state; } _batteryAtWillResignActive;
+    _Bool _isLowPowerModeEnabledAtDidBecomeActive;
+    struct { long long txBytesWWAN; long long rxBytesWWAN; long long txBytesWIFI; long long rxBytesWIFI; long long requestsWWAN; long long requestsWIFI; double nextResetTime; } _networkDataUsageAtDidBecomeActive;
     _Bool _didEnterBackgroundSinceWillResignActive;
     double _offScreenDurationBeforeDidBecomeActive;
 }

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC18TwitterAudiospacesP33_5268BD96D1A45038D4F3B82D2ABC2E7126ClipTranscriptReaderWindow_h
 #define _TtC18TwitterAudiospacesP33_5268BD96D1A45038D4F3B82D2ABC2E7126ClipTranscriptReaderWindow_h

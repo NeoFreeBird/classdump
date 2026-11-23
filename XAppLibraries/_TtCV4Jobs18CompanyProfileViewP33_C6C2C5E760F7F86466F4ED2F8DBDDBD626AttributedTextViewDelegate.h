@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV4Jobs18CompanyProfileViewP33_C6C2C5E760F7F86466F4ED2F8DBDDBD626AttributedTextViewDelegate_h
 #define _TtCV4Jobs18CompanyProfileViewP33_C6C2C5E760F7F86466F4ED2F8DBDDBD626AttributedTextViewDelegate_h

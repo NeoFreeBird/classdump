@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV4GrokP33_341DDAC49307735A38DA07544761F91416_MentionTextView11Coordinator_h
 #define _TtCV4GrokP33_341DDAC49307735A38DA07544761F91416_MentionTextView11Coordinator_h

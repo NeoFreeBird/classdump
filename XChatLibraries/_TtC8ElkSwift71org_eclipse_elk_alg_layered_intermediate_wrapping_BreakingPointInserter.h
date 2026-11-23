@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift71org_eclipse_elk_alg_layered_intermediate_wrapping_BreakingPointInserter_h
+#define _TtC8ElkSwift71org_eclipse_elk_alg_layered_intermediate_wrapping_BreakingPointInserter_h
+@import Foundation;
+
+@class _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_wrapping_BreakingPointInserter : Swift._SwiftObject // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift71org_eclipse_elk_alg_layered_intermediate_wrapping_BreakingPointInserter_h */

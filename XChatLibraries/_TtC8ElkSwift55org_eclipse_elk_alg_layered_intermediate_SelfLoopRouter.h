@@ -1,0 +1,17 @@
+//
+#ifndef _TtC8ElkSwift55org_eclipse_elk_alg_layered_intermediate_SelfLoopRouter_h
+#define _TtC8ElkSwift55org_eclipse_elk_alg_layered_intermediate_SelfLoopRouter_h
+@import Foundation;
+
+@class ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_LabelPlacer, ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_RoutingDirector, ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_RoutingSlotAssigner, _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_SelfLoopRouter : Swift._SwiftObject { // (Swift)
+    /* instance variables */
+    ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_RoutingDirector routingDirector;
+    ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_LabelPlacer labelPlacer;
+    ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_RoutingSlotAssigner routingSlotAssigner;
+}
+
+@end
+
+#endif /* _TtC8ElkSwift55org_eclipse_elk_alg_layered_intermediate_SelfLoopRouter_h */

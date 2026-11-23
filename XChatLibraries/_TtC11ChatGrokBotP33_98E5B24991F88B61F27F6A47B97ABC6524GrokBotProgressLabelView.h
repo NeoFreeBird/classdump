@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBotP33_98E5B24991F88B61F27F6A47B97ABC6524GrokBotProgressLabelView_h
 #define _TtC11ChatGrokBotP33_98E5B24991F88B61F27F6A47B97ABC6524GrokBotProgressLabelView_h

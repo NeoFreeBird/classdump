@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14DMPasscodeFlowP33_F2EA5BD671C6FB7B7A5B8C133A8DF82725WeakPasscodeFlowPresenter_h
 #define _TtC14DMPasscodeFlowP33_F2EA5BD671C6FB7B7A5B8C133A8DF82725WeakPasscodeFlowPresenter_h

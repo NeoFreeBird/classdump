@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC17TwitterTextEditor13LayoutManagerP33_DA2AC3C564AA9B6C78A5B7E3F504CDFF15CacheableGlyphs_h
 #define _TtCC17TwitterTextEditor13LayoutManagerP33_DA2AC3C564AA9B6C78A5B7E3F504CDFF15CacheableGlyphs_h

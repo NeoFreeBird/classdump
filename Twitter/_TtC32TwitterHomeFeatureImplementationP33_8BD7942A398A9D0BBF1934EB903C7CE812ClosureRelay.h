@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC32TwitterHomeFeatureImplementationP33_8BD7942A398A9D0BBF1934EB903C7CE812ClosureRelay_h
 #define _TtC32TwitterHomeFeatureImplementationP33_8BD7942A398A9D0BBF1934EB903C7CE812ClosureRelay_h

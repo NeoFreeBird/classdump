@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC6AVChat26AVChatGroupCallComposition_h
 #define _TtC6AVChat26AVChatGroupCallComposition_h
@@ -7,7 +5,7 @@
 
 #include "PTVWebRTCClientDelegate-Protocol.h"
 
-@class Chat.AVChatChatmanClient ?, Chat.AVChatGroupCallCoordinator.SessionRef, Chat.AVChatGroupCallData, Chat.AVChatGroupCallInfo, Chat.AVChatGroupCallMediaActor ?, Chat.AVChatSpaceGuestPublishingFetcher ?, Chat.AVChatSpaceParticipantsPublishingFetcher ?, Chat.AVChatSpacePublishingFetcher ?, Chat.AVChatWebRTCPeriscopeAPI, Chat.AVChatXConversationPublishingFetcher ?, NSObject, PeriscopeSDKSwift.JanusMultistreamClient ?, _$s7Combine19CurrentValueSubjectCMn AVChat.AVChatGroupCallInfo _$ss5ErrorMp, _$s7Combine9PublishedVMn _$s14TFSTwitterCore17TwitterAudiospaceCMn _$s5space_So12PTVBroadcastC9broadcasttSg, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo12PTVBroadcastCSg, _$sSo17TFNTwitterAccountC, _$ss5ErrorMp ?;
+@class Chat.AVChatChatmanClient ?, Chat.AVChatGroupCallCoordinator.SessionRef, Chat.AVChatGroupCallData, Chat.AVChatGroupCallInfo, Chat.AVChatGroupCallMediaActor ?, Chat.AVChatSpaceGuestPublishingFetcher ?, Chat.AVChatSpaceParticipantsPublishingFetcher ?, Chat.AVChatSpacePublishingFetcher ?, Chat.AVChatWebRTCPeriscopeAPI, Chat.AVChatXConversationPublishingFetcher ?, NSObject, PeriscopeSDKSwift.JanusMultistreamClient ?, _$s7Combine19CurrentValueSubjectCMn AVChat.AVChatGroupCallInfo _$ss5ErrorMp, _$s7Combine9PublishedVMn _$s14TFSTwitterCore17TwitterAudiospaceCMn _$s5space_So12PTVBroadcastC9broadcasttSg, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo17TFNTwitterAccountC, _$ss5ErrorMp ?;
 
 @interface AVChat.AVChatGroupCallComposition : NSObject <PTVWebRTCClientDelegate> { // (Swift)
     /* instance variables */
@@ -23,7 +21,6 @@
     oneway _Atomic Chat.AVChatWebRTCPeriscopeAPI _api;
     __C.TFNTwitterAccount _account;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable _cancellables;
-    __C.PTVBroadcast? _broadcastToPublish;
     oneway _Atomic Chat.AVChatXConversationPublishingFetcher ? _xchatConversationFetcher;
     oneway _Atomic Chat.AVChatSpacePublishingFetcher ? _spaceFetcher;
     oneway _Atomic Chat.AVChatSpaceGuestPublishingFetcher ? _guestFetcher;
@@ -49,7 +46,6 @@
 - (void)didStoreAndOutputLogEntry:(id)entry;
 - (void)didLeave;
 - (void)didUpdateVideoStreamDisabledWithPeriscopeUserId:(id)id disabled:(_Bool)disabled;
-- (void)didReceiveJanusRTPInfoValuesWithJanusSessionId:(unsigned long long)id janusHandlerId:(unsigned long long)id janusPublisherId:(unsigned long long)id;
 - (void)dealloc;
 - (id)init;
 

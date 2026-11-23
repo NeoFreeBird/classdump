@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatSession24ChatHistoryRequestWorker_h
 #define _TtC11ChatSession24ChatHistoryRequestWorker_h
 @import Foundation;
 
-@class ChatSession.ChatStorageStream, ChatSync.ChatHistoryRequestStream, ChatSync.XChatHistoryFetcher, _$s11XFoundation11AsyncWorkerCN;
+@class ChatSession.ChatStorageStream, ChatSync.ChatHistoryFetcher, ChatSync.ChatHistoryRequestStream, _$s11XFoundation11AsyncWorkerCN;
 
 @interface ChatSession.ChatHistoryRequestWorker : type metadata for XFoundation.AsyncWorker { // (Swift)
     /* instance variables */
     ChatSync.ChatHistoryRequestStream historyRequestStream;
-    ChatSync.XChatHistoryFetcher historyFetcher;
+    ChatSync.ChatHistoryFetcher historyFetcher;
     ChatSession.ChatStorageStream storageStream;
 }
 

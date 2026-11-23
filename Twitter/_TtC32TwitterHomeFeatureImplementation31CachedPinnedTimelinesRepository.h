@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC32TwitterHomeFeatureImplementation31CachedPinnedTimelinesRepository_h
 #define _TtC32TwitterHomeFeatureImplementation31CachedPinnedTimelinesRepository_h
@@ -8,7 +6,7 @@
 #include "_TtP26TwitterHomePinnedTimelines25PinnedTimelinesRepository_-Protocol.h"
 #include "_TtP26TwitterHomePinnedTimelines33PinnedTimelinesRepositoryDelegate_-Protocol.h"
 
-@class NSObject, TwitterHomeFeatureImplementation.PinnedTimelinesFetchThrottle, TwitterHomePinnedTimelines0cD18RepositoryDelegate_pSgXw, _$s20TwitterActionService0bC0CMn ?, _$s7Combine19CurrentValueSubjectCMn _$sySa -> _$s26TwitterHomePinnedTimelines0C17TimelineDataModelCMn _$sG _$ss5NeverOMn, _$sSS, _$sScTyyt _$ss5NeverOMn ?, _$sSo17TFNTwitterAccountC;
+@class NSObject, TwitterHomeFeatureImplementation.PinnedTimelinesFetchThrottle ?, TwitterHomePinnedTimelines0cD18RepositoryDelegate_pSgXw, _$s20TwitterActionService0bC0CMn ?, _$s7Combine19CurrentValueSubjectCMn _$sySa -> _$s26TwitterHomePinnedTimelines0C17TimelineDataModelCMn _$sG _$ss5NeverOMn, _$sSS, _$sScTyyt _$ss5NeverOMn ?, _$sSo17TFNTwitterAccountC;
 
 @interface TwitterHomeFeatureImplementation.CachedPinnedTimelinesRepository : NSObject <TwitterHomePinnedTimelines.PinnedTimelinesRepository> { // (Swift)
     /* instance variables */
@@ -17,7 +15,7 @@
     Swift.String timeFilterIdentifier;
     Swift.String viewFilterIdentifier;
     nominal type descriptor for TwitterActionService.ActionService ? $__lazy_storage_$_actionService;
-    TwitterHomeFeatureImplementation.PinnedTimelinesFetchThrottle fetchThrottle;
+    TwitterHomeFeatureImplementation.PinnedTimelinesFetchThrottle ? $__lazy_storage_$_fetchThrottle;
     Swift.Task empty-list () nominal type descriptor for Swift.Never ? pinnedTimelinesObservation;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Array -> nominal type descriptor for TwitterHomePinnedTimelines.PinnedTimelineDataModel _$sG nominal type descriptor for Swift.Never pinnedTimelines;
 }

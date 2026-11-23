@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TUCImageView_Protocol_h
 #define TUCImageView_Protocol_h
@@ -13,7 +11,7 @@
 @required
 
 @property (readonly, nonatomic) UIImage *image;
-@property (retain, nonatomic) id <TUCImageViewLoadDelegate> loadDelegate;
+@property (weak, nonatomic) id <TUCImageViewLoadDelegate> loadDelegate;
 
 /* required instance methods */
 - (void)setImageWithMediaEntity:(id)entity imagePipeline:(id)pipeline;

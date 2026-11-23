@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1OnboardingUserFacepileViewModel_h
 #define T1OnboardingUserFacepileViewModel_h
@@ -26,7 +24,7 @@
 @property (readonly, copy, nonatomic) NSString *followedUserDisplayName;
 @property (weak, nonatomic) UIViewController *expandedViewController;
 @property (retain, nonatomic) NSHashTable *observers;
-@property (nonatomic) _Bool disableExperimentalBonusFollowsFeatures;
+@property (nonatomic) _Bool profileNavigationDisabled;
 @property (readonly, nonatomic) TFNTwitterAccount *account;
 @property (readonly, nonatomic) NSArray *users;
 @property (readonly, nonatomic) long long actionType;

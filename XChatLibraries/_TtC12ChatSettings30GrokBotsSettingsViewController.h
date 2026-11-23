@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC12ChatSettings30GrokBotsSettingsViewController_h
 #define _TtC12ChatSettings30GrokBotsSettingsViewController_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotAccountLinkBuilder, ChatGrokBot.GrokBotAutoReviewRulesBuilder, ChatGrokBot.GrokBotMemoryImportBuilder, ChatGrokBot.GrokBotPhoneToolsBuilder, ChatGrokBot.GrokBotSession, ChatGrokBot.GrokBotVaultBuilder, ChatSettings.ChatSettingsNavigation, ChatSettings.GrokBotsSettingsAutoReviewItems ?, Swift.Bool, UIViewController, _$s13XDesignSystem9ListItemsCMn, _$sSh -> _$s7Combine14AnyCancellableCMn;
+@class ChatGrokBot.GrokBotAccountLinkBuilder, ChatGrokBot.GrokBotAutoReviewRulesBuilder, ChatGrokBot.GrokBotAutoReviewStore, ChatGrokBot.GrokBotMemoryImportBuilder, ChatGrokBot.GrokBotPhoneToolsBuilder, ChatGrokBot.GrokBotSession, ChatGrokBot.GrokBotVaultBuilder, ChatSettings.ChatSettingsNavigation, ChatSettings.GrokBotsSettingsAutoReviewItems ?, Swift.Bool, UIViewController, _$s13XDesignSystem9ListItemsCMn, _$sSh -> _$s7Combine14AnyCancellableCMn;
 
 @interface ChatSettings.GrokBotsSettingsViewController : UIViewController { // (Swift)
     /* instance variables */
@@ -13,6 +11,7 @@
     ChatSettings.ChatSettingsNavigation chatSettingsNavigation;
     ChatGrokBot.GrokBotAccountLinkBuilder grokBotAccountLinkBuilder;
     ChatGrokBot.GrokBotAutoReviewRulesBuilder grokBotAutoReviewRulesBuilder;
+    ChatGrokBot.GrokBotAutoReviewStore grokBotAutoReviewStore;
     ChatGrokBot.GrokBotMemoryImportBuilder grokBotMemoryImportBuilder;
     ChatGrokBot.GrokBotPhoneToolsBuilder grokBotPhoneToolsBuilder;
     ChatGrokBot.GrokBotSession grokBotSession;

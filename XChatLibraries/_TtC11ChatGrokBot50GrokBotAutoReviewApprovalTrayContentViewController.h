@@ -1,16 +1,15 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot50GrokBotAutoReviewApprovalTrayContentViewController_h
 #define _TtC11ChatGrokBot50GrokBotAutoReviewApprovalTrayContentViewController_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotAutoReviewAsk ?, ChatGrokBot.GrokBotAutoReviewCodeSectionView, ChatGrokBot.GrokBotAutoReviewFieldView, ChatGrokBot.GrokBotAutoReviewFieldsGroupView, ChatGrokBot.GrokBotAutoReviewFooterNoteView, ChatGrokBot.GrokBotAutoReviewPause _$scSg ->, ChatGrokBot.GrokBotAutoReviewRequestSectionView, ChatGrokBot.GrokBotAutoReviewUnavailableView, GrokBotRelay.ArgsResolveAutoReviewApprovalResolution ?, GrokBotRelay.ArgsResolveAutoReviewApprovalResolution _$scSg ->, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$sSS, _$sSSSg;
+@class ChatGrokBot.GrokBotAutoReviewAsk ?, ChatGrokBot.GrokBotAutoReviewCodeSectionView, ChatGrokBot.GrokBotAutoReviewFieldView, ChatGrokBot.GrokBotAutoReviewFieldsGroupView, ChatGrokBot.GrokBotAutoReviewFooterNoteView, ChatGrokBot.GrokBotAutoReviewPause _$scSg ->, ChatGrokBot.GrokBotAutoReviewRequestSectionView, ChatGrokBot.GrokBotAutoReviewTrayPager ?, ChatGrokBot.GrokBotAutoReviewUnavailableView, GrokBotRelay.ArgsResolveAutoReviewApprovalResolution ?, GrokBotRelay.ArgsResolveAutoReviewApprovalResolution _$scSg ->, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$sSS, _$sSSSg, _$sySScSg;
 
 @interface ChatGrokBot.GrokBotAutoReviewApprovalTrayContentViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
     GrokBotRelay.ArgsResolveAutoReviewApprovalResolution _$scSg -> onAnswer;
     ChatGrokBot.GrokBotAutoReviewPause _$scSg -> onOpenPause;
+    ((Swift.String) -> ())? onPage;
     ChatGrokBot.GrokBotAutoReviewAsk ? ask;
     GrokBotRelay.ArgsResolveAutoReviewApprovalResolution ? busyResolution;
     ChatGrokBot.GrokBotAutoReviewCodeSectionView codeSectionView;
@@ -18,6 +17,7 @@
     ChatGrokBot.GrokBotAutoReviewFieldsGroupView fieldsGroupView;
     ChatGrokBot.GrokBotAutoReviewFooterNoteView footerNoteView;
     Swift.String headerTitle;
+    ChatGrokBot.GrokBotAutoReviewTrayPager ? pager;
     ChatGrokBot.GrokBotAutoReviewRequestSectionView requestSectionView;
     ChatGrokBot.GrokBotAutoReviewFieldView ruleNoteFieldView;
     ChatGrokBot.GrokBotAutoReviewUnavailableView unavailableView;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC10TFNUISwift15SimpleStackViewP33_ADE7705AE6F3A3D0A2A6841D19E5D90920StackItemConstraints_h
 #define _TtCC10TFNUISwift15SimpleStackViewP33_ADE7705AE6F3A3D0A2A6841D19E5D90920StackItemConstraints_h

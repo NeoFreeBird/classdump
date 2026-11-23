@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1WorkExperienceEnvironment_h
 #define T1WorkExperienceEnvironment_h
@@ -20,6 +18,8 @@
 + (id)editProfileFieldValueForAccount:(id)account;
 + (void)presentEditorFromViewController:(id)controller account:(id)account;
 + (void)prepareEditorForAccount:(id)account;
++ (void)readRolesAfterReconnectingForAccount:(id)account;
++ (_Bool)didReconnectFromStatus:(long long)status toStatus:(long long)status;
 + (long long)acceptedWriteCountForAccount:(id)account;
 
 /* instance methods */

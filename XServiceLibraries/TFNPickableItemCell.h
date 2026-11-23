@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNPickableItemCell_h
 #define TFNPickableItemCell_h
@@ -14,20 +12,17 @@
 @property (nonatomic) long long overrideAccessoryType;
 @property (readonly, nonatomic) UIImageView *accessoryImageView;
 @property (readonly, nonatomic) UILabel *unpickableLabel;
-@property (readonly, nonatomic) _Bool editable;
 
 /* class methods */
-+ (id)cellForTableView:(id)view reuseIdentifier:(id)identifier indexPath:(id)path editable:(_Bool)editable;
++ (id)pickableItemCellForTableView:(id)view reuseIdentifier:(id)identifier indexPath:(id)path;
 
 /* instance methods */
 - (id)accessoryView;
 - (void)updateAccessoryImageView:(_Bool)view;
 - (void)_layoutAccessoryImageView;
-- (double)_tfn_editableUnpickableLabelAccessoryX;
 - (void)_layoutUnpickableLabel;
 - (void)layoutSubviews;
 - (void)setEditing:(_Bool)editing animated:(_Bool)animated;
-- (_Bool)isEditable;
 
 @end
 

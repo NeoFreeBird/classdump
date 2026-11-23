@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift19T1ProfileNFLManagerP33_3800D9FD1C392B224CE2062D1EC0608B21T1SportsRosterManager_h
 #define _TtCC14T1TwitterSwift19T1ProfileNFLManagerP33_3800D9FD1C392B224CE2062D1EC0608B21T1SportsRosterManager_h

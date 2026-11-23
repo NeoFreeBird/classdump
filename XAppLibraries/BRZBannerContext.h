@@ -1,19 +1,17 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZBannerContext_h
 #define BRZBannerContext_h
 @import Foundation;
 
-@class Chat.DidEndCall, NSObject;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSObject;
 
 @interface BRZBannerContext : NSObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall _logImpression;
-    oneway _Atomic Chat.DidEndCall _logClick;
-    oneway _Atomic Chat.DidEndCall _logError;
-    oneway _Atomic Chat.DidEndCall _processClickAction;
-    oneway _Atomic Chat.DidEndCall _logDismissed;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _logImpression;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _logClick;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _logError;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _processClickAction;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _logDismissed;
 }
 
 /* instance methods */

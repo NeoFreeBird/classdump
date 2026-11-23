@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC12MarkdownViewP33_74A5E47E26E24661F103FC4A87E77E3434CitationTextAttachmentViewProvider_h
 #define _TtC12MarkdownViewP33_74A5E47E26E24661F103FC4A87E77E3434CitationTextAttachmentViewProvider_h

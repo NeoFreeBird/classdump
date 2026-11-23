@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGraphQL33MessageEventsPageResponseFragment_h
 #define _TtC11ChatGraphQL33MessageEventsPageResponseFragment_h
 @import Foundation;
 
-@class ChatGraphQL.GrokBotPromptFragment ?, ChatGraphQL.MessageRequestsInfoFragment ?, _$s13GraphQLModels11EnumerationOMn _$s14GraphQLScalars25GetMessageEventsErrorTypeOMn ?, _$s13GraphQLModels5UnionOMn ChatGraphQL.MessageEventsPageResponseFragment.Cursor ?, _$sSaySSG, _$sSbSg, _$ss5Int32VMn ?, _TtCs12_SwiftObject;
+@class ChatGraphQL.GrokBotPromptFragment ?, ChatGraphQL.MessageRequestsInfoFragment ?, _$s13GraphQLModels11EnumerationOMn _$s14GraphQLScalars25GetMessageEventsErrorTypeOMn ?, _$s13GraphQLModels5UnionOMn ChatGraphQL.MessageEventsPageResponseFragment.Cursor ?, _$sSSSg, _$sSaySSG, _$sSbSg, _$ss5Int32VMn ?, _TtCs12_SwiftObject;
 
 @interface ChatGraphQL.MessageEventsPageResponseFragment : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -16,6 +14,9 @@
     ChatGraphQL.GrokBotPromptFragment ? grokBotPrompt;
     nominal type descriptor for Swift.Int32 ? messageRequestsCount;
     ChatGraphQL.MessageRequestsInfoFragment ? messageRequestsInfo;
+    Swift.String? usernameChangeWarningBody;
+    Swift.String? usernameChangeWarningHeader;
+    Swift.String? usernameChangeWarningText;
 }
 
 @end

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ImmersiveViewController_h
 #define T1ImmersiveViewController_h
@@ -43,6 +41,7 @@
     NSNumber"16@0:8 *isPrecached;
     NSNumber"16@0:8 *lastCardControlState;
     NSNumber"16@0:8 *verticalColumnItems;
+    NSNumber"16@0:8 *hingeDivisions;
     NSNumber"16@0:8 *showsSystemNavigationBarItems;
     NSNumber"16@0:8 *systemNavigationBarItemMinimumMargin;
     NSNumber"16@0:8 *clipButtonSession;
@@ -57,6 +56,7 @@
     NSNumber"16@0:8 *forcedOrientation;
     NSNumber"16@0:8 *lingerFlushInterval;
     NSNumber"16@0:8 *lingerFlushTimer;
+    NSNumber"16@0:8 *isLingerSuspendedWhileInactive;
     NSNumber"16@0:8 *isDismissing;
 }
 

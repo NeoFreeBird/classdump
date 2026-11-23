@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14TwitterRewardsP33_4E6F93BE7B578A08028976A656F92F9128MarketingPageStatusViewModel_h
 #define _TtC14TwitterRewardsP33_4E6F93BE7B578A08028976A656F92F9128MarketingPageStatusViewModel_h

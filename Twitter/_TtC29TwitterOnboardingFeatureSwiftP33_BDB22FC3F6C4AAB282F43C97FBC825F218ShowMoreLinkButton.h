@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC29TwitterOnboardingFeatureSwiftP33_BDB22FC3F6C4AAB282F43C97FBC825F218ShowMoreLinkButton_h
 #define _TtC29TwitterOnboardingFeatureSwiftP33_BDB22FC3F6C4AAB282F43C97FBC825F218ShowMoreLinkButton_h

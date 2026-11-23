@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TIPGlobalConfiguration_h
 #define TIPGlobalConfiguration_h
@@ -13,6 +11,7 @@
 @interface TIPGlobalConfiguration : NSObject {
     /* instance variables */
     NSOperationQueue *_sharedImagePipelineQueue;
+    NSOperationQueue *_imageStoreHydrationQueue;
     NSObject<OS_dispatch_queue> *_globalObserversQueue;
     NSHashTable *_globalObservers;
     _Bool _imageFetchDownloadProviderSupportsStubbing;

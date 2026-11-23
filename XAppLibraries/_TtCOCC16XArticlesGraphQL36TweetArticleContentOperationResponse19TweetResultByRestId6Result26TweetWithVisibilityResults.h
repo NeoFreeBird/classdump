@@ -1,0 +1,15 @@
+//
+#ifndef _TtCOCC16XArticlesGraphQL36TweetArticleContentOperationResponse19TweetResultByRestId6Result26TweetWithVisibilityResults_h
+#define _TtCOCC16XArticlesGraphQL36TweetArticleContentOperationResponse19TweetResultByRestId6Result26TweetWithVisibilityResults_h
+@import Foundation;
+
+@class XArticlesGraphQL.TweetArticleContentOperationResponse.TweetResultByRestId.Result.TweetWithVisibilityResults.Tweet, _TtCs12_SwiftObject;
+
+@interface XArticlesGraphQL.TweetArticleContentOperationResponse.TweetResultByRestId.Result.TweetWithVisibilityResults : Swift._SwiftObject { // (Swift)
+    /* instance variables */
+    XArticlesGraphQL.TweetArticleContentOperationResponse.TweetResultByRestId.Result.TweetWithVisibilityResults.Tweet tweet;
+}
+
+@end
+
+#endif /* _TtCOCC16XArticlesGraphQL36TweetArticleContentOperationResponse19TweetResultByRestId6Result26TweetWithVisibilityResults_h */

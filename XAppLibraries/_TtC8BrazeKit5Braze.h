@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8BrazeKit5Braze_h
 #define _TtC8BrazeKit5Braze_h
@@ -23,7 +21,7 @@
     BrazeKit.Braze.LiveActivities liveActivities;
     BrazeKit.BrazeViewStore viewStore;
     BrazeKit.BrazeEnvironment environment;
-    union accessor function sub_667d134 _sessionSubscribers;
+    union accessor function sub_6767c74 _sessionSubscribers;
     BrazeKit.Braze.Logger logger;
 }
 

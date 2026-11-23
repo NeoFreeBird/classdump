@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8PaymentsP33_115AA70D3BA1C72A38BE4F592A6FEEFC30TransactionInlineActionsRunner_h
 #define _TtC8PaymentsP33_115AA70D3BA1C72A38BE4F592A6FEEFC30TransactionInlineActionsRunner_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV16GrokBackendProto19Chat_CurrentWeatherP33_A07EEFDF930A26C3CA8649710CBE852013_StorageClass_h
 #define _TtCV16GrokBackendProto19Chat_CurrentWeatherP33_A07EEFDF930A26C3CA8649710CBE852013_StorageClass_h

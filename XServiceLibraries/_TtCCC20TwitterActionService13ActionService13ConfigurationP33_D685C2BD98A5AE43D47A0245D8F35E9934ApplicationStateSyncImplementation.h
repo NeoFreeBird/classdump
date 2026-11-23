@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCC20TwitterActionService13ActionService13ConfigurationP33_D685C2BD98A5AE43D47A0245D8F35E9934ApplicationStateSyncImplementation_h
 #define _TtCCC20TwitterActionService13ActionService13ConfigurationP33_D685C2BD98A5AE43D47A0245D8F35E9934ApplicationStateSyncImplementation_h

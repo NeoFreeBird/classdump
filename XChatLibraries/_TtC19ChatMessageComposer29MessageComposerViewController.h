@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19ChatMessageComposer29MessageComposerViewController_h
 #define _TtC19ChatMessageComposer29MessageComposerViewController_h
 @import Foundation;
 
-@class ChatMessageComposer.InitialMessageComposerViewModelBuilder, ChatMessageComposer.MediaImageService, ChatMessageComposer.MessageComposerActionTriggerStream, ChatMessageComposer.MessageComposerContainerView ?, ChatMessageComposer.MessageComposerListener ?, ChatMessageComposer.MessageComposerSurface ?, ChatMessageComposer.MessageComposerViewModelStream, ChatMessageComposer.MessageComposerWorkerPluginPoint, ChatUI.ChatColorProviding, Swift.Bool, UIViewController, _$sSh -> _$s7Combine14AnyCancellableCMn;
+@class ChatMessageComposer.InitialMessageComposerViewModelBuilder, ChatMessageComposer.MediaImageService, ChatMessageComposer.MessageComposerActionTriggerStream, ChatMessageComposer.MessageComposerContainerView ?, ChatMessageComposer.MessageComposerListener ?, ChatMessageComposer.MessageComposerMediaDropInteractionDelegate, ChatMessageComposer.MessageComposerSurface ?, ChatMessageComposer.MessageComposerViewModelStream, ChatMessageComposer.MessageComposerWorkerPluginPoint, ChatUI.ChatColorProviding, Swift.Bool, UIViewController, _$s13XAutocomplete23AutocompleteStateStreamCMn, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo17UIDropInteractionCSg;
 
 @interface ChatMessageComposer.MessageComposerViewController : UIViewController { // (Swift)
     /* instance variables */
@@ -13,11 +11,14 @@
     ChatUI.ChatColorProviding colorProvider;
     ChatMessageComposer.MessageComposerContainerView ? $__lazy_storage_$_internalView;
     ChatMessageComposer.MessageComposerSurface ? quickComposerSurface;
+    nominal type descriptor for XAutocomplete.AutocompleteStateStream autocompleteStateStream;
     ChatMessageComposer.InitialMessageComposerViewModelBuilder initialMessageComposerViewModelBuilder;
+    ChatMessageComposer.MessageComposerMediaDropInteractionDelegate mediaDropInteractionDelegate;
     ChatMessageComposer.MediaImageService mediaImageService;
     ChatMessageComposer.MessageComposerActionTriggerStream messageComposerActionTriggerStream;
     ChatMessageComposer.MessageComposerViewModelStream messageComposerViewModelStream;
     ChatMessageComposer.MessageComposerWorkerPluginPoint messageComposerWorkerPluginPoint;
+    __C.UIDropInteraction? $__lazy_storage_$_mediaDropInteraction;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable subscriptions;
     Swift.Bool isVisible;
 }

@@ -1,17 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot22GrokBotCardSplitButton_h
 #define _TtC11ChatGrokBot22GrokBotCardSplitButton_h
 @import Foundation;
 
-@class UIView, _$s13XDesignSystem6ButtonC9SizeClassCMn, _$s13XDesignSystem6ButtonCMn, _$syycSg;
+@class UIView, _$s13XDesignSystem6ButtonC13ConfigurationCMn, _$s13XDesignSystem6ButtonC9SizeClassCMn, _$s13XDesignSystem6ButtonCMn, _$syycSg;
 
 @interface ChatGrokBot.GrokBotCardSplitButton : UIView { // (Swift)
     /* instance variables */
     nominal type descriptor for XDesignSystem.Button mainButton;
     nominal type descriptor for XDesignSystem.Button menuButton;
     (() -> ())? action;
+    nominal type descriptor for XDesignSystem.Button.Configuration mainConfiguration;
     nominal type descriptor for XDesignSystem.Button.SizeClass sizeClass;
 }
 

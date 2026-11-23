@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14CallScheduleUI21BookingLinkFormWorker_h
 #define _TtC14CallScheduleUI21BookingLinkFormWorker_h
 @import Foundation;
 
-@class CallScheduleUI.BookingLinkFormStream, CallScheduleUI.BookingLinksRepositoryProtocol, _$s11XFoundation11AsyncWorkerCN;
+@class CallModels.BookingLinksRepositoryProtocol, CallScheduleUI.BookingLinkFormStream, _$s11XFoundation11AsyncWorkerCN;
 
 @interface CallScheduleUI.BookingLinkFormWorker : type metadata for XFoundation.AsyncWorker { // (Swift)
     /* instance variables */
     CallScheduleUI.BookingLinkFormStream bookingLinkFormStream;
-    CallScheduleUI.BookingLinksRepositoryProtocol repository;
+    CallModels.BookingLinksRepositoryProtocol repository;
 }
 
 @end

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14WorkExperienceP33_A66981B294FD2BAE0328F2459A50196E28WorkExperienceMonthWheelView_h
 #define _TtC14WorkExperienceP33_A66981B294FD2BAE0328F2459A50196E28WorkExperienceMonthWheelView_h

@@ -1,0 +1,22 @@
+//
+#ifndef _TtC8ElkSwift67org_eclipse_elk_alg_layered_intermediate_greedyswitch_SwitchDecider_h
+#define _TtC8ElkSwift67org_eclipse_elk_alg_layered_intermediate_greedyswitch_SwitchDecider_h
+@import Foundation;
+
+@class ElkSwift.org_eclipse_elk_alg_layered_intermediate_greedyswitch_CrossingMatrixFiller, ElkSwift.org_eclipse_elk_alg_layered_intermediate_greedyswitch_NorthSouthEdgeNeighbouringNodeCrossingsCounter, ElkSwift.org_eclipse_elk_alg_layered_p3order_GraphInfoHolder, ElkSwift.org_eclipse_elk_alg_layered_p3order_counting_CrossingsCounter, ElkSwift.org_eclipse_elk_alg_layered_p3order_counting_CrossingsCounter ?, Swift.Bool, _$sSa -> ElkSwift.LNode, _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_greedyswitch_SwitchDecider : Swift._SwiftObject { // (Swift)
+    /* instance variables */
+    Swift.Array -> ElkSwift.LNode freeLayer;
+    ElkSwift.org_eclipse_elk_alg_layered_p3order_counting_CrossingsCounter leftInLayerCounter;
+    ElkSwift.org_eclipse_elk_alg_layered_p3order_counting_CrossingsCounter rightInLayerCounter;
+    ElkSwift.org_eclipse_elk_alg_layered_intermediate_greedyswitch_NorthSouthEdgeNeighbouringNodeCrossingsCounter northSouthCounter;
+    ElkSwift.org_eclipse_elk_alg_layered_intermediate_greedyswitch_CrossingMatrixFiller crossingMatrixFiller;
+    ElkSwift.org_eclipse_elk_alg_layered_p3order_GraphInfoHolder graphData;
+    ElkSwift.org_eclipse_elk_alg_layered_p3order_counting_CrossingsCounter ? parentCrossCounter;
+    Swift.Bool countCrossingsCausedByPortSwitch;
+}
+
+@end
+
+#endif /* _TtC8ElkSwift67org_eclipse_elk_alg_layered_intermediate_greedyswitch_SwitchDecider_h */

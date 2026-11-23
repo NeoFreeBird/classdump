@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV11MoneyProtos14XMoneyDocumentP33_013902328B552EB275F49B48FD7279CF13_StorageClass_h
 #define _TtCV11MoneyProtos14XMoneyDocumentP33_013902328B552EB275F49B48FD7279CF13_StorageClass_h

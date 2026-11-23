@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNLayoutMetricsParameters_h
 #define TFNLayoutMetricsParameters_h
@@ -44,10 +42,8 @@
 /* instance methods */
 - (id)init;
 - (void)_cacheLineHeightMultipliers;
-- (double)idealEmsPerLineForTraitCollection:(id)collection;
 - (double)lineHeightMultiplierForHorizontalSizeClass:(long long)_class verticalSizeClass:(long long)_class;
 - (void)tfx_idealEmsPerLineParameterChanged;
-- (void)tfx_idealEmsPerLineRegularWidthPhoneParameterChanged;
 - (void)tfx_minimumEmsPerLineParameterChanged;
 - (void)tfx_lineHeightMultiplierCompactWidthCompactHeightParameterChanged;
 - (void)tfx_lineHeightMultiplierRegularWidthCompactHeightParameterChanged;

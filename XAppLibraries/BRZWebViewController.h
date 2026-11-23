@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZWebViewController_h
 #define BRZWebViewController_h
@@ -8,15 +6,15 @@
 #include "WKNavigationDelegate-Protocol.h"
 #include "WKUIDelegate-Protocol.h"
 
-@class Chat.DidEndCall, NSURL, UIViewController;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSURL, UIViewController;
 
 @interface BRZWebViewController : UIViewController <WKNavigationDelegate, WKUIDelegate> { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall webView;
-    oneway _Atomic Chat.DidEndCall progressView;
-    oneway _Atomic Chat.DidEndCall errorLabel;
-    oneway _Atomic Chat.DidEndCall titleObservation;
-    oneway _Atomic Chat.DidEndCall progressObservation;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift webView;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift progressView;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift errorLabel;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift titleObservation;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift progressObservation;
 }
 
 @property (nonatomic, copy) NSURL *url;

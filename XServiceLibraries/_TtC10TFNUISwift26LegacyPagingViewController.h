@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10TFNUISwift26LegacyPagingViewController_h
 #define _TtC10TFNUISwift26LegacyPagingViewController_h
@@ -9,7 +7,7 @@
 #include "UICollectionViewDataSource-Protocol.h"
 #include "UICollectionViewDelegate-Protocol.h"
 
-@class Swift.Bool, TFNUISwift.LegacyPageHostRegistry ?, TFNUISwift.LegacyPagingViewControllerDataSource ?, TFNUISwift.LegacyPagingViewControllerDelegate ?, TFNUISwift.LegacySegmentedTransitionAnimator ?, TFNUISwift.PagingCollectionView ?, TFNUISwift.PagingFlowLayout, UIScrollView, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$sSbSg, _$sSi, _$sSiSg, __C.CGSize;
+@class Swift.Bool, TFNUISwift.LegacyPageHostRegistry ?, TFNUISwift.LegacyPagingViewController.SwipeChromeOrigin ?, TFNUISwift.LegacyPagingViewControllerDataSource ?, TFNUISwift.LegacyPagingViewControllerDelegate ?, TFNUISwift.LegacySegmentedTransitionAnimator ?, TFNUISwift.PagingCollectionView ?, TFNUISwift.PagingFlowLayout, UIScrollView, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$sSbSg, _$sSi, _$sSiSg, __C.CGSize;
 
 @interface TFNUISwift.LegacyPagingViewController : TFNViewController <UICollectionViewDelegate, UICollectionViewDataSource> { // (Swift)
     /* instance variables */
@@ -23,6 +21,7 @@
     TFNUISwift.PagingCollectionView ? $__lazy_storage_$_collectionView;
     Swift.Int pageCount;
     Swift.Int? destinationIndex;
+    TFNUISwift.LegacyPagingViewController.SwipeChromeOrigin ? swipeChromeOrigin;
     Swift.Int? tapRemapSlotIndex;
     nominal type descriptor for CoreGraphics.CGFloat ? transitionFractionalOverride;
     Swift.Bool? navBarWasCollapsedBeforeUpdate;

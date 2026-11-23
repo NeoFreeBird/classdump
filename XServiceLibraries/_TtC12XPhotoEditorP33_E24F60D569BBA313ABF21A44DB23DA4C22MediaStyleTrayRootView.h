@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC12XPhotoEditorP33_E24F60D569BBA313ABF21A44DB23DA4C22MediaStyleTrayRootView_h
 #define _TtC12XPhotoEditorP33_E24F60D569BBA313ABF21A44DB23DA4C22MediaStyleTrayRootView_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterUser_h
 #define TFNTwitterUser_h
@@ -112,7 +110,6 @@
 @property (readonly, copy, nonatomic) NSString *scribeItemContentID;
 @property (readonly, copy, nonatomic) NSString *scribeComponent;
 @property (readonly, copy, nonatomic) NSString *scribeElement;
-@property (readonly, copy, nonatomic) NSString *scribeItemDebugDisplayName;
 @property (readonly, nonatomic) TFSURTRichText *designatorLongDescription;
 @property (readonly, nonatomic) NSNumber *isProfileBioTranslatableNumber;
 

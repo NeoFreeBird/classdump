@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNTwitterAccount_T1TweetAnatomy_h
 #define TFNTwitterAccount_T1TweetAnatomy_h
@@ -186,6 +184,7 @@
 - (id)sportsGameOddsStatsLeagues;
 - (id)sportsGameOddsPageLeagues;
 - (_Bool)isSportsGameFeedDefaultLatestEnabled;
+- (_Bool)isSportsGameCarouselEnabled;
 - (_Bool)isSportsDevelopmentProgressEnabled;
 - (_Bool)isNflGameHeroBackdropEnabled;
 - (_Bool)isNflGameHeroMetalRippleEnabled;
@@ -197,6 +196,7 @@
 - (_Bool)isSportsHubEventsEnabled;
 - (_Bool)isSportsHubEventsPreviewEnabled;
 - (_Bool)isSportsGrokEnabled;
+- (_Bool)isSportsNotificationGamePrewarmEnabled;
 - (_Bool)isNcaafbGameChatEnabled;
 - (_Bool)isNcaafbGameFieldMidfieldLogoEnabled;
 - (double)ncaafbGameSelectedPollIntervalSeconds;
@@ -234,6 +234,7 @@
 - (_Bool)holdsTeamOrClaimedPlan;
 - (_Bool)opensGrokWebSignedIn;
 - (_Bool)isCurrentAccount;
+- (_Bool)isFreeExperience;
 - (void)grokBotUsageWithCompletion:(id /* block */)completion;
 - (void)grokSignedInWebURLForURL:(id)url completion:(id /* block */)completion;
 - (id)complatMigrationIntroWithReferringPage:(id)page;
@@ -273,6 +274,7 @@
 - (_Bool)isContactsSyncBackgroundSkipWhenUnchangedEnabled;
 - (_Bool)isTimelineCellWorkReductionEnabled;
 - (void)evaluateTimelineCellWorkReductionEnabledOncePerProcess;
+- (_Bool)isInlineVideoLazyChromeEnabled;
 - (_Bool)isAppWidePreventSleepEnabled;
 - (double)appWidePreventSleepIdleSeconds;
 - (long long)memoryReliefTerminationToastMinimumPressure;
@@ -345,7 +347,6 @@
 - (id)onboardingBonusFollowsDebugTemplateName;
 - (_Bool)onboardingBonusFollowsCompactLayoutInProfilesEnabled;
 - (_Bool)onboardingBonusFollowsProfileNavigationEnabled;
-- (_Bool)onboardingBonusFollowsExperimentalFeaturesInNuxEnabled;
 - (_Bool)isReactivePromptFirstLikeReactionEnabled;
 - (_Bool)isReactivePromptUserFollowReactionEnabled;
 - (long long)reactivePromptMaxFollowCount;

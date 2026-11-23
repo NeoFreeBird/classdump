@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14TwitterUISwiftP33_D9999D77FB100A932E2146E3D3A88C3549TweetComposeTextAttributesUpdaterHashflagObserver_h
 #define _TtC14TwitterUISwiftP33_D9999D77FB100A932E2146E3D3A88C3549TweetComposeTextAttributesUpdaterHashflagObserver_h

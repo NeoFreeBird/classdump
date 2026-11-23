@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSportsP33_6012902B02A909B01EE42F573DDCEADE33SportsNotificationCheckboxControl_h
 #define _TtC7XSportsP33_6012902B02A909B01EE42F573DDCEADE33SportsNotificationCheckboxControl_h

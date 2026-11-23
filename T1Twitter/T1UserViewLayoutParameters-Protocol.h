@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UserViewLayoutParameters_Protocol_h
 #define T1UserViewLayoutParameters_Protocol_h
@@ -17,6 +15,7 @@
 @property (readonly, nonatomic) _Bool estimated;
 @property (readonly, nonatomic) id <T1UserViewOptions> options;
 @property (readonly, nonatomic) struct CGSize { double x0; double x1; } initialAvatarSize;
+@property (readonly, nonatomic) double actionControlColumnWidth;
 @property (readonly, nonatomic) struct CGSize { double x0; double x1; } caretSize;
 @property (readonly, nonatomic) struct CGSize { double x0; double x1; } muteBadgeSize;
 @property (readonly, nonatomic) struct CGSize { double x0; double x1; } userBadgeSize;

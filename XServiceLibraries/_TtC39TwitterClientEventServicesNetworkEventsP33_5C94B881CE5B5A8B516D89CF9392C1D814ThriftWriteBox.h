@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC39TwitterClientEventServicesNetworkEventsP33_5C94B881CE5B5A8B516D89CF9392C1D814ThriftWriteBox_h
 #define _TtC39TwitterClientEventServicesNetworkEventsP33_5C94B881CE5B5A8B516D89CF9392C1D814ThriftWriteBox_h

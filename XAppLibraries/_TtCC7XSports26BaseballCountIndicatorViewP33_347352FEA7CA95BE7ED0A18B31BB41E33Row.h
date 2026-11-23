@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC7XSports26BaseballCountIndicatorViewP33_347352FEA7CA95BE7ED0A18B31BB41E33Row_h
 #define _TtCC7XSports26BaseballCountIndicatorViewP33_347352FEA7CA95BE7ED0A18B31BB41E33Row_h

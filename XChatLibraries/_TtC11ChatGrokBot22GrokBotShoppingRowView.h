@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot22GrokBotShoppingRowView_h
 #define _TtC11ChatGrokBot22GrokBotShoppingRowView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotShoppingPhotoView, ChatGrokBot.GrokBotShoppingProductMenu, Swift.Bool, UIView, _$sSo11UIImageViewC, _$sSo7UILabelC;
+@class ChatGrokBot.GrokBotShoppingCardPhotoView, ChatGrokBot.GrokBotShoppingProductMenu, Swift.Bool, UIView, _$sSo11UIImageViewC, _$sSo7UILabelC;
 
 @interface ChatGrokBot.GrokBotShoppingRowView : UIView { // (Swift)
     /* instance variables */
     Swift.Bool isHighlighted;
-    ChatGrokBot.GrokBotShoppingPhotoView thumbnailView;
+    ChatGrokBot.GrokBotShoppingCardPhotoView thumbnailView;
     __C.UIImageView chevronView;
     __C.UILabel priceLabel;
     ChatGrokBot.GrokBotShoppingProductMenu productMenu;

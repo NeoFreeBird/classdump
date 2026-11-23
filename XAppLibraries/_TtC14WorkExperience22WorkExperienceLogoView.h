@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14WorkExperience22WorkExperienceLogoView_h
 #define _TtC14WorkExperience22WorkExperienceLogoView_h
 @import Foundation;
 
-@class UIView, WorkExperience.WorkExperienceLogoView.Shape, _$s12CoreGraphics7CGFloatVMn, _$sSo11UIImageViewC, _$sSo18TUIAvatarImageViewC, _$sSo6UIViewC;
+@class UIView, WorkExperience.WorkExperienceLogoView.Shape, _$s10Foundation3URLVMn ?, _$s12CoreGraphics7CGFloatVMn, _$sSo11UIImageViewC, _$sSo12CAShapeLayerC, _$sSo18TUIAvatarImageViewC, _$sSo22TIPImageFetchOperationCSg, _$sSo6UIViewC;
 
 @interface WorkExperience.WorkExperienceLogoView : UIView { // (Swift)
     /* instance variables */
@@ -13,7 +11,12 @@
     __C.TUIAvatarImageView avatarView;
     __C.UIView placeholderView;
     __C.UIImageView glyphView;
+    __C.UIImageView logoImageView;
+    __C.TIPImageFetchOperation? logoFetch;
+    nominal type descriptor for Foundation.URL ? shownLogoURL;
     __C.UIView outlineView;
+    __C.UIImageView emptySlotGlyphView;
+    __C.CAShapeLayer emptySlotOutline;
     WorkExperience.WorkExperienceLogoView.Shape shape;
 }
 

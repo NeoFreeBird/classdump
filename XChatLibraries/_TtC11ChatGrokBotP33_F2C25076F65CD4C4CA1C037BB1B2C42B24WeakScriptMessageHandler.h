@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBotP33_F2C25076F65CD4C4CA1C037BB1B2C42B24WeakScriptMessageHandler_h
 #define _TtC11ChatGrokBotP33_F2C25076F65CD4C4CA1C037BB1B2C42B24WeakScriptMessageHandler_h

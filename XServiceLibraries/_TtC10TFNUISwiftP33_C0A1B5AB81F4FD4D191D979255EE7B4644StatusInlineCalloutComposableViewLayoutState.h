@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10TFNUISwiftP33_C0A1B5AB81F4FD4D191D979255EE7B4644StatusInlineCalloutComposableViewLayoutState_h
 #define _TtC10TFNUISwiftP33_C0A1B5AB81F4FD4D191D979255EE7B4644StatusInlineCalloutComposableViewLayoutState_h

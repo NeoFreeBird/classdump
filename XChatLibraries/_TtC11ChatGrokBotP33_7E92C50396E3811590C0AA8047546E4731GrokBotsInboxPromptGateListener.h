@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBotP33_7E92C50396E3811590C0AA8047546E4731GrokBotsInboxPromptGateListener_h
 #define _TtC11ChatGrokBotP33_7E92C50396E3811590C0AA8047546E4731GrokBotsInboxPromptGateListener_h

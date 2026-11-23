@@ -1,17 +1,18 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC23ChatConversationDetails31ConversationDetailsActionSender_h
 #define _TtC23ChatConversationDetails31ConversationDetailsActionSender_h
 @import Foundation;
 
-@class _$sSD -> ChatModelsCore.UserID _$sSo014Subsystem_ios_B21Arm64_mainParticipantC, _$sSo014Subsystem_ios_B27Arm64_mainBaseDmObjectGraph_p, _$sSo6NSLockC, _TtCs12_SwiftObject;
+@class ChatConversationDetails.GroupJoinRequestsSource, ChatModels.ChatToastActionTriggerStream, ChatModelsCore.UserID, ChatSyncState.ChatActionStream, ChatSyncState.ChatContentProviding, ChatSyncState.ChatConversationProviding, _TtCs12_SwiftObject;
 
 @interface ChatConversationDetails.ConversationDetailsActionSender : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    __C.Subsystem_ios_iosArm64_mainBaseDmObjectGraph objectGraph;
-    __C.NSLock pendingParticipantsLock;
-    Swift.Dictionary -> ChatModelsCore.UserID __C.Subsystem_ios_iosArm64_mainParticipant pendingParticipants;
+    ChatConversationDetails.GroupJoinRequestsSource joinRequestsSource;
+    ChatModelsCore.UserID owner;
+    ChatSyncState.ChatActionStream actionStream;
+    ChatSyncState.ChatContentProviding contentProvider;
+    ChatSyncState.ChatConversationProviding conversationProvider;
+    ChatModels.ChatToastActionTriggerStream toastActionTriggerStream;
 }
 
 @end

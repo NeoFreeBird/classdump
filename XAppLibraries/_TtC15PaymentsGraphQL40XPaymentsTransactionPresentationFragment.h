@@ -1,18 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC15PaymentsGraphQL40XPaymentsTransactionPresentationFragment_h
 #define _TtC15PaymentsGraphQL40XPaymentsTransactionPresentationFragment_h
 @import Foundation;
 
-@class PaymentsGraphQL.XPaymentsAmountFragment, _$s13GraphQLModels5UnionOMn PaymentsGraphQL.XPaymentsTransactionPresentationFragment.EntityResults ?, _$s14GraphQLScalars13NumericStringVMn ?, _$sSa -> PaymentsGraphQL.XPaymentsTransactionPresentationFragment.Actions, _TtCs12_SwiftObject;
+@class PaymentsGraphQL.XPaymentsAmountFragment, _$s13GraphQLModels5UnionOMn PaymentsGraphQL.XPaymentsTransactionPresentationFragment.EntityResults ?, _$sSSSg, _TtCs12_SwiftObject;
 
 @interface PaymentsGraphQL.XPaymentsTransactionPresentationFragment : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    Swift.Array -> PaymentsGraphQL.XPaymentsTransactionPresentationFragment.Actions actions;
     PaymentsGraphQL.XPaymentsAmountFragment amount;
+    Swift.String? amountDescription;
     nominal type descriptor for GraphQLModels.Union PaymentsGraphQL.XPaymentsTransactionPresentationFragment.EntityResults ? entityResults;
-    nominal type descriptor for GraphQLScalars.NumericString ? expirationTimestamp;
+    Swift.String? subtitle;
 }
 
 @end

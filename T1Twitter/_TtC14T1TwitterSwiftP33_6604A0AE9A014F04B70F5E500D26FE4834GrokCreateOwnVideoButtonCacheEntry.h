@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_6604A0AE9A014F04B70F5E500D26FE4834GrokCreateOwnVideoButtonCacheEntry_h
 #define _TtC14T1TwitterSwiftP33_6604A0AE9A014F04B70F5E500D26FE4834GrokCreateOwnVideoButtonCacheEntry_h

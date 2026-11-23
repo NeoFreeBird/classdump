@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef UIViewController_TFNPresented_h
 #define UIViewController_TFNPresented_h
@@ -28,6 +26,8 @@
 - (_Bool)tfn_presentAsModal;
 - (void)setTfn_presentAsModal:(_Bool)modal;
 - (_Bool)tfn_presentsModally;
+- (_Bool)tfn_coversPresentingViewController;
+- (_Bool)tfn_isCoveredByPresentedViewController;
 - (_Bool)tfn_isCustomPresenting;
 - (void)setTfn_isCustomPresenting:(_Bool)presenting;
 - (long long)tfn_presentingFromPresentationType;

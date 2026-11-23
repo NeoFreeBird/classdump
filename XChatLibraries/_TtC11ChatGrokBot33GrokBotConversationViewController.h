@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot33GrokBotConversationViewController_h
 #define _TtC11ChatGrokBot33GrokBotConversationViewController_h
@@ -7,19 +5,23 @@
 
 #include "UIGestureRecognizerDelegate-Protocol.h"
 
-@class ChatAttachmentViewer.AttachmentMediaSaver, ChatAttachmentViewer.AttachmentViewerBuilder, ChatConversationServices.ConversationNavigation, ChatGrokBot.GrokBotApprovalPagePresenter, ChatGrokBot.GrokBotAttachmentFileStore, ChatGrokBot.GrokBotAttachmentViewerSource ?, ChatGrokBot.GrokBotAutoReviewApprovalTrayContentViewController ?, ChatGrokBot.GrokBotAutoReviewRuleEditorBuilder, ChatGrokBot.GrokBotAutoReviewRulesBuilder, ChatGrokBot.GrokBotAvatarTitleButton ?, ChatGrokBot.GrokBotBackBadgeStream, ChatGrokBot.GrokBotCallRecordingLoading, ChatGrokBot.GrokBotCardFocusOverlayView ?, ChatGrokBot.GrokBotConnectConsentPresenter ?, ChatGrokBot.GrokBotConnectDataCenterPresenter, ChatGrokBot.GrokBotConnectorBrowser, ChatGrokBot.GrokBotConnectorPendingDetail ?, ChatGrokBot.GrokBotConnectorSignInSession, ChatGrokBot.GrokBotConnectorSupport, ChatGrokBot.GrokBotConnectorXAccountSignIn, ChatGrokBot.GrokBotConversationBuilder, ChatGrokBot.GrokBotConversationDetailsBuilder, ChatGrokBot.GrokBotConversationListener ?, ChatGrokBot.GrokBotConversationView ?, ChatGrokBot.GrokBotConversationViewModel, ChatGrokBot.GrokBotConversationWorkerPluginPoint, ChatGrokBot.GrokBotExchangeTitleView ?, ChatGrokBot.GrokBotForwardPickerBuilder, ChatGrokBot.GrokBotHostSettingsStore, ChatGrokBot.GrokBotMentionAutocompleteService, ChatGrokBot.GrokBotMessageActionPluginPoint ?, ChatGrokBot.GrokBotMessageActionSheetBuilder, ChatGrokBot.GrokBotMessageAttachmentFileResolver ?, ChatGrokBot.GrokBotMessageComposerBuilder, ChatGrokBot.GrokBotMessageListViewController ?, ChatGrokBot.GrokBotMessagingGroupChatLogViewController ?, ChatGrokBot.GrokBotNavigation, ChatGrokBot.GrokBotNavigationTitleView, ChatGrokBot.GrokBotPagePreviews ??, ChatGrokBot.GrokBotPageStore ?, ChatGrokBot.GrokBotPostViewBuilding ?, ChatGrokBot.GrokBotReactionsSheetBuilder, ChatGrokBot.GrokBotReadOnlyConversationFooterViewController ?, ChatGrokBot.GrokBotReplyQuoteMediaLoader ?, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotSession, ChatGrokBot.GrokBotTrainingOptInPresenter, ChatGrokBot.GrokBotTranscriptReveal ?, ChatGrokBot.GrokBotUsageWarningBannerViewController ?, ChatGrokBot.GrokBotVaultBuilder, ChatGrokBot.GrokBotVaultEditorBuilder, ChatGrokBot.GrokBotVaultItemBuilder, ChatGrokBot.GrokBotVoiceCallActionTriggerStream, ChatGrokBot.GrokBotVoiceCallHeaderView, ChatGrokBot.GrokBotVoiceCallStateStream, ChatGrokBot.GrokBotVoiceCallStream, ChatGrokBot.GrokBotVoiceCallTranscriptBuilder, ChatGrokUpsell.PremiumUpsellNavigation, ChatMessageComposer.MessageComposerActionTriggerStream, ChatMessageComposer.MessageComposerSource, ChatModels.AudioPlaybackStream, ChatModels.ChatToastActionTriggerStream, ChatModels.MessageDateInfoStream, ChatUI.ChatNavigationStackFactory, ChatUI.ChatProviders, ChatUtilities.ChatSettingsProvider, Swift.Bool, UIViewController, _$s13XDesignSystem25TrayManagerViewControllerCMn ?, _$s7Combine14AnyCancellableCMn ?, _$s7Combine9PublishedVMn GrokBotRelay.SandAgentSummary, _$sSaySo16UIViewControllerCG, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo014Subsystem_ios_B16Arm64_mainXClock_p, _$sSo15UIBarButtonItemCSg, _$sSo16UINavigationItemCSg, _$sSo16UIViewControllerCSg, _$sSo25UIImpactFeedbackGeneratorC, __C.CGRect ?;
+@class ChatAttachmentViewer.AttachmentMediaSaver, ChatAttachmentViewer.AttachmentViewerBuilder, ChatConversationServices.ConversationNavigation, ChatGrokBot.GrokBotApprovalPagePresenter, ChatGrokBot.GrokBotAttachmentFileStore, ChatGrokBot.GrokBotAttachmentViewerSource ?, ChatGrokBot.GrokBotAutoReviewApprovalTrayContentViewController ?, ChatGrokBot.GrokBotAutoReviewRuleEditorBuilder, ChatGrokBot.GrokBotAutoReviewRulesBuilder, ChatGrokBot.GrokBotAutoReviewStore, ChatGrokBot.GrokBotAvatarTitleButton ?, ChatGrokBot.GrokBotBackBadgeStream, ChatGrokBot.GrokBotCallRecordingLoading, ChatGrokBot.GrokBotCardFocusOverlayView ?, ChatGrokBot.GrokBotCartStore ??, ChatGrokBot.GrokBotCartSubscriptionGate, ChatGrokBot.GrokBotConnectConsentPresenter ?, ChatGrokBot.GrokBotConnectDataCenterPresenter, ChatGrokBot.GrokBotConnectorBrowser, ChatGrokBot.GrokBotConnectorPendingDetail ?, ChatGrokBot.GrokBotConnectorSignInSession, ChatGrokBot.GrokBotConnectorSupport, ChatGrokBot.GrokBotConnectorXAccountSignIn, ChatGrokBot.GrokBotConversationBuilder, ChatGrokBot.GrokBotConversationDetailsBuilder, ChatGrokBot.GrokBotConversationListener ?, ChatGrokBot.GrokBotConversationView ?, ChatGrokBot.GrokBotConversationViewModel, ChatGrokBot.GrokBotConversationWorkerPluginPoint, ChatGrokBot.GrokBotExchangeTitleView ?, ChatGrokBot.GrokBotForwardPickerBuilder, ChatGrokBot.GrokBotHostSettingsStore, ChatGrokBot.GrokBotMentionAutocompleteService, ChatGrokBot.GrokBotMessageActionPluginPoint ?, ChatGrokBot.GrokBotMessageActionSheetBuilder, ChatGrokBot.GrokBotMessageAttachmentFileResolver ?, ChatGrokBot.GrokBotMessageComposerBuilder, ChatGrokBot.GrokBotMessageListViewController ?, ChatGrokBot.GrokBotMessagingGroupChatLogViewController ?, ChatGrokBot.GrokBotNavigation, ChatGrokBot.GrokBotNavigationTitleView, ChatGrokBot.GrokBotPagePreviews ??, ChatGrokBot.GrokBotPageStore ?, ChatGrokBot.GrokBotPostViewBuilding ?, ChatGrokBot.GrokBotReactionsSheetBuilder, ChatGrokBot.GrokBotReadOnlyConversationFooterViewController ?, ChatGrokBot.GrokBotReplyQuoteMediaLoader ?, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotSession, ChatGrokBot.GrokBotShoppingSubscription ??, ChatGrokBot.GrokBotTrainingOptInPresenter, ChatGrokBot.GrokBotTranscriptReveal ?, ChatGrokBot.GrokBotUsageWarningBannerViewController ?, ChatGrokBot.GrokBotVaultBuilder, ChatGrokBot.GrokBotVaultEditorBuilder, ChatGrokBot.GrokBotVaultItemBuilder, ChatGrokBot.GrokBotVoiceCallActionTriggerStream, ChatGrokUpsell.PremiumUpsellNavigation, ChatMessageComposer.MessageComposerActionTriggerStream, ChatMessageComposer.MessageComposerSource, ChatModels.AudioPlaybackStream, ChatModels.ChatToastActionTriggerStream, ChatModels.MessageDateInfoStream, ChatModels.PremiumSubscriptionTierStream, ChatUI.ChatNavigationStackFactory, ChatUI.ChatProviders, ChatUtilities.ChatSettingsProvider, Swift.Bool, UIViewController, _$s13XDesignSystem25TrayManagerViewControllerCMn ?, _$s7Combine14AnyCancellableCMn ?, _$s7Combine9PublishedVMn GrokBotRelay.SandAgentSummary, _$sSSSg, _$sSaySSG, _$sSaySo16UIViewControllerCG, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo014Subsystem_ios_B16Arm64_mainXClock_p, _$sSo15UIBarButtonItemCSg, _$sSo16UINavigationItemCSg, _$sSo16UIViewControllerCSg, _$sSo25UIImpactFeedbackGeneratorC, __C.CGRect ?;
 
 @interface ChatGrokBot.GrokBotConversationViewController : UIViewController <UIGestureRecognizerDelegate> { // (Swift)
     /* instance variables */
     ChatGrokBot.GrokBotConversationListener ? listener;
     ChatModels.AudioPlaybackStream audioPlaybackStream;
+    ChatGrokBot.GrokBotCartStore ?? $__lazy_storage_$_cart;
     ChatGrokBot.GrokBotPagePreviews ?? $__lazy_storage_$_pagePreviews;
+    ChatGrokBot.GrokBotShoppingSubscription ?? $__lazy_storage_$_shoppingSubscription;
     ChatGrokBot.GrokBotPostViewBuilding ? postViewBuilder;
     ChatGrokBot.GrokBotAttachmentFileStore attachmentFileStore;
     ChatAttachmentViewer.AttachmentMediaSaver attachmentMediaSaver;
     ChatAttachmentViewer.AttachmentViewerBuilder attachmentViewerBuilder;
+    ChatGrokBot.GrokBotAutoReviewStore autoReviewStore;
     ChatGrokBot.GrokBotBackBadgeStream backBadgeStream;
     ChatGrokBot.GrokBotCallRecordingLoading callRecordingLoader;
+    ChatGrokBot.GrokBotCartSubscriptionGate cartSubscriptionGate;
     ChatUI.ChatProviders chatProviders;
     __C.Subsystem_ios_iosArm64_mainXClock clock;
     ChatMessageComposer.MessageComposerSource composerSource;
@@ -41,6 +43,7 @@
     ChatGrokBot.GrokBotMessagingGroupChatLogViewController ? messagingGroupChatLogViewController;
     ChatUI.ChatNavigationStackFactory navigationStackFactory;
     __C.UINavigationItem? parentNavigationItem;
+    ChatModels.PremiumSubscriptionTierStream premiumSubscriptionTierStream;
     ChatGrokUpsell.PremiumUpsellNavigation premiumUpsellNavigation;
     ChatGrokBot.GrokBotReactionsSheetBuilder reactionsSheetBuilder;
     ChatGrokBot.GrokBotAutoReviewRuleEditorBuilder ruleEditorBuilder;
@@ -56,9 +59,6 @@
     ChatGrokBot.GrokBotVaultItemBuilder vaultItemBuilder;
     ChatGrokBot.GrokBotConversationViewModel viewModel;
     ChatGrokBot.GrokBotVoiceCallActionTriggerStream voiceCallActionTriggerStream;
-    ChatGrokBot.GrokBotVoiceCallStateStream voiceCallStateStream;
-    ChatGrokBot.GrokBotVoiceCallStream voiceCallStream;
-    ChatGrokBot.GrokBotVoiceCallTranscriptBuilder voiceCallTranscriptBuilder;
     ChatGrokBot.GrokBotApprovalPagePresenter approvalPagePresenter;
     ChatGrokBot.GrokBotConnectorBrowser connectorBrowser;
     ChatGrokBot.GrokBotConnectConsentPresenter ? $__lazy_storage_$_connectorConsentPresenter;
@@ -68,7 +68,6 @@
     ChatGrokBot.GrokBotConnectConsentPresenter ? $__lazy_storage_$_listenerConsentPresenter;
     ChatGrokBot.GrokBotConnectorSignInSession listenerSignInSession;
     __C.UIImpactFeedbackGenerator voiceCallFeedbackGenerator;
-    ChatGrokBot.GrokBotVoiceCallHeaderView voiceCallHeaderView;
     ChatGrokBot.GrokBotAvatarTitleButton ? $__lazy_storage_$_avatarTitleButton;
     ChatGrokBot.GrokBotExchangeTitleView ? $__lazy_storage_$_exchangeTitleView;
     __C.UIBarButtonItem? $__lazy_storage_$_voiceCallBarButtonItem;
@@ -80,7 +79,9 @@
     [__C.UIViewController] footerViewControllers;
     ChatGrokBot.GrokBotMessageAttachmentFileResolver ? $__lazy_storage_$_attachmentFileResolver;
     ChatGrokBot.GrokBotAttachmentViewerSource ? attachmentViewerSource;
+    Swift.String? autoReviewCardID;
     ChatGrokBot.GrokBotAutoReviewApprovalTrayContentViewController ? autoReviewContent;
+    [Swift.String] autoReviewPageCardIDs;
     nominal type descriptor for Combine.AnyCancellable ? autoReviewSubscription;
     nominal type descriptor for XDesignSystem.TrayManagerViewController ? autoReviewTray;
     ChatGrokBot.GrokBotCardFocusOverlayView ? cardFocusOverlayView;

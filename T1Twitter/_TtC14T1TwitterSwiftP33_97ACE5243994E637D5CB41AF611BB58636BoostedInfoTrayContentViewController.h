@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_97ACE5243994E637D5CB41AF611BB58636BoostedInfoTrayContentViewController_h
 #define _TtC14T1TwitterSwiftP33_97ACE5243994E637D5CB41AF611BB58636BoostedInfoTrayContentViewController_h

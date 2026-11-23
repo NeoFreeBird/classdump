@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef Subsystem_ios_iosArm64_mainBaseDmObjectGraph_Protocol_h
 #define Subsystem_ios_iosArm64_mainBaseDmObjectGraph_Protocol_h
@@ -22,6 +20,7 @@
 #include "Subsystem_ios_iosArm64_mainSimpleUserEventReporter-Protocol.h"
 #include "Subsystem_ios_iosArm64_mainTypingIndicatorRepo-Protocol.h"
 #include "Subsystem_ios_iosArm64_mainUnreadMessageCountProvider-Protocol.h"
+#include "Subsystem_ios_iosArm64_mainUserInviteStore-Protocol.h"
 #include "Subsystem_ios_iosArm64_mainWelcomeMessageFetcher-Protocol.h"
 #include "Subsystem_ios_iosArm64_mainXChatConnectionManager-Protocol.h"
 #include "Subsystem_ios_iosArm64_mainXChatExceptionObserver-Protocol.h"
@@ -146,6 +145,7 @@
 @property (nonatomic, readonly) id <Subsystem_ios_iosArm64_mainUploadProgressObserver> uploadProgressObserver;
 @property (nonatomic, readonly) id <Subsystem_ios_iosArm64_mainUrlDetailsRepository> urlDetailsRepository;
 @property (nonatomic, readonly) id <Subsystem_ios_iosArm64_mainSimpleUserEventReporter> userEventReporter;
+@property (nonatomic, readonly) id <Subsystem_ios_iosArm64_mainUserInviteStore> userInviteStore;
 @property (nonatomic, readonly) id <Subsystem_ios_iosArm64_mainKotlinx_coroutines_coreCoroutineScope> userIoScope;
 @property (nonatomic, readonly) id <Subsystem_ios_iosArm64_mainXChatUserSearchMatcher> userSearchMatcher;
 @property (nonatomic, readonly) id <Subsystem_ios_iosArm64_mainUsernameChangeWarningRepo> usernameChangeWarningRepo;

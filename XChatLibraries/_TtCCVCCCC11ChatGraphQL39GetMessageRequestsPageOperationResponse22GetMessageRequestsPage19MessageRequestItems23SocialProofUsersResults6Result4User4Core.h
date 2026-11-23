@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCVCCCC11ChatGraphQL39GetMessageRequestsPageOperationResponse22GetMessageRequestsPage19MessageRequestItems23SocialProofUsersResults6Result4User4Core_h
 #define _TtCCVCCCC11ChatGraphQL39GetMessageRequestsPageOperationResponse22GetMessageRequestsPage19MessageRequestItems23SocialProofUsersResults6Result4User4Core_h

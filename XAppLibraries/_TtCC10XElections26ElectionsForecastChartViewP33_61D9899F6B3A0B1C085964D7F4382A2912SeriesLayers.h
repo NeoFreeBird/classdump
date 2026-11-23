@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC10XElections26ElectionsForecastChartViewP33_61D9899F6B3A0B1C085964D7F4382A2912SeriesLayers_h
 #define _TtCC10XElections26ElectionsForecastChartViewP33_61D9899F6B3A0B1C085964D7F4382A2912SeriesLayers_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef THFHomeTimelineItemsViewController_h
 #define THFHomeTimelineItemsViewController_h
@@ -15,6 +13,7 @@
 #include "THFActiveContentViewControllerDelegate-Protocol.h"
 #include "THFHomePullToRefreshLandingDelegate-Protocol.h"
 #include "THFHomeShimmerCrossfade.h"
+#include "THFHomeTimelineUndoOffer.h"
 #include "THMHomeTimelineItemsViewControllerProtocol-Protocol.h"
 #include "TUIErrorDataViewAdapterDelegate-Protocol.h"
 #include "TUIUpdateIndicatorDelegate-Protocol.h"
@@ -24,7 +23,7 @@
 #include "_TtP11TwitterHome29LoadingTimeoutHandlerDelegate_-Protocol.h"
 #include "_TtP11TwitterHome36ShimmerFirstColdStartHandlerDelegate_-Protocol.h"
 
-@class GrokImagineTimelineImagePeek, HomeControllerPerformanceMonitor, NSArray, NSDate, NSMutableDictionary, NSNumber, NSString, T1PromptNavigationHelper, T1ScrollDistanceLogger, T1StatusTableRowAdapter, TFNItemsDataViewController, TFNItemsSectionTransformer, TFNMarkAsViewedHelper, TFNTwitterAccount, TFNTwitterHomeTimeline, TFSTimer, TFSTwitterScribeContext, THFSportsPostContextSectionTransformer, THMURTContentHoistTrackingHelper, THMURTContextTrackingHelper, TIPImagePipeline, TTACoreStatusLiveEngagementManager, TUIUpdateIndicator, TwitterHomeFeatures, UIImpactFeedbackGenerator, UIView, _TtC11TwitterHome21LoadingTimeoutHandler, _TtC11TwitterHome28CacheTruncationStatusManager, _TtC11TwitterHome28ShimmerFirstColdStartHandler;
+@class GrokImagineTimelineImagePeek, HomeControllerPerformanceMonitor, NSArray, NSDate, NSMutableDictionary, NSNumber, NSString, T1PromptNavigationHelper, T1ScrollDistanceLogger, T1StatusTableRowAdapter, TFNItemsDataViewController, TFNItemsSectionTransformer, TFNMarkAsViewedHelper, TFNTwitterAccount, TFNTwitterHomeTimeline, TFSTimer, TFSTwitterScribeContext, THFSportsPostContextDecisions, THFSportsPostContextSectionTransformer, THMURTContentHoistTrackingHelper, THMURTContextTrackingHelper, TIPImagePipeline, TTACoreStatusLiveEngagementManager, TUIUpdateIndicator, TwitterHomeFeatures, UIImpactFeedbackGenerator, UIView, _TtC11TwitterHome21LoadingTimeoutHandler, _TtC11TwitterHome28CacheTruncationStatusManager, _TtC11TwitterHome28ShimmerFirstColdStartHandler;
 @protocol URTItemVisibilityMonitor;
 
 @interface THFHomeTimelineItemsViewController : TFNItemsDataViewController <TFNMarkAsViewedDelegate, UIActionSheetDelegate, UIDataSourceModelAssociation, TUIErrorDataViewAdapterDelegate, T1URTTimelineTombstoneItemViewModelDelegate, T1TimelineDismissedItemDelegate, TUIUpdateIndicatorDelegate, URTDisplayActionsManagerDelegate, T1FeedbackActionProvider, T1URTTimelinePagedCarouselAdapterScrollPositionOverrideDelegate, HUIGraduatedAccessUserPromptDelegate, THFActiveContentViewControllerDelegate, THFHomePullToRefreshLandingDelegate, TwitterHome.LoadingTimeoutHandlerDelegate, TwitterHome.ShimmerFirstColdStartHandlerDelegate, THMHomeTimelineItemsViewControllerProtocol> {
@@ -52,6 +51,7 @@
     NSMutableDictionary *_didDisableHomeScrollPositionRestorationOnColdLaunchByAccountID;
     UIImpactFeedbackGenerator *_impactFeedbackGenerator;
     _Bool _userIsPullingToRefresh;
+    THFHomeTimelineUndoOffer *_undoOffer;
 }
 
 @property (readonly, copy, nonatomic) TFSTwitterScribeContext *timelineScribeContext;
@@ -72,6 +72,7 @@
 @property (copy, nonatomic) NSArray *t1_lastGrokImagineTimelineImagePeekLoadedStatusIdentifiers;
 @property (readonly, nonatomic) TwitterHomeFeatures *homeFeatures;
 @property (retain, nonatomic) THFSportsPostContextSectionTransformer *sportsPostContextSectionTransformer;
+@property (readonly, nonatomic) THFSportsPostContextDecisions *sportsPostContextDecisions;
 @property (nonatomic) _Bool showsElectionsPostContext;
 @property (readonly, nonatomic) TFNTwitterAccount *account;
 @property (readonly, nonatomic) _Bool isRestoringPersistedScrollPosition;

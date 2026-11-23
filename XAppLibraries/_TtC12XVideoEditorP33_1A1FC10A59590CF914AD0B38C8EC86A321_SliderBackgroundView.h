@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC12XVideoEditorP33_1A1FC10A59590CF914AD0B38C8EC86A321_SliderBackgroundView_h
 #define _TtC12XVideoEditorP33_1A1FC10A59590CF914AD0B38C8EC86A321_SliderBackgroundView_h

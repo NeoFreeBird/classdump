@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef UINavigationController_TFNUISwift_h
 #define UINavigationController_TFNUISwift_h
@@ -11,6 +9,7 @@
 - (_Bool)tfn_prefersTabBarPinned;
 - (void)tfn_addDirectlyOwnedViewControllersToMutableArray:(id)array;
 - (_Bool)tfn_presentAsModal;
+- (_Bool)tfn_coversPresentingViewController;
 - (void)pushViewController:(id)controller animated:(_Bool)animated completion:(id /* block */)completion;
 - (id)replaceTopViewController:(id)controller animated:(_Bool)animated;
 - (id)replaceTopViewController:(id)controller animated:(_Bool)animated completion:(id /* block */)completion;

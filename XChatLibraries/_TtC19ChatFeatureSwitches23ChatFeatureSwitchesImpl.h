@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19ChatFeatureSwitches23ChatFeatureSwitchesImpl_h
 #define _TtC19ChatFeatureSwitches23ChatFeatureSwitchesImpl_h
@@ -36,7 +34,6 @@
 - (int)coldInboxSuggestionsMaxConvos;
 - (_Bool)conversationDetailsMediaTabsEnabled;
 - (int)conversationEventLimit;
-- (_Bool)creatorGroupSyncingEnabled;
 - (_Bool)dmMediaStreamingUploadEnabled;
 - (int)dmMediaUploadParallelismGood;
 - (int)dmMediaUploadParallelismGreat;
@@ -59,6 +56,7 @@
 - (_Bool)externalAppIntegrationsEnabled;
 - (_Bool)failClosedPlaintextSends;
 - (_Bool)failClosedUnsignedSends;
+- (_Bool)fetchMissingFanoutEvents;
 - (int)forwardMediaMaxConversations;
 - (double)forwardMediaMaxSizeMb;
 - (_Bool)forwardSheetV2Enabled;
@@ -69,8 +67,6 @@
 - (_Bool)grokBotsRequiresAccountLinkEnabled;
 - (int)grokBotsTranscriptPageSize;
 - (_Bool)groupSeenCountsEnabled;
-- (int)historyBackfillIntervalHours;
-- (_Bool)historyBackfillWorkManagerEnabled;
 - (_Bool)historyDownloadEnabled;
 - (int)hybridPullEagerlyFetchHistoryAfterSeconds;
 - (_Bool)imageAlphaMatteEnabled;
@@ -129,6 +125,7 @@
 - (float)searchRecencyWeight;
 - (float)searchRepetitionWeight;
 - (int)sendContentsEncryptionVersion;
+- (_Bool)sendGifsAsVideos;
 - (int)sendSignatureProtocolVersion;
 - (_Bool)shareSheetBackendRankingEnabled;
 - (long long)signatureRequiredAfterSeqNum;

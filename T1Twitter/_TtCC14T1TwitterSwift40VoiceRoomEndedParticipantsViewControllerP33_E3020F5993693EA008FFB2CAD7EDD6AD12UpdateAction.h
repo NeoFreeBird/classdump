@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC14T1TwitterSwift40VoiceRoomEndedParticipantsViewControllerP33_E3020F5993693EA008FFB2CAD7EDD6AD12UpdateAction_h
 #define _TtCC14T1TwitterSwift40VoiceRoomEndedParticipantsViewControllerP33_E3020F5993693EA008FFB2CAD7EDD6AD12UpdateAction_h

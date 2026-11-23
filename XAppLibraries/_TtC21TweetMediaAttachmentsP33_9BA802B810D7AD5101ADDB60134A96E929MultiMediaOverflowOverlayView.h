@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC21TweetMediaAttachmentsP33_9BA802B810D7AD5101ADDB60134A96E929MultiMediaOverflowOverlayView_h
 #define _TtC21TweetMediaAttachmentsP33_9BA802B810D7AD5101ADDB60134A96E929MultiMediaOverflowOverlayView_h

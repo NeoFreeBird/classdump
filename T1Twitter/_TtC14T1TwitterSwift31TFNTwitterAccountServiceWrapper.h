@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift31TFNTwitterAccountServiceWrapper_h
 #define _TtC14T1TwitterSwift31TFNTwitterAccountServiceWrapper_h
@@ -21,7 +19,6 @@
 - (void)reloadFromStore;
 - (void)saveAccounts;
 - (void)addAccount:(id)account;
-- (void)reorderAccounts:(id)accounts;
 - (void)removeAccount:(id)account;
 - (void)removeAllAccounts;
 - (id)addObserver:(id)observer;

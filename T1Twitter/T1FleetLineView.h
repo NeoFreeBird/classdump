@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1FleetLineView_h
 #define T1FleetLineView_h
@@ -19,6 +17,7 @@
     NSNumber"16@0:8 *$__lazy_storage_$_fleetCollectionView;
     NSNumber"16@0:8 *fleetLineItems;
     NSNumber"16@0:8 *loadingView;
+    NSNumber"16@0:8 *contentView;
     NSNumber"16@0:8 *account;
     NSNumber"16@0:8 *viewModel;
     NSNumber"16@0:8 *isFeatureHighlightDispalyed;

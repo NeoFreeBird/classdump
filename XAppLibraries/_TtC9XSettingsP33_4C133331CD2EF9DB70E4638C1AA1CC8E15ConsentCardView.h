@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9XSettingsP33_4C133331CD2EF9DB70E4638C1AA1CC8E15ConsentCardView_h
 #define _TtC9XSettingsP33_4C133331CD2EF9DB70E4638C1AA1CC8E15ConsentCardView_h

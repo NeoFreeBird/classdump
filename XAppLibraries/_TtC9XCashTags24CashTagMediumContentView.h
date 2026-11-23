@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9XCashTags24CashTagMediumContentView_h
 #define _TtC9XCashTags24CashTagMediumContentView_h
 @import Foundation;
 
-@class Swift.Bool, UIView, XCashTags.CashTagAssetData ?, XCashTags.CashTagAssetView ?, XCashTags.CashTagChartView, XCashTags.CashTagContentViewDelegate ?;
+@class Swift.Bool, UIView, XCashTags.CashTagAssetData ?, XCashTags.CashTagAssetView ?, XCashTags.CashTagChartView, XCashTags.CashTagContentViewDelegate ?, XCashTags.CashTagTradeChin ?;
 
 @interface XCashTags.CashTagMediumContentView : UIView { // (Swift)
     /* instance variables */
@@ -16,6 +14,7 @@
     Swift.Bool didScribeChartInspect;
     XCashTags.CashTagAssetView ? $__lazy_storage_$_assetView;
     XCashTags.CashTagChartView chartView;
+    XCashTags.CashTagTradeChin ? tradeChin;
 }
 
 /* instance methods */

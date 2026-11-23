@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC15TwitterComposer30ComposerLinkPreviewCoordinatorP33_409C350666E5C159E824524DA74900F310ContentBox_h
 #define _TtCC15TwitterComposer30ComposerLinkPreviewCoordinatorP33_409C350666E5C159E824524DA74900F310ContentBox_h

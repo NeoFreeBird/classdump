@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19ChatMessageComposerP33_3AD0D264B9D0DB62E4B8E44C77C9E44644MessageComposerPhotoEditorAccountPerspective_h
 #define _TtC19ChatMessageComposerP33_3AD0D264B9D0DB62E4B8E44C77C9E44644MessageComposerPhotoEditorAccountPerspective_h

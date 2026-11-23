@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV14T1TwitterSwiftP33_F71108F9BC01B09F3E6C5FF04099C39F29LeaveConversationPromptFooter32TextViewTapActionDelegateWrapper_h
 #define _TtCV14T1TwitterSwiftP33_F71108F9BC01B09F3E6C5FF04099C39F29LeaveConversationPromptFooter32TextViewTapActionDelegateWrapper_h

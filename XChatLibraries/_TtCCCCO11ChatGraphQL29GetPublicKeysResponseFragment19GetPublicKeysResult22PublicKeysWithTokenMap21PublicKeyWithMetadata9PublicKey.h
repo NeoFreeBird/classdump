@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCCCO11ChatGraphQL29GetPublicKeysResponseFragment19GetPublicKeysResult22PublicKeysWithTokenMap21PublicKeyWithMetadata9PublicKey_h
 #define _TtCCCCO11ChatGraphQL29GetPublicKeysResponseFragment19GetPublicKeysResult22PublicKeysWithTokenMap21PublicKeyWithMetadata9PublicKey_h

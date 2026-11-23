@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC29TwitterOnboardingFeatureSwiftP33_499C2C2C28D0D71E714F20D3342DCC4D38ONBPermissionHalfCoverChromeController_h
 #define _TtC29TwitterOnboardingFeatureSwiftP33_499C2C2C28D0D71E714F20D3342DCC4D38ONBPermissionHalfCoverChromeController_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1AppNavigation_Protocol_h
 #define T1AppNavigation_Protocol_h
@@ -275,6 +273,9 @@
 - (void)showVerificationPolicyViewControllerForAccount:(id)account completion:(id /* block */)completion;
 - (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url completion:(id /* block */)completion;
 - (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url completion:(id /* block */)completion;
+- (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url postPurchaseURL:(id)url completion:(id /* block */)completion;
+- (void)showSubscriptionMembershipForAccount:(id)account tier:(id)tier plan:(id)plan paywallThresholdTier:(id)tier referringPage:(id)page source:(long long)source redirectSuccessURL:(id)url postPurchaseURL:(id)url completion:(id /* block */)completion;
+- (void)presentSubscriptionViewController:(id)controller source:(long long)source completion:(id /* block */)completion;
 - (void)showLeaveConversationPrompt;
 - (void)showSuperFollowsBlockedAccountMessageForCreatorUsername:(id)username;
 - (void)showSuperFollowsBlockedAccountMessageForCreatorUsername:(id)username;

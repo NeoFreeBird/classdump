@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ArticleViewController_h
 #define T1ArticleViewController_h
@@ -15,7 +13,9 @@
     NSNumber"16@0:8 *status;
     NSNumber"16@0:8 *account;
     NSNumber"16@0:8 *articleStatusID;
-    NSNumber"16@0:8 *articleContainer;
+    NSNumber"16@0:8 *bodyFactory;
+    NSNumber"16@0:8 *bodyLoadState;
+    NSNumber"16@0:8 *bodyResolutionTask;
     NSNumber"16@0:8 *$__lazy_storage_$_headerView;
     NSNumber"16@0:8 *$__lazy_storage_$_floatingActionBar;
     NSNumber"16@0:8 *$__lazy_storage_$_floatingBarCollapseController;
@@ -23,11 +23,10 @@
     NSNumber"16@0:8 *scribeImpressionStartTime;
     NSNumber"16@0:8 *didLogImpression;
     NSNumber"16@0:8 *didShowFloatingBar;
-    NSNumber"16@0:8 *webViewContentReady;
     NSNumber"16@0:8 *viewDidAppear;
     NSNumber"16@0:8 *lingerScriber;
-    NSNumber"16@0:8 *$__lazy_storage_$_loadingSpinner;
-    NSNumber"16@0:8 *rootArticleURL;
+    NSNumber"16@0:8 *loadingSpinner;
+    NSNumber"16@0:8 *skeletonView;
     NSNumber"16@0:8 *isOnRootArticlePage;
     NSNumber"16@0:8 *usesSystemNavigationBar;
     NSNumber"16@0:8 *$__lazy_storage_$_grokSummaryBarButtonItem;

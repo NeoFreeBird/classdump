@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10XElectionsP33_D123F533C0676292A33E72B0B170F30312CandidateRow_h
 #define _TtC10XElectionsP33_D123F533C0676292A33E72B0B170F30312CandidateRow_h

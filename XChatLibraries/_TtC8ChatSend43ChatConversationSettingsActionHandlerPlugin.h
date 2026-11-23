@@ -1,18 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend43ChatConversationSettingsActionHandlerPlugin_h
 #define _TtC8ChatSend43ChatConversationSettingsActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatModelsCore.UserID, ChatSend.ChatActionSigner, ChatSync.XChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.XChatGraphQLClient, _TtCs12_SwiftObject;
+@class ChatModelsCore.UserID, ChatSend.ChatActionSigner, ChatSync.ChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.ChatGraphQLClient, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatConversationSettingsActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatSend.ChatActionSigner actionSigner;
-    ChatTransport.XChatGraphQLClient graphQLClient;
-    ChatSync.XChatProjection projection;
+    ChatTransport.ChatGraphQLClient graphQLClient;
+    ChatSync.ChatProjection projection;
     ChatModelsCore.UserID owner;
 }
 

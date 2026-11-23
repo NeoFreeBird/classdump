@@ -1,21 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot28GrokBotVoiceCallActionWorker_h
 #define _TtC11ChatGrokBot28GrokBotVoiceCallActionWorker_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotIdentityProviding, ChatGrokBot.GrokBotNavigation, ChatGrokBot.GrokBotVoiceCallActionTriggerStream, ChatGrokBot.GrokBotVoiceCallPermissionRequesting, ChatGrokBot.GrokBotVoiceCallStateStream, ChatGrokBot.GrokBotVoiceCallStream, ChatModels.ChatToastActionTriggerStream, Swift.Bool, _$s11XFoundation11AsyncWorkerCN, _$sScTyyt _$ss5NeverOMn ?;
+@class ChatGrokBot.GrokBotNavigation, ChatGrokBot.GrokBotVoiceCallActionTriggerStream, ChatGrokBot.GrokBotVoiceCallPermissionRequesting, ChatModels.ChatToastActionTriggerStream, Swift.Bool, _$s11XFoundation11AsyncWorkerCN, _$sScTyyt _$ss5NeverOMn ?;
 
 @interface ChatGrokBot.GrokBotVoiceCallActionWorker : type metadata for XFoundation.AsyncWorker { // (Swift)
     /* instance variables */
     ChatGrokBot.GrokBotNavigation grokBotNavigation;
-    ChatGrokBot.GrokBotIdentityProviding identityProvider;
     ChatGrokBot.GrokBotVoiceCallPermissionRequesting permissionRequester;
     ChatModels.ChatToastActionTriggerStream toastActionTriggerStream;
     ChatGrokBot.GrokBotVoiceCallActionTriggerStream voiceCallActionTriggerStream;
-    ChatGrokBot.GrokBotVoiceCallStateStream voiceCallStateStream;
-    ChatGrokBot.GrokBotVoiceCallStream voiceCallStream;
     Swift.Bool isStopped;
     Swift.Task empty-list () nominal type descriptor for Swift.Never ? startTask;
 }

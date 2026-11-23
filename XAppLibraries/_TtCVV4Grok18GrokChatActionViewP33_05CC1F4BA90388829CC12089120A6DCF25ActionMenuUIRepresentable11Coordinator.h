@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCVV4Grok18GrokChatActionViewP33_05CC1F4BA90388829CC12089120A6DCF25ActionMenuUIRepresentable11Coordinator_h
 #define _TtCVV4Grok18GrokChatActionViewP33_05CC1F4BA90388829CC12089120A6DCF25ActionMenuUIRepresentable11Coordinator_h

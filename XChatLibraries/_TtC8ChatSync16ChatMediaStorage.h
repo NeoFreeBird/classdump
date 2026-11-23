@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSync16ChatMediaStorage_h
 #define _TtC8ChatSync16ChatMediaStorage_h
 @import Foundation;
 
-@class Builtin.DefaultActorStorage, ChatDatabase.XChatDatabase, ChatSync.ChatGroupAvatarFiles, ChatSync.ChatMediaDownloader, ChatSyncState.ChatMediaStorageStream, _$sSS, _$sSo14NSUserDefaultsC, _TtCs12_SwiftObject;
+@class Builtin.DefaultActorStorage, ChatDatabase.ChatSQLiteDatabase, ChatSync.ChatGroupAvatarFiles, ChatSync.ChatMediaDownloader, ChatSyncState.ChatMediaStorageStream, _$sSS, _$sSo14NSUserDefaultsC, _TtCs12_SwiftObject;
 
 @interface ChatSync.ChatMediaStorage : Swift._SwiftObject { // (Swift)
     /* instance variables */
     Builtin.DefaultActorStorage $defaultActor;
-    ChatDatabase.XChatDatabase database;
+    ChatDatabase.ChatSQLiteDatabase database;
     ChatSync.ChatMediaDownloader mediaDownloader;
     ChatSync.ChatGroupAvatarFiles groupAvatarFiles;
     ChatSyncState.ChatMediaStorageStream stream;

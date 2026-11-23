@@ -1,17 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14GrokMarkdownUI25HTMLPreviewViewController_h
 #define _TtC14GrokMarkdownUI25HTMLPreviewViewController_h
 @import Foundation;
 
-@class GrokMarkdownCore.MarkdownTheme, GrokMarkdownUI.UntrustedContentWebView ?, UIViewController, _$sSS, _$sSo8UIButtonCSg;
+@class GrokMarkdownCore.MarkdownTheme, GrokMarkdownUI.UntrustedContentWebView ?, UIViewController, _$sSS;
 
 @interface GrokMarkdownUI.HTMLPreviewViewController : UIViewController { // (Swift)
     /* instance variables */
     Swift.String htmlCode;
     GrokMarkdownCore.MarkdownTheme theme;
-    __C.UIButton? $__lazy_storage_$_reloadButton;
     GrokMarkdownUI.UntrustedContentWebView ? $__lazy_storage_$_webView;
 }
 

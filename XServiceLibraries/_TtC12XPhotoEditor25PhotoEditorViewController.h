@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC12XPhotoEditor25PhotoEditorViewController_h
 #define _TtC12XPhotoEditor25PhotoEditorViewController_h
@@ -9,7 +7,7 @@
 #include "XPhotoEditorPhotoEditorAnalyticsDelegate-Protocol.h"
 #include "XPhotoEditorPhotoEditorViewControllerDelegate-Protocol.h"
 
-@class Swift.Bool, UIView, UIViewController, XDesignSystem.Button ?, XPhotoEditor.CanvasContainerView, XPhotoEditor.CollageTransitionDelegate, XPhotoEditor.EditorPlugin ?, XPhotoEditor.EditorPluginStore ?, XPhotoEditor.EditorPreviewView, XPhotoEditor.EditorToolOption, XPhotoEditor.EditorToolOption ?, XPhotoEditor.EditorToolbarButton ?, XPhotoEditor.EditorToolbarView ?, XPhotoEditor.FramingTransitionDelegate, XPhotoEditor.LivePreviewRenderState, XPhotoEditor.PhotoEditSession, XPhotoEditor.PhotoEditorViewController.HostConfiguration, XPhotoEditor.SaveToGalleryAction, _$sSaySo15UIBarButtonItemCG, _$sSbSg, _$sSo017XPhotoEditorPhotoB17AnalyticsDelegate_pSgXw, _$sSo017XPhotoEditorPhotoB22ViewControllerDelegate_pSgXw, _$sSo15UIBarButtonItemCSg, _$sSo18NSLayoutConstraintCSg, _$sSo30XPhotoEditorAccountPerspective_p, _$sSo6UIViewC, _$sSo6UIViewCSg, _$syycSg, __C.CGRect;
+@class Swift.Bool, UIView, UIViewController, XDesignSystem.Button ?, XPhotoEditor.CanvasContainerView, XPhotoEditor.CollageTransitionDelegate, XPhotoEditor.EditorImageDropInteraction ?, XPhotoEditor.EditorPlugin ?, XPhotoEditor.EditorPluginStore ?, XPhotoEditor.EditorPreviewView, XPhotoEditor.EditorToolOption, XPhotoEditor.EditorToolOption ?, XPhotoEditor.EditorToolbarButton ?, XPhotoEditor.EditorToolbarView ?, XPhotoEditor.FramingTransitionDelegate, XPhotoEditor.LivePreviewRenderState, XPhotoEditor.PhotoEditSession, XPhotoEditor.PhotoEditorViewController.HostConfiguration, XPhotoEditor.SaveToGalleryAction, _$sSaySo15UIBarButtonItemCG, _$sSbSg, _$sSo017XPhotoEditorPhotoB17AnalyticsDelegate_pSgXw, _$sSo017XPhotoEditorPhotoB22ViewControllerDelegate_pSgXw, _$sSo15UIBarButtonItemCSg, _$sSo18NSLayoutConstraintCSg, _$sSo30XPhotoEditorAccountPerspective_p, _$sSo6UIViewC, _$sSo6UIViewCSg, _$syycSg, __C.CGRect;
 
 @interface XPhotoEditor.PhotoEditorViewController : UIViewController <XDSButtonLayoutDelegate> { // (Swift)
     /* instance variables */
@@ -38,6 +36,7 @@
     Swift.Bool isPreparingPreviewBase;
     (() -> ())? deferredPluginActivation;
     __C.CGRect lastCanvasContentRect;
+    XPhotoEditor.EditorImageDropInteraction ? $__lazy_storage_$_imageDropInteraction;
     XPhotoEditor.FramingTransitionDelegate framingTransitionDelegate;
     XPhotoEditor.CollageTransitionDelegate collageTransitionDelegate;
     __C.UIView inlineContainerView;

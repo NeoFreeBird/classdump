@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports19MLBGameHeroLiveView_h
 #define _TtC7XSports19MLBGameHeroLiveView_h
@@ -8,7 +6,7 @@
 #include "UIGestureRecognizerDelegate-Protocol.h"
 #include "_TtC7XSports14MeasurableView.h"
 
-@class Swift.Bool, XSports.BaseballBattersBoxView, XSports.BaseballCountIndicatorView, XSports.BaseballGameEngine.Presentation ?, XSports.BaseballHitFieldView, XSports.BaseballParticipantView, XSports.BaseballPlayerTakeoverView ?, XSports.BaseballPlayerTakeoverView.Content ?, XSports.MLBGameHeroLiveView.FieldScene ?, XSports.MLBGameHeroView.Content.Live ?, XSports.MLBHeroScene, XSports.MLBHeroScene.Banner ?, XSports.SportsHighlightsCountdownButton ?, XSports.SportsHorizontalEdgeFade, XSports.SportsImageLoader ?, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem4BlurCMn, _$sSSSg, _$sSSSgSg, _$sSa -> XSports.BaseballParticipant, _$sSaySS3key_ XSports.MLBGameHeroLiveView.PitchCell cellt, _$sSaySo6UIViewCG, _$sSaySo7UILabelC5label_AB5valuetG, _$sSaySo7UILabelCG, _$sSo11UIImageViewC, _$sSo12UIScrollViewC, _$sSo16TIPImagePipelineCSg, _$sSo22UIViewPropertyAnimatorCSg, _$sSo6UIViewC, _$sSo7CALayerC, _$sSo7UILabelC, _$syycSg;
+@class Swift.Bool, XSports.BaseballBattersBoxView, XSports.BaseballCountIndicatorView, XSports.BaseballGameEngine.Presentation ?, XSports.BaseballHitFieldView, XSports.BaseballParticipantView, XSports.BaseballPlayerTakeoverView ?, XSports.BaseballPlayerTakeoverView.Content ?, XSports.MLBGameHeroLiveView.FieldScene ?, XSports.MLBGameHeroView.Content.Live ?, XSports.MLBHeroScene, XSports.MLBHeroScene.Banner ?, XSports.SportsHorizontalEdgeFade, XSports.SportsImageLoader ?, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem4BlurCMn, _$sSSSg, _$sSSSgSg, _$sSa -> XSports.BaseballParticipant, _$sSaySS3key_ XSports.MLBGameHeroLiveView.PitchCell cellt, _$sSaySo6UIViewCG, _$sSaySo7UILabelC5label_AB5valuetG, _$sSaySo7UILabelCG, _$sSo11UIImageViewC, _$sSo12UIScrollViewC, _$sSo16TIPImagePipelineCSg, _$sSo22UIViewPropertyAnimatorCSg, _$sSo6UIViewC, _$sSo7CALayerC, _$sSo7UILabelC, _$syycSg;
 
 @interface XSports.MLBGameHeroLiveView : XSports.MeasurableView <UIGestureRecognizerDelegate> { // (Swift)
     /* instance variables */
@@ -62,7 +60,6 @@
     nominal type descriptor for CoreGraphics.CGFloat minimizeProgress;
     XSports.MLBHeroScene.Banner ? shownBanner;
     XSports.BaseballPlayerTakeoverView.Content ? shownCard;
-    XSports.SportsHighlightsCountdownButton ? highlightsButton;
     (() -> ())? onToggleField;
 }
 

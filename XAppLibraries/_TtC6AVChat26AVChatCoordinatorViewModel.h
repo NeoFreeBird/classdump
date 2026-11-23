@@ -1,17 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC6AVChat26AVChatCoordinatorViewModel_h
 #define _TtC6AVChat26AVChatCoordinatorViewModel_h
 @import Foundation;
 
-@class Chat.AVChatCallUISession, Chat.AVChatParticipantRankerViewModel, Swift.Bool, _$s7Combine9PublishedVMn AVChat.AVChatCoordinatorViewModel.State, _$s7Combine9PublishedVMn AVChat.AVChatScreenShareViewModel ?, _$s7Combine9PublishedVMn AVChat.AVChatSecondaryParticipantsViewModel ?, _$s7Combine9PublishedVMn _$ss5Int64VMn ?, _$sSh -> _$s7Combine14AnyCancellableCMn, _TtCs12_SwiftObject;
+@class Chat.AVChatCallUISession, Chat.AVChatParticipantRankerViewModel, _$s7Combine9PublishedVMn AVChat.AVChatCoordinatorViewModel.State, _$s7Combine9PublishedVMn AVChat.AVChatScreenShareViewModel ?, _$s7Combine9PublishedVMn AVChat.AVChatSecondaryParticipantsViewModel ?, _$s7Combine9PublishedVMn _$ss5Int64VMn ?, _$sSh -> _$s7Combine14AnyCancellableCMn, _TtCs12_SwiftObject;
 
 @interface AVChat.AVChatCoordinatorViewModel : Swift._SwiftObject { // (Swift)
     /* instance variables */
     oneway _Atomic Chat.AVChatParticipantRankerViewModel _participantRankerViewModel;
-    Swift.Bool _isMusicEnabled;
-    Swift.Bool _isPlayingMusic;
     oneway _Atomic Chat.AVChatCallUISession _callUISession;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable _cancellables;
     nominal type descriptor for Combine.Published AVChat.AVChatCoordinatorViewModel.State _state;

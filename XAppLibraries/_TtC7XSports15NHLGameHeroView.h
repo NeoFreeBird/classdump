@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports15NHLGameHeroView_h
 #define _TtC7XSports15NHLGameHeroView_h
@@ -7,19 +5,16 @@
 
 #include "_TtC7XSports14MeasurableView.h"
 
-@class XSports.HockeyRinkView, XSports.SportsGameScoreboardView XSports.NHLGameState, XSports.SportsHeroHighlightsView ?, XSports.SportsHighlightsCountdownButton ?, XSports.SportsLastPlayBarView, _$s12CoreGraphics7CGFloatVMn, _$s13XDesignSystem6ButtonCMn, _$sSSSg, _$sSo16TIPImagePipelineCSg, _$sySScSg, _$syycSg;
+@class XSports.HockeyRinkView, XSports.SportsGameScoreboardView XSports.NHLGameState, XSports.SportsHeroHighlightsPill ?, XSports.SportsLastPlayBarView, _$s12CoreGraphics7CGFloatVMn, _$sSSSg, _$sSo16TIPImagePipelineCSg, _$sySScSg;
 
 @interface XSports.NHLGameHeroView : XSports.MeasurableView { // (Swift)
     /* instance variables */
     __C.TIPImagePipeline? imagePipeline;
     ((Swift.String) -> ())? onOpenPlay;
-    (() -> ())? onAccessoryTap;
     XSports.SportsGameScoreboardView XSports.NHLGameState scoreboard;
     XSports.HockeyRinkView rinkView;
     XSports.SportsLastPlayBarView lastPlayBarView;
-    nominal type descriptor for XDesignSystem.Button accessoryButton;
-    XSports.SportsHighlightsCountdownButton ? countdownButton;
-    XSports.SportsHeroHighlightsView ? highlightsCarousel;
+    XSports.SportsHeroHighlightsPill ? highlights;
     nominal type descriptor for CoreGraphics.CGFloat minimizeProgress;
     Swift.String? lastPlayID;
 }
@@ -27,7 +22,6 @@
 /* instance methods */
 - (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;
 - (id)initWithCoder:(id)coder;
-- (void)didTapAccessory;
 - (void)didTapLastPlay;
 
 @end

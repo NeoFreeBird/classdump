@@ -1,14 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20GrokMarkdownRenderer13ContentLoader_h
 #define _TtC20GrokMarkdownRenderer13ContentLoader_h
 @import Foundation;
 
-@class DispatchQueue, _$s7Combine18PassthroughSubjectCMn GrokMarkdownRenderer.ContentLoader.ViewResult _$ss5NeverOMn, _$s7Combine18PassthroughSubjectCMn _$sySS _$ss5NeverOMn, _$sSD -> GrokMarkdownRenderer.ContentLoader.ViewCacheKey _$sSa -> GrokCardsModels.GrokCard, _$sSD -> GrokMarkdownRenderer.ContentLoader.ViewCacheKey _$sSa -> GrokMarkdownRenderer.ViewHierarchy.ViewComponent, _$sSD -> GrokMarkdownRenderer.ContentLoader.ViewCacheKey _$sSayyycSgG, _$sSDySS GrokMarkdownRenderer.ContentLoader.ViewCacheKey, _$sSo8NSObject_pSg, _TtCs12_SwiftObject;
+@class DispatchQueue, _$s7Combine18PassthroughSubjectCMn GrokMarkdownRenderer.ContentLoader.ViewResult _$ss5NeverOMn, _$s7Combine18PassthroughSubjectCMn _$sySS _$ss5NeverOMn, _$sSD -> GrokMarkdownRenderer.ContentLoader.ViewCacheKey _$sSa -> GrokCardsModels.GrokCard, _$sSD -> GrokMarkdownRenderer.ContentLoader.ViewCacheKey _$sSa -> GrokMarkdownRenderer.ViewHierarchy.ViewComponent, _$sSD -> GrokMarkdownRenderer.ContentLoader.ViewCacheKey _$sSayyycSgG, _$sSDySS GrokMarkdownRenderer.ContentLoader.ViewCacheKey, _$sSo8NSObject_pSg, _TtCs12_SwiftObject, __C.UIContentSizeCategory _$sSgyc;
 
 @interface GrokMarkdownRenderer.ContentLoader : Swift._SwiftObject { // (Swift)
     /* instance variables */
+    __C.UIContentSizeCategory _$sSgyc contentSizeCategory;
     DispatchQueue dispatchQueue;
     DispatchQueue concurrentDispatchQueue;
     nominal type descriptor for Combine.PassthroughSubject GrokMarkdownRenderer.ContentLoader.ViewResult nominal type descriptor for Swift.Never asyncLoadedView;

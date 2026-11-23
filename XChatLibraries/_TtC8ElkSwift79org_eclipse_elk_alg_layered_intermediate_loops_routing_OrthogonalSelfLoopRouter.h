@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift79org_eclipse_elk_alg_layered_intermediate_loops_routing_OrthogonalSelfLoopRouter_h
+#define _TtC8ElkSwift79org_eclipse_elk_alg_layered_intermediate_loops_routing_OrthogonalSelfLoopRouter_h
+@import Foundation;
+
+#include "_TtC8ElkSwift77org_eclipse_elk_alg_layered_intermediate_loops_routing_AbstractSelfLoopRouter.h"
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_OrthogonalSelfLoopRouter : ElkSwift.org_eclipse_elk_alg_layered_intermediate_loops_routing_AbstractSelfLoopRouter // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift79org_eclipse_elk_alg_layered_intermediate_loops_routing_OrthogonalSelfLoopRouter_h */

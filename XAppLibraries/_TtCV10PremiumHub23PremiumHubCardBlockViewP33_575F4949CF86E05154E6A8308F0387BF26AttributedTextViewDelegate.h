@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV10PremiumHub23PremiumHubCardBlockViewP33_575F4949CF86E05154E6A8308F0387BF26AttributedTextViewDelegate_h
 #define _TtCV10PremiumHub23PremiumHubCardBlockViewP33_575F4949CF86E05154E6A8308F0387BF26AttributedTextViewDelegate_h

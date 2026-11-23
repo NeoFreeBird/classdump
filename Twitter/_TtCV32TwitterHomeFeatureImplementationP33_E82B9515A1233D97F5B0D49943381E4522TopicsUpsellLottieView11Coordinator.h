@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV32TwitterHomeFeatureImplementationP33_E82B9515A1233D97F5B0D49943381E4522TopicsUpsellLottieView11Coordinator_h
 #define _TtCV32TwitterHomeFeatureImplementationP33_E82B9515A1233D97F5B0D49943381E4522TopicsUpsellLottieView11Coordinator_h

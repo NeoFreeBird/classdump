@@ -1,19 +1,17 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend40ChatCreatorRosterSyncActionHandlerPlugin_h
 #define _TtC8ChatSend40ChatCreatorRosterSyncActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatModelsCore.UserID, ChatSync.XChatProjection, ChatSyncState.ChatActionStream, ChatSyncState.ChatActionTrigger, ChatTransport.XChatGraphQLClient, _$sSi, _TtCs12_SwiftObject;
+@class ChatModelsCore.UserID, ChatSync.ChatProjection, ChatSyncState.ChatActionStream, ChatSyncState.ChatActionTrigger, ChatTransport.ChatGraphQLClient, _$sSi, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatCreatorRosterSyncActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatSyncState.ChatActionStream actionStream;
-    ChatTransport.XChatGraphQLClient graphQLClient;
+    ChatTransport.ChatGraphQLClient graphQLClient;
     Swift.Int maxGroupSize;
-    ChatSync.XChatProjection projection;
+    ChatSync.ChatProjection projection;
     ChatModelsCore.UserID owner;
 }
 

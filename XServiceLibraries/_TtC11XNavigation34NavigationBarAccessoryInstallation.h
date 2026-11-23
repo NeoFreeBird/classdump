@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11XNavigation34NavigationBarAccessoryInstallation_h
 #define _TtC11XNavigation34NavigationBarAccessoryInstallation_h
@@ -16,6 +14,7 @@
     nominal type descriptor for CoreGraphics.CGFloat cachedExtent;
     nominal type descriptor for CoreGraphics.CGFloat cachedFloatingExtent;
     nominal type descriptor for CoreGraphics.CGFloat cachedScrollEdgeExemptExtent;
+    nominal type descriptor for CoreGraphics.CGFloat cachedContentReservedExtent;
 }
 
 @end

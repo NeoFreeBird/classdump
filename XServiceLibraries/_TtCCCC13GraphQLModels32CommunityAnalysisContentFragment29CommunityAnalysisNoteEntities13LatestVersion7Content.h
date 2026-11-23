@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCCC13GraphQLModels32CommunityAnalysisContentFragment29CommunityAnalysisNoteEntities13LatestVersion7Content_h
 #define _TtCCCC13GraphQLModels32CommunityAnalysisContentFragment29CommunityAnalysisNoteEntities13LatestVersion7Content_h

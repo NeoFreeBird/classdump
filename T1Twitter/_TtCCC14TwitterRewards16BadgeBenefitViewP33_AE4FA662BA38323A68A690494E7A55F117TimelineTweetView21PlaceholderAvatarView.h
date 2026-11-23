@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCCC14TwitterRewards16BadgeBenefitViewP33_AE4FA662BA38323A68A690494E7A55F117TimelineTweetView21PlaceholderAvatarView_h
 #define _TtCCC14TwitterRewards16BadgeBenefitViewP33_AE4FA662BA38323A68A690494E7A55F117TimelineTweetView21PlaceholderAvatarView_h

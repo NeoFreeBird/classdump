@@ -1,27 +1,25 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend37ChatMessageRequestActionHandlerPlugin_h
 #define _TtC8ChatSend37ChatMessageRequestActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatKeys.XChatConversationKeyService, ChatKeys.XChatEventSigner, ChatKeys.XChatIdentityKeyService, ChatKeys.XChatPublicKeyDirectory, ChatModelsCore.UserID, ChatSend.XChatMessageEnvelopeSender, ChatSync.XChatBatchProcessor, ChatSync.XChatMessageRequestsService, ChatSync.XChatProjection, ChatSyncState.ChatActionStream, ChatSyncState.ChatActionTrigger, ChatTransport.XChatGraphQLClient, ChatTransport.XChatThriftCodec, _TtCs12_SwiftObject;
+@class ChatKeys.ChatConversationKeyService, ChatKeys.ChatEventSigner, ChatKeys.ChatIdentityKeyService, ChatKeys.ChatPublicKeyDirectory, ChatModelsCore.UserID, ChatSend.ChatMessageEnvelopeSender, ChatSync.ChatBatchProcessor, ChatSync.ChatMessageRequestsService, ChatSync.ChatProjection, ChatSyncState.ChatActionStream, ChatSyncState.ChatActionTrigger, ChatTransport.ChatGraphQLClient, ChatTransport.ChatThriftCodec, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatMessageRequestActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatSyncState.ChatActionStream actionStream;
-    ChatSync.XChatBatchProcessor batchProcessor;
-    ChatKeys.XChatConversationKeyService conversationKeyService;
-    ChatTransport.XChatGraphQLClient graphQLClient;
-    ChatKeys.XChatIdentityKeyService identityKeyService;
-    ChatSync.XChatMessageRequestsService messageRequestsService;
-    ChatSync.XChatProjection projection;
-    ChatKeys.XChatPublicKeyDirectory publicKeyDirectory;
+    ChatSync.ChatBatchProcessor batchProcessor;
+    ChatKeys.ChatConversationKeyService conversationKeyService;
+    ChatTransport.ChatGraphQLClient graphQLClient;
+    ChatKeys.ChatIdentityKeyService identityKeyService;
+    ChatSync.ChatMessageRequestsService messageRequestsService;
+    ChatSync.ChatProjection projection;
+    ChatKeys.ChatPublicKeyDirectory publicKeyDirectory;
     ChatModelsCore.UserID owner;
-    ChatSend.XChatMessageEnvelopeSender envelopeSender;
-    ChatKeys.XChatEventSigner signer;
-    ChatTransport.XChatThriftCodec codec;
+    ChatSend.ChatMessageEnvelopeSender envelopeSender;
+    ChatKeys.ChatEventSigner signer;
+    ChatTransport.ChatThriftCodec codec;
 }
 
 @end

@@ -1,17 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot25GrokBotsInboxAllBotsStore_h
 #define _TtC11ChatGrokBot25GrokBotsInboxAllBotsStore_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotInXChatSettingsService, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotsInboxAllBotsStore.SyncState, ChatUtilities.ChatAccountUserDefaulting, Swift.Bool, _$s7Combine19CurrentValueSubjectCMn _$sySb _$ss5NeverOMn, _$sScTyyt _$ss5NeverOMn ?, _$sSi, _TtCs12_SwiftObject;
+@class ChatGrokBot.GrokBotInXChatSettingsService, ChatGrokBot.GrokBotScribing, ChatGrokBot.GrokBotsInboxAllBotsStore.SyncState, ChatUtilities.ChatAccountUserDefaulting, ChatUtilities.UnfairLock, Swift.Bool, _$s7Combine19CurrentValueSubjectCMn _$sySb _$ss5NeverOMn, _$sScTyyt _$ss5NeverOMn ?, _$sSi, _TtCs12_SwiftObject;
 
 @interface ChatGrokBot.GrokBotsInboxAllBotsStore : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatUtilities.ChatAccountUserDefaulting chatAccountDefaults;
     nominal type descriptor for Combine.CurrentValueSubject  empty-list Swift.Bool nominal type descriptor for Swift.Never isShowingAllBotsSubject;
     Swift.Bool isServerSyncEnabled;
+    ChatUtilities.UnfairLock lock;
     ChatGrokBot.GrokBotScribing scriber;
     ChatGrokBot.GrokBotInXChatSettingsService settingsService;
     Swift.Bool confirmedShowsAllBots;

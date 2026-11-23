@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1XChatViewControllerFactory_h
 #define T1XChatViewControllerFactory_h
@@ -13,7 +11,7 @@
 + (id)createWithAccount:(id)account conversationID:(id)id;
 + (id)createOneOnOneConversationWithAccount:(id)account userID:(long long)id;
 + (id)createGrokBotsWithAccount:(id)account agentID:(id)id;
-+ (id)grokBotsAgentIDWithAccount:(id)account agentID:(id)id prompt:(id)prompt;
++ (id)grokBotsAgentIDWithAccount:(id)account agentID:(id)id prompt:(id)prompt promptTemplate:(id)_template source:(id)source fid:(id)fid;
 + (_Bool)presentGrokBotsInboxPromptIfNeededWithAccount:(id)account agentID:(id)id presenter:(id)presenter onTryGrokBot:(id /* block */)bot;
 + (_Bool)opensInboxBeforeGrokBotsWithAccount:(id)account agentID:(id)id;
 + (void)presentGrokBotsInboxPromptOnceEnrollmentIsKnownWithAccount:(id)account presenter:(id)presenter openGrokBot:(id /* block */)bot;

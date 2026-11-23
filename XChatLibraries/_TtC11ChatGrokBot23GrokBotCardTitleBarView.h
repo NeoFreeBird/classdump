@@ -1,17 +1,18 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot23GrokBotCardTitleBarView_h
 #define _TtC11ChatGrokBot23GrokBotCardTitleBarView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotConnectorIconTileView, UIView, _$sSo11UIImageViewC, _$sSo6UIViewC, _$sSo7UILabelC;
+@class ChatGrokBot.GrokBotCardTitleBarView.CloseButton, ChatGrokBot.GrokBotConnectorIconTileView, UIView, _$sSo11UIImageViewC, _$sSo22UIAccessibilityElementCSg, _$sSo6UIViewC, _$sSo7UILabelC, _$syycSg;
 
 @interface ChatGrokBot.GrokBotCardTitleBarView : UIView { // (Swift)
     /* instance variables */
+    ChatGrokBot.GrokBotCardTitleBarView.CloseButton closeButton;
     __C.UIImageView disclosureView;
     __C.UIImageView glyphView;
+    __C.UIAccessibilityElement? $__lazy_storage_$_headerAccessibilityElement;
     ChatGrokBot.GrokBotConnectorIconTileView logoTileView;
+    (() -> ())? onClose;
     __C.UILabel sourceLabel;
     __C.UILabel statusLabel;
     __C.UIView tileView;
@@ -22,6 +23,7 @@
 - (id)initWithCoder:(id)coder;
 - (void)layoutSubviews;
 - (struct CGSize { double x0; double x1; })sizeThatFits:(struct CGSize { double x0; double x1; })fits;
+- (_Bool)pointInside:(struct CGPoint { double x0; double x1; })inside withEvent:(id)event;
 - (void)traitCollectionDidChange:(id)change;
 
 @end

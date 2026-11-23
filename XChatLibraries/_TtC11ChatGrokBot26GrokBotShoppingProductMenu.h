@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot26GrokBotShoppingProductMenu_h
 #define _TtC11ChatGrokBot26GrokBotShoppingProductMenu_h
@@ -7,18 +5,21 @@
 
 #include "UIContextMenuInteractionDelegate-Protocol.h"
 
-@class ChatGrokBot.GrokBotShoppingProduct ?, NSObject, Swift.Bool, _$sSSSg, _$sSo24UIContextMenuInteractionCSg, _$sySScSg, _$syycSg;
+@class ChatGrokBot.GrokBotCartStore ?, ChatGrokBot.GrokBotShoppingProduct ?, ChatGrokBot.GrokBotShoppingSubscription ?, NSObject, Swift.Bool, Swift.Bool __C.CGPoint _$scSg, _$sSSSg, _$sSo24UIContextMenuInteractionCSg, _$sySScSg, _$syycSg;
 
 @interface ChatGrokBot.GrokBotShoppingProductMenu : NSObject <UIContextMenuInteractionDelegate> { // (Swift)
     /* instance variables */
     ((Swift.String) -> ())? onBuy;
     (() -> ())? onMore;
     (() -> ())? onOpen;
+    Swift.Bool __C.CGPoint _$scSg opensMenu;
     __C.UIContextMenuInteraction? $__lazy_storage_$_interaction;
+    ChatGrokBot.GrokBotCartStore ? cart;
     Swift.Bool isBuyEnabled;
     Swift.Bool isMorePending;
     Swift.String? lockedBuyRequest;
     ChatGrokBot.GrokBotShoppingProduct ? product;
+    ChatGrokBot.GrokBotShoppingSubscription ? subscription;
 }
 
 /* instance methods */

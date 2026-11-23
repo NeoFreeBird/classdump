@@ -1,25 +1,23 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot23GrokBotShoppingHeroView_h
 #define _TtC11ChatGrokBot23GrokBotShoppingHeroView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotShoppingBadgeView, ChatGrokBot.GrokBotShoppingPhotoPagerView, ChatGrokBot.GrokBotShoppingProductMenu, ChatGrokBot.GrokBotShoppingSellerView, NSString, UIView, _$sSo7UILabelC, _$sySi_So6UIViewCtcSg;
+@class ChatGrokBot.GrokBotCartPurchaseRowView, ChatGrokBot.GrokBotShoppingBadgeView, ChatGrokBot.GrokBotShoppingCardPhotoView, ChatGrokBot.GrokBotShoppingHeroAccessibilityElement ?, ChatGrokBot.GrokBotShoppingProductMenu, ChatGrokBot.GrokBotShoppingSellerView, UIView, _$sSo7UILabelC, _$sySicSg;
 
 @interface ChatGrokBot.GrokBotShoppingHeroView : UIView { // (Swift)
     /* instance variables */
-    ((Swift.Int, __C.UIView) -> ())? onTap;
+    ((Swift.Int) -> ())? onTap;
     ChatGrokBot.GrokBotShoppingBadgeView badgeView;
     __C.UILabel highlightLabel;
     __C.UILabel metaLabel;
-    ChatGrokBot.GrokBotShoppingPhotoPagerView photoPagerView;
+    ChatGrokBot.GrokBotShoppingCardPhotoView photoView;
     ChatGrokBot.GrokBotShoppingProductMenu productMenu;
+    ChatGrokBot.GrokBotCartPurchaseRowView purchaseRowView;
     ChatGrokBot.GrokBotShoppingSellerView sellerView;
     __C.UILabel titleLabel;
+    ChatGrokBot.GrokBotShoppingHeroAccessibilityElement ? $__lazy_storage_$_cardElement;
 }
-
-@property (nonatomic, copy) NSString *accessibilityValue;
 
 /* instance methods */
 - (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;

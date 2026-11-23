@@ -1,26 +1,24 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend36ChatPinnedMessageActionHandlerPlugin_h
 #define _TtC8ChatSend36ChatPinnedMessageActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatKeys.XChatConversationKeyService, ChatKeys.XChatMessageCrypto, ChatModelsCore.UserID, ChatSend.ChatMediaUploader, ChatSend.XChatConversationKeyCreator, ChatSend.XChatMessageEnvelopeSender, ChatSync.ChatMediaDownloader, ChatSync.ChatPinnedMessagesPageLoader, ChatSync.XChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.XChatGraphQLClient, ChatTransport.XChatThriftCodec, _TtCs12_SwiftObject;
+@class ChatKeys.ChatConversationKeyService, ChatKeys.ChatMessageCrypto, ChatModelsCore.UserID, ChatSend.ChatConversationKeyCreator, ChatSend.ChatMediaUploader, ChatSend.ChatMessageEnvelopeSender, ChatSync.ChatMediaDownloader, ChatSync.ChatPinnedMessagesPageLoader, ChatSync.ChatProjection, ChatSyncState.ChatActionTrigger, ChatTransport.ChatGraphQLClient, ChatTransport.ChatThriftCodec, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatPinnedMessageActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatModelsCore.UserID owner;
-    ChatTransport.XChatGraphQLClient graphQLClient;
-    ChatSync.XChatProjection projection;
-    ChatKeys.XChatMessageCrypto messageCrypto;
-    ChatKeys.XChatConversationKeyService conversationKeyService;
-    ChatSend.XChatConversationKeyCreator keyCreator;
-    ChatSend.XChatMessageEnvelopeSender envelopeSender;
+    ChatTransport.ChatGraphQLClient graphQLClient;
+    ChatSync.ChatProjection projection;
+    ChatKeys.ChatMessageCrypto messageCrypto;
+    ChatKeys.ChatConversationKeyService conversationKeyService;
+    ChatSend.ChatConversationKeyCreator keyCreator;
+    ChatSend.ChatMessageEnvelopeSender envelopeSender;
     ChatSync.ChatMediaDownloader mediaDownloader;
     ChatSend.ChatMediaUploader mediaUploader;
     ChatSync.ChatPinnedMessagesPageLoader pageLoader;
-    ChatTransport.XChatThriftCodec codec;
+    ChatTransport.ChatThriftCodec codec;
 }
 
 @end

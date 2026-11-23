@@ -1,21 +1,18 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC6AVChat32AVChatGroupCallShowMoreViewModel_h
 #define _TtC6AVChat32AVChatGroupCallShowMoreViewModel_h
 @import Foundation;
 
-@class Chat.AVChatCallUISession, Chat.AVChatGroupCallShowMoreAudioRouteViewModel, Chat.AVChatGroupCallShowMoreMuteViewModel ?, Chat.AVChatGroupCallShowMoreRaiseHandViewModel, _$s7Combine9PublishedVMn AVChat.ShowMoreContent, _$sSD -> _$ss5Int64VMn AVChat.AVChatParticipantListCellViewModel, _$sSh -> _$s7Combine14AnyCancellableCMn, _TtCs12_SwiftObject;
+@class Chat.AVChatCallUISession, Chat.AVChatGroupCallShowMoreAudioRouteViewModel, Chat.AVChatGroupCallShowMoreMuteViewModel ?, Chat.AVChatGroupCallShowMoreRaiseHandViewModel, _$s7Combine9PublishedVMn AVChat.AVChatGroupCallShowMoreState, _$sSh -> _$s7Combine14AnyCancellableCMn, _TtCs12_SwiftObject;
 
 @interface AVChat.AVChatGroupCallShowMoreViewModel : Swift._SwiftObject { // (Swift)
     /* instance variables */
     oneway _Atomic Chat.AVChatCallUISession _callUISession;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable _cancellables;
-    Swift.Dictionary -> nominal type descriptor for Swift.Int64 AVChat.AVChatParticipantListCellViewModel _cellViewModels;
     oneway _Atomic Chat.AVChatGroupCallShowMoreRaiseHandViewModel _raiseHandViewModel;
     oneway _Atomic Chat.AVChatGroupCallShowMoreAudioRouteViewModel _audioRouteViewModel;
     oneway _Atomic Chat.AVChatGroupCallShowMoreMuteViewModel ? _muteViewModel;
-    nominal type descriptor for Combine.Published AVChat.ShowMoreContent _content;
+    nominal type descriptor for Combine.Published AVChat.AVChatGroupCallShowMoreState _state;
 }
 
 @end

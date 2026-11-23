@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC20ChatAttachmentViewer23ZoomableMediaScrollView_h
 #define _TtC20ChatAttachmentViewer23ZoomableMediaScrollView_h
@@ -7,13 +5,14 @@
 
 #include "UIScrollViewDelegate-Protocol.h"
 
-@class UIScrollView, _$sSo22UITapGestureRecognizerCSg, _$sSo6UIViewC, _$sySbcSg, __C.CGSize ?, __C.UIEdgeInsets;
+@class Swift.Bool, UIScrollView, _$sSo22UITapGestureRecognizerCSg, _$sSo6UIViewC, _$sySbcSg, __C.CGSize ?, __C.UIEdgeInsets;
 
 @interface ChatAttachmentViewer.ZoomableMediaScrollView : UIScrollView <UIScrollViewDelegate> { // (Swift)
     /* instance variables */
     __C.UIView mediaView;
     __C.CGSize ? mediaContentSize;
     __C.UIEdgeInsets mediaContentInsets;
+    Swift.Bool masksMediaToCircle;
     ((Swift.Bool) -> ())? onZoomActiveChanged;
     __C.UITapGestureRecognizer? $__lazy_storage_$_doubleTapRecognizer;
 }

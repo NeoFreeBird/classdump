@@ -1,18 +1,16 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend34ChatAddReactionActionHandlerPlugin_h
 #define _TtC8ChatSend34ChatAddReactionActionHandlerPlugin_h
 @import Foundation;
 
-@class ChatModelsCore.UserID, ChatSend.ChatRetryJobStream, ChatSend.XChatRetryJobFactory, ChatSync.XChatProjection, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
+@class ChatModelsCore.UserID, ChatSend.ChatRetryJobFactory, ChatSend.ChatRetryJobStream, ChatSync.ChatProjection, ChatSyncState.ChatActionTrigger, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatAddReactionActionHandlerPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
     ChatSyncState.ChatActionTrigger trigger;
     ChatModelsCore.UserID owner;
-    ChatSync.XChatProjection projection;
-    ChatSend.XChatRetryJobFactory retryJobFactory;
+    ChatSync.ChatProjection projection;
+    ChatSend.ChatRetryJobFactory retryJobFactory;
     ChatSend.ChatRetryJobStream retryJobStream;
 }
 

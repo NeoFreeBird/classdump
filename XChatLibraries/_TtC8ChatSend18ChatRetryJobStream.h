@@ -1,16 +1,14 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC8ChatSend18ChatRetryJobStream_h
 #define _TtC8ChatSend18ChatRetryJobStream_h
 @import Foundation;
 
-@class ChatSync.ChatPendingMutationsStream, _$sScS -> ChatSend.XChatRetryJob, _$sScS12ContinuationVMn ChatSend.XChatRetryJob _$s_ ->, _TtCs12_SwiftObject;
+@class ChatSync.ChatPendingMutationsStream, _$sScS -> ChatSend.ChatRetryJob, _$sScS12ContinuationVMn ChatSend.ChatRetryJob _$s_ ->, _TtCs12_SwiftObject;
 
 @interface ChatSend.ChatRetryJobStream : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    Swift.AsyncStream -> ChatSend.XChatRetryJob submittedJobs;
-    nominal type descriptor for Swift.AsyncStream.Continuation ChatSend.XChatRetryJob  first-element-marker  -> continuation;
+    Swift.AsyncStream -> ChatSend.ChatRetryJob submittedJobs;
+    nominal type descriptor for Swift.AsyncStream.Continuation ChatSend.ChatRetryJob  first-element-marker  -> continuation;
     ChatSync.ChatPendingMutationsStream pendingMutationsStream;
 }
 

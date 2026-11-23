@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC18TwitterAudiospacesP33_48F13B9BF2247105515D2385A52BACE726PlaybackAudiowaveViewModel_h
 #define _TtC18TwitterAudiospacesP33_48F13B9BF2247105515D2385A52BACE726PlaybackAudiowaveViewModel_h

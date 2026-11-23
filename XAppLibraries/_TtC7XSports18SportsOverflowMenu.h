@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports18SportsOverflowMenu_h
 #define _TtC7XSports18SportsOverflowMenu_h
 @import Foundation;
 
-@class XSports.SportsScribe, XSports.SportsShareActions, _$sSaySo13UIMenuElementCGyc, _$sSbyc, _$sSo16UIViewControllerCSgXw, _$sSo16UIViewControllerCyScMYccSg, _$sSo6UIViewCSgXw, _TtCs12_SwiftObject;
+@class XSports.SportsScribe, XSports.SportsShareActions, _$sSaySo13UIMenuElementCGyc, _$sSbyc, _$sSo15UIBarButtonItemCSgXw, _$sSo16UIViewControllerCSgXw, _$sSo16UIViewControllerCyScMYccSg, _$sSo6UIViewCSgXw, _$syycSg, _TtCs12_SwiftObject;
 
 @interface XSports.SportsOverflowMenu : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -15,7 +13,9 @@
     XSports.SportsScribe scribe;
     () -> Swift.Bool sharesChat;
     () -> [__C.UIMenuElement] additionalActions;
+    (() -> ())? showFavoriteTeams;
     (@Swift.MainActor () -> __C.UIViewController)? makeSettings;
+    weak __C.UIBarButtonItem? barButtonItem;
 }
 
 @end

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1NetworkMonitor_h
 #define T1NetworkMonitor_h
@@ -16,7 +14,7 @@
 
 @interface T1NetworkMonitor : NSObject <TNLNetworkObserver, TIPImagePipelineObserver, T1BandwidthAggregatorDelegate, TNLCommunicationAgentObserver, PTVModelSession, TNUNetworkQualityProvider> {
     /* instance variables */
-    struct { long long txBytesWWAN; long long rxBytesWWAN; long long txBytesWIFI; long long rxBytesWIFI; long long txBytesWWANApi; long long rxBytesWWANApi; long long txBytesWIFIApi; long long rxBytesWIFIApi; long long txBytesWWANImage; long long rxBytesWWANImage; long long txBytesWIFIImage; long long rxBytesWIFIImage; long long txBytesWWANFoundMediaImage; long long rxBytesWWANFoundMediaImage; long long txBytesWIFIFoundMediaImage; long long rxBytesWIFIFoundMediaImage; long long rxBytesWWANAV; long long rxBytesWIFIAV; long long txBytesWWANScribe; long long rxBytesWWANScribe; long long txBytesWIFIScribe; long long rxBytesWIFIScribe; long long txBytesWWANOther; long long rxBytesWWANOther; long long txBytesWIFIOther; long long rxBytesWIFIOther; } _dataUsage;
+    struct { long long txBytesWWAN; long long rxBytesWWAN; long long txBytesWIFI; long long rxBytesWIFI; long long requestsWWAN; long long requestsWIFI; long long txBytesWWANApi; long long rxBytesWWANApi; long long txBytesWIFIApi; long long rxBytesWIFIApi; long long txBytesWWANImage; long long rxBytesWWANImage; long long txBytesWIFIImage; long long rxBytesWIFIImage; long long txBytesWWANFoundMediaImage; long long rxBytesWWANFoundMediaImage; long long txBytesWIFIFoundMediaImage; long long rxBytesWIFIFoundMediaImage; long long rxBytesWWANAV; long long rxBytesWIFIAV; long long txBytesWWANScribe; long long rxBytesWWANScribe; long long txBytesWIFIScribe; long long rxBytesWIFIScribe; long long txBytesWWANOther; long long rxBytesWWANOther; long long txBytesWIFIOther; long long rxBytesWIFIOther; } _dataUsage;
     _Bool _tnlForPeriscopeEnabled;
     TNLRequestConfiguration *_periscopeModeConfigs[3];
     _Bool _started;
@@ -59,6 +57,7 @@
 - (void)dealloc;
 - (void)start;
 - (id)networkDataUsageWithMask:(unsigned long long)mask;
+- (struct { long long x0; long long x1; long long x2; long long x3; long long x4; long long x5; double x6; })dataUsageTotals;
 - (id)_t1_atomic_userOrGuestScribe;
 - (void)registerClientNetworkRequestEventFilter:(id)filter;
 - (void)unregisterClientNetworkRequestEventFilter:(id)filter;

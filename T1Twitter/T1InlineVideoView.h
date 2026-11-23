@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1InlineVideoView_h
 #define T1InlineVideoView_h
@@ -41,6 +39,7 @@
     NSNumber"16@0:8 *isAutoUnmuteEnabled;
     NSNumber"16@0:8 *isDockedBroadcastReopenEnabled;
     NSNumber"16@0:8 *isBroadcastCardUnificationUIEnabled;
+    NSNumber"16@0:8 *isLazyChromeEnabled;
     NSNumber"16@0:8 *statusIDsWithScribedAutoplayExclusion;
     NSNumber"16@0:8 *overlayShownForPictureInPicture;
 }

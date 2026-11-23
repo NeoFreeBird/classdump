@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef THFSportsPostContextSectionTransformer_h
 #define THFSportsPostContextSectionTransformer_h
@@ -20,7 +18,7 @@
 
 /* instance methods */
 - (id)initWithMinimumSpacing:(long long)spacing sameGameMinimumSpacing:(long long)spacing;
-- (id)transformWithSections:(id)sections;
+- (id)transformWithSections:(id)sections decisions:(id)decisions;
 - (id)init;
 
 @end

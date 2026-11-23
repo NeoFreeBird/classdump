@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1UnifiedCardVideoView_h
 #define T1UnifiedCardVideoView_h
@@ -23,13 +21,13 @@
 @property (readonly) Class superclass;
 @property (readonly, copy) NSString *description;
 @property (readonly, copy) NSString *debugDescription;
-@property (retain, nonatomic) id <TUCVideoViewDelegate> delegate;
+@property (weak, nonatomic) id <TUCVideoViewDelegate> delegate;
 @property (readonly, nonatomic) TAVPlaybackState *playbackState;
 @property (nonatomic) _Bool shouldLoopVideo;
 @property (nonatomic) _Bool hideVanity;
 @property (nonatomic) _Bool trimVanityZeroWidthCharacters;
 @property (readonly, nonatomic) UIImage *image;
-@property (retain, nonatomic) id <TUCImageViewLoadDelegate> loadDelegate;
+@property (weak, nonatomic) id <TUCImageViewLoadDelegate> loadDelegate;
 
 /* instance methods */
 - (id)initWithAccount:(id)account scribeContext:(id)context;

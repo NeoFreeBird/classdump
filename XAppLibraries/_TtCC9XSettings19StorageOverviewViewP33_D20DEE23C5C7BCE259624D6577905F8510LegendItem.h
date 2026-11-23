@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC9XSettings19StorageOverviewViewP33_D20DEE23C5C7BCE259624D6577905F8510LegendItem_h
 #define _TtCC9XSettings19StorageOverviewViewP33_D20DEE23C5C7BCE259624D6577905F8510LegendItem_h

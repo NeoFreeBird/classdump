@@ -1,21 +1,20 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot24GrokBotShoppingPicksView_h
 #define _TtC11ChatGrokBot24GrokBotShoppingPicksView_h
 @import Foundation;
 
-@class ChatGrokBot.GrokBotMessageContextMenuInteraction ?, UIView, _$sSa -> ChatGrokBot.GrokBotShoppingCardView, _$sSa -> ChatGrokBot.GrokBotShoppingFollowUpsView, _$sySScSg, _$sySi_S2iSo6UIViewCtcSg, _$sySicSg, _$syycSg, __C.UIEdgeInsets;
+@class ChatGrokBot.GrokBotCartStore ?, ChatGrokBot.GrokBotMessageContextMenuInteraction ?, ChatGrokBot.GrokBotShoppingSubscription ?, UIView, _$sSa -> ChatGrokBot.GrokBotShoppingCardView, _$sySScSg, _$sySi_S2iSo6UIViewCtcSg, _$sySicSg, _$syycSg, __C.UIEdgeInsets;
 
 @interface ChatGrokBot.GrokBotShoppingPicksView : UIView { // (Swift)
     /* instance variables */
+    ChatGrokBot.GrokBotCartStore ? cart;
     __C.UIEdgeInsets horizontalBleed;
     (() -> ())? onLongPress;
     ((Swift.Int) -> ())? onSeeAll;
     ((Swift.String) -> ())? onSendPrompt;
     ((Swift.Int, Swift.Int, Swift.Int, __C.UIView) -> ())? onTapProduct;
+    ChatGrokBot.GrokBotShoppingSubscription ? subscription;
     Swift.Array -> ChatGrokBot.GrokBotShoppingCardView cardViews;
-    Swift.Array -> ChatGrokBot.GrokBotShoppingFollowUpsView followUpsViews;
     ChatGrokBot.GrokBotMessageContextMenuInteraction ? $__lazy_storage_$_contextMenuInteraction;
 }
 

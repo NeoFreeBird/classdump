@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC16ChatConversation33MessageTapActionBookingLinkPlugin_h
 #define _TtC16ChatConversation33MessageTapActionBookingLinkPlugin_h
 @import Foundation;
 
-@class ChatConversation.MessageBookingLinkMoreTimesTrayBuilder, ChatConversation.MessageBookingLinkResolving, ChatConversation.MessageBookingLinkSelectionStream, ChatConversation.MessageEntityTapHandler, ChatConversation.MessageTapActionPluginContext, ChatConversationServices.ConversationNavigation, ChatKotlin.ObjectGraphProvider, _TtCs12_SwiftObject;
+@class ChatConversation.MessageBookingLinkMoreTimesTrayBuilder, ChatConversation.MessageBookingLinkResolving, ChatConversation.MessageBookingLinkSelectionStream, ChatConversation.MessageEntityTapHandler, ChatConversation.MessageTapActionPluginContext, ChatConversationServices.ConversationNavigation, ChatSyncState.ChatActionStream, _TtCs12_SwiftObject;
 
 @interface ChatConversation.MessageTapActionBookingLinkPlugin : Swift._SwiftObject { // (Swift)
     /* instance variables */
@@ -15,7 +13,7 @@
     ChatConversation.MessageTapActionPluginContext context;
     ChatConversationServices.ConversationNavigation conversationNavigation;
     ChatConversation.MessageEntityTapHandler messageEntityTapHandler;
-    ChatKotlin.ObjectGraphProvider objectGraphProvider;
+    ChatSyncState.ChatActionStream actionStream;
 }
 
 @end

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot29GrokBotUsageWarningBannerView_h
 #define _TtC11ChatGrokBot29GrokBotUsageWarningBannerView_h
@@ -12,10 +10,12 @@
     ChatGrokBot.GrokBotUsageWarningBannerViewListener ? listener;
     ChatGrokBot.GrokBotUsageBannerViewModel ? viewModel;
     __C.UIStackView actionStackView;
+    Swift.String? blackFridayOfferTitle;
     __C.UIStackView cardStackView;
     __C.UIView cardView;
     __C.UIStackView contentStackView;
     __C.UIStackView detailsStackView;
+    __C.UILabel failureLabel;
     nominal type descriptor for XDesignSystem.Button dismissButton;
     __C.UIImageView iconView;
     nominal type descriptor for XDesignSystem.Button primaryButton;
@@ -29,12 +29,12 @@
 }
 
 /* instance methods */
-- (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;
 - (id)initWithCoder:(id)coder;
 - (void)didMoveToWindow;
 - (void)didTapDismiss;
 - (void)didTapPrimary;
 - (void)didTapSecondary;
+- (id)initWithFrame:(struct CGRect { struct CGPoint { double x0; double x1; } x0; struct CGSize { double x0; double x1; } x1; })frame;
 
 @end
 

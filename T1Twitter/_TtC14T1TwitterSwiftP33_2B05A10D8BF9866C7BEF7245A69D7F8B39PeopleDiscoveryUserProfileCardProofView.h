@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_2B05A10D8BF9866C7BEF7245A69D7F8B39PeopleDiscoveryUserProfileCardProofView_h
 #define _TtC14T1TwitterSwiftP33_2B05A10D8BF9866C7BEF7245A69D7F8B39PeopleDiscoveryUserProfileCardProofView_h

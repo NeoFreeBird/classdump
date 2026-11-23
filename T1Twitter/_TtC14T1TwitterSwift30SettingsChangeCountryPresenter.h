@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwift30SettingsChangeCountryPresenter_h
 #define _TtC14T1TwitterSwift30SettingsChangeCountryPresenter_h
@@ -23,8 +21,7 @@
 - (void)presentWithPresentingController:(id)controller;
 - (id)valuesForPicker:(id)picker;
 - (id)initiallyPickedValueForPicker:(id)picker;
-- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
-- (void)pickerViewController:(id)controller didDeselectValue:(id)value inSectionAtIndex:(unsigned long long)index willConfirm:(_Bool)confirm willDismiss:(_Bool)dismiss;
+- (void)pickerViewController:(id)controller didPickValue:(id)value inSectionAtIndex:(unsigned long long)index willDismiss:(_Bool)dismiss;
 - (id)init;
 
 @end

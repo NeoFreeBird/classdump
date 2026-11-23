@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14GrokFileUploadP33_34CC154101C5CED8F0B175FE29A8639B24FileUploadAsyncSemaphore_h
 #define _TtC14GrokFileUploadP33_34CC154101C5CED8F0B175FE29A8639B24FileUploadAsyncSemaphore_h

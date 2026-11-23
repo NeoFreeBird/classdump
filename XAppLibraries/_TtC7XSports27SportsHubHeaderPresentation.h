@@ -1,18 +1,15 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XSports27SportsHubHeaderPresentation_h
 #define _TtC7XSports27SportsHubHeaderPresentation_h
 @import Foundation;
 
-@class XSports.SportsFavoriteTeamsHeaderAccessory ?, XSports.SportsHubHeaderAccessoryView, XSports.SportsOverflowMenu ?, _$sSo15UIBarButtonItemCSgSg, _$sSo8UIButtonCSg, _TtCs12_SwiftObject;
+@class XSports.SportsFavoriteTeamsPromptCoordinator ?, XSports.SportsHubOverflowButtonView ??, XSports.SportsOverflowMenu ?, _$sSo15UIBarButtonItemCSgSg, _TtCs12_SwiftObject;
 
 @interface XSports.SportsHubHeaderPresentation : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    XSports.SportsFavoriteTeamsHeaderAccessory ? accessory;
     XSports.SportsOverflowMenu ? overflowMenu;
-    XSports.SportsHubHeaderAccessoryView accessoryView;
-    __C.UIButton? overflowButton;
+    XSports.SportsFavoriteTeamsPromptCoordinator ? favoriteTeamsPrompt;
+    XSports.SportsHubOverflowButtonView ?? $__lazy_storage_$_overflowButtonView;
     __C.UIBarButtonItem?? $__lazy_storage_$_overflowBarButtonItem;
 }
 

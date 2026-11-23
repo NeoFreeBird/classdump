@@ -1,0 +1,12 @@
+//
+#ifndef _TtC8ElkSwift69org_eclipse_elk_alg_layered_intermediate_LayerConstraintPostprocessor_h
+#define _TtC8ElkSwift69org_eclipse_elk_alg_layered_intermediate_LayerConstraintPostprocessor_h
+@import Foundation;
+
+@class _TtCs12_SwiftObject;
+
+@interface ElkSwift.org_eclipse_elk_alg_layered_intermediate_LayerConstraintPostprocessor : Swift._SwiftObject // (Swift)
+
+@end
+
+#endif /* _TtC8ElkSwift69org_eclipse_elk_alg_layered_intermediate_LayerConstraintPostprocessor_h */

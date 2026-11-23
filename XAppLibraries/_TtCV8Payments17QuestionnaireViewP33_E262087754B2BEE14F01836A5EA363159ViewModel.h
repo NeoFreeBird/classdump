@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCV8Payments17QuestionnaireViewP33_E262087754B2BEE14F01836A5EA363159ViewModel_h
 #define _TtCV8Payments17QuestionnaireViewP33_E262087754B2BEE14F01836A5EA363159ViewModel_h

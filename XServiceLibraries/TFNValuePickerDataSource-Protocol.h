@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef TFNValuePickerDataSource_Protocol_h
 #define TFNValuePickerDataSource_Protocol_h
@@ -22,9 +20,7 @@
 - (id)unpickableValuesForPicker:(id)picker;
 - (id)unpickableTextForPicker:(id)picker;
 - (id)picker:(id)picker messageForValue:(id)value;
-- (id)addValueMessageForPicker:(id)picker;
 - (id)addValueMessagesForPicker:(id)picker;
-- (id)confirmationMessageForPicker:(id)picker;
 
 @end
 

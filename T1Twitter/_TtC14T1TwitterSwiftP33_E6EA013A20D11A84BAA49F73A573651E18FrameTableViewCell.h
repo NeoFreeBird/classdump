@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_E6EA013A20D11A84BAA49F73A573651E18FrameTableViewCell_h
 #define _TtC14T1TwitterSwiftP33_E6EA013A20D11A84BAA49F73A573651E18FrameTableViewCell_h

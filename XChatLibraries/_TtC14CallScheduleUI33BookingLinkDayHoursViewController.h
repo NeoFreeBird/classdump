@@ -1,11 +1,9 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14CallScheduleUI33BookingLinkDayHoursViewController_h
 #define _TtC14CallScheduleUI33BookingLinkDayHoursViewController_h
 @import Foundation;
 
-@class CallScheduleUI.BookingLinkDisplayFormatter, CallScheduleUI.BookingLinkFormState, CallScheduleUI.BookingLinkFormStream, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem9ListItemsCMn, _$s7XKotlin14BookingWeekdayOMn, _$sSa -> CallScheduleUI.BookingLinkTimeRangeView, _$sSh -> _$s7Combine14AnyCancellableCMn;
+@class CallModels.CallBookingWeekday, CallScheduleUI.BookingLinkDisplayFormatter, CallScheduleUI.BookingLinkFormState, CallScheduleUI.BookingLinkFormStream, _$s13XDesignSystem30StackTrayContentViewControllerCN, _$s13XDesignSystem9ListItemsCMn, _$sSa -> CallScheduleUI.BookingLinkTimeRangeView, _$sSh -> _$s7Combine14AnyCancellableCMn;
 
 @interface CallScheduleUI.BookingLinkDayHoursViewController : type metadata for XDesignSystem.StackTrayContentViewController { // (Swift)
     /* instance variables */
@@ -16,7 +14,7 @@
     Swift.Array -> CallScheduleUI.BookingLinkTimeRangeView rangeViews;
     CallScheduleUI.BookingLinkFormState state;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable subscriptions;
-    nominal type descriptor for XKotlin.BookingWeekday weekday;
+    CallModels.CallBookingWeekday weekday;
 }
 
 /* instance methods */

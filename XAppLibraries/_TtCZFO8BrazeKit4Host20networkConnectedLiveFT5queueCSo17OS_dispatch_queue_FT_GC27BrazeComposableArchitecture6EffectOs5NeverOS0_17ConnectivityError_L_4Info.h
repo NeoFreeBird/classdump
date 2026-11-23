@@ -1,15 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCZFO8BrazeKit4Host20networkConnectedLiveFT5queueCSo17OS_dispatch_queue_FT_GC27BrazeComposableArchitecture6EffectOs5NeverOS0_17ConnectivityError_L_4Info_h
 #define _TtCZFO8BrazeKit4Host20networkConnectedLiveFT5queueCSo17OS_dispatch_queue_FT_GC27BrazeComposableArchitecture6EffectOs5NeverOS0_17ConnectivityError_L_4Info_h
 @import Foundation;
 
-@class Chat.DidEndCall, _TtCs12_SwiftObject;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, _TtCs12_SwiftObject;
 
 @interface Info #1 in static BrazeKit.Host.networkConnectedLive(queue: __C.OS_dispatch_queue) -> () -> BrazeComposableArchitecture.Effect<Swift.Never, BrazeKit.Host.ConnectivityError> : Swift._SwiftObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall onChange;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift onChange;
 }
 
 @end

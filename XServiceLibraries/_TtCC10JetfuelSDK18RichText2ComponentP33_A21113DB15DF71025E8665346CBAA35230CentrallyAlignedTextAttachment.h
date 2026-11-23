@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtCC10JetfuelSDK18RichText2ComponentP33_A21113DB15DF71025E8665346CBAA35230CentrallyAlignedTextAttachment_h
 #define _TtCC10JetfuelSDK18RichText2ComponentP33_A21113DB15DF71025E8665346CBAA35230CentrallyAlignedTextAttachment_h

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC11ChatGrokBot26GrokBotShoppingProductView_h
 #define _TtC11ChatGrokBot26GrokBotShoppingProductView_h
@@ -7,7 +5,7 @@
 
 #include "UIScrollViewDelegate-Protocol.h"
 
-@class ChatGrokBot.GrokBotShoppingAboutView, ChatGrokBot.GrokBotShoppingGalleryView, ChatGrokBot.GrokBotShoppingIdentityView, ChatGrokBot.GrokBotShoppingOffer _$scSg ->, ChatGrokBot.GrokBotShoppingPayBarView, ChatGrokBot.GrokBotShoppingReasonsView, ChatGrokBot.GrokBotShoppingReviewsView, ChatGrokBot.GrokBotShoppingSimilarView, ChatGrokBot.GrokBotShoppingWhereToBuyView, Swift.Bool, UIView, _$s13XDesignSystem9ListGroupCMn ?, _$s13XDesignSystem9ListItemsCMn, _$sSa -> ChatGrokBot.GrokBotShoppingProductView.OptionSection, _$sSo12UIScrollViewC, _$sSo6UIViewC, _$sSo7UILabelC, _$sySS_SStcSg, _$sySbcSg;
+@class ChatGrokBot.GrokBotShoppingAboutView, ChatGrokBot.GrokBotShoppingGalleryView, ChatGrokBot.GrokBotShoppingIdentityView, ChatGrokBot.GrokBotShoppingOffer _$scSg ->, ChatGrokBot.GrokBotShoppingPayBarView, ChatGrokBot.GrokBotShoppingReviewsView, ChatGrokBot.GrokBotShoppingSimilarView, ChatGrokBot.GrokBotShoppingWhereToBuyView, Swift.Bool, UIView, _$s13XDesignSystem9ListGroupCMn ?, _$s13XDesignSystem9ListItemsCMn, _$sSa -> ChatGrokBot.GrokBotShoppingProductView.OptionSection, _$sSo12UIScrollViewC, _$sSo6UIViewC, _$sSo7UILabelC, _$sySS_SStcSg, _$sySbcSg;
 
 @interface ChatGrokBot.GrokBotShoppingProductView : UIView <UIScrollViewDelegate> { // (Swift)
     /* instance variables */
@@ -22,7 +20,6 @@
     ChatGrokBot.GrokBotShoppingIdentityView identityView;
     nominal type descriptor for XDesignSystem.ListItems offerList;
     ChatGrokBot.GrokBotShoppingPayBarView payBarView;
-    ChatGrokBot.GrokBotShoppingReasonsView reasonsView;
     __C.UILabel recommendationLabel;
     ChatGrokBot.GrokBotShoppingReviewsView reviewsView;
     ChatGrokBot.GrokBotShoppingSimilarView similarView;

@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC23TwitterProfileModulesUIP33_3DC656DEFE008C63BBDEFAD74608F79150CommunitiesModuleConfigurationHeaderViewController_h
 #define _TtC23TwitterProfileModulesUIP33_3DC656DEFE008C63BBDEFAD74608F79150CommunitiesModuleConfigurationHeaderViewController_h

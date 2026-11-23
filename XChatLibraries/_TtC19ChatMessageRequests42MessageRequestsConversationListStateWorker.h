@@ -1,23 +1,21 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC19ChatMessageRequests42MessageRequestsConversationListStateWorker_h
 #define _TtC19ChatMessageRequests42MessageRequestsConversationListStateWorker_h
 @import Foundation;
 
-@class ChatConversationList.ConversationActionPluginPointing, ChatConversationList.ConversationListStateStream, ChatMessageRequests.MessageRequestsClosedInboxDisclaimerBuilder, ChatMessageRequests.MessageRequestsConversationPreviewStream, ChatMessageRequests.MessageRequestsDmSettingsStream, ChatMessageRequests.MessageRequestsFailureStream, ChatMessageRequests.MessageRequestsListActionTriggerStream, ChatMessageRequests.MessageRequestsListWorkerPluginContext, ChatModelsCore.MessageRequestsTab, _$s11XFoundation13CombineWorkerCN;
+@class ChatConversationList.ConversationActionPluginPointing, ChatConversationList.ConversationListStateStream, ChatMessageRequests.MessageRequestsConversationPreviewStream, ChatMessageRequests.MessageRequestsDmSettingsStream, ChatMessageRequests.MessageRequestsFailureStream, ChatMessageRequests.MessageRequestsListActionTriggerStream, ChatMessageRequests.MessageRequestsListWorkerPluginContext, ChatMessageRequests.MessageRequestsSettingsDisclaimerBuilder, ChatModelsCore.MessageRequestsTab, _$s11XFoundation13CombineWorkerCN;
 
 @interface ChatMessageRequests.MessageRequestsConversationListStateWorker : type metadata for XFoundation.CombineWorker { // (Swift)
     /* instance variables */
     ChatConversationList.ConversationActionPluginPointing actionPluginPoint;
     ChatMessageRequests.MessageRequestsListActionTriggerStream actionTriggerStream;
-    ChatMessageRequests.MessageRequestsClosedInboxDisclaimerBuilder closedInboxDisclaimerBuilder;
     ChatMessageRequests.MessageRequestsListWorkerPluginContext context;
     ChatMessageRequests.MessageRequestsDmSettingsStream dmSettingsStream;
     ChatConversationList.ConversationListStateStream listStateStream;
     ChatMessageRequests.MessageRequestsConversationPreviewStream messageRequestsConversationPreviewStream;
     ChatMessageRequests.MessageRequestsFailureStream messageRequestsFailureStream;
     ChatModelsCore.MessageRequestsTab messageRequestsTab;
+    ChatMessageRequests.MessageRequestsSettingsDisclaimerBuilder settingsDisclaimerBuilder;
 }
 
 @end

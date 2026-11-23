@@ -1,15 +1,13 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZSDKMetadata_h
 #define BRZSDKMetadata_h
 @import Foundation;
 
-@class Chat.DidEndCall, NSObject;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSObject;
 
 @interface BRZSDKMetadata : NSObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall sdkMetadata;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift sdkMetadata;
 }
 
 @property (nonatomic, readonly) long long hash;

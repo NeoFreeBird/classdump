@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC9XCashTags16CashTagChartView_h
 #define _TtC9XCashTags16CashTagChartView_h
@@ -7,7 +5,7 @@
 
 #include "UIGestureRecognizerDelegate-Protocol.h"
 
-@class Swift.Bool, UIView, XCashTags.CashTagAttachmentCustomTimeframeData ?, XCashTags.CashTagAttachmentFooterView ??, XCashTags.CashTagChartControlsView ?, XCashTags.CashTagChartErrorOrEmptyMode ?, XCashTags.CashTagChartErrorOrEmptyView ?, XCashTags.CashTagChartInspectActivation, XCashTags.CashTagChartQuery ?, XCashTags.CashTagChartStyle ?, XCashTags.CashTagChartViewDelegate ?, XCashTags.CashTagViewDisplayStyle, XCashTags.PassthroughOverlayView ?, XCashTags.TouchTrackingGestureRecognizer ?, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$sSD -> XCashTags.CashTagChartQuery XCashTags.CashTagChartSeries, _$sSD -> XCashTags.CashTagChartSegmentKey XCashTags.CashTagChartSegmentRenderer, _$sSa -> XCashTags.CashTagRenderedSegment, _$sSa -> _$s12CoreGraphics7CGFloatVMn xPosition_Si9dataIndext, _$sSa -> __C.CGColor, _$sSbSg, _$sSdSg, _$sSh -> XCashTags.CashTagChartQuery, _$sShySOG, _$sSi, _$sSiSg, _$sSo11UIStackViewCSg, _$sSo12CAShapeLayerCSg, _$sSo16TIPImagePipelineCSg, _$sSo18NSLayoutConstraintCSg, _$sSo22UIPanGestureRecognizerCSg, _$sSo23UIActivityIndicatorViewCSg, _$sSo28UILongPressGestureRecognizerCSg, _$sSo6UIViewCSg, _$sSo7CALayerCSg, _$sSo7UILabelCSg, _$syyc, __C.CGColor, __C.CGRect;
+@class Swift.Bool, UIView, XCashTags.CashTagAttachmentCustomTimeframeData ?, XCashTags.CashTagAttachmentFooterView ??, XCashTags.CashTagChartControlsView ?, XCashTags.CashTagChartErrorOrEmptyMode ?, XCashTags.CashTagChartErrorOrEmptyView ?, XCashTags.CashTagChartInspectActivation, XCashTags.CashTagChartQuery ?, XCashTags.CashTagChartStyle ?, XCashTags.CashTagChartViewDelegate ?, XCashTags.CashTagViewDisplayStyle, XCashTags.PassthroughOverlayView ?, XCashTags.TouchTrackingGestureRecognizer ?, _$s12CoreGraphics7CGFloatVMn, _$s12CoreGraphics7CGFloatVMn ?, _$sSD -> XCashTags.CashTagChartQuery XCashTags.CashTagChartSeries, _$sSD -> XCashTags.CashTagChartSegmentKey XCashTags.CashTagChartSegmentRenderer, _$sSa -> XCashTags.CashTagRenderedSegment, _$sSa -> _$s12CoreGraphics7CGFloatVMn xPosition_Si9dataIndext, _$sSa -> __C.CGColor, _$sSbSg, _$sSdSg, _$sSh -> XCashTags.CashTagChartQuery, _$sShySOG, _$sSi, _$sSiSg, _$sSo11UIStackViewCSg, _$sSo12CAShapeLayerCSg, _$sSo18NSLayoutConstraintCSg, _$sSo22UIPanGestureRecognizerCSg, _$sSo23UIActivityIndicatorViewCSg, _$sSo28UILongPressGestureRecognizerCSg, _$sSo6UIViewCSg, _$sSo7CALayerCSg, _$sSo7UILabelCSg, __C.CGColor, __C.CGRect;
 
 @interface XCashTags.CashTagChartView : UIView <UIGestureRecognizerDelegate> { // (Swift)
     /* instance variables */
@@ -58,6 +56,7 @@
     __C.NSLayoutConstraint? inspectOverlayBottomToChart;
     __C.NSLayoutConstraint? errorOrEmptyViewBottomToVolume;
     __C.NSLayoutConstraint? errorOrEmptyViewBottomToChart;
+    __C.NSLayoutConstraint? $__lazy_storage_$_chartAreaHeightConstraint;
     __C.UIActivityIndicatorView? $__lazy_storage_$_activityIndicator;
     XCashTags.CashTagChartErrorOrEmptyView ? $__lazy_storage_$_errorOrEmptyView;
     __C.UIStackView? $__lazy_storage_$_containerStack;
@@ -80,14 +79,11 @@
     __C.UILongPressGestureRecognizer? $__lazy_storage_$_twoFingerLongPressGestureRecognizer;
     XCashTags.TouchTrackingGestureRecognizer ? $__lazy_storage_$_touchTrackingGestureRecognizer;
     nominal type descriptor for CoreGraphics.CGFloat chartAreaHeight;
+    Swift.Bool isChartAreaHeightChangePending;
     XCashTags.CashTagViewDisplayStyle displayStyle;
     Swift.Bool isActive;
     XCashTags.CashTagChartInspectActivation inspectActivation;
     XCashTags.CashTagAttachmentCustomTimeframeData ? customTimeframeData;
-    Swift.Bool tradeEnabled;
-    __C.TIPImagePipeline? imagePipeline;
-    () -> () onTradeClick;
-    XCashTags.CashTagTradePlatform function type (escaping) onOpenTrade;
     XCashTags.CashTagAttachmentFooterView ?? $__lazy_storage_$_attachmentFooterView;
 }
 

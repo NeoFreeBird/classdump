@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC10CallScreen31CallScreenContentViewController_h
 #define _TtC10CallScreen31CallScreenContentViewController_h
@@ -7,7 +5,7 @@
 
 #include "UIGestureRecognizerDelegate-Protocol.h"
 
-@class CallEngine.Call, CallModels.CallImageLoading, CallScreen.CallActionTrayAvailabilityStream, CallScreen.CallActionTrayBuilder, CallScreen.CallDebugVisibilityStream, CallScreen.CallImmersionStream, CallScreen.CallParticipantTrayBuilder, CallScreen.CallPictureInPictureCornerStream, CallScreen.CallScreenShareFullScreenStream, CallScreen.CallScreenTopBarButtonPluginPoint, CallScreen.CallScreenView, Swift.Bool, UIViewController, _$sSa -> CallScreen.CallScreenTopBarButtonPlugin, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo22UITapGestureRecognizerC;
+@class CallEngine.Call, CallModels.CallCaptureConsentRequest ?, CallModels.CallImageLoading, CallScreen.CallActionTrayAvailabilityStream, CallScreen.CallActionTrayBuilder, CallScreen.CallDebugVisibilityStream, CallScreen.CallImmersionStream, CallScreen.CallParticipantTrayBuilder, CallScreen.CallPictureInPictureCornerStream, CallScreen.CallScreenShareFullScreenStream, CallScreen.CallScreenTopBarButtonPluginPoint, CallScreen.CallScreenView, Swift.Bool, UIViewController, _$s13XDesignSystem19AlertViewControllerCMn ?, _$sSa -> CallScreen.CallScreenTopBarButtonPlugin, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo22UITapGestureRecognizerC;
 
 @interface CallScreen.CallScreenContentViewController : UIViewController <UIGestureRecognizerDelegate> { // (Swift)
     /* instance variables */
@@ -26,6 +24,9 @@
     __C.UITapGestureRecognizer immersiveTapRecognizer;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable subscriptions;
     Swift.Bool isImmersive;
+    CallModels.CallCaptureConsentRequest ? captureConsentRequest;
+    CallModels.CallCaptureConsentRequest ? captureConsentAlertRequest;
+    nominal type descriptor for XDesignSystem.AlertViewController ? captureConsentAlert;
 }
 
 @property (nonatomic, readonly) _Bool prefersStatusBarHidden;

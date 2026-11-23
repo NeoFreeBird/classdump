@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1ComplatWebviewPrewarmer_h
 #define T1ComplatWebviewPrewarmer_h
@@ -17,6 +15,7 @@
     NSNumber"16@0:8 *warmAccount;
     NSNumber"16@0:8 *activeHost;
     NSNumber"16@0:8 *consecutiveWarmFailures;
+    NSNumber"16@0:8 *lastWarmFailureAt;
     NSNumber"16@0:8 *retryTask;
     NSNumber"16@0:8 *hasKicked;
 }

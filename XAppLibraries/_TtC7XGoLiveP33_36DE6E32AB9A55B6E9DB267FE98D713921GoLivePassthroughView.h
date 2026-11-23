@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC7XGoLiveP33_36DE6E32AB9A55B6E9DB267FE98D713921GoLivePassthroughView_h
 #define _TtC7XGoLiveP33_36DE6E32AB9A55B6E9DB267FE98D713921GoLivePassthroughView_h

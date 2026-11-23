@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef T1AVChatPresenter_h
 #define T1AVChatPresenter_h
@@ -18,6 +16,7 @@
 + (void)startCallScheduleSessionWithAccount:(id)account;
 + (void)endCallScheduleSessionWithAccountID:(id)id;
 + (id)usernameForIntentHandleValue:(id)value;
++ (_Bool)handleXNumberCallIntentWithHandleValue:(id)value isAudioOnly:(_Bool)only account:(id)account fromViewController:(id)controller;
 + (void)handleAVChatFromCallIntentWithAccount:(id)account conversationID:(id)id isAudioOnly:(_Bool)only startsOnSpeaker:(_Bool)speaker origin:(long long)origin fromViewController:(id)controller;
 + (void)handleGroupCallFromCallIntentWithAccount:(id)account conversationID:(id)id isAudioOnly:(_Bool)only;
 + (_Bool)isBlockingConcurrentActivities;

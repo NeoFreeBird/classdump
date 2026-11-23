@@ -1,5 +1,3 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 27.1, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef _TtC14T1TwitterSwiftP33_A3CB6A126EED3B14C755EBA6418F4F5827GlassCallDockViewController_h
 #define _TtC14T1TwitterSwiftP33_A3CB6A126EED3B14C755EBA6418F4F5827GlassCallDockViewController_h

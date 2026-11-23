@@ -1,17 +1,15 @@
-//    - LC_BUILD_VERSION:  Platform: iOS, MinOS: 15, SDK: 26.5, Tool: ld (27037.1)
-//    - LC_SOURCE_VERSION: 0.0.0.0.0
 //
 #ifndef BRZFeatureFlags_h
 #define BRZFeatureFlags_h
 @import Foundation;
 
-@class Chat.DidEndCall, NSArray, NSObject;
+@class /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift, NSArray, NSObject;
 
 @interface BRZFeatureFlags : NSObject { // (Swift)
     /* instance variables */
-    oneway _Atomic Chat.DidEndCall viewStore;
-    oneway _Atomic Chat.DidEndCall _subscribers;
-    oneway _Atomic Chat.DidEndCall __atomicFeatureFlagsDict;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift viewStore;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift _subscribers;
+    /usr/local/jenkins/workspace/twitter-ios-build/Frameworks/XAppLibraries/AVChat/Sources/AVChat/AVChatUtils.swift __atomicFeatureFlagsDict;
 }
 
 @property (nonatomic, copy) NSArray *featureFlags;
