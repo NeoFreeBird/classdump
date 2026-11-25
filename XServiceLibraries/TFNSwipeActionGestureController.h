@@ -31,6 +31,7 @@
 @property (retain, nonatomic) CAShapeLayer *bottomCornerMask;
 @property (weak, nonatomic) NSIndexPath *currentIndexPath;
 @property (nonatomic) _Bool isActivelySwiping;
+@property (readonly, nonatomic) _Bool isTrackingSwipeRight;
 @property (readonly) unsigned long long hash;
 @property (readonly) Class superclass;
 @property (readonly, copy) NSString *description;

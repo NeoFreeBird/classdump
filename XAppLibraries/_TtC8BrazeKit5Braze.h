@@ -21,7 +21,7 @@
     BrazeKit.Braze.LiveActivities liveActivities;
     BrazeKit.BrazeViewStore viewStore;
     BrazeKit.BrazeEnvironment environment;
-    union accessor function sub_6767c74 _sessionSubscribers;
+    union accessor function sub_6767af4 _sessionSubscribers;
     BrazeKit.Braze.Logger logger;
 }
 

@@ -8,7 +8,7 @@
 @interface FirebaseCoreInternal.HeartbeatController : Swift._SwiftObject { // (Swift)
     /* instance variables */
     FirebaseCoreInternal.HeartbeatStorageProtocol storage;
-    union accessor function sub_34e62d0 dateProvider;
+    union accessor function sub_34e62a4 dateProvider;
 }
 
 @end

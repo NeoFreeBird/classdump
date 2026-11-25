@@ -3,7 +3,7 @@
 #define _TtC7XSports23SportsHubViewController_h
 @import Foundation;
 
-@class UIViewController, XSports.SportsColumnsView, XSports.SportsComposeAction ?, XSports.SportsFavoriteTeamsBannerPresentation ?, XSports.SportsHubBranding ?, XSports.SportsHubChromeScroll, XSports.SportsHubGrok ?, XSports.SportsHubHeaderPresentation ?, XSports.SportsHubRouter, XSports.SportsHubScheduleColumnView ?, XSports.SportsHubState.Header ?, XSports.SportsHubStore, XSports.SportsHubTitleControl ?, XSports.SportsHubView ?, XSports.SportsHubViewController.TabBarAccessoryKey ?, XSports.SportsImageLoader, XSports.SportsSegmentBarView, XSports.SportsSegmentPagerViewController XSports.SportsHubSegment ?, _$s12CoreGraphics7CGFloatVMn, _$sSD -> XSports.SportsHubSegment XSports.SportsHubTab, _$sSD -> XSports.SportsHubSegment _$sSo16UIViewControllerC, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo11UIImageViewCSg, _$sSo15UIBarButtonItemCSg, _$sSo8UIActionCSg, _$syycSg;
+@class UIViewController, XSports.SportsColumnsView, XSports.SportsComposeAction ?, XSports.SportsFavoriteTeamsBannerPresentation ?, XSports.SportsHubBranding ?, XSports.SportsHubChromeScroll, XSports.SportsHubGrok ?, XSports.SportsHubHeaderPresentation ?, XSports.SportsHubRouter, XSports.SportsHubScheduleColumnView ?, XSports.SportsHubState.Header ?, XSports.SportsHubStore, XSports.SportsHubTitleControl ?, XSports.SportsHubView ?, XSports.SportsHubViewController.TabBarAccessoryKey ?, XSports.SportsImageLoader, XSports.SportsSegmentBarView, XSports.SportsSegmentPagerViewController XSports.SportsHubSegment ?, _$sSD -> XSports.SportsHubSegment XSports.SportsHubTab, _$sSD -> XSports.SportsHubSegment _$sSo16UIViewControllerC, _$sSh -> _$s7Combine14AnyCancellableCMn, _$sSo11UIImageViewCSg, _$sSo15UIBarButtonItemCSg, _$sSo8UIActionCSg, _$syycSg;
 
 @interface XSports.SportsHubViewController : UIViewController { // (Swift)
     /* instance variables */
@@ -31,7 +31,6 @@
     Swift.Dictionary -> XSports.SportsHubSegment __C.UIViewController contentViewControllers;
     XSports.SportsHubViewController.TabBarAccessoryKey ? tabBarAccessoryKey;
     Swift.Set -> nominal type descriptor for Combine.AnyCancellable cancellables;
-    nominal type descriptor for CoreGraphics.CGFloat appliedNavigationBarInset;
 }
 
 @property (nonatomic, readonly) long long preferredStatusBarStyle;
@@ -45,7 +44,6 @@
 - (void)loadView;
 - (void)viewIsAppearing:(_Bool)appearing;
 - (void)viewWillTransitionToSize:(struct CGSize { double x0; double x1; })size withTransitionCoordinator:(id)coordinator;
-- (void)viewSafeAreaInsetsDidChange;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(_Bool)appear;
 - (void)viewWillDisappear:(_Bool)disappear;

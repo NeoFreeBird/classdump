@@ -39,6 +39,7 @@
 @property (nonatomic) _Bool groupedAppearanceMaskEnabled;
 @property (nonatomic) _Bool deselectsButtonsOnCellSelection;
 @property (readonly, nonatomic) _Bool enablePostSwipeGestures;
+@property (readonly, nonatomic) _Bool trackingSwipeRight;
 @property (nonatomic) _Bool useAlternateBackgroundColor;
 @property (nonatomic) _Bool hostProvidesBackground;
 @property (retain, nonatomic) TFNDataViewCellLayout *cellLayout;
@@ -108,6 +109,7 @@
 - (id)onSwipeLeft;
 - (void)onSwipeLeftAndHold;
 - (_Bool)swipeActionAnimationsSupported;
+- (_Bool)isTrackingSwipeRight;
 - (void)setSwipeRevealBackgroundVisible:(_Bool)visible;
 - (void)accountUserDefaultsDidUpdate:(id)update;
 - (id)calculatedLayoutMetrics;

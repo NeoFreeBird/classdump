@@ -8,7 +8,7 @@
 @interface BrazeKit.Braze.LiveActivities : NSObject { // (Swift)
     /* instance variables */
     BrazeKit.BrazeViewStore viewStore;
-    union accessor function sub_68a8be8 _subscribers;
+    union accessor function sub_68a8a68 _subscribers;
 }
 
 /* instance methods */
